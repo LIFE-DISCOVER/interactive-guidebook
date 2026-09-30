@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% translate "Services" %}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/service-list.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>{% translate "Service Catalog" %}</h1>
+</div>
+
+<div class="list-toolbar">
+  <nav class="phase-tabs">
+    <a href="{% querystring phase=None page=None %}"
+       class="phase-tab {% if not active_phase %}active{% endif %}">{% translate "All" context "phase filter" %}</a>
+    {% for phase in phases %}
+    <a href="{% querystring phase=phase.slug page=None %}"
+       class="phase-tab {{ phase.slug }} {% if active_phase == phase.slug %}active{% endif %}">{{ phase.label }}</a>
+    {% endfor %}
+  </nav>
+
+  <form method="get" class="search-bar">
+    {% if active_phase %}<input type="hidden" name="phase" value="{{ active_phase }}">{% endif %}
+    <label class="visually-hidden" for="country-select">{% translate "Country" %}</label>
+    <select id="country-select" name="country" class="country-select" data-autosubmit>
+      <option value="all"{% if not country %} selected{% endif %}>{% translate "All countries" %}</option>
+      {% for c in countries %}
+      <option value="{{ c.code }}"{% if country == c %} selected{% endif %}>{{ c.name }}</option>
+      {% endfor %}
+    </select>
+    <input type="text" name="q" value="{{ search_query }}" placeholder="{% translate "Search services…" %}">
+    <button class="btn btn-primary" type="submit">{% translate "Search" %}</button>
+    {% if search_query %}
+      <a href="{% querystring q=None page=None %}" class="btn btn-outline">{% translate "Clear" %}</a>
+    {% endif %}
+  </form>
+</div>
+
+{% if services %}
+<p class="result-count">
+  {% if country and search_query %}
+    {% blocktranslate trimmed count counter=paginator.count with country=country.name query=search_query %}
+    {{ counter }} service in {{ country }} matching “{{ query }}”
+    {% plural %}
+    {{ counter }} services in {{ country }} matching “{{ query }}”
+    {% endblocktranslate %}
+  {% elif country %}
+    {% blocktranslate trimmed count counter=paginator.count with country=country.name %}
+    {{ counter }} service in {{ country }}
+    {% plural %}
+    {{ counter }} services in {{ country }}
+    {% endblocktranslate %}
+  {% elif search_query %}
+    {% blocktranslate trimmed count counter=paginator.count with query=search_query %}
+    {{ counter }} service matching “{{ query }}”
+    {% plural %}
+    {{ counter }} services matching “{{ query }}”
+    {% endblocktranslate %}
+  {% else %}
+    {% blocktranslate trimmed count counter=paginator.count %}
+    {{ counter }} service
+    {% plural %}
+    {{ counter }} services
+    {% endblocktranslate %}
+  {% endif %}
+</p>
+<div class="service-grid">
+  {% for service in services %}
+  <div class="card">
+    <h2 lang="{{ service.text.language }}"><a href="{% url 'catalog:service_detail' service.slug %}">{{ service.text.name }}</a></h2>
+    <p lang="{{ service.text.language }}">{{ service.text.summary }}</p>
+    <div class="phases-row">
+      {% if not country and service.country %}<span class="badge badge-country">{{ service.country.name }}</span>{% endif %}
+      {% for sp in service.servicephase_set.all %}
+        <span class="badge badge-{{ sp.phase.slug }}">{{ sp.phase.label }}</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% include "includes/pagination.html" %}
+{% else %}
+<div class="empty-state">
+  {% if search_query %}
+    {% blocktranslate with query=search_query %}No services found matching “{{ query }}”.{% endblocktranslate %}
+  {% else %}
+    {% translate "No services found." %}
+  {% endif %}
+  {% if search_query or active_phase %}
+    <br><a href="{% url 'catalog:service_list' %}">{% translate "Clear filters" %}</a>
+  {% endif %}
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Initiators" %}{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>{% translate "Initiators" %}</h1>
+  <div class="page-actions">
+    <a href="{% url 'initiators:initiator_create' %}" class="btn btn-primary">+ {% translate "New Initiator" %}</a>
+  </div>
+</div>
+
+{% if initiators %}
+<div class="card-list">
+  {% for initiator in initiators %}
+  <div class="card">
+    <h2><a href="{% url 'initiators:initiator_detail' initiator.pk %}">{{ initiator.full_name }}</a></h2>
+    <div class="card-meta">
+      <span>{{ initiator.email }}</span>
+      {% if initiator.organization %}<span>&middot; {{ initiator.organization }}</span>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% include "includes/pagination.html" %}
+{% else %}
+<div class="empty-state">
+  {% translate "No initiators yet." %} <a href="{% url 'initiators:initiator_create' %}">{% translate "Add the first one." %}</a>
+</div>
+{% endif %}
+{% endblock %}

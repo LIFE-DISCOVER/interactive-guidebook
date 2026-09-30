@@ -1,0 +1,20 @@
+name: 'AT: Financing - Grant'
+step: financing-public-funding
+summary: |-
+  The EAG grants investment subsidies, for which project proposals must be submitted to ongoing funding programs. The amount of the investment subsidy is limited to a maximum of 30% of the investment volume directly required for the construction of the system.
+description: Online application
+web_link: https://eag-abwicklungsstelle.at/
+stakeholder: EAG Abwicklungsstelle
+input: PV plant costs
+result: Grant
+remaining_hurdles: There are limited resources, applicants go through a bidding process.
+de:
+  name: 'AT: Finanzierung - Förderung'
+  summary: |-
+    Das EAG sieht Investitionszuschüsse vor, für die Projekte bei laufenden Förderaufrufen eingereicht werden müssen. Der Investitionszuschuss ist mit höchstens 30 % des für die Errichtung der Anlage unmittelbar erforderlichen Investitionsvolumens begrenzt.
+  description: Online-Antrag
+  stakeholder: EAG-Förderabwicklungsstelle
+  input: Kosten der PV-Anlage
+  result: Förderung
+  remaining_hurdles: Die Mittel sind begrenzt; die Antragsteller durchlaufen ein Bieterverfahren.
+  reviewed: false

@@ -1,0 +1,24 @@
+name: HR-13-Analysis - Yield
+step: analysis-yield
+summary: |-
+  When planning a PV installation, start by evaluating the available area for panel placement to determine how much photovoltaic capacity can be accommodated.
+description: |-
+  Find plans or architectural data to estimate the available roof area. Find satellite photos from roof top areas with Solarna karta and/or Google Maps.
+web_link: https://solarnakarta.hr/
+input: Plans and architectural data for roof; Address of the house; Consumption profile
+result: |-
+  Area in square meters available; how much PV does fit; solar radiation; efficiency of the panels; annual solar yield
+remaining_hurdles: |-
+  Decision making is difficult due to insufficient energy literacy of a potential investor
+hr:
+  name: HR-13-Analiza - Prinos
+  summary: |-
+    Pri planiranju fotonaponske instalacije započnite procjenom raspoložive površine za postavljanje panela kako biste utvrdili koliko se fotonaponske snage može smjestiti.
+  description: |-
+    Pronađite nacrte ili arhitektonske podatke kako biste procijenili raspoloživu površinu krova. Pronađite satelitske snimke krovova na Solarnoj karti i/ili Google Mapsu.
+  input: Nacrti i arhitektonski podaci o krovu; adresa kuće; profil potrošnje
+  result: |-
+    Raspoloživa površina u kvadratnim metrima; koliko fotonapona stane; sunčevo zračenje; učinkovitost panela; godišnji sunčani prinos
+  remaining_hurdles: |-
+    Odlučivanje je otežano zbog nedovoljne energetske pismenosti potencijalnog ulagača
+  reviewed: false

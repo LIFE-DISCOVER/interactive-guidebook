@@ -1,0 +1,17 @@
+name: 'AT: Billing - Monthly invoicing'
+step: billing
+summary: |-
+  Energy community operators have access to energy consumption and feed-in data of each member. This data needs to be transposed into an invoice. Invoices need to be send out periodically.
+description: Referral to company that offers invoicing service
+stakeholder: Pixel Energy Solutions GmbH
+input: Guest access to eda portal
+result: Invoices sent out to members
+de:
+  name: 'AT: Abrechnung - Monatliche Rechnungslegung'
+  summary: |-
+    Betreiber von Energiegemeinschaften haben Zugriff auf die Verbrauchs- und Einspeisedaten jedes Mitglieds. Aus diesen Daten müssen Rechnungen erstellt werden, die regelmäßig zu versenden sind.
+  description: Vermittlung an ein Unternehmen, das die Rechnungslegung anbietet
+  stakeholder: Pixel Energy Solutions GmbH
+  input: Gastzugang zum EDA-Portal
+  result: Rechnungen an die Mitglieder versendet
+  reviewed: false

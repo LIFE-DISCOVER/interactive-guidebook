@@ -1,0 +1,17 @@
+name: 'AT: Registration - Tax'
+step: registration-tax
+summary: |-
+  You will receive mail from the tax authority. Notify them about the commencement of association activities and provide a signature sample.
+description: |-
+  Send the required documents: Verf 15a - Steuerliche Erfassung eines Vereins; Verf 26 - Unterschriftprobenblatt
+stakeholder: Finanzamt
+input: Expected annual revenue
+de:
+  name: 'AT: Registrierung - Steuer'
+  summary: |-
+    Sie erhalten Post vom Finanzamt. Melden Sie die Aufnahme der Vereinstätigkeit und übermitteln Sie ein Unterschriftsprobenblatt.
+  description: |-
+    Senden Sie die erforderlichen Formulare: Verf 15a - Steuerliche Erfassung eines Vereins; Verf 26 - Unterschriftsprobenblatt
+  stakeholder: Finanzamt
+  input: Erwartete Jahreseinnahmen
+  reviewed: false

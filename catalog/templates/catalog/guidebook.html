@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% translate "Interactive Guidebook" %}{% if country %} — {{ country.name }}{% endif %}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/guidebook.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <div>
+      <h1>{% translate "Interactive Guidebook" %}{% if country %} <span class="country-tag">{{ country.name }}</span>{% endif %}</h1>
+      <p class="page-subtitle">{% translate "Step-by-step guide for Community Energy Projects" %}</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container guidebook-container">
+  {% if has_draft_translation %}
+  <p class="draft-translation-note">{% translate "Some texts on this page are draft translations that have not been reviewed yet." %}</p>
+  {% endif %}
+  <div class="country-picker-banner{% if country %} is-selected{% endif %}">
+    <div class="country-picker-text">
+      {% if country %}
+        {% blocktranslate with country=country.name %}Showing services for <strong>{{ country }}</strong>.{% endblocktranslate %}
+      {% else %}
+        {% blocktranslate trimmed %}<strong>Select your country</strong> to see only the services relevant to your pilot region.{% endblocktranslate %}
+      {% endif %}
+    </div>
+    <form method="get" class="country-picker-form">
+      <label class="visually-hidden" for="gb-country">{% translate "Country" %}</label>
+      <select id="gb-country" name="country" class="country-picker-select" data-autosubmit>
+        <option value="all"{% if not country %} selected{% endif %}>{% translate "All countries" %}</option>
+        {% for c in countries %}
+        <option value="{{ c.code }}"{% if country == c %} selected{% endif %}>{{ c.name }}</option>
+        {% endfor %}
+      </select>
+      <noscript><button class="btn btn-primary" type="submit">{% translate "Show" %}</button></noscript>
+    </form>
+    {% if can_save_default %}
+    <form method="post" action="{% url 'catalog:set_country' %}" class="country-picker-form">
+      {% csrf_token %}
+      <input type="hidden" name="country_code" value="{{ country.code }}">
+      <button class="btn btn-outline" type="submit">{% blocktranslate with country=country.name %}Make {{ country }} my default{% endblocktranslate %}</button>
+    </form>
+    {% endif %}
+  </div>
+
+  {% for pd in phase_data %}
+  {% with phase=pd.phase steps=pd.steps %}
+  <section class="gb-phase">
+    <div class="gb-phase-header {{ phase.slug }}">
+      <div class="gb-phase-num">{{ forloop.counter }}</div>
+      <div class="gb-phase-title">{{ phase.label }}</div>
+      <div class="gb-phase-count">{% blocktranslate count counter=steps|length %}{{ counter }} step{% plural %}{{ counter }} steps{% endblocktranslate %}</div>
+    </div>
+    <div class="gb-steps">
+      {% for item in steps %}
+      {% with step=item.step services=item.services %}
+      <div class="gb-step {{ phase.slug }}-step" data-step-id="{{ step.pk }}">
+        <div class="gb-step-header">
+          <div class="gb-step-num">{{ step.sort_order }}</div>
+          <div class="gb-step-info" lang="{{ step.text.language }}">
+            <div class="gb-step-title">{{ step.text.title }}</div>
+            {% if step.text.description %}
+            <div class="gb-step-desc">{{ step.text.description }}</div>
+            {% endif %}
+            <div class="gb-step-meta">
+              {% if step.topic %}<span class="topic-tag">{{ step.topic }}</span>{% endif %}
+              {% if services %}<span class="svc-count">{% blocktranslate count counter=services|length %}{{ counter }} service{% plural %}{{ counter }} services{% endblocktranslate %}</span>{% endif %}
+            </div>
+          </div>
+          <div class="gb-step-toggle">▼</div>
+        </div>
+        <div class="gb-services">
+          {% if services %}
+            {% for svc in services %}
+            <div class="gb-service-card" lang="{{ svc.text.language }}">
+              <div class="gb-service-title">{{ svc.text.name }}</div>
+              {% if svc.text.summary %}<div class="gb-service-summary">{{ svc.text.summary }}</div>{% endif %}
+              <div class="gb-service-footer">
+                <a href="{% url 'catalog:service_detail' svc.slug %}" class="btn-sm">{% translate "Details" %}</a>
+                {% if svc.official_link %}
+                <a href="{{ svc.official_link }}" target="_blank" rel="noopener noreferrer" class="btn-ext">↗ {% translate "Official link" %}</a>
+                {% endif %}
+                {% if not country and svc.country %}
+                <span class="badge badge-country">{{ svc.country.name }}</span>
+                {% endif %}
+                {% if svc.text.stakeholder %}
+                <span class="stakeholder-tag">{{ svc.text.stakeholder }}</span>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+          {% else %}
+            <div class="gb-services-empty">{% translate "No country-specific services for this step yet." %}</div>
+          {% endif %}
+        </div>
+      </div>
+      {% endwith %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endwith %}
+  {% endfor %}
+</div>
+
+{% endblock %}

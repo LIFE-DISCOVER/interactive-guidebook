@@ -1,0 +1,18 @@
+name: 'BG 11: Contract - Sale of excess electric energy to the market'
+step: uptake-agreement
+summary: |-
+  Identifying, contacting and negotiating favorable off-take terms with consumers in the vicinity of the EC. Provide expert knowledge to EC for understanding and finding a suitable contractual partner.
+description: Find off-takers and agree on compensation.
+stakeholder: ESCO Bulgaria
+input: Grid connection agreement and power-in permit; Consumption profile.
+result: Offtake agreement (PPA)
+bg:
+  name: 'BG 11: Договор - Продажба на излишната електроенергия на пазара'
+  summary: |-
+    Намиране на потребители в близост до ЕО, установяване на контакт с тях и договаряне на изгодни условия за изкупуване. Експертна помощ за ЕО при избора на подходящ договорен партньор.
+  description: Намерете изкупувачи и договорете възнаграждение.
+  stakeholder: ESCO Bulgaria
+  input: |-
+    Договор за присъединяване и разрешение за подаване на мощност; профил на потреблението.
+  result: Договор за изкупуване на електроенергия (PPA)
+  reviewed: false

@@ -1,0 +1,73 @@
+title: Establish Legal Entity
+sort_order: 260
+topic: REC
+description: Create your REC by establishing a legal entity.
+objective: |-
+  - Which legal entity is the best for my REC?
+  - What legal documentation is required
+  - How to prepare the legal documentation
+  - What steps are required to establish one?
+  - Which authorities and professionals need to be involved?
+description_long: |-
+  When setting up a Renewable Energy Community (REC) or Citizen Energy Community (CEC), it is important to determine which legal entity is best suited for your needs. Assess the advantages and disadvantages of each type to select the most appropriate structure. Identify the legal documentation required, which may include formation documents and contractual agreements with members.
+de:
+  title: Rechtsträger gründen
+  description: Gründen Sie Ihre Erneuerbare-Energie-Gemeinschaft als Rechtsträger.
+  objective: |-
+    - Welche Rechtsform eignet sich am besten für meine Energiegemeinschaft?
+    - Welche rechtlichen Unterlagen sind erforderlich
+    - Wie werden die rechtlichen Unterlagen erstellt
+    - Welche Schritte sind für die Gründung nötig?
+    - Welche Behörden und Fachleute müssen einbezogen werden?
+  description_long: |-
+    Bei der Gründung einer Erneuerbare-Energie-Gemeinschaft (EEG) oder Bürgerenergiegemeinschaft (BEG) ist zu klären, welche Rechtsform am besten zu Ihren Anforderungen passt. Wägen Sie Vor- und Nachteile der einzelnen Formen ab, um die passende Struktur zu wählen. Stellen Sie fest, welche rechtlichen Unterlagen nötig sind, etwa Gründungsdokumente und Verträge mit den Mitgliedern.
+  reviewed: false
+fr:
+  title: Créer la personne morale
+  description: |-
+    Créez votre communauté d'énergie renouvelable en constituant une personne morale.
+  objective: |-
+    - Quelle forme juridique convient le mieux à ma communauté ?
+    - Quels documents juridiques sont nécessaires
+    - Comment préparer les documents juridiques
+    - Quelles étapes faut-il suivre pour la créer ?
+    - Quelles autorités et quels professionnels faut-il associer ?
+  description_long: |-
+    Pour créer une communauté d'énergie renouvelable (CER) ou une communauté énergétique citoyenne (CEC), il faut déterminer la forme juridique la mieux adaptée à vos besoins. Évaluez les avantages et les inconvénients de chaque forme pour choisir la structure la plus appropriée. Identifiez les documents juridiques nécessaires, qui peuvent comprendre les statuts et les contrats avec les membres.
+  reviewed: false
+it:
+  title: Costituire il soggetto giuridico
+  description: Create la vostra CER costituendo un soggetto giuridico.
+  objective: |-
+    - Qual è la forma giuridica migliore per la mia CER?
+    - Quale documentazione legale è necessaria
+    - Come preparare la documentazione legale
+    - Quali passaggi servono per costituirla?
+    - Quali autorità e professionisti vanno coinvolti?
+  description_long: |-
+    Quando si costituisce una Comunità Energetica Rinnovabile (CER) o una Comunità Energetica dei Cittadini (CEC), è importante stabilire quale forma giuridica si adatta meglio alle proprie esigenze. Valutate vantaggi e svantaggi di ciascuna forma per scegliere la struttura più adatta. Individuate la documentazione legale necessaria, che può comprendere atto costitutivo, statuto e accordi con i membri.
+  reviewed: false
+hr:
+  title: Osnivanje pravne osobe
+  description: Osnujte svoju zajednicu obnovljive energije kao pravnu osobu.
+  objective: |-
+    - Koja je pravna osoba najbolja za moju zajednicu?
+    - Koja je pravna dokumentacija potrebna
+    - Kako pripremiti pravnu dokumentaciju
+    - Koji su koraci potrebni za osnivanje?
+    - Koja tijela i stručnjake treba uključiti?
+  description_long: |-
+    Pri osnivanju zajednice obnovljive energije (ZOE) ili zajednice građanske energije (ZGE) važno je utvrditi koji pravni oblik najbolje odgovara vašim potrebama. Odvagnite prednosti i nedostatke svakog oblika kako biste odabrali najprikladniju strukturu. Utvrdite potrebnu pravnu dokumentaciju, koja može uključivati osnivačke akte i ugovore s članovima.
+  reviewed: false
+bg:
+  title: Създаване на юридическо лице
+  description: Създайте своята ВЕО чрез учредяване на юридическо лице.
+  objective: |-
+    - Коя правна форма е най-подходяща за моята ВЕО?
+    - Какви правни документи са необходими
+    - Как да се подготвят правните документи
+    - Какви стъпки са нужни за учредяването?
+    - Кои институции и специалисти трябва да се включат?
+  description_long: |-
+    При създаването на възобновяема енергийна общност (ВЕО) или гражданска енергийна общност (ГЕО) е важно да се определи коя правна форма най-добре отговаря на нуждите ви. Преценете предимствата и недостатъците на всяка форма, за да изберете най-подходящата структура. Установете необходимите правни документи, които може да включват учредителни документи и договори с членовете.
+  reviewed: false

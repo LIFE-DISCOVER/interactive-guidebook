@@ -1,0 +1,66 @@
+title: Analysis - Wiring
+sort_order: 130
+topic: PV Plant
+description: Investigate existing wiring within property.
+objective: |-
+  - Is the Power rating of existing wires in your building sufficient
+  - Are there wiring schemes available
+  - Ownership of wiring and wiring paths
+  - Are consumers connected within the same private grid?
+description_long: |-
+  Before proceeding with a PV installation, it is essential to evaluate whether the power rating of the existing wiring in your building is sufficient to handle the current of your PV plant. Check if wiring schemes are available to understand the current electrical setup and ensure compatibility with the planned system. Determine the ownership of wiring, wire conduits and wiring paths to identify any potential issues related to access or modifications, particularly for condominium buildings.
+de:
+  title: Analyse - Elektroinstallation
+  description: Untersuchen Sie die bestehende Elektroinstallation im Gebäude.
+  objective: |-
+    - Reicht die Belastbarkeit der bestehenden Leitungen im Gebäude aus
+    - Sind Schaltpläne vorhanden
+    - Eigentum an Leitungen und Leitungswegen
+    - Sind die Verbraucher im selben privaten Netz angeschlossen?
+  description_long: |-
+    Vor einer PV-Installation muss geprüft werden, ob die Belastbarkeit der bestehenden Leitungen im Gebäude für den Strom Ihrer PV-Anlage ausreicht. Klären Sie, ob Schaltpläne vorhanden sind, um die bestehende Elektroinstallation zu verstehen und die Verträglichkeit mit der geplanten Anlage sicherzustellen. Klären Sie, wem Leitungen, Leerrohre und Leitungswege gehören, um mögliche Probleme bei Zugang oder Änderungen zu erkennen, insbesondere in Mehrparteienhäusern.
+  reviewed: false
+fr:
+  title: Analyse - Câblage
+  description: Étudiez le câblage existant dans le bâtiment.
+  objective: |-
+    - La capacité des câbles existants du bâtiment est-elle suffisante
+    - Des schémas électriques sont-ils disponibles
+    - Propriété des câbles et des cheminements
+    - Les consommateurs sont-ils raccordés au même réseau privé ?
+  description_long: |-
+    Avant de réaliser une installation photovoltaïque, il est indispensable de vérifier si la capacité des câbles existants de votre bâtiment suffit pour le courant de la centrale. Vérifiez si des schémas électriques sont disponibles pour comprendre l'installation actuelle et garantir sa compatibilité avec le système prévu. Déterminez à qui appartiennent les câbles, les gaines et les cheminements, afin de repérer d'éventuels problèmes d'accès ou de modification, en particulier dans les copropriétés.
+  reviewed: false
+it:
+  title: Analisi - Impianto elettrico
+  description: Verificate l'impianto elettrico esistente nell'edificio.
+  objective: |-
+    - La portata dei cavi esistenti nell'edificio è sufficiente
+    - Sono disponibili gli schemi elettrici
+    - Proprietà dei cavi e dei percorsi dei cavi
+    - Le utenze sono collegate alla stessa rete privata?
+  description_long: |-
+    Prima di procedere con un impianto fotovoltaico è indispensabile verificare se la portata dei cavi esistenti nell'edificio è sufficiente per la corrente dell'impianto. Verificate se sono disponibili gli schemi elettrici, per capire l'impianto attuale e garantirne la compatibilità con quello previsto. Stabilite a chi appartengono cavi, canalizzazioni e percorsi dei cavi, per individuare eventuali problemi di accesso o di modifica, soprattutto nei condomini.
+  reviewed: false
+hr:
+  title: Analiza - Električne instalacije
+  description: Istražite postojeće instalacije u objektu.
+  objective: |-
+    - Je li nazivna snaga postojećih vodova u zgradi dovoljna
+    - Postoje li sheme instalacija
+    - Vlasništvo nad vodovima i trasama vodova
+    - Jesu li potrošači priključeni na istu privatnu mrežu?
+  description_long: |-
+    Prije fotonaponske instalacije nužno je procijeniti je li nazivna snaga postojećih vodova u zgradi dovoljna za struju vaše elektrane. Provjerite postoje li sheme instalacija kako biste razumjeli postojeće stanje i osigurali usklađenost s planiranim sustavom. Utvrdite tko je vlasnik vodova, instalacijskih cijevi i trasa kako biste prepoznali moguće probleme s pristupom ili izmjenama, osobito u višestambenim zgradama.
+  reviewed: false
+bg:
+  title: Анализ - Електрическа инсталация
+  description: Проучете съществуващата електрическа инсталация в имота.
+  objective: |-
+    - Достатъчна ли е номиналната мощност на съществуващите проводници в сградата
+    - Налични ли са електрически схеми
+    - Собственост на проводниците и кабелните трасета
+    - Свързани ли са потребителите в една и съща частна мрежа?
+  description_long: |-
+    Преди фотоволтаичната инсталация е задължително да се оцени дали номиналната мощност на съществуващите проводници в сградата е достатъчна за тока от централата. Проверете дали има електрически схеми, за да разберете съществуващата инсталация и да осигурите съвместимостта ѝ с планираната система. Установете кой е собственик на проводниците, кабелните канали и трасетата, за да откриете възможни проблеми с достъпа или промените, особено в сгради в режим на етажна собственост.
+  reviewed: false

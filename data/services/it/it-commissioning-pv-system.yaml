@@ -1,0 +1,21 @@
+name: IT-Commissioning PV system
+step: commissioning-plant
+summary: |-
+  After getting the permission to start operation, the installer has to install the plant correctly, check if it operates safely and meets all regulatory requirements.
+description: |-
+  Provide contact with CNA to have the list of PV installers in the Province of Teramo.
+stakeholder: CNA - National Confederation of Crafts and Small and Medium Enterprises
+input: PV plant size, typology and location.
+result: |-
+  Construction of PV System completed. The plant is correctly installed, operates safely and meets all legal requirements.
+it:
+  name: IT-Messa in esercizio dell'impianto fotovoltaico
+  summary: |-
+    Dopo aver ottenuto l'autorizzazione all'esercizio, l'installatore deve installare correttamente l'impianto e verificare che funzioni in sicurezza e rispetti tutti i requisiti normativi.
+  description: |-
+    Mettere in contatto con la CNA per ottenere l'elenco degli installatori fotovoltaici della Provincia di Teramo.
+  stakeholder: CNA - Confederazione Nazionale dell'Artigianato e della Piccola e Media Impresa
+  input: Taglia, tipologia e ubicazione dell'impianto fotovoltaico.
+  result: |-
+    Realizzazione dell'impianto fotovoltaico completata. L'impianto è installato correttamente, funziona in sicurezza e rispetta tutti i requisiti di legge.
+  reviewed: false

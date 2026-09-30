@@ -1,0 +1,60 @@
+title: Insurance
+sort_order: 205
+topic: PV Plant
+description: Find an insurance provider.
+objective: |-
+  - Understand the risks and costs of insurance
+  - Compare offers
+  - Understand bundling options
+description_long: |-
+  When planning your PV system, it is important to understand the risks and costs associated with insurance. Ensure that you are adequately covered for potential issues such as equipment damage, theft, or liability. Compare different insurance offers to find the best coverage and rates.
+de:
+  title: Versicherung
+  description: Finden Sie einen Versicherer.
+  objective: |-
+    - Risiken und Kosten der Versicherung verstehen
+    - Angebote vergleichen
+    - Möglichkeiten zur Bündelung verstehen
+  description_long: |-
+    Bei der Planung Ihrer PV-Anlage sollten Sie die Risiken und Kosten der Versicherung kennen. Achten Sie auf ausreichenden Schutz gegen Schäden an der Anlage, Diebstahl oder Haftungsfälle. Vergleichen Sie verschiedene Versicherungsangebote, um den besten Schutz zu den besten Konditionen zu finden.
+  reviewed: false
+fr:
+  title: Assurance
+  description: Trouvez un assureur.
+  objective: |-
+    - Comprendre les risques et le coût de l'assurance
+    - Comparer les offres
+    - Comprendre les possibilités de regroupement
+  description_long: |-
+    Lors de la conception de votre installation photovoltaïque, il est important de comprendre les risques et les coûts liés à l'assurance. Assurez-vous d'être correctement couvert contre les dommages matériels, le vol ou la responsabilité civile. Comparez plusieurs offres pour trouver la meilleure couverture au meilleur prix.
+  reviewed: false
+it:
+  title: Assicurazione
+  description: Trovare una compagnia assicurativa.
+  objective: |-
+    - Comprendere rischi e costi dell'assicurazione
+    - Confrontare le offerte
+    - Comprendere le possibilità di polizze combinate
+  description_long: |-
+    Nel pianificare il vostro impianto fotovoltaico è importante comprendere i rischi e i costi legati all'assicurazione. Assicuratevi di essere adeguatamente coperti contro danni all'impianto, furto o responsabilità civile. Confrontate diverse offerte per trovare la copertura e le condizioni migliori.
+  reviewed: false
+hr:
+  title: Osiguranje
+  description: Pronađite osiguravatelja.
+  objective: |-
+    - Razumjeti rizike i troškove osiguranja
+    - Usporediti ponude
+    - Razumjeti mogućnosti paketnog osiguranja
+  description_long: |-
+    Pri planiranju fotonaponskog sustava važno je razumjeti rizike i troškove osiguranja. Pobrinite se da ste primjereno osigurani od mogućih šteta na opremi, krađe ili odgovornosti. Usporedite različite ponude kako biste pronašli najbolje pokriće i uvjete.
+  reviewed: false
+bg:
+  title: Застраховане
+  description: Намерете застраховател.
+  objective: |-
+    - Разбиране на рисковете и разходите за застраховка
+    - Сравняване на оферти
+    - Разбиране на възможностите за пакетно застраховане
+  description_long: |-
+    При планирането на фотоволтаичната система е важно да разберете рисковете и разходите, свързани със застраховането. Уверете се, че имате адекватно покритие за възможни проблеми като повреда на оборудването, кражба или отговорност. Сравнете различни оферти, за да намерите най-доброто покритие и цена.
+  reviewed: false

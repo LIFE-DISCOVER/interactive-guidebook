@@ -1,0 +1,17 @@
+name: FR-08-Accessing public aids
+step: financing-public-funding
+summary: |-
+  Access to finance is a challenge. Collective decision within condominium councils is generally facilitated if return on investment is made after less than 10 years, and all the more if the initial investment is lowered thanks to public aids.
+description: |-
+  The OSS informs the community about existing public aids and helps choosing their energy model.
+input: Plans of the future installation.
+result: Starting demand for public aids.
+fr:
+  name: FR-08-Accéder aux aides publiques
+  summary: |-
+    L'accès au financement est un défi. La décision collective en conseil syndical est généralement facilitée si le retour sur investissement intervient en moins de 10 ans, et d'autant plus si l'investissement initial est réduit grâce aux aides publiques.
+  description: |-
+    Le guichet unique informe la communauté sur les aides publiques existantes et l'aide à choisir son modèle énergétique.
+  input: Plans de la future installation.
+  result: Lancement de la demande d'aides publiques.
+  reviewed: false

@@ -1,0 +1,22 @@
+name: IT-Tax Registration
+step: registration-tax
+summary: |-
+  Once established as a legal entity, the REC must be registered with the Revenue Agency to obtain a tax identification code and, if required, a VAT number.
+description: Provide information about costs related to the registration.
+web_link: |-
+  https://www.agenziaentrate.gov.it/portale/web/guest/schede/pagamenti/registrazione-atti/come-si-registra
+stakeholder: Revenue Agency
+input: Typology of legal entity
+result: REC tax identification code; VAT number (if applicable)
+remaining_hurdles: Uncertainty in the tax treatment of REC incentives
+it:
+  name: IT-Registrazione fiscale
+  summary: |-
+    Una volta costituita come soggetto giuridico, la CER deve registrarsi presso l'Agenzia delle Entrate per ottenere il codice fiscale e, se necessario, la partita IVA.
+  description: |-
+    Informazioni sui costi legati alla registrazione.
+  stakeholder: Agenzia delle Entrate
+  input: Tipologia di soggetto giuridico
+  result: Codice fiscale della CER; partita IVA (se applicabile)
+  remaining_hurdles: Incertezza sul trattamento fiscale degli incentivi alle CER
+  reviewed: false

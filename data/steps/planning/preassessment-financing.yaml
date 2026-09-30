@@ -1,0 +1,66 @@
+title: Preassessment - Financing
+sort_order: 191
+topic: PV Plant
+description: Make an initial assessment about financing possibilities
+objective: |-
+  - How much financing is available from community internal sources?
+  - How much financing can be raised through subsidies?
+  - How much financing has to come from externally (e.g. banks)?
+  - Can PV as a Service be considered an alternative?
+description_long: |-
+  The feasibility of a PV installation is very much dependent on the possibility to finance the endeavor. After having gone through the previous steps, initiators should have an estimate about the investment volume of the CEP that needs to be financed. Financial possibilities shall be assessed, consisting of own funding (equity), public funding and subsidies, as well as third party funding like bank loans, leasing and other instruments.
+de:
+  title: Vorabschätzung - Finanzierung
+  description: Erste Einschätzung der Finanzierungsmöglichkeiten
+  objective: |-
+    - Wie viel Geld kann die Gemeinschaft selbst aufbringen?
+    - Wie viel lässt sich über Förderungen finanzieren?
+    - Wie viel muss von außen kommen (z. B. von Banken)?
+    - Kommt PV-as-a-Service als Alternative in Frage?
+  description_long: |-
+    Ob eine PV-Anlage umsetzbar ist, hängt stark davon ab, ob sich das Vorhaben finanzieren lässt. Nach den bisherigen Schritten sollten die Initiatorinnen und Initiatoren das zu finanzierende Investitionsvolumen des Gemeinschaftsenergieprojekts abschätzen können. Zu bewerten sind die Finanzierungsmöglichkeiten: Eigenmittel, öffentliche Mittel und Förderungen sowie Fremdfinanzierung wie Bankkredite, Leasing und andere Instrumente.
+  reviewed: false
+fr:
+  title: Pré-évaluation - Financement
+  description: Faire une première évaluation des possibilités de financement
+  objective: |-
+    - Quel financement la communauté peut-elle apporter elle-même ?
+    - Quel financement peut provenir des aides publiques ?
+    - Quel financement doit venir de l'extérieur (p. ex. des banques) ?
+    - Le photovoltaïque en tant que service peut-il être une alternative ?
+  description_long: |-
+    La faisabilité d'une installation photovoltaïque dépend fortement de la possibilité de la financer. À l'issue des étapes précédentes, les porteurs de projet devraient avoir une estimation du montant d'investissement à financer pour le projet d'énergie communautaire. Il faut évaluer les possibilités de financement : fonds propres, financements publics et aides, ainsi que financements tiers comme les prêts bancaires, le crédit-bail et d'autres instruments.
+  reviewed: false
+it:
+  title: Prevalutazione - Finanziamento
+  description: Fare una prima valutazione delle possibilità di finanziamento
+  objective: |-
+    - Quanto finanziamento può venire da risorse interne alla comunità?
+    - Quanto si può ottenere da contributi pubblici?
+    - Quanto deve venire dall'esterno (ad es. dalle banche)?
+    - Il fotovoltaico come servizio può essere un'alternativa?
+  description_long: |-
+    La fattibilità di un impianto fotovoltaico dipende molto dalla possibilità di finanziarlo. Dopo i passaggi precedenti, i promotori dovrebbero disporre di una stima dell'investimento da finanziare per il progetto energetico comunitario. Vanno valutate le possibilità di finanziamento: risorse proprie (capitale), fondi pubblici e contributi, oltre a finanziamenti di terzi come prestiti bancari, leasing e altri strumenti.
+  reviewed: false
+hr:
+  title: Prethodna procjena - Financiranje
+  description: Napravite početnu procjenu mogućnosti financiranja
+  objective: |-
+    - Koliko sredstava može osigurati sama zajednica?
+    - Koliko se može osigurati iz potpora?
+    - Koliko mora doći iz vanjskih izvora (npr. banaka)?
+    - Može li fotonapon kao usluga biti alternativa?
+  description_long: |-
+    Izvedivost fotonaponske instalacije uvelike ovisi o mogućnosti financiranja pothvata. Nakon prethodnih koraka inicijatori bi trebali imati procjenu iznosa ulaganja u projekt energetske zajednice koji treba financirati. Treba procijeniti mogućnosti financiranja: vlastita sredstva (kapital), javna sredstva i potpore te financiranje trećih strana, poput bankovnih kredita, leasinga i drugih instrumenata.
+  reviewed: false
+bg:
+  title: Предварителна оценка - Финансиране
+  description: Направете първоначална оценка на възможностите за финансиране
+  objective: |-
+    - Колко средства може да осигури самата общност?
+    - Колко средства могат да се осигурят чрез субсидии?
+    - Колко средства трябва да дойдат отвън (напр. от банки)?
+    - Може ли фотоволтаик като услуга да бъде алтернатива?
+  description_long: |-
+    Осъществимостта на фотоволтаичната инсталация зависи в голяма степен от възможността начинанието да бъде финансирано. След предходните стъпки инициаторите трябва да имат оценка на размера на инвестицията в общностния енергиен проект, която трябва да се финансира. Трябва да се оценят възможностите за финансиране: собствени средства (капитал), публично финансиране и субсидии, както и финансиране от трети страни като банкови кредити, лизинг и други инструменти.
+  reviewed: false

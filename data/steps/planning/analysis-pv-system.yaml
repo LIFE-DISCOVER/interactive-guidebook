@@ -1,0 +1,60 @@
+title: Analysis - PV System
+sort_order: 193
+topic: PV Plant
+description: Understand all components of your PV plant
+objective: |-
+  - What components are required for my PV plant
+  - How are they interconnected
+  - Where are they located
+  - Technical documentation
+  - Compliance with technical standards and norms
+de:
+  title: Analyse - PV-Anlage
+  description: Verstehen Sie alle Komponenten Ihrer PV-Anlage
+  objective: |-
+    - Welche Komponenten braucht meine PV-Anlage
+    - Wie sind sie miteinander verbunden
+    - Wo befinden sie sich
+    - Technische Dokumentation
+    - Einhaltung technischer Normen und Standards
+  reviewed: false
+fr:
+  title: Analyse - Système photovoltaïque
+  description: Comprendre tous les composants de votre centrale photovoltaïque
+  objective: |-
+    - Quels composants ma centrale nécessite-t-elle
+    - Comment sont-ils reliés entre eux
+    - Où sont-ils situés
+    - Documentation technique
+    - Conformité aux normes et standards techniques
+  reviewed: false
+it:
+  title: Analisi - Impianto fotovoltaico
+  description: Conoscere tutti i componenti del vostro impianto fotovoltaico
+  objective: |-
+    - Quali componenti servono per il mio impianto
+    - Come sono collegati tra loro
+    - Dove si trovano
+    - Documentazione tecnica
+    - Conformità alle norme e agli standard tecnici
+  reviewed: false
+hr:
+  title: Analiza - Fotonaponski sustav
+  description: Upoznajte sve komponente svoje fotonaponske elektrane
+  objective: |-
+    - Koje komponente su potrebne za moju elektranu
+    - Kako su međusobno povezane
+    - Gdje se nalaze
+    - Tehnička dokumentacija
+    - Usklađenost s tehničkim normama i standardima
+  reviewed: false
+bg:
+  title: Анализ - Фотоволтаична система
+  description: Разберете всички компоненти на фотоволтаичната си централа
+  objective: |-
+    - Какви компоненти са нужни за моята централа
+    - Как са свързани помежду си
+    - Къде се намират
+    - Техническа документация
+    - Съответствие с техническите норми и стандарти
+  reviewed: false

@@ -1,0 +1,21 @@
+name: 'BG 06: Documentation and Approval - Technical projects'
+step: permit-spatial-planning
+summary: |-
+  Prepare technical documentation for the PV plant/EC to apply for different permits, including: building permit, grid connection permit, etc.
+description: |-
+  Find an engineering company to prepare full technical project sets, including technical designs and graphic presentations. These shall include: structural analysis of rooftop structures, architectural design, drawings of the electrical design, drawings of the construction projects.
+input: |-
+  Investment concept by the EC (building owners, participants in the CEP/EC), conceptual electrical designs, structural analyses, conceptual architectural designs.
+result: |-
+  Technical projects, drawn by certified engineers and approved by the chief architect of the municipality and by the utility companies.
+bg:
+  name: 'BG 06: Документация и одобрение - Технически проекти'
+  summary: |-
+    Изгответе техническата документация за фотоволтаичната централа/ЕО, необходима за различните разрешения, включително разрешение за строеж, разрешение за присъединяване към мрежата и др.
+  description: |-
+    Намерете инженерна фирма, която да изготви пълни технически проекти, включително технически решения и графични материали. Те трябва да включват: конструктивен анализ на покривните конструкции, архитектурен проект, чертежи на електрическата част и чертежи на строителните проекти.
+  input: |-
+    Инвестиционна концепция на ЕО (собственици на сгради, участници в ОЕП/ЕО), идейни електрически проекти, конструктивни анализи, идейни архитектурни проекти.
+  result: |-
+    Технически проекти, изготвени от правоспособни инженери и одобрени от главния архитект на общината и от експлоатационните дружества.
+  reviewed: false

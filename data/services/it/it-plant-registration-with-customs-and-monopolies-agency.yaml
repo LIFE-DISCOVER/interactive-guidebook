@@ -1,0 +1,24 @@
+name: IT-Plant Registration with Customs and Monopolies Agency
+step: registration-tax
+summary: |-
+  This step involves the formal registration of an electricity generation plant with the Agenzia delle Dogane e dei Monopoli (ADM). Plants with capacity above 20 kW must be registered as electric workshops (officine elettriche).
+description: |-
+  Guidance and procedural support including: Explanation of regulatory requirements; Step-by-step guidance on the registration process; Identification of required documentation.
+web_link: https://www.adm.gov.it/portale/servizi-telematici
+stakeholder: Customs and Monopolies Agency
+input: |-
+  Basic plant information (capacity, type, location); Identification of plant owner; General project status
+result: |-
+  User is informed how to carry out ADM registration independently; Clear understanding of obligations (>20 kW vs <=20 kW)
+it:
+  name: IT-Registrazione dell'impianto presso l'Agenzia delle Dogane e dei Monopoli
+  summary: |-
+    Questo passaggio riguarda la registrazione formale di un impianto di produzione di energia elettrica presso l'Agenzia delle Dogane e dei Monopoli (ADM). Gli impianti con potenza superiore a 20 kW devono essere registrati come officine elettriche.
+  description: |-
+    Guida e supporto procedurale, tra cui: spiegazione dei requisiti normativi; guida passo passo alla registrazione; individuazione della documentazione necessaria.
+  stakeholder: Agenzia delle Dogane e dei Monopoli
+  input: |-
+    Informazioni di base sull'impianto (potenza, tipologia, ubicazione); identificazione del proprietario; stato generale del progetto
+  result: |-
+    L'utente sa come effettuare autonomamente la registrazione presso l'ADM; chiara comprensione degli obblighi (> 20 kW o ≤ 20 kW)
+  reviewed: false

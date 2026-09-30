@@ -1,0 +1,26 @@
+name: IT-Roof Area and Structural Analysis
+step: analysis-structural
+summary: |-
+  Before installing a photovoltaic (PV) system within a Renewable Energy Community (REC), it is essential to assess both the available roof surface and the structural capacity of the building.
+description: |-
+  Support for assessing photovoltaic (PV) potential. This step is supported by digital tools and professional assessments: Google Maps for preliminary identification of roof geometry; satellite-based PV assessment tools for estimating solar potential.
+web_link: https://maps.google.com/
+input: |-
+  Address or geographic coordinates of the building; Roof plans, architectural drawings, or cadastral data (if available)
+result: |-
+  Preliminary estimation of usable roof area; Estimated PV installable capacity; Structural feasibility assessment
+remaining_hurdles: |-
+  Satellite-based tools provide only preliminary estimations. A detailed on-site inspection by a qualified technician is mandatory.
+it:
+  name: IT-Analisi della superficie del tetto e analisi strutturale
+  summary: |-
+    Prima di installare un impianto fotovoltaico all'interno di una Comunità Energetica Rinnovabile (CER), è essenziale valutare sia la superficie di copertura disponibile sia la capacità strutturale dell'edificio.
+  description: |-
+    Supporto alla valutazione del potenziale fotovoltaico. Questo passaggio si avvale di strumenti digitali e valutazioni professionali: Google Maps per una prima individuazione della geometria del tetto; strumenti di valutazione satellitare per stimare il potenziale solare.
+  input: |-
+    Indirizzo o coordinate geografiche dell'edificio; piante della copertura, disegni architettonici o dati catastali (se disponibili)
+  result: |-
+    Stima preliminare della superficie utile del tetto; potenza fotovoltaica installabile stimata; valutazione della fattibilità strutturale
+  remaining_hurdles: |-
+    Gli strumenti satellitari forniscono solo stime preliminari. È obbligatorio un sopralluogo dettagliato di un tecnico qualificato.
+  reviewed: false

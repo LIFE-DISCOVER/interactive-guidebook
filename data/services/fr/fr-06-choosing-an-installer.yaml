@@ -1,0 +1,15 @@
+name: FR-06-Choosing an installer
+step: sourcing-professionals
+summary: |-
+  An installer must be certified by the State as RGE (Reconnu Garant de l'Environnement). Certification is mandatory to access public aids. An installer must be qualified for the right category of work.
+description: The OSS helps you find installers and choose among them and their quotes.
+web_link: https://france-renov.gouv.fr/annuaires-professionnels/artisan-rge-architecte
+result: Contract with an installer
+fr:
+  name: FR-06-Choisir un installateur
+  summary: |-
+    L'installateur doit être certifié RGE (Reconnu Garant de l'Environnement) par l'État. Cette certification est obligatoire pour accéder aux aides publiques. L'installateur doit être qualifié pour la bonne catégorie de travaux.
+  description: |-
+    Le guichet unique vous aide à trouver des installateurs et à choisir parmi eux et leurs devis.
+  result: Contrat avec un installateur
+  reviewed: false

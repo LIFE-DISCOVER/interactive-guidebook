@@ -1,0 +1,20 @@
+name: 'BG 14-1: Analysis - Self energy consumption by CEP/EC participants'
+step: analysis-economics
+summary: |-
+  Use real and prognosis data for the last 3 years to match the electricity yield with the consumption profile of each of the CEP/EC participants.
+description: |-
+  Find the necessary economic data about the own consumption and the yield of the PV installations in order to be able to make the basic profit and loss calculations for the project.
+input: Electricity yield, consumption profile of each of the CEP/EC participants.
+result: |-
+  Daily profile on annual basis for the level of self energy consumption within the CEP/EC.
+bg:
+  name: 'BG 14-1: Анализ - Собствено потребление на енергия от участниците в ОЕП/ЕО'
+  summary: |-
+    Използвайте реални и прогнозни данни за последните 3 години, за да съпоставите производството с профила на потребление на всеки от участниците в ОЕП/ЕО.
+  description: |-
+    Съберете необходимите икономически данни за собственото потребление и производството на фотоволтаичните инсталации, за да можете да направите основните изчисления за приходите и разходите по проекта.
+  input: |-
+    Производство на електроенергия, профил на потребление на всеки от участниците в ОЕП/ЕО.
+  result: |-
+    Дневен профил на годишна база за нивото на собствено потребление в рамките на ОЕП/ЕО.
+  reviewed: false

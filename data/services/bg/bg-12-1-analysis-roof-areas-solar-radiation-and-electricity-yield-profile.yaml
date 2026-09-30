@@ -1,0 +1,19 @@
+name: 'BG 12-1: Analysis - Roof areas, solar radiation and electricity yield profile'
+step: analysis-yield
+summary: |-
+  Evaluate the available area for panel placement, determine how much photovoltaic capacity can be accommodated, assess the possible solar yield at the EC location. Recommend high efficiency PV panels.
+description: |-
+  Obtain solar audit report. Determine the annual solar production of each of the PV installations in the CEP/EC using the EU Photovoltaic Geographical Information System (PVGIS).
+web_link: https://re.jrc.ec.europa.eu/pvg_tools/en/
+input: PV installation size, tilt and azimuth (kWp); Geographical location.
+result: Yearly electricity production profile per day/hour in kWh.
+bg:
+  name: 'BG 12-1: Анализ - Покривни площи, слънчево греене и профил на производството'
+  summary: |-
+    Оценете наличната площ за разполагане на панели, определете каква фотоволтаична мощност може да се инсталира и оценете възможния слънчев добив на мястото на ЕО. Препоръчайте високоефективни фотоволтаични панели.
+  description: |-
+    Получете доклад от соларен одит. Определете годишното производство на всяка от фотоволтаичните инсталации в ОЕП/ЕО с помощта на Географската информационна система за фотоволтаици на ЕС (PVGIS).
+  input: |-
+    Мощност на фотоволтаичната инсталация, наклон и азимут (kWp); географско местоположение.
+  result: Годишен профил на производството на електроенергия по дни/часове в kWh.
+  reviewed: false

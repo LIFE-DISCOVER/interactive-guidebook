@@ -1,0 +1,26 @@
+name: HR-07-Permit Building Regulations
+step: permit-building-regulations
+summary: |-
+  In order to even begin construction of a solar power plant, all construction and ownership documents must be up-to-date and in accordance with the law.
+description: |-
+  Determine the legal status of the building - whether it was built in accordance with the permit and whether there are any disputes related to the ownership of the building and the land.
+web_link: https://oss.uredjenazemlja.hr/
+input: |-
+  The cadastral number of the plot on which the building is built; Collection of legal data of an existing building
+result: |-
+  Information about legality of the existing facility and about ownership of land and building.
+remaining_hurdles: |-
+  If everything is not in accordance with the law, all administrative and legal obstacles have to be removed before starting the project.
+hr:
+  name: HR-07-Dozvola - Građevinski propisi
+  summary: |-
+    Da bi se uopće mogla započeti izgradnja sunčane elektrane, sva građevinska i vlasnička dokumentacija mora biti ažurna i u skladu sa zakonom.
+  description: |-
+    Utvrdite pravni status zgrade - je li izgrađena u skladu s dozvolom te postoje li sporovi u vezi s vlasništvom nad zgradom i zemljištem.
+  input: |-
+    Broj katastarske čestice na kojoj je zgrada izgrađena; prikupljanje pravnih podataka o postojećoj zgradi
+  result: |-
+    Informacija o legalnosti postojeće građevine i o vlasništvu nad zemljištem i zgradom.
+  remaining_hurdles: |-
+    Ako nije sve u skladu sa zakonom, prije početka projekta treba otkloniti sve upravne i pravne prepreke.
+  reviewed: false

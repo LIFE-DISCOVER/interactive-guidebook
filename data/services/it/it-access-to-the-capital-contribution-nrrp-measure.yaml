@@ -1,0 +1,25 @@
+name: IT-Access to the capital contribution - NRRP measure
+step: financing-public-funding
+summary: |-
+  This step concerns access to capital grants provided under the National Recovery and Resilience Plan (NRRP) to support the deployment of renewable energy systems within RECs located in municipalities with fewer than 50,000 inhabitants.
+description: |-
+  Guidance and procedural support: Information on eligibility criteria for NRRP grants; Explanation of the application process via GSE portal; Guidance on required documentation.
+web_link: https://areaclienti.gse.it/
+stakeholder: GSE
+input: |-
+  Established REC; Access credentials to GSE portal; Basic project and plant information; Required technical and administrative documentation
+result: Application for access to the capital grant.
+remaining_hurdles: Complexity of required documentation; Limited time windows for application
+it:
+  name: IT-Accesso al contributo in conto capitale - misura PNRR
+  summary: |-
+    Questo passaggio riguarda l'accesso ai contributi in conto capitale previsti dal Piano Nazionale di Ripresa e Resilienza (PNRR) per sostenere la realizzazione di impianti a fonti rinnovabili nelle CER situate in Comuni con meno di 50.000 abitanti.
+  description: |-
+    Guida e supporto procedurale: informazioni sui criteri di ammissibilità ai contributi PNRR; spiegazione della procedura di domanda tramite il portale GSE; indicazioni sulla documentazione richiesta.
+  stakeholder: GSE
+  input: |-
+    CER costituita; credenziali di accesso al portale GSE; informazioni di base sul progetto e sull'impianto; documentazione tecnica e amministrativa richiesta
+  result: Domanda di accesso al contributo in conto capitale.
+  remaining_hurdles: |-
+    Complessità della documentazione richiesta; finestre temporali limitate per la domanda
+  reviewed: false

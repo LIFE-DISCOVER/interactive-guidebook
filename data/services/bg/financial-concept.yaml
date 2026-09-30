@@ -1,0 +1,24 @@
+name: 'BG 13: Financial concept'
+step: preassessment-financing
+summary: |-
+  The feasibility of the technical solution is very much dependent on the possibility to finance the endeavor. Financial possibilities shall be assessed, consisting of own funding (equity), public funding and subsidies, as well as third party funding.
+description: |-
+  Make an initial assessment about financing possibilities. After having estimates of the project investment (CAPEX), the EC shall understand all costs for establishing and operating the EC (OPEX).
+input: |-
+  Total number of EC members and types; Analysis of electricity consumption profile; Estimation of CAPEX and OPEX of the EC
+result: |-
+  Concept and structure for financing the EC from different applicable financing sources
+remaining_hurdles: |-
+  Limited and unclear public financing mechanisms for ECs; Limited number of active ESCOs on the market
+bg:
+  name: 'BG 13: Финансова концепция'
+  summary: |-
+    Осъществимостта на техническото решение зависи в голяма степен от възможността начинанието да бъде финансирано. Трябва да се оценят възможностите за финансиране: собствени средства (капитал), публично финансиране и субсидии, както и финансиране от трети страни.
+  description: |-
+    Направете първоначална оценка на възможностите за финансиране. След като има оценка на инвестицията в проекта (CAPEX), ЕО трябва да познава всички разходи за създаването и работата си (OPEX).
+  input: |-
+    Общ брой и видове членове на ЕО; анализ на профила на потреблението на електроенергия; оценка на CAPEX и OPEX на ЕО
+  result: Концепция и структура за финансиране на ЕО от различни приложими източници
+  remaining_hurdles: |-
+    Ограничени и неясни механизми за публично финансиране на ЕО; малък брой активни ЕСКО на пазара
+  reviewed: false

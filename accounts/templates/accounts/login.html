@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% translate "Sign In" %}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/login.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="login-wrap">
+  <div class="login-card">
+    <div class="login-logo">
+      <div class="logo-name">DISCOVER<span class="logo-dot"> ●</span> Guidebook</div>
+    </div>
+    <h1>{% translate "Sign In" %}</h1>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button class="btn btn-primary" type="submit">{% translate "Sign In" %}</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

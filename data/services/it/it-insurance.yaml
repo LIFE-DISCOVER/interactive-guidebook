@@ -1,0 +1,24 @@
+name: IT-Insurance
+step: insurance
+summary: |-
+  This step aims to identify and secure appropriate insurance coverage for photovoltaic (PV) systems and the activities of the Renewable Energy Community (REC). Key risks: damage to PV equipment, theft, business interruption, third-party liability.
+description: |-
+  Guidance to: identification of the main types of insurance required; clarification on risk categories relevant to PV systems and RECs; supporting comparison of different insurance offers.
+input: |-
+  Technical data of the PV system; Ownership structure; Estimated investment value; Operational model of the REC
+result: |-
+  Identification of appropriate insurance types; Understanding of coverage options and costs; Comparison of available offers
+remaining_hurdles: Insurance for PV systems and RECs is not yet fully standardized.
+it:
+  name: IT-Assicurazione
+  summary: |-
+    Questo passaggio serve a individuare e stipulare coperture assicurative adeguate per gli impianti fotovoltaici e le attività della Comunità Energetica Rinnovabile (CER). Rischi principali: danni all'impianto, furto, interruzione dell'attività, responsabilità civile verso terzi.
+  description: |-
+    Guida per: individuare i principali tipi di assicurazione necessari; chiarire le categorie di rischio rilevanti per impianti fotovoltaici e CER; confrontare le diverse offerte assicurative.
+  input: |-
+    Dati tecnici dell'impianto fotovoltaico; assetto proprietario; valore stimato dell'investimento; modello operativo della CER
+  result: |-
+    Individuazione dei tipi di assicurazione adeguati; comprensione delle coperture e dei costi; confronto delle offerte disponibili
+  remaining_hurdles: |-
+    Le assicurazioni per impianti fotovoltaici e CER non sono ancora del tutto standardizzate.
+  reviewed: false

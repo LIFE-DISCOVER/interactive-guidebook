@@ -1,0 +1,25 @@
+name: HR-12-Uptake Agreement
+step: uptake-agreement
+summary: |-
+  Before integrating a PV system, verify if you qualify as an electricity vendor, as this status will determine your ability to sell excess energy back to the grid or to other members of CEP.
+description: |-
+  Find out conditions for selling your excess electricity. Covering own consumption from the energy produced by the photovoltaic system and transferring the surplus produced energy to the power grid or in CEP.
+web_link: https://www.hep.hr/elektra/
+stakeholder: HEP Elektra d.o.o.
+input: |-
+  Price for selling kW/hour - back to grid; Price for selling kW/hour to community member
+result: Status as an electricity vendor; Differences between potential off-takers
+remaining_hurdles: |-
+  From beginning of year 2026, HEP Elektra will stop compensating uptake. Selling electricity within an energy community will be only option.
+hr:
+  name: HR-12-Ugovor o otkupu
+  summary: |-
+    Prije uključivanja fotonaponskog sustava provjerite ispunjavate li uvjete za status opskrbljivača električnom energijom, jer taj status određuje možete li višak energije prodavati mreži ili drugim članovima energetske zajednice.
+  description: |-
+    Saznajte uvjete prodaje viška električne energije. Pokrivanje vlastite potrošnje energijom proizvedenom u fotonaponskom sustavu i predaja viška proizvedene energije u mrežu ili unutar energetske zajednice.
+  stakeholder: HEP Elektra d.o.o.
+  input: Cijena prodaje po kWh - u mrežu; cijena prodaje po kWh članu zajednice
+  result: Status prodavatelja električne energije; razlike između mogućih otkupljivača
+  remaining_hurdles: |-
+    Od početka 2026. HEP Elektra prestaje s otkupom. Prodaja električne energije unutar energetske zajednice bit će jedina mogućnost.
+  reviewed: false

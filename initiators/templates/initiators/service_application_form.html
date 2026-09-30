@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Add Service" %} — {{ project.name }}{% endblock %}
+{% block content %}
+<div class="page-header">
+  <div class="breadcrumb"><a href="{% url 'projects:project_detail' project.pk %}">← {{ project.name }}</a></div>
+  <h1>{% blocktranslate with name=project.name %}Add Service to {{ name }}{% endblocktranslate %}</h1>
+</div>
+
+<div class="form-card">
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit">{% translate "Add Service" %}</button>
+      <a href="{% url 'projects:project_detail' project.pk %}" class="btn btn-outline">{% translate "Cancel" %}</a>
+    </div>
+  </form>
+</div>
+{% endblock %}

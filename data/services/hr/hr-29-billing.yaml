@@ -1,0 +1,23 @@
+name: HR-29-Billing
+step: billing
+summary: |-
+  For effective billing and periodic settlement of electricity consumption and feed-in, start by collecting accurate energy data.
+description: |-
+  Periodic settlement of electricity consumption and feed-in. HEP ODS Sharing Key Delivery
+input: Defined in HR-28 for a simple or so-called static sharing key
+result: |-
+  Collecting energy data; Rate Application and Updates; Invoice Generation; Payment monitoring and processing
+remaining_hurdles: |-
+  Lack of procedure for the management of the CEP by the DSO; Absence of a software tool that supports energy management
+hr:
+  name: HR-29-Obračun
+  summary: |-
+    Za učinkovit obračun i periodično poravnanje potrošnje i predaje električne energije započnite prikupljanjem točnih energetskih podataka.
+  description: |-
+    Periodično poravnanje potrošnje i predaje električne energije. Dostava ključa raspodjele HEP ODS-u
+  input: Definirano u HR-28 za jednostavni, tzv. statični ključ raspodjele
+  result: |-
+    Prikupljanje energetskih podataka; primjena i ažuriranje tarifa; izrada računa; praćenje i obrada plaćanja
+  remaining_hurdles: |-
+    Nedostatak postupka ODS-a za upravljanje energetskom zajednicom; nepostojanje softverskog alata za upravljanje energijom
+  reviewed: false

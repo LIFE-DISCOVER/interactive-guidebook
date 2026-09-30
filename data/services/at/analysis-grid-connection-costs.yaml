@@ -1,0 +1,22 @@
+name: 'AT: Analysis - Grid Connection Costs'
+step: analysis-power-grid
+summary: |-
+  Pay grid provision fee (Netzbereitstellung) and the grid access fee (Netzzutrittsentgelt). The distribution system operator has 2 weeks (network level 7) or 1 month (network levels 1 to 6) from the receipt of a request to provide a cost estimate.
+description: Request cost estimate.
+web_link: |-
+  https://www.e-control.at/documents/1785851/1811582/Leitfaden-Netzanschluss-v1-1.pdf
+input: |-
+  System Size (kW); Name, address, and contact information of the grid user; The specification of the Power rating of the grid connection point; The bottleneck capacity of the power generation system
+result: Cost estimate
+remaining_hurdles: Pay the fees
+de:
+  name: 'AT: Analyse - Netzanschlusskosten'
+  summary: |-
+    Zu bezahlen sind das Netzbereitstellungsentgelt und das Netzzutrittsentgelt. Der Verteilernetzbetreiber hat ab Eingang einer Anfrage 2 Wochen (Netzebene 7) bzw. 1 Monat (Netzebenen 1 bis 6) Zeit, einen Kostenvoranschlag zu erstellen.
+  description: |-
+    Kostenvoranschlag anfordern.
+  input: |-
+    Anlagengröße (kW); Name, Adresse und Kontaktdaten des Netzbenutzers; Angabe der Leistung am Netzanschlusspunkt; Engpassleistung der Erzeugungsanlage
+  result: Kostenvoranschlag
+  remaining_hurdles: Bezahlung der Entgelte
+  reviewed: false

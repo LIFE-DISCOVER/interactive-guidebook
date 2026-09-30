@@ -1,0 +1,27 @@
+name: IT-Appointment of REC representative
+step: community-roles
+summary: |-
+  The REC must appoint a representative (soggetto referente) responsible for managing relations with the GSE and handling operational and administrative obligations.
+description: |-
+  This service supports: identification of the REC representative (internal or external); definition of roles and operational responsibilities; preparation of formal mandates from members; configuration of representation powers towards GSE.
+web_link: |-
+  https://www.gse.it/servizi-per-te/autoconsumo/gruppi-di-autoconsumatori-e-comunita-di-energia-rinnovabile/mandati-e-liberatoria
+stakeholder: GSE
+input: |-
+  REC governance structure; Members list and roles; Decision on representative; Signed mandates from members
+result: |-
+  Official appointment of REC representative; Formalized mandates collected; Operational access to GSE portal
+remaining_hurdles: Clear definition of responsibilities and liabilities
+it:
+  name: IT-Nomina del referente della CER
+  summary: |-
+    La CER deve nominare un soggetto referente responsabile dei rapporti con il GSE e degli adempimenti operativi e amministrativi.
+  description: |-
+    Questo servizio supporta: l'individuazione del referente della CER (interno o esterno); la definizione dei ruoli e delle responsabilità operative; la preparazione dei mandati formali dei membri; la configurazione dei poteri di rappresentanza nei confronti del GSE.
+  stakeholder: GSE
+  input: |-
+    Struttura di governance della CER; elenco dei membri e ruoli; decisione sul referente; mandati firmati dai membri
+  result: |-
+    Nomina ufficiale del referente della CER; raccolta dei mandati formalizzati; accesso operativo al portale GSE
+  remaining_hurdles: Chiara definizione di responsabilità e obblighi
+  reviewed: false

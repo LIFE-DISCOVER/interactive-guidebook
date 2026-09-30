@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% translate "Welcome — first-time setup" %}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/setup.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="setup-wrap">
+  <div class="setup-card form-card">
+    <h1>{% translate "Welcome to the Interactive Guidebook" %}</h1>
+    <p class="setup-intro">
+      {% blocktranslate trimmed %}
+      This installation has no accounts yet. Create the administrator account to get started.
+      The administrator signs in with their email address and can then create accounts for energy agency managers.
+      {% endblocktranslate %}
+    </p>
+
+    <form method="post" novalidate>
+      {% csrf_token %}
+      {% if form.non_field_errors %}
+      <div class="form-errors">{% for error in form.non_field_errors %}<p class="error">{{ error }}</p>{% endfor %}</div>
+      {% endif %}
+
+      <div class="setup-step">{% translate "Step 1 · Confirm you run this server" %}</div>
+      <div class="setup-code-hint">
+        {% translate "The setup code is written to the application log when this page is opened. On the server, print it with:" %}<br>
+        <code>python manage.py setup_code</code>
+      </div>
+      <p>{{ form.setup_code.label_tag }} {{ form.setup_code }}{{ form.setup_code.errors }}</p>
+
+      <div class="setup-step">{% translate "Step 2 · Administrator" %}</div>
+      <div class="form-row-2">
+        <p>{{ form.first_name.label_tag }} {{ form.first_name }}{{ form.first_name.errors }}</p>
+        <p>{{ form.last_name.label_tag }} {{ form.last_name }}{{ form.last_name.errors }}</p>
+      </div>
+      <p>
+        {{ form.email.label_tag }} {{ form.email }}
+        <span class="helptext">{{ form.email.help_text }}</span>
+        {{ form.email.errors }}
+      </p>
+      <p>
+        {{ form.country.label_tag }} {{ form.country }}
+        <span class="helptext">{{ form.country.help_text }}</span>
+        {{ form.country.errors }}
+      </p>
+
+      <div class="setup-step">{% translate "Step 3 · Password" %}</div>
+      <p>
+        {{ form.password1.label_tag }} {{ form.password1 }}
+        <span class="helptext">{{ form.password1.help_text|safe }}</span>
+        {{ form.password1.errors }}
+      </p>
+      <p>{{ form.password2.label_tag }} {{ form.password2 }}{{ form.password2.errors }}</p>
+
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit">{% translate "Create administrator" %}</button>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+name: 'BG 27: Billing'
+step: billing
+summary: |-
+  Ensure provision of SMART GRID solutions for metering in real time of energies delivered within the CEP/EC and to/from the grid; clearance of mutual deliveries between the participants and traders, and billing of energy.
+description: |-
+  Draft a list of available SMART GRID billing and clearance solutions for energy communities.
+stakeholder: T&D ENGINEERING
+input: |-
+  Technical documentation on CEP/E.C. energy installations, registration with TSO, uptake contracts.
+result: List of available SMART GRID providers offering billing and clearance solutions.
+bg:
+  name: 'BG 27: Фактуриране'
+  summary: |-
+    Осигурете SMART GRID решения за измерване в реално време на енергията, доставяна в рамките на ОЕП/ЕО и към/от мрежата; за уравняване на взаимните доставки между участниците и търговците и за фактуриране на енергията.
+  description: |-
+    Съставете списък на наличните SMART GRID решения за фактуриране и уравняване за енергийни общности.
+  stakeholder: T&D ENGINEERING
+  input: |-
+    Техническа документация за енергийните инсталации на ОЕП/ЕО, регистрация при ЕСО, договори за изкупуване.
+  result: |-
+    Списък на доставчиците на SMART GRID, които предлагат решения за фактуриране и уравняване.
+  reviewed: false

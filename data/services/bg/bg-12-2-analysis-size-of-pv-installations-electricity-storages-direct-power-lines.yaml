@@ -1,0 +1,23 @@
+name: |-
+  BG 12-2: Analysis - Size of PV installations, electricity storages, direct power lines
+step: analysis-yield
+summary: |-
+  This step provides the initial project information about the size of the required energy equipment, i.e. PV installations, electricity storages, direct power lines and power grid connections.
+description: |-
+  Find out how much kWp the PV installations should have in accordance with the consumption profiles and available rooftop areas. Determine the capacity of the electricity storages.
+input: |-
+  Consumption profiles of every CEP/EC participants and CEP/EC configuration drawings.
+result: |-
+  PV installations sizes in kWp; Electricity storages sizes in kWh; Direct power lines and power grid connections sizes.
+bg:
+  name: |-
+    BG 12-2: Анализ - Размер на фотоволтаичните инсталации, съоръженията за съхранение и директните електропроводи
+  summary: |-
+    Тази стъпка дава първоначалната информация за проекта относно размера на необходимото енергийно оборудване: фотоволтаични инсталации, съоръжения за съхранение на електроенергия, директни електропроводи и присъединявания към мрежата.
+  description: |-
+    Определете каква мощност в kWp трябва да имат фотоволтаичните инсталации според профилите на потреблението и наличните покривни площи. Определете капацитета на съоръженията за съхранение на електроенергия.
+  input: |-
+    Профили на потреблението на всички участници в ОЕП/ЕО и чертежи на конфигурацията на ОЕП/ЕО.
+  result: |-
+    Мощност на фотоволтаичните инсталации в kWp; капацитет на съоръженията за съхранение в kWh; размери на директните електропроводи и присъединяванията към мрежата.
+  reviewed: false

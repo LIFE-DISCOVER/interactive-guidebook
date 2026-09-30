@@ -1,0 +1,57 @@
+name: Suggest a service change
+description: Propose a correction, addition or removal of a service or guidebook step — no file editing needed.
+title: "[Content] "
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! A maintainer will review your suggestion and turn it into a change.
+        If you are comfortable editing files, you can also propose the change directly — see CONTRIBUTING.md.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Country
+      options:
+        - Austria
+        - Bulgaria
+        - Croatia
+        - France
+        - Italy
+        - General guidebook step (all countries)
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of change
+      options:
+        - Correct or update an existing service/step
+        - Add a new service
+        - Remove a service
+    validations:
+      required: true
+  - type: input
+    id: item
+    attributes:
+      label: Service or step
+      description: Its name, or the link to its page on the guidebook website.
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+      description: The new or corrected text, as precisely as possible.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Official page or document that confirms the change (https://…).
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Public information
+      options:
+        - label: My suggestion contains no personal data (names, private email addresses or phone numbers of individuals).
+          required: true

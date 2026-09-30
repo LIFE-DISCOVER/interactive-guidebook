@@ -1,0 +1,15 @@
+name: FR-05-Defining community roles
+step: community-roles
+summary: |-
+  For the development, implementation and exploitation of a PV plant and energy community, it is crucial to define roles. You can choose between different approaches: rely on community members, externalize chosen works, or externalize as many works as possible.
+description: Guidance on community role definition.
+result: |-
+  A shared vision of the community responsibility as a whole, and the responsibility of each of its members
+fr:
+  name: FR-05-Définir les rôles dans la communauté
+  summary: |-
+    Pour le développement, la réalisation et l'exploitation d'une centrale photovoltaïque et d'une communauté d'énergie, il est essentiel de définir les rôles. Plusieurs approches sont possibles : s'appuyer sur les membres de la communauté, externaliser certains travaux ou externaliser le plus de travaux possible.
+  description: Conseils pour définir les rôles dans la communauté.
+  result: |-
+    Une vision partagée de la responsabilité de la communauté dans son ensemble et de celle de chacun de ses membres
+  reviewed: false

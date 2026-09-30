@@ -1,0 +1,21 @@
+name: IT-Accounting
+step: accounting
+summary: |-
+  Effective accounting includes: Managing day-to-day bookkeeping; Preparing financial statements and reports; Ensuring compliance with all legal and regulatory requirements; Reconciling accounts.
+description: |-
+  Support for the selection of software, hardware, or mixed platforms to support the operational management of RECs.
+input: |-
+  Type of REC configuration; POD codes and consumption/production data; Billing data and incentive information; Internal rules for economic allocation
+result: |-
+  Selection of the most suitable platform for the REC. The platform should include: Monitoring of energy and financial data; Calculation of revenues and incentives; Financial statements and reporting
+it:
+  name: IT-Contabilità
+  summary: |-
+    Una contabilità efficace comprende: gestione della contabilità quotidiana; redazione di bilanci e rendiconti; rispetto di tutti gli obblighi di legge e regolamentari; riconciliazione dei conti.
+  description: |-
+    Supporto nella scelta di piattaforme software, hardware o miste per la gestione operativa delle CER.
+  input: |-
+    Tipo di configurazione della CER; codici POD e dati di consumo/produzione; dati di fatturazione e informazioni sugli incentivi; regole interne di ripartizione economica
+  result: |-
+    Scelta della piattaforma più adatta alla CER. La piattaforma dovrebbe comprendere: monitoraggio dei dati energetici e finanziari; calcolo dei ricavi e degli incentivi; bilanci e rendicontazione
+  reviewed: false

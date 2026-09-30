@@ -1,0 +1,25 @@
+name: IT-Access to private capital
+step: financing-private-capital
+summary: |-
+  This step defines the financing strategy for the implementation of photovoltaic (PV) systems and related infrastructure within a Renewable Energy Community (REC). Several financing models: Own resources; Bank loans; ESCO models; Public-private partnerships.
+description: |-
+  This step supports project promoters especially municipalities in identifying and accessing private financing solutions. Activities may include: definition of the investment needs; identification of suitable financing models; preparation of documentation for investors.
+input: |-
+  Energy consumption data; List of available buildings; Preliminary technical sizing; Estimated investment costs
+result: |-
+  Identification of feasible financing models; Preliminary financial structure; Launch of a Call for Expression of Interest
+remaining_hurdles: |-
+  Access to private capital can be complex due to uncertainty in revenue streams and perceived risk of REC projects.
+it:
+  name: IT-Accesso al capitale privato
+  summary: |-
+    Questo passaggio definisce la strategia di finanziamento per la realizzazione degli impianti fotovoltaici e delle relative infrastrutture all'interno di una Comunità Energetica Rinnovabile (CER). Diversi modelli di finanziamento: risorse proprie; prestiti bancari; modelli ESCO; partenariati pubblico-privati.
+  description: |-
+    Questo passaggio aiuta i promotori, in particolare i Comuni, a individuare e ad accedere a soluzioni di finanziamento privato. Le attività possono comprendere: definizione del fabbisogno di investimento; individuazione dei modelli di finanziamento adatti; preparazione della documentazione per gli investitori.
+  input: |-
+    Dati di consumo energetico; elenco degli edifici disponibili; dimensionamento tecnico preliminare; costi di investimento stimati
+  result: |-
+    Individuazione dei modelli di finanziamento praticabili; struttura finanziaria preliminare; pubblicazione di un avviso di manifestazione di interesse
+  remaining_hurdles: |-
+    L'accesso al capitale privato può essere complesso per l'incertezza dei flussi di ricavi e il rischio percepito dei progetti di CER.
+  reviewed: false

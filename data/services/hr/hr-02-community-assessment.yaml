@@ -1,0 +1,23 @@
+name: HR-02-Community Assessment
+step: community-assessment
+summary: |-
+  Understanding the dynamics of your community involves assessing several key aspects. First, evaluate the purpose of your community, and its size to gauge its overall reach and potential impact.
+description: |-
+  Get to know your community. 1. Determine what the community will be doing. 2. For each current and future member, find out: whether it is a natural or legal person; whether he or she has or intends to build a photovoltaic power plant; what is average consumption; what are production surpluses.
+input: |-
+  Website with information and templates; Electricity bills; Questionnaire filled out by each member
+result: |-
+  Community goal defined; Determined community size, number of members and composition; The needs and motivations of members
+remaining_hurdles: Lack of practical examples on ways of organizing CEC or REC
+hr:
+  name: HR-02-Procjena zajednice
+  summary: |-
+    Razumijevanje dinamike vaše zajednice uključuje procjenu nekoliko ključnih aspekata. Najprije procijenite svrhu zajednice i njezinu veličinu kako biste odredili njezin ukupni doseg i mogući učinak.
+  description: |-
+    Upoznajte svoju zajednicu. 1. Odredite čime će se zajednica baviti. 2. Za svakog sadašnjeg i budućeg člana utvrdite: je li fizička ili pravna osoba; ima li ili namjerava izgraditi fotonaponsku elektranu; kolika je prosječna potrošnja; koliki su viškovi proizvodnje.
+  input: |-
+    Mrežna stranica s informacijama i predlošcima; računi za električnu energiju; upitnik koji ispunjava svaki član
+  result: |-
+    Definiran cilj zajednice; utvrđeni veličina zajednice, broj i sastav članova; potrebe i motivacija članova
+  remaining_hurdles: Nedostatak praktičnih primjera organiziranja ZGE ili ZOE
+  reviewed: false

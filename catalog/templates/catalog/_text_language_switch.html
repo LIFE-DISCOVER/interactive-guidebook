@@ -1,0 +1,11 @@
+{% load i18n %}{% comment %}English / local language switch for a service's texts (see catalog/localization.py).{% endcomment %}
+{% if text_languages %}
+<div class="text-language-switch" role="group" aria-label="{% translate 'Language of the service text' %}">
+  {% for choice in text_languages %}
+  {% if choice.active %}<span class="is-active" lang="{{ choice.code }}" aria-current="true">{{ choice.name }}</span>{% else %}<a href="{{ choice.query }}" lang="{{ choice.code }}" hreflang="{{ choice.code }}">{{ choice.name }}</a>{% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+{% if text.is_draft %}
+<p class="draft-translation-note">{% translate "Draft translation – not yet reviewed. The English text is authoritative." %}</p>
+{% endif %}

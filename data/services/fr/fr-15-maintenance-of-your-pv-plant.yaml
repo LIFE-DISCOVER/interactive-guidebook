@@ -1,0 +1,17 @@
+name: FR-15-Maintenance of your PV plant
+step: maintenance-hw
+summary: |-
+  Maintenance is necessary to ensure correct functioning. Maintenance can be made by yourself as a producer, by professionals. It is advised to have an annual visual check of your plant.
+description: |-
+  The OSS advises you to anticipate maintenance cost and choose between the best maintenance approach.
+input: Your plant characteristics, your community roles and your budget.
+result: Correctly functioning plant
+fr:
+  name: FR-15-Maintenance de votre centrale photovoltaïque
+  summary: |-
+    La maintenance est nécessaire au bon fonctionnement. Elle peut être assurée par vous-même en tant que producteur ou par des professionnels. Un contrôle visuel annuel de la centrale est recommandé.
+  description: |-
+    Le guichet unique vous conseille pour anticiper le coût de la maintenance et choisir la meilleure approche.
+  input: Caractéristiques de votre centrale, rôles dans votre communauté et budget.
+  result: Centrale qui fonctionne correctement
+  reviewed: false

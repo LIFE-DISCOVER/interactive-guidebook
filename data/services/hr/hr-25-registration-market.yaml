@@ -1,0 +1,28 @@
+name: HR-25-Registration - Market
+step: registration-market
+summary: |-
+  To actively participate in electricity market processes, you must register your License to perform energy activities issued by HERA.
+description: |-
+  In order to register your energy community, apply documentation to HERA (Croatian Energy Regulatory Agency): evidence of professional capacity, three-year development and investment plan, organizational chart, evidence of technical capacity, evidence of financial capacity.
+web_link: https://www.hera.hr/hr/html/registar_dozvola.html
+stakeholder: HERA - Croatian Energy Regulatory Agency
+input: |-
+  Data on unitholders/members; Data on power/investment/project type; Complete documentation
+result: |-
+  Licence for performing energy activity issued by Croatian Energy Regulatory Agency HERA
+remaining_hurdles: |-
+  Significant administrative and financial burden for all potential energy communities
+hr:
+  name: HR-25-Registracija - Tržište
+  summary: |-
+    Da biste aktivno sudjelovali na tržištu električne energije, morate registrirati dozvolu za obavljanje energetske djelatnosti koju izdaje HERA.
+  description: |-
+    Za registraciju energetske zajednice podnesite dokumentaciju HERA-i (Hrvatska energetska regulatorna agencija): dokaz o stručnoj osposobljenosti, trogodišnji plan razvoja i ulaganja, organizacijsku shemu, dokaz o tehničkoj osposobljenosti i dokaz o financijskoj sposobnosti.
+  stakeholder: HERA - Hrvatska energetska regulatorna agencija
+  input: |-
+    Podaci o udjeličarima/članovima; podaci o snazi, ulaganju i vrsti projekta; potpuna dokumentacija
+  result: |-
+    Dozvola za obavljanje energetske djelatnosti koju izdaje Hrvatska energetska regulatorna agencija HERA
+  remaining_hurdles: |-
+    Znatno administrativno i financijsko opterećenje za sve potencijalne energetske zajednice
+  reviewed: false

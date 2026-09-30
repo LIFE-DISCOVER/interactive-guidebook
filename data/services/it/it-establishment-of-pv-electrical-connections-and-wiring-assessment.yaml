@@ -1,0 +1,26 @@
+name: IT-Establishment of PV electrical connections and wiring assessment
+step: analysis-wiring
+summary: |-
+  Before proceeding with a PV installation within a Renewable Energy Community (REC), it is essential to assess the existing electrical infrastructure and its compatibility with the planned system.
+description: |-
+  Guidance to the main documents to collect and referral for a professional (i.e. engineer). This step requires a combination of document analysis and professional technical assessment: Review of electricity bills; Collection and analysis of existing electrical diagrams; On-site inspection by a qualified professional.
+input: |-
+  Electricity bills (to verify contracted power and connection type); Existing wiring diagrams (if available); Information on building type
+result: |-
+  Electrical wiring schematic (as-is and planned configuration); Assessment of system capacity and required upgrades
+remaining_hurdles: |-
+  In many cases, existing electrical documentation is incomplete or outdated, especially in older buildings.
+it:
+  name: |-
+    IT-Realizzazione dei collegamenti elettrici del fotovoltaico e verifica dell'impianto elettrico
+  summary: |-
+    Prima di procedere con un impianto fotovoltaico all'interno di una Comunità Energetica Rinnovabile (CER), è essenziale valutare l'infrastruttura elettrica esistente e la sua compatibilità con l'impianto previsto.
+  description: |-
+    Indicazioni sui principali documenti da raccogliere e segnalazione di un professionista (ad es. un ingegnere). Questo passaggio richiede analisi documentale e valutazione tecnica professionale: esame delle bollette; raccolta e analisi degli schemi elettrici esistenti; sopralluogo di un professionista qualificato.
+  input: |-
+    Bollette (per verificare la potenza impegnata e il tipo di connessione); schemi elettrici esistenti (se disponibili); informazioni sulla tipologia dell'edificio
+  result: |-
+    Schema dell'impianto elettrico (configurazione attuale e prevista); valutazione della capacità dell'impianto e degli adeguamenti necessari
+  remaining_hurdles: |-
+    In molti casi la documentazione elettrica esistente è incompleta o non aggiornata, soprattutto negli edifici più vecchi.
+  reviewed: false

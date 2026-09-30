@@ -1,0 +1,18 @@
+name: IT-Identification of REC initiators
+step: community-building
+summary: |-
+  Gather motivated individuals/PMI/local authorities who want to participate in a REC.
+description: |-
+  The service supports the initial phase of establishing a Renewable Energy Community (REC), helping to identify the most suitable promoters through stakeholder mapping, skills analysis, and orientation meetings.
+input: |-
+  Enter your name and your address; Enter your role (consumer, prosumer, producer); Enter your energy bills
+result: List of persons/PMI/local authorities who wants to create a REC
+it:
+  name: IT-Individuazione dei promotori della CER
+  summary: Riunire persone, PMI ed enti locali motivati che vogliono partecipare a una CER.
+  description: |-
+    Il servizio supporta la fase iniziale di costituzione di una Comunità Energetica Rinnovabile (CER), aiutando a individuare i promotori più adatti tramite mappatura degli stakeholder, analisi delle competenze e incontri di orientamento.
+  input: |-
+    Inserire nome e indirizzo; indicare il proprio ruolo (consumatore, prosumer, produttore); caricare le bollette
+  result: Elenco di persone, PMI ed enti locali che vogliono creare una CER
+  reviewed: false

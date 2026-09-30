@@ -1,0 +1,16 @@
+{% load i18n %}
+{% if is_paginated %}
+<nav class="pagination" aria-label="{% translate "Pagination" %}">
+  {% if page_obj.has_previous %}
+    <a class="btn btn-outline" href="{% querystring page=page_obj.previous_page_number %}">← {% translate "Previous" %}</a>
+  {% else %}
+    <span class="btn btn-outline disabled" aria-disabled="true">← {% translate "Previous" %}</span>
+  {% endif %}
+  <span class="pagination-info">{% blocktranslate with number=page_obj.number total=paginator.num_pages %}Page {{ number }} of {{ total }}{% endblocktranslate %}</span>
+  {% if page_obj.has_next %}
+    <a class="btn btn-outline" href="{% querystring page=page_obj.next_page_number %}">{% translate "Next" %} →</a>
+  {% else %}
+    <span class="btn btn-outline disabled" aria-disabled="true">{% translate "Next" %} →</span>
+  {% endif %}
+</nav>
+{% endif %}

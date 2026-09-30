@@ -1,0 +1,19 @@
+name: 'BG 28: Accounting'
+step: accounting
+summary: |-
+  Analyse and instruct your accounting expert for the specific requirements for the tax reporting of the energy community.
+description: |-
+  Provide guidance to CEP/E.C. owners and to accounting experts for the specific requirements for the tax reporting of the energy community.
+input: Financial data from the SMART GRID real time metering.
+result: |-
+  Guidance document on rules and legal requirements for tax reporting of the CEP/E.C.
+bg:
+  name: 'BG 28: Счетоводство'
+  summary: |-
+    Анализирайте и инструктирайте своя счетоводител относно специфичните изисквания за данъчното отчитане на енергийната общност.
+  description: |-
+    Насоки за собствениците на ОЕП/ЕО и за счетоводителите относно специфичните изисквания за данъчното отчитане на енергийната общност.
+  input: Финансови данни от измерването в реално време на SMART GRID системата.
+  result: |-
+    Ръководство за правилата и законовите изисквания за данъчното отчитане на ОЕП/ЕО.
+  reviewed: false

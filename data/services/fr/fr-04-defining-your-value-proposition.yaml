@@ -1,0 +1,19 @@
+name: FR-04-Defining your value proposition
+step: value-proposition
+summary: |-
+  Once your building potential for photovoltaics has been studied, you have to choose how you wish to value your electricity, and you have to plan the works to make your roof PV-ready. Several models of energy may take place in Paris.
+description: |-
+  The OSS advises the community in the statement of its vision. It gives an insight into the existing models for energy communities in the context of Paris.
+input: |-
+  Production and self-consumption potentials, costs and benefits for several models
+result: Choice of model; Precise description of work plans
+fr:
+  name: FR-04-Définir votre proposition de valeur
+  summary: |-
+    Une fois le potentiel photovoltaïque de votre bâtiment étudié, vous devez choisir comment valoriser votre électricité et planifier les travaux pour rendre votre toit « PV-ready ». Plusieurs modèles énergétiques sont possibles à Paris.
+  description: |-
+    Le guichet unique conseille la communauté pour formuler sa vision. Il présente les modèles existants de communautés d'énergie dans le contexte parisien.
+  input: |-
+    Potentiels de production et d'autoconsommation, coûts et bénéfices pour plusieurs modèles
+  result: Choix du modèle ; description précise des plans de travaux
+  reviewed: false

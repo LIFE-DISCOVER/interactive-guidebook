@@ -1,0 +1,17 @@
+name: 'BG 25: Maintenance of HW'
+step: maintenance-hw
+summary: |-
+  Ensure the regular maintenance and repairs of the PV plant and other energy installations of the CEP/EC.
+description: |-
+  Contact local maintenance and repair companies as well as alternative choice of such companies in order to switch providers and choose the best quality provider.
+result: |-
+  List of recommended local service providers for maintenance and repair of PV installations.
+bg:
+  name: 'BG 25: Поддръжка на оборудването'
+  summary: |-
+    Осигурете редовната поддръжка и ремонт на фотоволтаичната централа и другите енергийни инсталации на ОЕП/ЕО.
+  description: |-
+    Свържете се с местни фирми за поддръжка и ремонт, както и с алтернативни фирми, за да можете да смените доставчика и да изберете най-качествения.
+  result: |-
+    Списък на препоръчани местни фирми за поддръжка и ремонт на фотоволтаични инсталации.
+  reviewed: false

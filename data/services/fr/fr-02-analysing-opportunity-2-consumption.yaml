@@ -1,0 +1,20 @@
+name: FR-02-Analysing opportunity 2-Consumption
+step: analysis-consumption
+summary: |-
+  Once you have estimated your potential for production, you have to question which use you will make of the electricity generated. Knowing your building or community consumption will give you an insight into the share of electricity generated that may be consumed.
+description: |-
+  The analysis of opportunity is a comprehensive analysis provided by the OSS. It provides an insight into the potential for self-consumption. It uses licensed Autocalsol software.
+web_link: https://autocalsol.ines-solaire.org/
+input: Simulated or actual consumption data all year long.
+result: Estimate of self-consumption rates
+remaining_hurdles: May have to integrate other buildings in the simulation
+fr:
+  name: FR-02-Analyse d'opportunité 2-Consommation
+  summary: |-
+    Une fois votre potentiel de production estimé, il faut vous demander quel usage vous ferez de l'électricité produite. Connaître la consommation de votre bâtiment ou de votre communauté vous indique la part de l'électricité produite qui pourra être consommée.
+  description: |-
+    L'analyse d'opportunité est une analyse complète proposée par le guichet unique. Elle donne un aperçu du potentiel d'autoconsommation et utilise le logiciel sous licence Autocalsol.
+  input: Données de consommation simulées ou réelles sur toute l'année.
+  result: Estimation des taux d'autoconsommation
+  remaining_hurdles: Il peut être nécessaire d'intégrer d'autres bâtiments dans la simulation
+  reviewed: false

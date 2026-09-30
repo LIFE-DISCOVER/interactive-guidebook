@@ -1,0 +1,21 @@
+name: IT-Preliminary Energy and Economic assessment
+step: analysis-economics
+summary: |-
+  Use SHARE - Simulator for Holistic energy-economic Assessment for Renewable Energy Communities, the calculation tool for economic and financial assessment, developed internally by AGENA.
+description: |-
+  Support project initiators in developing a preliminary economic feasibility analysis of their investment through an initial cost-benefit assessment.
+input: |-
+  Fill in data for the configuration and data for single member. Configuration data include REC or Collective Renewable Energy Self-Consumption, location, configuration costs, typology of financing.
+result: |-
+  The tool provides energy and economic flows, energy and environmental indicators, and financial-economic indicators (payback period, net present value, internal rate of return).
+it:
+  name: IT-Valutazione energetica ed economica preliminare
+  summary: |-
+    Utilizzate SHARE - Simulator for Holistic energy-economic Assessment for Renewable Energy Communities, lo strumento di calcolo per la valutazione economico-finanziaria sviluppato internamente da AGENA.
+  description: |-
+    Supporto ai promotori nell'elaborare un'analisi preliminare di fattibilità economica del loro investimento tramite una prima valutazione costi-benefici.
+  input: |-
+    Inserire i dati della configurazione e quelli dei singoli membri. I dati della configurazione comprendono CER o autoconsumo collettivo da fonti rinnovabili, ubicazione, costi della configurazione, tipologia di finanziamento.
+  result: |-
+    Lo strumento fornisce i flussi energetici ed economici, gli indicatori energetici e ambientali e gli indicatori economico-finanziari (tempo di ritorno, valore attuale netto, tasso interno di rendimento).
+  reviewed: false

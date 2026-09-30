@@ -1,0 +1,20 @@
+name: HR-10-Analysis - Construction Synergies and Fire protection
+step: analysis-construction-synergies
+summary: |-
+  When installing a PV plant, it is beneficial to consider construction work that can be done concurrently to maximize efficiency and minimize disruptions.
+description: |-
+  Compare existing and required roof layers. For buildings for which special fire protection conditions are determined, it is necessary to prepare an Overview of all applied fire protection measures.
+input: |-
+  Technical Documentation of roof; Overview of all applied fire protection measures by an authorized person
+result: |-
+  Fire protection study; Additional measures for fire protection in building and on the roof
+hr:
+  name: HR-10-Analiza - Građevinske sinergije i zaštita od požara
+  summary: |-
+    Pri ugradnji fotonaponske elektrane korisno je razmotriti građevinske radove koji se mogu izvesti istodobno kako bi se povećala učinkovitost i smanjile smetnje.
+  description: |-
+    Usporedite postojeće i potrebne slojeve krova. Za zgrade za koje su propisani posebni uvjeti zaštite od požara potrebno je izraditi prikaz svih primijenjenih mjera zaštite od požara.
+  input: |-
+    Tehnička dokumentacija krova; prikaz svih primijenjenih mjera zaštite od požara koji izrađuje ovlaštena osoba
+  result: Elaborat zaštite od požara; dodatne mjere zaštite od požara u zgradi i na krovu
+  reviewed: false

@@ -1,0 +1,20 @@
+name: IT-Application for environmental permit
+step: permit-environmental
+summary: |-
+  Determining whether an environmental assessment is required depends on the specifics of your project. Generally, an assessment is necessary if the plant size exceeds certain thresholds set by regulatory agencies.
+description: |-
+  Guidance to understand if an environmental assessment is required and help to apply for environmental permit. The first useful check is to verify the potential presence of constraints that limit the construction of renewable energy production systems.
+web_link: https://teramo.geoportal.it/
+input: |-
+  Consult the constraint map or the interactive maps of the Urban Planning Regulation on the website of the Municipality.
+result: Apply for environmental permit.
+it:
+  name: IT-Domanda di autorizzazione ambientale
+  summary: |-
+    La necessità di una valutazione ambientale dipende dalle caratteristiche del progetto. In genere è necessaria se la taglia dell'impianto supera determinate soglie stabilite dalle autorità competenti.
+  description: |-
+    Guida per capire se è necessaria una valutazione ambientale e supporto nella domanda di autorizzazione ambientale. La prima verifica utile è accertare l'eventuale presenza di vincoli che limitano la realizzazione di impianti di produzione da fonti rinnovabili.
+  input: |-
+    Consultare la carta dei vincoli o le mappe interattive del Regolamento urbanistico sul sito del Comune.
+  result: Presentazione della domanda di autorizzazione ambientale.
+  reviewed: false

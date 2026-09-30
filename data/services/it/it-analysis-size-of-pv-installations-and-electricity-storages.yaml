@@ -1,0 +1,24 @@
+name: IT-Analysis - Size of PV installations and electricity storages
+step: analysis-pv-system
+summary: |-
+  This step provides the initial project information about the size of the required energy equipment, i.e. PV installations, electricity storages. The objective is to balance energy production and consumption in order to maximize self-consumption and shared energy within the REC.
+description: |-
+  The service supports the initiator in determining the optimal installed PV capacity (kWp) based on consumption, available space, and budget; and the appropriate storage capacity (kWh).
+input: |-
+  Electricity consumption profiles of REC participants; REC configuration; Available surface area; Budget constraints and investment capacity
+result: |-
+  PV system size (kWp and m2); Selection of module types; Estimated annual energy production; Electricity storage size (kWh)
+remaining_hurdles: Sizing results are based on assumptions and simplified models.
+it:
+  name: |-
+    IT-Analisi - Dimensionamento degli impianti fotovoltaici e dei sistemi di accumulo
+  summary: |-
+    Questo passaggio fornisce le prime informazioni di progetto sulla taglia delle apparecchiature energetiche necessarie, cioè impianti fotovoltaici e sistemi di accumulo. L'obiettivo è bilanciare produzione e consumo di energia per massimizzare l'autoconsumo e l'energia condivisa nella CER.
+  description: |-
+    Il servizio aiuta il promotore a determinare la potenza fotovoltaica ottimale da installare (kWp) in base ai consumi, allo spazio disponibile e al budget, e la capacità di accumulo adeguata (kWh).
+  input: |-
+    Profili di consumo elettrico dei partecipanti alla CER; configurazione della CER; superficie disponibile; vincoli di budget e capacità di investimento
+  result: |-
+    Taglia dell'impianto fotovoltaico (kWp e m²); scelta dei tipi di moduli; produzione annua stimata; capacità del sistema di accumulo (kWh)
+  remaining_hurdles: I risultati del dimensionamento si basano su ipotesi e modelli semplificati.
+  reviewed: false

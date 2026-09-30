@@ -1,0 +1,17 @@
+name: 'AT: Analysis - Consumption'
+step: analysis-consumption
+summary: |-
+  Determine the annual consumption. Your annual electricity demand is stated on your utility bill. You also find it on the web portal of your electricity provider and/or grid operator.
+description: Guidance
+input: Utility bill or Access to web portal
+result: Total annual consumption in kWh
+remaining_hurdles: Load dynamics are not reflected in the total consumption
+de:
+  name: 'AT: Analyse - Verbrauch'
+  summary: |-
+    Ermitteln Sie den Jahresverbrauch. Ihr jährlicher Strombedarf steht auf Ihrer Stromrechnung. Sie finden ihn auch im Webportal Ihres Stromlieferanten und/oder Netzbetreibers.
+  description: Anleitung
+  input: Stromrechnung oder Zugang zum Webportal
+  result: Gesamter Jahresverbrauch in kWh
+  remaining_hurdles: Die Lastdynamik ist im Gesamtverbrauch nicht abgebildet
+  reviewed: false

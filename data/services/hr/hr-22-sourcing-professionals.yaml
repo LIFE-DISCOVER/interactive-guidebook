@@ -1,0 +1,24 @@
+name: HR-22-Sourcing - Professionals
+step: sourcing-professionals
+summary: |-
+  To effectively realize your project, start by clearly communicating its characteristics to potential professionals.
+description: |-
+  Certified installers are registered and published on the official website of the MPGI.
+web_link: https://einstalaterioie.mpgi.hr/api/reports/instalateri/
+stakeholder: 3tCable d.o.o.
+input: |-
+  List of certified installers for PV plants; Communicate project characteristics; Find professionals; Compare prices
+result: |-
+  Execution of works on the photovoltaic system by certified installers; Execution of works on the existing connection; Professional supervision
+hr:
+  name: HR-22-Nabava - Stručnjaci
+  summary: |-
+    Za uspješnu realizaciju projekta započnite jasnim predstavljanjem njegovih značajki potencijalnim stručnjacima.
+  description: |-
+    Ovlašteni instalateri upisani su i objavljeni na službenim mrežnim stranicama MPGI-ja.
+  stakeholder: 3tCable d.o.o.
+  input: |-
+    Popis ovlaštenih instalatera fotonaponskih elektrana; predstavljanje značajki projekta; pronalazak stručnjaka; usporedba cijena
+  result: |-
+    Izvođenje radova na fotonaponskom sustavu od strane ovlaštenih instalatera; izvođenje radova na postojećem priključku; stručni nadzor
+  reviewed: false

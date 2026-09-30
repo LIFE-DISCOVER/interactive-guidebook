@@ -1,0 +1,21 @@
+name: HR-31-Membership - Engagement
+step: membership-engagement
+summary: |-
+  To maintain CEP member services and continuous engagement, keep members updated with the latest information and developments.
+description: Member services and continuous engagement.
+input: List of current and potential CEP members
+result: |-
+  Keeping members updated; Recruiting new members; Organizing informational and social events; Offering assistance
+remaining_hurdles: |-
+  Lack of new members. CEP membership is not attractive in Croatia due to administrative burden.
+hr:
+  name: HR-31-Članstvo - Uključenost
+  summary: |-
+    Da biste održali usluge za članove energetske zajednice i njihovu stalnu uključenost, redovito ih obavještavajte o najnovijim informacijama i događanjima.
+  description: Usluge za članove i njihova stalna uključenost.
+  input: Popis sadašnjih i potencijalnih članova energetske zajednice
+  result: |-
+    Redovito informiranje članova; privlačenje novih članova; organiziranje informativnih i društvenih događanja; pružanje pomoći
+  remaining_hurdles: |-
+    Nedostatak novih članova. Članstvo u energetskoj zajednici u Hrvatskoj nije privlačno zbog administrativnog opterećenja.
+  reviewed: false

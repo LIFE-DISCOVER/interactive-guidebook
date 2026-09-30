@@ -1,0 +1,18 @@
+name: HR-19-Financing - Private Capital
+step: financing-private-capital
+summary: |-
+  To finance your project, consider three primary options: applying for a bank loan, finding investors, and crowdfunding.
+description: Ensure financing and source external capital.
+input: |-
+  Project value and proposed timeline for construction; Preferred method for financing
+result: Apply for a bank loan; Find investors; Crowdfunding
+remaining_hurdles: High cost of loans. Crowdfunding not developed.
+hr:
+  name: HR-19-Financiranje - Privatni kapital
+  summary: |-
+    Za financiranje projekta razmotrite tri glavne mogućnosti: bankovni kredit, pronalazak ulagača i skupno financiranje (crowdfunding).
+  description: Osigurajte financiranje i pribavite vanjski kapital.
+  input: Vrijednost projekta i predloženi rok izgradnje; željeni način financiranja
+  result: Zahtjev za bankovni kredit; pronalazak ulagača; skupno financiranje
+  remaining_hurdles: Visoki troškovi kredita. Skupno financiranje nije razvijeno.
+  reviewed: false

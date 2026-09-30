@@ -1,0 +1,18 @@
+name: FR-04-Studying the feasibility of the project
+step: analysis-yield
+summary: |-
+  Once your project is launched and approved, it is necessary to have Professionals study the feasibility of your project. Feasibility study will give you a more precise simulation of production potential.
+description: The OSS provides a list of chartered professionals.
+input: |-
+  Decision to pay for feasibility study; Sufficient view on your project vision and opportunity.
+result: Reliable simulation of production, consumption, costs and benefits.
+fr:
+  name: FR-04-Étudier la faisabilité du projet
+  summary: |-
+    Une fois votre projet lancé et approuvé, il faut faire étudier sa faisabilité par des professionnels. L'étude de faisabilité vous donnera une simulation plus précise du potentiel de production.
+  description: Le guichet unique fournit une liste de professionnels agréés.
+  input: |-
+    Décision de financer l'étude de faisabilité ; vision suffisante de votre projet et de son opportunité.
+  result: |-
+    Simulation fiable de la production, de la consommation, des coûts et des bénéfices.
+  reviewed: false

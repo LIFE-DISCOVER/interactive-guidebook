@@ -1,0 +1,19 @@
+name: 'AT: Permit - Grid Connection'
+step: analysis-power-grid
+summary: |-
+  Grid operators cannot deny Systems <= 20 kW from being connected to the grid. A feed-in capacity is guaranteed up to the extent of the already agreed consumption capacity.
+description: Request an approval from power grid operator for your PV plant.
+input: |-
+  Peak power production in kWp; Name and address; site plan; Desired start date for feed-in; Maximum capacity of the system in kW; Number and location of meter points; Type of system and operation
+result: Grid access contract
+remaining_hurdles: The grid operator can limit the feed-in
+de:
+  name: 'AT: Genehmigung - Netzanschluss'
+  summary: |-
+    Netzbetreiber dürfen Anlagen bis 20 kW den Netzanschluss nicht verweigern. Eine Einspeiseleistung ist im Ausmaß der bereits vereinbarten Bezugsleistung garantiert.
+  description: Beantragen Sie beim Netzbetreiber die Freigabe für Ihre PV-Anlage.
+  input: |-
+    Spitzenleistung in kWp; Name und Adresse; Lageplan; gewünschter Einspeisebeginn; maximale Leistung der Anlage in kW; Anzahl und Lage der Zählpunkte; Art der Anlage und Betriebsweise
+  result: Netzzugangsvertrag
+  remaining_hurdles: Der Netzbetreiber kann die Einspeisung begrenzen
+  reviewed: false

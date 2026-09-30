@@ -1,0 +1,18 @@
+name: IT-Expression of interest in joining a REC
+step: community-building
+summary: |-
+  Inform the community about the creation of the REC in the municipality by publishing the notice of expression of interest and collecting memberships.
+description: Guidance and community engagement
+web_link: https://www.gse.it/servizi-per-te/autoconsumo/crea-o-partecipa-a-una-cer
+input: |-
+  Template of the notice of expression of interest to be adapted to municipality peculiarities.
+result: Notice of expression of interest adapted to municipality peculiarities
+it:
+  name: IT-Manifestazione di interesse ad aderire a una CER
+  summary: |-
+    Informare la cittadinanza della costituzione della CER nel Comune pubblicando l'avviso di manifestazione di interesse e raccogliendo le adesioni.
+  description: Guida e coinvolgimento della comunità
+  input: |-
+    Modello di avviso di manifestazione di interesse da adattare alle specificità del Comune.
+  result: Avviso di manifestazione di interesse adattato alle specificità del Comune
+  reviewed: false

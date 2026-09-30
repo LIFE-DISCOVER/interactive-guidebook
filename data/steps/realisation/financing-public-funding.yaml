@@ -1,0 +1,54 @@
+title: Financing - Public Funding
+sort_order: 231
+topic: PV Plant
+description: Ensure financing and source external capital.
+objective: |-
+  - Apply for grants
+  - Apply for state loans
+description_long: |-
+  To secure additional funding for your project, consider applying for grants and state loans. Grants can provide financial support without the need for repayment, though they often require meeting specific criteria and a competitive application process.
+de:
+  title: Finanzierung - Öffentliche Mittel
+  description: Sichern Sie die Finanzierung und beschaffen Sie externes Kapital.
+  objective: |-
+    - Förderungen beantragen
+    - Staatliche Kredite beantragen
+  description_long: |-
+    Um zusätzliche Mittel für Ihr Projekt zu sichern, kommen Förderungen und staatliche Kredite in Frage. Förderungen müssen nicht zurückgezahlt werden, setzen aber oft bestimmte Kriterien und ein wettbewerbliches Antragsverfahren voraus.
+  reviewed: false
+fr:
+  title: Financement - Aides publiques
+  description: Assurez le financement et trouvez des capitaux extérieurs.
+  objective: |-
+    - Demander des subventions
+    - Demander des prêts publics
+  description_long: |-
+    Pour obtenir des financements supplémentaires, pensez aux subventions et aux prêts publics. Les subventions apportent un soutien financier sans remboursement, mais elles exigent souvent de remplir des critères précis et de passer par un appel à projets concurrentiel.
+  reviewed: false
+it:
+  title: Finanziamento - Fondi pubblici
+  description: Assicurare il finanziamento e reperire capitale esterno.
+  objective: |-
+    - Richiedere contributi a fondo perduto
+    - Richiedere prestiti pubblici
+  description_long: |-
+    Per ottenere ulteriori fondi per il progetto, valutate contributi a fondo perduto e prestiti pubblici. I contributi offrono un sostegno finanziario che non va restituito, ma spesso richiedono requisiti specifici e una procedura di selezione competitiva.
+  reviewed: false
+hr:
+  title: Financiranje - Javna sredstva
+  description: Osigurajte financiranje i pribavite vanjski kapital.
+  objective: |-
+    - Prijava za bespovratna sredstva
+    - Prijava za državne kredite
+  description_long: |-
+    Da biste osigurali dodatna sredstva za projekt, razmotrite prijavu za bespovratna sredstva i državne kredite. Bespovratna sredstva ne treba vraćati, ali često zahtijevaju ispunjavanje posebnih kriterija i natječajni postupak.
+  reviewed: false
+bg:
+  title: Финансиране - Публични средства
+  description: Осигурете финансиране и привлечете външен капитал.
+  objective: |-
+    - Кандидатстване за безвъзмездно финансиране
+    - Кандидатстване за държавни кредити
+  description_long: |-
+    За да осигурите допълнителни средства за проекта, обмислете кандидатстване за безвъзмездно финансиране и държавни кредити. Безвъзмездното финансиране не се връща, но често изисква изпълнение на конкретни критерии и конкурсна процедура.
+  reviewed: false

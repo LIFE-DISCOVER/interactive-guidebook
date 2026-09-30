@@ -1,0 +1,18 @@
+name: FR-12-Contracting purchase contract
+step: uptake-agreement
+summary: |-
+  You can contract a purchase contract if you choose to sell part or totality of your electricity. Either you sell it within a collective self-consumption operation (CSC) or to an independent buyer (PPA), or to an obliged buyer for 20 years.
+description: The OSS helps you through the process.
+web_link: https://www.edf-oa.fr/content/preparer-un-projet-photovoltaique
+input: |-
+  Complete Connection Requirement (DCR); Certificate of conformity; Service activation
+result: Obligated Purchase Contract for 20 years if you choose so.
+fr:
+  name: FR-12-Conclure un contrat d'achat
+  summary: |-
+    Vous pouvez conclure un contrat d'achat si vous choisissez de vendre tout ou partie de votre électricité : soit dans le cadre d'une opération d'autoconsommation collective (ACC), soit à un acheteur indépendant (PPA), soit à un acheteur obligé pendant 20 ans.
+  description: Le guichet unique vous accompagne dans la démarche.
+  input: |-
+    Demande complète de raccordement (DCR) ; attestation de conformité ; mise en service
+  result: Contrat d'obligation d'achat sur 20 ans, si vous le choisissez.
+  reviewed: false

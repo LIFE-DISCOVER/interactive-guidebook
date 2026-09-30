@@ -1,0 +1,23 @@
+name: HR-11-Analysis - Consumption
+step: analysis-consumption
+summary: |-
+  Understanding your energy needs is crucial for optimizing a PV installation. Start by assessing your daily, monthly, and annual consumption.
+description: |-
+  Preliminary Feasibility Analysis of the Construction of an Integrated Photovoltaic System - Analysis of electricity consumption profile in the reference year.
+input: |-
+  Implementation of the analysis: Optimal power of the photovoltaic system; The productivity of the photovoltaic system; Share of RES in own consumption
+result: |-
+  Understanding your daily/monthly/annual electricity demand; consumption profile and expected peaks
+remaining_hurdles: Unfavorable orientation of the building, shading or inadequate construction
+hr:
+  name: HR-11-Analiza - Potrošnja
+  summary: |-
+    Razumijevanje vlastitih energetskih potreba ključno je za optimizaciju fotonaponske instalacije. Započnite procjenom dnevne, mjesečne i godišnje potrošnje.
+  description: |-
+    Preliminarna analiza izvodljivosti izgradnje integriranog fotonaponskog sustava - analiza profila potrošnje električne energije u referentnoj godini.
+  input: |-
+    Provedba analize: optimalna snaga fotonaponskog sustava; proizvodnost fotonaponskog sustava; udio OIE u vlastitoj potrošnji
+  result: |-
+    Razumijevanje dnevne/mjesečne/godišnje potrebe za električnom energijom; profil potrošnje i očekivani vrhovi
+  remaining_hurdles: Nepovoljna orijentacija zgrade, zasjenjenje ili neodgovarajuća konstrukcija
+  reviewed: false

@@ -1,0 +1,21 @@
+name: 'BG 03: CEP Purpose and Vision Proposition'
+step: value-proposition
+summary: |-
+  Definition of the purpose and vision of the CEP, including the outcomes, the overall benefit, and how the members will benefit from it. This very initial step makes sure that all participants share the same values and are on one page regarding the project concept.
+description: |-
+  Formulate correctly the economic and technical objectives of your REC and its tasks on a conceptual stage. Next, build a step by step action plan and different versions of the business plan.
+input: |-
+  Protocol of the initiative committee meeting with defined and potential project concepts, visions and objectives.
+result: |-
+  Economic, social and environmental plan of the EC; Presentation of the project vision
+bg:
+  name: 'BG 03: Цел и визия на ОЕП'
+  summary: |-
+    Определяне на целта и визията на ОЕП, включително резултатите, общата полза и ползата за членовете. Тази първоначална стъпка гарантира, че всички участници споделят едни и същи ценности и имат еднакво разбиране за концепцията на проекта.
+  description: |-
+    Формулирайте правилно икономическите и техническите цели на своята ВЕО и нейните задачи на концептуален етап. След това изгответе поетапен план за действие и различни варианти на бизнес плана.
+  input: |-
+    Протокол от заседание на инициативния комитет с определени и възможни концепции, визии и цели на проекта.
+  result: |-
+    Икономически, социален и екологичен план на ЕО; представяне на визията на проекта
+  reviewed: false

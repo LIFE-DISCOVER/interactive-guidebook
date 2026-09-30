@@ -1,0 +1,18 @@
+name: FR-11-Putting the plant into service
+step: commissioning-plant
+summary: |-
+  Once you have accepted the Proposition (PTF or PDR), you can proceed to the building of the plant. Then you will have to commission the plant to ensure it is perfectly secure. Consuel is the mandated organism for commissioning.
+description: Plant commissioning and service activation process.
+web_link: https://www.consuel.com/
+stakeholder: ENEDIS
+result: |-
+  Certificate of conformity; Contract for exploitation (Contrat d'Acces et d'Exploitation CAE)
+fr:
+  name: FR-11-Mettre la centrale en service
+  summary: |-
+    Une fois la proposition (PTF ou PDR) acceptée, vous pouvez faire construire la centrale. Il faut ensuite la faire contrôler pour garantir sa parfaite sécurité. Le Consuel est l'organisme mandaté pour ce contrôle.
+  description: Contrôle de la centrale et procédure de mise en service.
+  stakeholder: ENEDIS
+  result: |-
+    Attestation de conformité ; contrat d'exploitation (Contrat d'Accès et d'Exploitation, CAE)
+  reviewed: false

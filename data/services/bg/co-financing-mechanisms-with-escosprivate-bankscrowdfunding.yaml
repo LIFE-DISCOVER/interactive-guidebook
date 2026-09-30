@@ -1,0 +1,23 @@
+name: 'BG 17: Co-financing mechanisms with ESCOs/Private Banks/Crowdfunding'
+step: financing-private-capital
+summary: |-
+  There are three potential ways to privately co-fund an EC project - getting a loan from a private bank, gathering resources from different investors in the form of crowdfunding and/or attracting one bigger investor in the form of an ESCO.
+description: |-
+  You will be provided with a techno-economic advice and contacts to pre-selected private banks and ESCOs. Furthermore, the ECs will be introduced to crowdfunding mechanisms.
+stakeholder: ESCO Bulgaria
+input: Techno-economic analysis and business plan
+result: The result is a complete realistic financing structure of the projects.
+remaining_hurdles: |-
+  The willingness of private banks and ESCOs to participate depends on the economic feasibility of the projects.
+bg:
+  name: 'BG 17: Механизми за съфинансиране с ЕСКО/частни банки/краудфъндинг'
+  summary: |-
+    Има три възможни начина за частно съфинансиране на проект на ЕО - кредит от частна банка, набиране на средства от различни инвеститори чрез краудфъндинг и/или привличане на един по-голям инвеститор под формата на ЕСКО.
+  description: |-
+    Ще получите технико-икономически съвети и контакти с предварително подбрани частни банки и ЕСКО. Освен това ЕО ще бъдат запознати с механизмите на краудфъндинга.
+  stakeholder: ESCO Bulgaria
+  input: Технико-икономически анализ и бизнес план
+  result: Резултатът е пълна и реалистична структура на финансиране на проектите.
+  remaining_hurdles: |-
+    Готовността на частните банки и ЕСКО да участват зависи от икономическата изгодност на проектите.
+  reviewed: false

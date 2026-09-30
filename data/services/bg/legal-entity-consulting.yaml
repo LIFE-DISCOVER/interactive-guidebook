@@ -1,0 +1,24 @@
+name: 'BG 22: Legal entity consulting'
+step: establish-legal-entity
+summary: |-
+  Review of national regulations for the establishment of a legal entity to set up the REC or operate a CEP, including rules of procedures, limitations and possible (dis)advantages.
+description: |-
+  Analyse existing legal forms that facilitates the operation of a REC and alleviate bureaucracy and administrative burden. Discuss with the Initiative Committee the possible legal form.
+web_link: https://portal.registryagency.bg/home-cr
+input: |-
+  Description of participant - community leaders, citizens, SMEs, NGOs. Determine which legal entity matches the needs and objectives.
+result: |-
+  Legal documents prepared, including Articles of Association, Protocol for a General Assembly, Management contracts, Certificate for registration in the Trade Register.
+remaining_hurdles: Type of complicated intertwined legal acts as transposed from REDII.
+bg:
+  name: 'BG 22: Консултиране за юридическото лице'
+  summary: |-
+    Преглед на националната уредба за създаване на юридическо лице за учредяване на ВЕО или управление на ОЕП, включително правилници, ограничения и възможни предимства и недостатъци.
+  description: |-
+    Анализирайте съществуващите правни форми, които улесняват работата на ВЕО и намаляват бюрокрацията и административната тежест. Обсъдете с инициативния комитет възможната правна форма.
+  input: |-
+    Описание на участниците - лидери на общността, граждани, МСП, НПО. Определете коя правна форма отговаря на нуждите и целите.
+  result: |-
+    Подготвени правни документи, включително устав, протокол от общо събрание, договори за управление, удостоверение за вписване в Търговския регистър.
+  remaining_hurdles: Сложно преплетени нормативни актове, транспониращи RED II.
+  reviewed: false

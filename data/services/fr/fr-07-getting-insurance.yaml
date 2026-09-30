@@ -1,0 +1,15 @@
+name: FR-07-Getting insurance
+step: insurance
+summary: |-
+  Once you have validated quotes for installation works, you need to check three types of insurance. Two are mandatory (installer insured for the systems; you as an electricity producer must contract a liability insurance) and one is optional.
+description: The OSS advises on insurance requirements.
+input: Validated quotes and work plans.
+result: Insurance contract.
+fr:
+  name: FR-07-S'assurer
+  summary: |-
+    Une fois les devis de travaux validés, vous devez vérifier trois types d'assurance. Deux sont obligatoires (l'installateur doit être assuré pour les systèmes ; en tant que producteur d'électricité, vous devez souscrire une assurance responsabilité civile) et une est facultative.
+  description: Le guichet unique conseille sur les exigences en matière d'assurance.
+  input: Devis et plans de travaux validés.
+  result: Contrat d'assurance.
+  reviewed: false

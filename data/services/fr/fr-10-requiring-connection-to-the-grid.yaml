@@ -1,0 +1,21 @@
+name: FR-10-Requiring connection to the grid
+step: analysis-power-grid
+summary: |-
+  Connection to the grid is required for any PV plant. You have to go through a standard procedure with your DSO, Enedis in Paris.
+description: The OSS helps the community navigate through the administrative process.
+web_link: https://connect-racco.enedis.fr/prac-internet/custom/C5E/accueil
+stakeholder: ENEDIS
+input: |-
+  Specifications about the system hardware and its power; Permit from local authority.
+result: Complete Connection Requirement (DCR)
+fr:
+  name: FR-10-Demander le raccordement au réseau
+  summary: |-
+    Toute centrale photovoltaïque doit être raccordée au réseau. Vous devez suivre une procédure standard avec votre gestionnaire de réseau de distribution, Enedis à Paris.
+  description: |-
+    Le guichet unique aide la communauté à s'orienter dans la procédure administrative.
+  stakeholder: ENEDIS
+  input: |-
+    Caractéristiques du matériel et de la puissance de l'installation ; autorisation de l'autorité locale.
+  result: Demande complète de raccordement (DCR)
+  reviewed: false

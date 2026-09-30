@@ -1,0 +1,24 @@
+name: FR-02-Analysing opportunity 4-Wiring
+step: analysis-wiring
+summary: |-
+  The goal of this step is to anticipate possible works of adaptation of your building wiring infrastructure to a future PV plant. The wiring infrastructure in your building connects the public grid to each of the private apartment and each of the collective equipments.
+description: |-
+  The OSS helps you understand your wiring infrastructure and advise you how to get in touch with Enedis to assess its capacity to support the electric current of your future plant.
+web_link: https://www.enedis.fr/loi-elan-colonnes-montantes-electriques
+input: Wiring scheme and relevant information about wiring infrastructure
+result: |-
+  Knowledge of the current capacity of your wiring infrastructure; Anticipation of necessary works
+remaining_hurdles: |-
+  To confirm the necessity, nature, cost and time of works, you may need to formally apply to Enedis procedure
+fr:
+  name: FR-02-Analyse d'opportunité 4-Colonne électrique
+  summary: |-
+    Cette étape vise à anticiper d'éventuels travaux d'adaptation de l'infrastructure électrique de votre bâtiment à une future centrale photovoltaïque. La colonne électrique de votre immeuble relie le réseau public à chaque logement et à chaque équipement collectif.
+  description: |-
+    Le guichet unique vous aide à comprendre votre infrastructure électrique et vous conseille pour contacter Enedis afin d'évaluer sa capacité à supporter le courant de votre future centrale.
+  input: Schéma électrique et informations utiles sur l'infrastructure électrique
+  result: |-
+    Connaissance de la capacité actuelle de votre infrastructure électrique ; anticipation des travaux nécessaires
+  remaining_hurdles: |-
+    Pour confirmer la nécessité, la nature, le coût et la durée des travaux, vous devrez peut-être engager formellement la procédure Enedis
+  reviewed: false

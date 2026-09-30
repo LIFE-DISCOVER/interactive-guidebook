@@ -1,0 +1,1383 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 22:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Draft translation - pending review by native speakers\n"
+"Language-Team: DISCOVER partners (bg)\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: accounts/admin.py:29
+msgid "Personal info"
+msgstr "Лична информация"
+
+#: accounts/admin.py:30
+msgid "Permissions"
+msgstr "Права"
+
+#: accounts/admin.py:33
+msgid "Important dates"
+msgstr "Важни дати"
+
+#: accounts/forms.py:15
+msgid "Setup code"
+msgstr "Код за настройка"
+
+#: accounts/forms.py:16
+msgid ""
+"Shown in the server log. You can also print it with: python manage.py "
+"setup_code"
+msgstr ""
+"Показва се в сървърния дневник. Можете да го изведете и с: python manage.py "
+"setup_code"
+
+#: accounts/forms.py:19
+msgid "First name"
+msgstr "Име"
+
+#: accounts/forms.py:20
+msgid "Last name"
+msgstr "Фамилия"
+
+#: accounts/forms.py:21
+msgid "Administrator email"
+msgstr "Имейл на администратора"
+
+#: accounts/forms.py:21
+msgid "You will use this address to sign in."
+msgstr "С този адрес ще влизате в системата."
+
+#: accounts/forms.py:25 catalog/templates/catalog/guidebook.html:35
+#: catalog/templates/catalog/service_list.html:27
+msgid "Country"
+msgstr "Държава"
+
+#: accounts/forms.py:26 catalog/templates/catalog/guidebook.html:37
+#: catalog/templates/catalog/service_list.html:29
+msgid "All countries"
+msgstr "Всички държави"
+
+#: accounts/forms.py:27
+msgid "Limits the service catalog to this country. Can be changed later."
+msgstr ""
+"Ограничава каталога с услуги до тази държава. Може да се промени по-късно."
+
+#: accounts/forms.py:30
+msgid "Password"
+msgstr "Парола"
+
+#: accounts/forms.py:36
+msgid "Confirm password"
+msgstr "Потвърдете паролата"
+
+#: accounts/forms.py:44
+msgid "This setup code is not correct."
+msgstr "Кодът за настройка не е правилен."
+
+#: accounts/forms.py:55
+msgid "The two passwords do not match."
+msgstr "Двете пароли не съвпадат."
+
+#: accounts/models.py:49
+msgid "email address"
+msgstr "имейл адрес"
+
+#: accounts/models.py:55 catalog/models.py:39
+msgid "country"
+msgstr "държава"
+
+#: accounts/models.py:58
+msgid "language"
+msgstr "език"
+
+#: accounts/models.py:62
+msgid ""
+"Interface language shown after signing in. Updated when the user switches "
+"language."
+msgstr ""
+"Език на интерфейса след влизане. Обновява се, когато потребителят смени "
+"езика."
+
+#: accounts/models.py:71
+msgid "user"
+msgstr "потребител"
+
+#: accounts/models.py:72
+msgid "users"
+msgstr "потребители"
+
+#: accounts/templates/accounts/login.html:4
+#: accounts/templates/accounts/login.html:16
+#: accounts/templates/accounts/login.html:20 templates/home.html:27
+#: templates/home.html:211
+msgid "Sign In"
+msgstr "Вход"
+
+#: accounts/templates/accounts/setup.html:4
+msgid "Welcome — first-time setup"
+msgstr "Добре дошли – първоначална настройка"
+
+#: accounts/templates/accounts/setup.html:13
+msgid "Welcome to the Interactive Guidebook"
+msgstr "Добре дошли в Интерактивния наръчник"
+
+#: accounts/templates/accounts/setup.html:15
+msgid ""
+"This installation has no accounts yet. Create the administrator account to "
+"get started. The administrator signs in with their email address and can "
+"then create accounts for energy agency managers."
+msgstr ""
+"Тази инсталация все още няма акаунти. За да започнете, създайте "
+"администраторски акаунт. Администраторът влиза със своя имейл адрес и след "
+"това може да създава акаунти за мениджърите от енергийните агенции."
+
+#: accounts/templates/accounts/setup.html:27
+msgid "Step 1 · Confirm you run this server"
+msgstr "Стъпка 1 · Потвърдете, че управлявате този сървър"
+
+#: accounts/templates/accounts/setup.html:29
+msgid ""
+"The setup code is written to the application log when this page is opened. "
+"On the server, print it with:"
+msgstr ""
+"Кодът за настройка се записва в дневника на приложението при отваряне на "
+"тази страница. На сървъра го изведете с:"
+
+#: accounts/templates/accounts/setup.html:34
+msgid "Step 2 · Administrator"
+msgstr "Стъпка 2 · Администратор"
+
+#: accounts/templates/accounts/setup.html:50
+msgid "Step 3 · Password"
+msgstr "Стъпка 3 · Парола"
+
+#: accounts/templates/accounts/setup.html:59
+msgid "Create administrator"
+msgstr "Създаване на администратор"
+
+#: accounts/views.py:110
+#, python-format
+msgid ""
+"Welcome, %(name)s! Your administrator account is ready. Create accounts for "
+"your managers in the Admin area."
+msgstr ""
+"Добре дошли, %(name)s! Вашият администраторски акаунт е готов. Създайте "
+"акаунти за мениджърите в администраторския панел."
+
+#: catalog/admin.py:27
+msgid "Content file"
+msgstr "Файл със съдържание"
+
+#: catalog/admin.py:35
+msgid "Edit on GitHub"
+msgstr "Редактиране в GitHub"
+
+#: catalog/models.py:7 templates/base.html:133 templates/home.html:90
+msgid "Planning"
+msgstr "Планиране"
+
+#: catalog/models.py:8 templates/base.html:134 templates/home.html:113
+msgid "Realisation"
+msgstr "Изпълнение"
+
+#: catalog/models.py:9 templates/base.html:135 templates/home.html:135
+msgid "Operation"
+msgstr "Експлоатация"
+
+#: catalog/models.py:40
+msgid "countries"
+msgstr "държави"
+
+#: catalog/models.py:132 catalog/models.py:153
+msgid "translation"
+msgstr "превод"
+
+#: catalog/models.py:133 catalog/models.py:154
+msgid "translations"
+msgstr "преводи"
+
+#: catalog/templates/catalog/_text_language_switch.html:4
+msgid "Language of the service text"
+msgstr "Език на текста на услугата"
+
+#: catalog/templates/catalog/_text_language_switch.html:11
+msgid ""
+"Draft translation – not yet reviewed. The English text is authoritative."
+msgstr ""
+"Чернова на превода – все още не е проверена. Меродавен е текстът на "
+"английски език."
+
+#: catalog/templates/catalog/guidebook.html:5
+#: catalog/templates/catalog/guidebook.html:15 templates/base.html:120
+msgid "Interactive Guidebook"
+msgstr "Интерактивен наръчник"
+
+#: catalog/templates/catalog/guidebook.html:16
+msgid "Step-by-step guide for Community Energy Projects"
+msgstr "Ръководство стъпка по стъпка за проекти за енергийни общности"
+
+#: catalog/templates/catalog/guidebook.html:24
+msgid ""
+"Some texts on this page are draft translations that have not been reviewed "
+"yet."
+msgstr ""
+"Някои текстове на тази страница са чернови на преводи, които все още не са "
+"проверени."
+
+#: catalog/templates/catalog/guidebook.html:29
+#, python-format
+msgid "Showing services for <strong>%(country)s</strong>."
+msgstr "Услуги за <strong>%(country)s</strong>."
+
+#: catalog/templates/catalog/guidebook.html:31
+msgid ""
+"<strong>Select your country</strong> to see only the services relevant to "
+"your pilot region."
+msgstr ""
+"<strong>Изберете своята държава</strong>, за да виждате само услугите, "
+"свързани с вашия пилотен регион."
+
+#: catalog/templates/catalog/guidebook.html:42
+msgid "Show"
+msgstr "Покажи"
+
+#: catalog/templates/catalog/guidebook.html:48
+#, python-format
+msgid "Make %(country)s my default"
+msgstr "Задай %(country)s по подразбиране"
+
+#: catalog/templates/catalog/guidebook.html:59 templates/home.html:98
+#: templates/home.html:121 templates/home.html:143
+#, python-format
+msgid "%(counter)s step"
+msgid_plural "%(counter)s steps"
+msgstr[0] "%(counter)s стъпка"
+msgstr[1] "%(counter)s стъпки"
+
+#: catalog/templates/catalog/guidebook.html:74
+#: catalog/templates/catalog/service_list.html:63
+#, python-format
+msgid "%(counter)s service"
+msgid_plural "%(counter)s services"
+msgstr[0] "%(counter)s услуга"
+msgstr[1] "%(counter)s услуги"
+
+#: catalog/templates/catalog/guidebook.html:86
+msgid "Details"
+msgstr "Подробности"
+
+#: catalog/templates/catalog/guidebook.html:88
+#: catalog/templates/catalog/service_detail.html:26
+#: initiators/templates/initiators/service_link.html:40
+msgid "Official link"
+msgstr "Официална връзка"
+
+#: catalog/templates/catalog/guidebook.html:100
+msgid "No country-specific services for this step yet."
+msgstr "Все още няма услуги за тази стъпка, специфични за държавата."
+
+#: catalog/templates/catalog/service_detail.html:12
+#: catalog/templates/catalog/service_list.html:4 templates/base.html:38
+#: templates/base.html:40
+msgid "Services"
+msgstr "Услуги"
+
+#: catalog/templates/catalog/service_detail.html:34
+msgid "Offered by"
+msgstr "Предлага се от"
+
+#: catalog/templates/catalog/service_detail.html:38
+msgid "What the initiator needs to provide"
+msgstr "Какво трябва да предостави инициаторът"
+
+#: catalog/templates/catalog/service_detail.html:42
+msgid "Result"
+msgstr "Резултат"
+
+#: catalog/templates/catalog/service_detail.html:46
+msgid "Remaining hurdles"
+msgstr "Оставащи пречки"
+
+#: catalog/templates/catalog/service_detail.html:56 templates/base.html:131
+msgid "Lifecycle Phases"
+msgstr "Фази на проекта"
+
+#: catalog/templates/catalog/service_detail.html:67
+msgid "No phases assigned."
+msgstr "Няма зададени фази."
+
+#: catalog/templates/catalog/service_detail.html:72
+msgid "Hurdles Addressed"
+msgstr "Преодолявани пречки"
+
+#: catalog/templates/catalog/service_detail.html:86
+msgid "No hurdles assigned."
+msgstr "Няма зададени пречки."
+
+#: catalog/templates/catalog/service_list.html:12 templates/base.html:121
+#: templates/home.html:164 templates/home.html:201
+msgid "Service Catalog"
+msgstr "Каталог с услуги"
+
+#: catalog/templates/catalog/service_list.html:18
+msgctxt "phase filter"
+msgid "All"
+msgstr "Всички"
+
+#: catalog/templates/catalog/service_list.html:34
+msgid "Search services…"
+msgstr "Търсене на услуги…"
+
+#: catalog/templates/catalog/service_list.html:35
+msgid "Search"
+msgstr "Търсене"
+
+#: catalog/templates/catalog/service_list.html:37
+msgid "Clear"
+msgstr "Изчисти"
+
+#: catalog/templates/catalog/service_list.html:45
+#, python-format
+msgid "%(counter)s service in %(country)s matching “%(query)s”"
+msgid_plural "%(counter)s services in %(country)s matching “%(query)s”"
+msgstr[0] "%(counter)s услуга (%(country)s) за „%(query)s“"
+msgstr[1] "%(counter)s услуги (%(country)s) за „%(query)s“"
+
+#: catalog/templates/catalog/service_list.html:51
+#, python-format
+msgid "%(counter)s service in %(country)s"
+msgid_plural "%(counter)s services in %(country)s"
+msgstr[0] "%(counter)s услуга (%(country)s)"
+msgstr[1] "%(counter)s услуги (%(country)s)"
+
+#: catalog/templates/catalog/service_list.html:57
+#, python-format
+msgid "%(counter)s service matching “%(query)s”"
+msgid_plural "%(counter)s services matching “%(query)s”"
+msgstr[0] "%(counter)s услуга за „%(query)s“"
+msgstr[1] "%(counter)s услуги за „%(query)s“"
+
+#: catalog/templates/catalog/service_list.html:88
+#, python-format
+msgid "No services found matching “%(query)s”."
+msgstr "Няма намерени услуги за „%(query)s“."
+
+#: catalog/templates/catalog/service_list.html:90
+msgid "No services found."
+msgstr "Няма намерени услуги."
+
+#: catalog/templates/catalog/service_list.html:93
+msgid "Clear filters"
+msgstr "Изчисти филтрите"
+
+#: catalog/views.py:153
+#, python-format
+msgid "%(country)s is now your default country."
+msgstr "%(country)s вече е вашата държава по подразбиране."
+
+#: initiators/forms.py:44
+msgid "New Phase"
+msgstr "Нова фаза"
+
+#: initiators/forms.py:49
+msgid "Notes (optional)"
+msgstr "Бележки (по избор)"
+
+#: initiators/forms.py:50
+msgid "Reason for the phase change or any relevant context."
+msgstr "Причина за смяната на фазата или друга полезна информация."
+
+#: initiators/forms.py:77
+msgid "This service has already been applied to this project."
+msgstr "Тази услуга вече е приложена към този проект."
+
+#: initiators/forms.py:87
+msgid "Personal message for the initiator (optional)"
+msgstr "Лично съобщение до инициатора (по избор)"
+
+#: initiators/forms.py:88
+msgid "Shown at the top of the page the initiator opens."
+msgstr "Показва се в горната част на страницата, която инициаторът отваря."
+
+#: initiators/forms.py:96 initiators/templates/initiators/service_link.html:46
+msgid "Your note"
+msgstr "Вашата бележка"
+
+#: initiators/forms.py:99
+msgid "You can send this note once."
+msgstr "Можете да изпратите тази бележка само веднъж."
+
+#: initiators/models.py:14
+msgid "first name"
+msgstr "име"
+
+#: initiators/models.py:15
+msgid "last name"
+msgstr "фамилия"
+
+#: initiators/models.py:16
+msgid "email"
+msgstr "имейл"
+
+#: initiators/models.py:17
+msgid "phone"
+msgstr "телефон"
+
+#: initiators/models.py:18
+msgid "organization"
+msgstr "организация"
+
+#: initiators/models.py:19
+msgid "notes"
+msgstr "бележки"
+
+#: initiators/models.py:24 initiators/models.py:49
+msgid "initiator"
+msgstr "инициатор"
+
+#: initiators/models.py:25
+msgid "initiators"
+msgstr "инициатори"
+
+#: initiators/models.py:37
+msgid "Active"
+msgstr "Активен"
+
+#: initiators/models.py:38
+msgid "On Hold"
+msgstr "Спрян временно"
+
+#: initiators/models.py:39
+msgid "Completed"
+msgstr "Завършен"
+
+#: initiators/models.py:40
+msgid "Cancelled"
+msgstr "Отменен"
+
+#: initiators/models.py:43
+msgid "Renewable Energy Community"
+msgstr "Общност за възобновяема енергия"
+
+#: initiators/models.py:44
+msgid "Citizen Energy Community"
+msgstr "Гражданска енергийна общност"
+
+#: initiators/models.py:45
+msgid "Collective Self Consumption"
+msgstr "Колективно собствено потребление"
+
+#: initiators/models.py:46
+msgid "Other"
+msgstr "Друго"
+
+#: initiators/models.py:51
+msgid "name"
+msgstr "име"
+
+#: initiators/models.py:52
+msgid "description"
+msgstr "описание"
+
+#: initiators/models.py:54
+msgid "current phase"
+msgstr "текуща фаза"
+
+#: initiators/models.py:56
+msgid "status"
+msgstr "статус"
+
+#: initiators/models.py:57
+msgid "started on"
+msgstr "начална дата"
+
+#: initiators/models.py:60
+msgid "category"
+msgstr "категория"
+
+#: initiators/models.py:61
+msgid "Legal/organisational category of the community energy project."
+msgstr "Правна или организационна категория на проекта за енергийна общност."
+
+#: initiators/models.py:65
+msgid "Total installed PV capacity in kWp."
+msgstr "Обща инсталирана фотоволтаична мощност в kWp."
+
+#: initiators/models.py:66
+msgid "Power installed (kWp)"
+msgstr "Инсталирана мощност (kWp)"
+
+#: initiators/models.py:70
+msgid "Annual energy generation in kWh."
+msgstr "Годишно производство на енергия в kWh."
+
+#: initiators/models.py:71
+msgid "Energy generation (kWh/year)"
+msgstr "Производство на енергия (kWh/год.)"
+
+#: initiators/models.py:75
+msgid "Total investment in renewable energy in EUR."
+msgstr "Обща инвестиция във възобновяема енергия в EUR."
+
+#: initiators/models.py:76
+msgid "Investment in renewable energy (EUR)"
+msgstr "Инвестиция във възобновяема енергия (EUR)"
+
+#: initiators/models.py:78
+msgid "address"
+msgstr "адрес"
+
+#: initiators/models.py:78
+msgid "Project site address."
+msgstr "Адрес на обекта на проекта."
+
+#: initiators/models.py:83
+msgid "project"
+msgstr "проект"
+
+#: initiators/models.py:84
+msgid "projects"
+msgstr "проекти"
+
+#: initiators/models.py:105
+msgid "service"
+msgstr "услуга"
+
+#: initiators/models.py:111
+msgid "applied by"
+msgstr "приложена от"
+
+#: initiators/models.py:113
+msgid "applied on"
+msgstr "приложена на"
+
+#: initiators/models.py:114
+msgid "outcome notes"
+msgstr "бележки за резултата"
+
+#: initiators/models.py:135
+msgid "applied service"
+msgstr "приложена услуга"
+
+#: initiators/models.py:143
+msgid "created by"
+msgstr "създадена от"
+
+#: initiators/models.py:145
+msgid "created at"
+msgstr "създадена на"
+
+#: initiators/models.py:146
+msgid "personal message"
+msgstr "лично съобщение"
+
+#: initiators/models.py:147
+msgid "active"
+msgstr "активна"
+
+#: initiators/models.py:148
+msgid "note from initiator"
+msgstr "бележка от инициатора"
+
+#: initiators/models.py:149
+msgid "submitted at"
+msgstr "изпратена на"
+
+#: initiators/models.py:153
+msgid "service link"
+msgstr "връзка към услуга"
+
+#: initiators/models.py:154
+msgid "service links"
+msgstr "връзки към услуги"
+
+#: initiators/templates/initiators/initiator_detail.html:6
+#: initiators/templates/initiators/initiator_form.html:10
+#: initiators/templates/initiators/initiator_list.html:3
+#: initiators/templates/initiators/initiator_list.html:6 templates/base.html:44
+#: templates/base.html:46 templates/base.html:123 templates/home.html:202
+msgid "Initiators"
+msgstr "Инициатори"
+
+#: initiators/templates/initiators/initiator_detail.html:9
+msgid "Edit"
+msgstr "Редактиране"
+
+#: initiators/templates/initiators/initiator_detail.html:14
+msgid "Email"
+msgstr "Имейл"
+
+#: initiators/templates/initiators/initiator_detail.html:15
+msgid "Phone"
+msgstr "Телефон"
+
+#: initiators/templates/initiators/initiator_detail.html:16
+msgid "Organization"
+msgstr "Организация"
+
+#: initiators/templates/initiators/initiator_detail.html:17
+msgid "Notes"
+msgstr "Бележки"
+
+#: initiators/templates/initiators/initiator_detail.html:22
+#: initiators/templates/initiators/project_list.html:3 templates/base.html:49
+#: templates/base.html:51 templates/base.html:124 templates/home.html:203
+msgid "Projects"
+msgstr "Проекти"
+
+#: initiators/templates/initiators/initiator_detail.html:23
+#: initiators/templates/initiators/project_form.html:4
+#: initiators/templates/initiators/project_form.html:19
+msgid "New Project"
+msgstr "Нов проект"
+
+#: initiators/templates/initiators/initiator_detail.html:40
+msgid "No projects yet."
+msgstr "Все още няма проекти."
+
+#: initiators/templates/initiators/initiator_detail.html:40
+msgid "Create the first project"
+msgstr "Създайте първия проект"
+
+#: initiators/templates/initiators/initiator_form.html:3
+#: initiators/templates/initiators/initiator_form.html:13
+#: initiators/templates/initiators/project_form.html:4
+#: initiators/templates/initiators/project_form.html:19
+#, python-format
+msgid "Edit %(name)s"
+msgstr "Редактиране на %(name)s"
+
+#: initiators/templates/initiators/initiator_form.html:3
+#: initiators/templates/initiators/initiator_form.html:13
+#: initiators/templates/initiators/initiator_list.html:8
+msgid "New Initiator"
+msgstr "Нов инициатор"
+
+#: initiators/templates/initiators/initiator_form.html:21
+#: initiators/templates/initiators/project_form.html:63
+msgid "Save"
+msgstr "Запази"
+
+#: initiators/templates/initiators/initiator_form.html:23
+#: initiators/templates/initiators/initiator_form.html:25
+#: initiators/templates/initiators/project_form.html:65
+#: initiators/templates/initiators/project_form.html:67
+#: initiators/templates/initiators/project_phase_form.html:20
+#: initiators/templates/initiators/service_application_form.html:16
+msgid "Cancel"
+msgstr "Отказ"
+
+#: initiators/templates/initiators/initiator_list.html:27
+msgid "No initiators yet."
+msgstr "Все още няма инициатори."
+
+#: initiators/templates/initiators/initiator_list.html:27
+msgid "Add the first one."
+msgstr "Добавете първия."
+
+#: initiators/templates/initiators/project_detail.html:17
+msgid "Edit Project"
+msgstr "Редактиране на проекта"
+
+#: initiators/templates/initiators/project_detail.html:22
+msgid "Status"
+msgstr "Статус"
+
+#: initiators/templates/initiators/project_detail.html:24
+msgid "Current Phase"
+msgstr "Текуща фаза"
+
+#: initiators/templates/initiators/project_detail.html:27
+msgid "Change"
+msgstr "Промяна"
+
+#: initiators/templates/initiators/project_detail.html:29
+msgid "Started"
+msgstr "Начало"
+
+#: initiators/templates/initiators/project_detail.html:30
+msgid "Category"
+msgstr "Категория"
+
+#: initiators/templates/initiators/project_detail.html:31
+msgid "Description"
+msgstr "Описание"
+
+#: initiators/templates/initiators/project_detail.html:32
+msgid "Address"
+msgstr "Адрес"
+
+#: initiators/templates/initiators/project_detail.html:37
+msgid "Technical & Financial Data"
+msgstr "Технически и финансови данни"
+
+#: initiators/templates/initiators/project_detail.html:40
+msgid "Power installed"
+msgstr "Инсталирана мощност"
+
+#: initiators/templates/initiators/project_detail.html:43
+msgid "Energy generation"
+msgstr "Производство на енергия"
+
+#: initiators/templates/initiators/project_detail.html:43
+#, python-format
+msgid "%(value)s kWh/year"
+msgstr "%(value)s kWh/год."
+
+#: initiators/templates/initiators/project_detail.html:46
+msgid "Investment"
+msgstr "Инвестиция"
+
+#: initiators/templates/initiators/project_detail.html:46
+#, python-format
+msgid "€ %(amount)s"
+msgstr "%(amount)s €"
+
+#: initiators/templates/initiators/project_detail.html:55
+msgid "Phase History"
+msgstr "История на фазите"
+
+#: initiators/templates/initiators/project_detail.html:70
+msgid "No phase changes recorded yet."
+msgstr "Все още няма записани смени на фазата."
+
+#: initiators/templates/initiators/project_detail.html:77
+msgid "Applied Services"
+msgstr "Приложени услуги"
+
+#: initiators/templates/initiators/project_detail.html:78
+#: initiators/templates/initiators/service_application_form.html:3
+#: initiators/templates/initiators/service_application_form.html:15
+msgid "Add Service"
+msgstr "Добавяне на услуга"
+
+#: initiators/templates/initiators/project_detail.html:89
+#, python-format
+msgid "Applied %(date)s"
+msgstr "Приложена на %(date)s"
+
+#: initiators/templates/initiators/project_detail.html:97
+msgid "Remove this service application?"
+msgstr "Да се премахне ли тази услуга от проекта?"
+
+#: initiators/templates/initiators/project_detail.html:99
+msgid "Remove"
+msgstr "Премахване"
+
+#: initiators/templates/initiators/project_detail.html:109
+#, python-format
+msgid "Link for the initiator (created %(date)s, not yet used)"
+msgstr "Връзка за инициатора (създадена на %(date)s, все още неизползвана)"
+
+#: initiators/templates/initiators/project_detail.html:112
+msgid "Link for the initiator"
+msgstr "Връзка за инициатора"
+
+#: initiators/templates/initiators/project_detail.html:115
+msgid "Copied"
+msgstr "Копирано"
+
+#: initiators/templates/initiators/project_detail.html:115
+msgid "Copy"
+msgstr "Копиране"
+
+#: initiators/templates/initiators/project_detail.html:116
+msgid "Send by email"
+msgstr "Изпращане по имейл"
+
+#: initiators/templates/initiators/project_detail.html:120
+msgid "Your message:"
+msgstr "Вашето съобщение:"
+
+#: initiators/templates/initiators/project_detail.html:126
+msgid "Revoke this link? The initiator will no longer be able to open it."
+msgstr ""
+"Да се оттегли ли тази връзка? Инициаторът повече няма да може да я отвори."
+
+#: initiators/templates/initiators/project_detail.html:128
+msgid "Revoke link"
+msgstr "Оттегляне на връзката"
+
+#: initiators/templates/initiators/project_detail.html:135
+msgid "Create a new link (replaces the current one)"
+msgstr "Създаване на нова връзка (заменя текущата)"
+
+#: initiators/templates/initiators/project_detail.html:135
+msgid "Create link for initiator"
+msgstr "Създаване на връзка за инициатора"
+
+#: initiators/templates/initiators/project_detail.html:143
+msgid "Create link"
+msgstr "Създаване на връзка"
+
+#: initiators/templates/initiators/project_detail.html:150
+#, python-format
+msgid "Note from initiator · %(date)s"
+msgstr "Бележка от инициатора · %(date)s"
+
+#: initiators/templates/initiators/project_detail.html:155
+msgid "In reply to your message:"
+msgstr "В отговор на вашето съобщение:"
+
+#: initiators/templates/initiators/project_detail.html:167
+#, python-format
+msgid ""
+"No services applied yet. <a href=\"%(add_url)s\">Add the first service</a> "
+"or <a href=\"%(guidebook_url)s\">browse the guidebook</a>."
+msgstr ""
+"Все още няма приложени услуги. <a href=\"%(add_url)s\">Добавете първата "
+"услуга</a> или <a href=\"%(guidebook_url)s\">разгледайте наръчника</a>."
+
+#: initiators/templates/initiators/project_form.html:26
+msgid "Project basics"
+msgstr "Основни данни за проекта"
+
+#: initiators/templates/initiators/project_form.html:37
+msgid "Project details"
+msgstr "Подробности за проекта"
+
+#: initiators/templates/initiators/project_form.html:37
+msgid "optional"
+msgstr "по избор"
+
+#: initiators/templates/initiators/project_list.html:6
+msgid "All Projects"
+msgstr "Всички проекти"
+
+#: initiators/templates/initiators/project_list.html:26
+msgid "No projects yet. Projects are created from an initiator's page —"
+msgstr ""
+"Все още няма проекти. Проектите се създават от страницата на инициатор –"
+
+#: initiators/templates/initiators/project_list.html:27
+msgid "choose an initiator"
+msgstr "изберете инициатор"
+
+#: initiators/templates/initiators/project_phase_form.html:3
+#: initiators/templates/initiators/project_phase_form.html:7
+#: initiators/templates/initiators/project_phase_form.html:19
+msgid "Change Phase"
+msgstr "Смяна на фазата"
+
+#: initiators/templates/initiators/project_phase_form.html:12
+msgid "Current phase:"
+msgstr "Текуща фаза:"
+
+#: initiators/templates/initiators/service_application_form.html:7
+#, python-format
+msgid "Add Service to %(name)s"
+msgstr "Добавяне на услуга към %(name)s"
+
+#: initiators/templates/initiators/service_link.html:16
+#, python-format
+msgid "For your project “%(project)s”"
+msgstr "За вашия проект „%(project)s“"
+
+#: initiators/templates/initiators/service_link.html:25
+#, python-format
+msgid "Message from %(name)s"
+msgstr "Съобщение от %(name)s"
+
+#: initiators/templates/initiators/service_link.html:27
+msgid "Message from your energy agency"
+msgstr "Съобщение от вашата енергийна агенция"
+
+#: initiators/templates/initiators/service_link.html:48
+#, python-format
+msgid "Sent on %(date)s. Thank you!"
+msgstr "Изпратена на %(date)s. Благодарим ви!"
+
+#: initiators/templates/initiators/service_link.html:52
+msgid "Send a note to your energy agency"
+msgstr "Изпратете бележка до вашата енергийна агенция"
+
+#: initiators/templates/initiators/service_link.html:58
+msgid "Send note"
+msgstr "Изпращане на бележката"
+
+#: initiators/views.py:45
+#, python-format
+msgid "Initiator %(first_name)s %(last_name)s was created."
+msgstr "Инициаторът %(first_name)s %(last_name)s е създаден."
+
+#: initiators/views.py:70
+#, python-format
+msgid "Changes to %(first_name)s %(last_name)s were saved."
+msgstr "Промените за %(first_name)s %(last_name)s са запазени."
+
+#: initiators/views.py:95
+#, python-format
+msgid "Project \"%(name)s\" was created."
+msgstr "Проектът „%(name)s“ е създаден."
+
+#: initiators/views.py:143
+#, python-format
+msgid "Information about \"%(service)s\" for your project \"%(project)s\""
+msgstr "Информация за „%(service)s“ за вашия проект „%(project)s“"
+
+#: initiators/views.py:147
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"please open the following link to read about the service \"%(service)s\" and "
+"to send us your note:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Best regards,\n"
+"%(manager)s"
+msgstr ""
+"Здравейте, %(name)s,\n"
+"\n"
+"моля, отворете следната връзка, за да прочетете информацията за услугата "
+"„%(service)s“ и да ни изпратите вашата бележка:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Поздрави,\n"
+"%(manager)s"
+
+#: initiators/views.py:159
+#, python-format
+msgid "Changes to \"%(name)s\" were saved."
+msgstr "Промените в „%(name)s“ са запазени."
+
+#: initiators/views.py:188
+#, python-format
+msgid "The project is already in the %(phase)s phase."
+msgstr "Проектът вече е във фаза „%(phase)s“."
+
+#: initiators/views.py:199
+#, python-format
+msgid "Project moved to the %(phase)s phase."
+msgstr "Проектът е преместен във фаза „%(phase)s“."
+
+#: initiators/views.py:211
+#, python-format
+msgid "Service \"%(service)s\" was added to the project."
+msgstr "Услугата „%(service)s“ е добавена към проекта."
+
+#: initiators/views.py:243
+#, python-format
+msgid "Service \"%(service)s\" was removed from the project."
+msgstr "Услугата „%(service)s“ е премахната от проекта."
+
+#: initiators/views.py:275
+#, python-format
+msgid ""
+"Link for \"%(service)s\" created. Copy it or send it by email to the "
+"initiator."
+msgstr ""
+"Връзката за „%(service)s“ е създадена. Копирайте я или я изпратете по имейл "
+"на инициатора."
+
+#: initiators/views.py:291
+msgid "The link was revoked and no longer works."
+msgstr "Връзката е оттеглена и вече не работи."
+
+#: initiators/views.py:349
+msgid "Thank you! Your note has been sent."
+msgstr "Благодарим ви! Вашата бележка е изпратена."
+
+#: templates/404.html:4 templates/404.html:13
+msgid "Page not found"
+msgstr "Страницата не е намерена"
+
+#: templates/404.html:14
+msgid ""
+"The page you were looking for doesn't exist. It may have been moved or "
+"deleted, or the link may be mistyped."
+msgstr ""
+"Търсената страница не съществува. Може да е преместена или изтрита, или "
+"връзката е грешна."
+
+#: templates/404.html:16
+msgid "Go to the Guidebook"
+msgstr "Към наръчника"
+
+#: templates/404.html:17
+msgid "Browse services"
+msgstr "Разгледайте услугите"
+
+#: templates/500.html:10
+msgid "Server error"
+msgstr "Грешка в сървъра"
+
+#: templates/500.html:10 templates/base.html:7
+msgid "DISCOVER Interactive Guidebook"
+msgstr "DISCOVER Интерактивен наръчник"
+
+#: templates/500.html:17
+msgid "Something went wrong"
+msgstr "Нещо се обърка"
+
+#: templates/500.html:18
+msgid ""
+"An unexpected error occurred on our side. Please try again in a moment. If "
+"the problem persists, contact your administrator."
+msgstr ""
+"Възникна неочаквана грешка от наша страна. Моля, опитайте отново след малко. "
+"Ако проблемът продължи, свържете се с вашия администратор."
+
+#: templates/500.html:19
+msgid "Back to the start page"
+msgstr "Към началната страница"
+
+#: templates/base.html:7 templates/base.html:33 templates/base.html:35
+#: templates/base.html:117
+msgid "Guidebook"
+msgstr "Наръчник"
+
+#: templates/base.html:25
+msgid "Interactive"
+msgstr "Интерактивен"
+
+#: templates/base.html:26
+msgctxt "brand"
+msgid "Guidebook"
+msgstr "Наръчник"
+
+#: templates/base.html:60
+msgid "Logout"
+msgstr "Изход"
+
+#: templates/base.html:63
+msgid "Login"
+msgstr "Вход"
+
+#: templates/base.html:68 templates/base.html:70 templates/base.html:149
+msgid "Language"
+msgstr "Език"
+
+#: templates/base.html:83
+msgid "Menu"
+msgstr "Меню"
+
+#: templates/base.html:104
+msgid "DISCOVER project website"
+msgstr "Уебсайт на проекта DISCOVER"
+
+#: templates/base.html:108
+msgid ""
+"An EU Horizon project supporting the development of Community Energy "
+"Projects across Europe — from first idea to long-term operation."
+msgstr ""
+"Проект по програма „Хоризонт“ на ЕС, който подкрепя развитието на проекти за "
+"енергийни общности в цяла Европа – от първата идея до дългосрочната "
+"експлоатация."
+
+#: templates/base.html:119 templates/home.html:4
+msgid "Home"
+msgstr "Начало"
+
+#: templates/base.html:141
+msgid "DISCOVER Project"
+msgstr "Проект DISCOVER"
+
+#: templates/base.html:159
+msgid "EU Horizon Project"
+msgstr "Проект по програма „Хоризонт“ на ЕС"
+
+#: templates/home.html:14
+msgid "EU DISCOVER Project"
+msgstr "Проект DISCOVER на ЕС"
+
+#: templates/home.html:15
+msgid "The Interactive <span>Guidebook</span><br>for Community Energy"
+msgstr "Интерактивният <span>наръчник</span><br>за енергийни общности"
+
+#: templates/home.html:17
+msgid ""
+"A practical tool for energy agency managers supporting initiators of "
+"Community Energy Projects (CEPs) through every stage, from first idea to "
+"long-term operation."
+msgstr ""
+"Практичен инструмент за мениджърите от енергийните агенции, които подкрепят "
+"инициаторите на проекти за енергийни общности (CEP) на всеки етап – от "
+"първата идея до дългосрочната експлоатация."
+
+#: templates/home.html:23
+msgid "Browse Service Catalog"
+msgstr "Разгледайте каталога с услуги"
+
+#: templates/home.html:25
+msgid "Manage Initiators"
+msgstr "Управление на инициатори"
+
+#: templates/home.html:34
+msgid "What is the DISCOVER Guidebook?"
+msgstr "Какво представлява наръчникът DISCOVER?"
+
+#: templates/home.html:35
+msgid "Supporting the energy transition through community action"
+msgstr "Подкрепа за енергийния преход чрез действия на общността"
+
+#: templates/home.html:40
+msgid ""
+"The <strong>DISCOVER project</strong> (funded under EU Horizon) helps local "
+"energy agencies across Europe support citizens who want to start or join a "
+"Community Energy Project (CEP). These projects — from solar cooperatives to "
+"renewable energy communities — play a key role in the clean energy "
+"transition."
+msgstr ""
+"<strong>Проектът DISCOVER</strong> (финансиран по програма „Хоризонт“ на ЕС) "
+"помага на местните енергийни агенции в цяла Европа да подкрепят гражданите, "
+"които искат да започнат проект за енергийна общност (CEP) или да се "
+"присъединят към такъв. Тези проекти – от соларни кооперации до общности за "
+"възобновяема енергия – играят ключова роля в прехода към чиста енергия."
+
+#: templates/home.html:48
+msgid ""
+"Initiating a CEP is complex. Founders face technical, legal, financial, and "
+"social challenges that require expertise across many disciplines. Energy "
+"agency managers (the <em>intermediaries</em>) are uniquely positioned to "
+"guide initiators through this journey, but they need structured tools to do "
+"so effectively."
+msgstr ""
+"Стартирането на CEP е сложно. Основателите се сблъскват с технически, "
+"правни, финансови и социални предизвикателства, които изискват експертиза в "
+"много области. Мениджърите от енергийните агенции (<em>посредниците</em>) са "
+"в уникална позиция да водят инициаторите по този път, но се нуждаят от "
+"структурирани инструменти, за да го правят ефективно."
+
+#: templates/home.html:56
+msgid ""
+"This interactive guidebook translates the DISCOVER methodology into a "
+"practical day-to-day tool: a searchable service catalog, project tracking, "
+"and phase-based guidance — all in one place."
+msgstr ""
+"Този интерактивен наръчник превръща методологията DISCOVER в практичен "
+"инструмент за ежедневна работа: каталог с услуги с търсене, проследяване на "
+"проекти и насоки по фази – всичко на едно място."
+
+#: templates/home.html:66
+msgid "Lifecycle phases:<br>Planning, Realisation, Operation"
+msgstr "Фази на проекта:<br>Планиране, Изпълнение, Експлоатация"
+
+#: templates/home.html:70
+msgid "Structured steps covering the full CEP journey"
+msgstr "Структурирани стъпки, обхващащи целия път на CEP"
+
+#: templates/home.html:74
+msgid "Disciplines: Technical, Legal, Financial, Social"
+msgstr "Области: технически, правни, финансови, социални"
+
+#: templates/home.html:82
+msgid "Three Phases of a Community Energy Project"
+msgstr "Трите фази на проект за енергийна общност"
+
+#: templates/home.html:83
+msgid "Each phase brings its own challenges — and its own services"
+msgstr "Всяка фаза носи своите предизвикателства – и своите услуги"
+
+#: templates/home.html:92
+msgid ""
+"From first idea to ready-to-build. Initiators assess feasibility, form the "
+"legal entity, secure financing, and obtain permits. This is the most "
+"demanding phase — 14 structured steps guide initiators from concept to "
+"approved project."
+msgstr ""
+"От първата идея до готовност за строителство. Инициаторите оценяват "
+"осъществимостта, създават юридическото лице, осигуряват финансиране и "
+"получават разрешения. Това е най-трудната фаза – 14 структурирани стъпки "
+"водят от концепцията до одобрения проект."
+
+#: templates/home.html:100
+msgid "Idea generation & community mapping"
+msgstr "Генериране на идеи и картографиране на общността"
+
+#: templates/home.html:101
+msgid "Site assessment & technical pre-feasibility"
+msgstr "Оценка на обекта и техническа предварителна осъществимост"
+
+#: templates/home.html:102
+msgid "Legal structure selection & registration"
+msgstr "Избор и регистрация на правна форма"
+
+#: templates/home.html:103
+msgid "Business plan & financial modelling"
+msgstr "Бизнес план и финансово моделиране"
+
+#: templates/home.html:104
+msgid "Grid connection & permit applications"
+msgstr "Присъединяване към мрежата и заявления за разрешения"
+
+#: templates/home.html:105
+msgid "Member recruitment & share offering"
+msgstr "Привличане на членове и предлагане на дялове"
+
+#: templates/home.html:106
+msgid "Final investment decision"
+msgstr "Окончателно инвестиционно решение"
+
+#: templates/home.html:115
+msgid ""
+"From approved project to operational installation. Procurement, "
+"construction, grid connection, and commissioning. The focus shifts from "
+"planning documents to physical delivery — 8 steps take the project through "
+"to handover."
+msgstr ""
+"От одобрения проект до работеща инсталация. Доставки, строителство, "
+"присъединяване към мрежата и въвеждане в експлоатация. Фокусът се измества "
+"от плановите документи към физическото изпълнение – 8 стъпки водят проекта "
+"до предаването."
+
+#: templates/home.html:123
+msgid "Procurement & contractor selection"
+msgstr "Доставки и избор на изпълнители"
+
+#: templates/home.html:124
+msgid "Construction management & supervision"
+msgstr "Управление и надзор на строителството"
+
+#: templates/home.html:125
+msgid "Grid connection execution"
+msgstr "Изпълнение на присъединяването към мрежата"
+
+#: templates/home.html:126
+msgid "Technical commissioning & testing"
+msgstr "Техническо въвеждане в експлоатация и изпитване"
+
+#: templates/home.html:127
+msgid "Metering & monitoring setup"
+msgstr "Изграждане на измерване и мониторинг"
+
+#: templates/home.html:128
+msgid "Handover & documentation"
+msgstr "Предаване и документация"
+
+#: templates/home.html:137
+msgid ""
+"Long-term management of the running CEP. Technical maintenance, financial "
+"reporting, member engagement, and regulatory compliance. Five ongoing tasks "
+"keep the community energy project healthy and growing."
+msgstr ""
+"Дългосрочно управление на работещия CEP. Техническа поддръжка, финансова "
+"отчетност, ангажиране на членовете и спазване на нормативните изисквания. "
+"Пет постоянни задачи поддържат проекта за енергийна общност в добро "
+"състояние и в растеж."
+
+#: templates/home.html:145
+msgid "Asset operation & maintenance"
+msgstr "Експлоатация и поддръжка на съоръженията"
+
+#: templates/home.html:146
+msgid "Financial management & member distributions"
+msgstr "Финансово управление и разпределения към членовете"
+
+#: templates/home.html:147
+msgid "Regulatory reporting & compliance"
+msgstr "Регулаторна отчетност и съответствие"
+
+#: templates/home.html:148
+msgid "Community engagement & governance"
+msgstr "Ангажиране на общността и управление"
+
+#: templates/home.html:149
+msgid "Growth planning & reinvestment"
+msgstr "Планиране на растежа и реинвестиране"
+
+#: templates/home.html:158
+msgid "How This Tool Helps"
+msgstr "Как помага този инструмент"
+
+#: templates/home.html:159
+msgid "Designed for energy agency managers supporting initiators"
+msgstr ""
+"Създаден за мениджърите от енергийните агенции, които подкрепят инициатори"
+
+#: templates/home.html:166
+msgid ""
+"Browse and search all support services available to CEP initiators, filtered "
+"by lifecycle phase or discipline. Know exactly what help is available at "
+"each step."
+msgstr ""
+"Разглеждайте и търсете всички услуги за подкрепа, достъпни за инициаторите "
+"на CEP, филтрирани по фаза или област. Знайте точно каква помощ е налична на "
+"всяка стъпка."
+
+#: templates/home.html:174
+msgid "Initiator Profiles"
+msgstr "Профили на инициатори"
+
+#: templates/home.html:176
+msgid ""
+"Maintain records for each initiator — contact details, project history, and "
+"the services they have received — so nothing falls through the cracks."
+msgstr ""
+"Поддържайте запис за всеки инициатор – данни за контакт, история на проекта "
+"и получени услуги – така че нищо да не бъде пропуснато."
+
+#: templates/home.html:184
+msgid "Project Tracking"
+msgstr "Проследяване на проекти"
+
+#: templates/home.html:186
+msgid ""
+"Track every project through its phase journey. Record phase transitions, "
+"note decisions, and log which services have been applied and with what "
+"outcomes."
+msgstr ""
+"Проследявайте всеки проект през неговите фази. Записвайте смените на фазите "
+"и решенията и отбелязвайте кои услуги са приложени и с какъв резултат."
+
+#: templates/home.html:198
+msgid "Ready to get started?"
+msgstr "Готови ли сте да започнете?"
+
+#: templates/home.html:199
+msgid ""
+"Browse the service catalog to explore available support, or open an "
+"initiator record to review their project."
+msgstr ""
+"Разгледайте каталога с услуги, за да откриете наличната подкрепа, или "
+"отворете запис на инициатор, за да прегледате проекта му."
+
+#: templates/home.html:208
+msgid "Sign in to manage initiators and projects"
+msgstr "Влезте, за да управлявате инициатори и проекти"
+
+#: templates/home.html:209
+msgid ""
+"The guidebook and the service catalog are open to everyone. Sign in to "
+"access initiator records and project tracking."
+msgstr ""
+"Наръчникът и каталогът с услуги са отворени за всички. Влезте, за да "
+"получите достъп до записите на инициаторите и проследяването на проекти."
+
+#: templates/home.html:212
+msgid "Open Guidebook"
+msgstr "Отворете наръчника"
+
+#: templates/home.html:213
+msgid "Browse Catalog"
+msgstr "Разгледайте каталога"
+
+#: templates/includes/pagination.html:3
+msgid "Pagination"
+msgstr "Страници"
+
+#: templates/includes/pagination.html:5 templates/includes/pagination.html:7
+msgid "Previous"
+msgstr "Предишна"
+
+#: templates/includes/pagination.html:9
+#, python-format
+msgid "Page %(number)s of %(total)s"
+msgstr "Страница %(number)s от %(total)s"
+
+#: templates/includes/pagination.html:11 templates/includes/pagination.html:13
+msgid "Next"
+msgstr "Следваща"

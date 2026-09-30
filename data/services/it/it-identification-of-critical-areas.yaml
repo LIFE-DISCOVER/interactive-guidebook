@@ -1,0 +1,28 @@
+name: IT-Identification of critical areas
+step: analysis-power-grid
+summary: |-
+  It is necessary to assess the capacity of the local electrical grid to accommodate the power generated and fed into the grid. DSOs have prepared maps of critical areas defined by color (Red high criticality, Orange medium, Yellow low, White very low).
+description: |-
+  Support for the identification of critical areas. Through the map, it is possible to obtain interactive and immediate qualitative information regarding the availability of network capacity.
+web_link: https://www.e-distribuzione.it/a-chi-ci-rivolgiamo/produttori/aree-critiche.html
+stakeholder: E-distribuzione
+input: |-
+  Go to e-distribuzione.it. Zoom in extensively on the region of interest until the areas are colored.
+result: |-
+  The areas will be colored: White (very low criticality); Yellow (low); Orange (medium); Red (high criticality).
+remaining_hurdles: |-
+  The presence of critical issues may require longer connection times and impose technical limitations.
+it:
+  name: IT-Individuazione delle aree critiche
+  summary: |-
+    Occorre valutare la capacità della rete elettrica locale di accogliere la potenza prodotta e immessa in rete. I distributori hanno predisposto mappe delle aree critiche distinte per colore (rosso criticità alta, arancione media, giallo bassa, bianco molto bassa).
+  description: |-
+    Supporto nell'individuazione delle aree critiche. Tramite la mappa si ottengono informazioni qualitative interattive e immediate sulla disponibilità di capacità di rete.
+  stakeholder: E-distribuzione
+  input: |-
+    Andare su e-distribuzione.it e ingrandire la mappa sulla zona di interesse finché le aree non appaiono colorate.
+  result: |-
+    Le aree appariranno colorate: bianco (criticità molto bassa); giallo (bassa); arancione (media); rosso (criticità alta).
+  remaining_hurdles: |-
+    La presenza di criticità può comportare tempi di connessione più lunghi e limitazioni tecniche.
+  reviewed: false

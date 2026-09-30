@@ -1,0 +1,23 @@
+name: IT-Norms and Standards
+step: commissioning-plant
+summary: |-
+  Ensure that the plant and the overall Renewable Energy Community (REC) system are designed, installed, and commissioned in compliance with all applicable technical standards, safety regulations, and grid connection requirements.
+description: |-
+  This service includes the identification of the main relevant technical standards and regulations for photovoltaic systems and REC infrastructures.
+input: |-
+  Plant type; Installed capacity; Preliminary electrical design; Plant location; Grid connection level; Main components; REC configuration
+result: List of applicable standards and regulations
+remaining_hurdles: |-
+  Frequent regulatory updates; Coordination among multiple stakeholders (DSO, GSE, local authorities)
+it:
+  name: IT-Norme e standard
+  summary: |-
+    Garantire che l'impianto e l'intero sistema della Comunità Energetica Rinnovabile (CER) siano progettati, installati e messi in esercizio nel rispetto di tutte le norme tecniche, le regole di sicurezza e i requisiti di connessione alla rete applicabili.
+  description: |-
+    Il servizio comprende l'individuazione delle principali norme tecniche e disposizioni pertinenti per gli impianti fotovoltaici e le infrastrutture delle CER.
+  input: |-
+    Tipo di impianto; potenza installata; progetto elettrico preliminare; ubicazione dell'impianto; livello di tensione della connessione; componenti principali; configurazione della CER
+  result: Elenco delle norme e disposizioni applicabili
+  remaining_hurdles: |-
+    Frequenti aggiornamenti normativi; coordinamento tra più soggetti (distributore, GSE, enti locali)
+  reviewed: false

@@ -1,0 +1,60 @@
+title: Accounting
+sort_order: 360
+topic: REC
+description: Book keeping and reporting towards tax authorities
+objective: |-
+  - Preparing financial statements
+  - Ensuring compliance with legal and regulatory requirements
+  - Balancing accounts
+description_long: |-
+  Effective accounting and bookkeeping involve preparing financial statements to provide a clear overview of the project financial health. Ensure compliance with all legal and regulatory requirements to avoid any legal issues. Regularly balance accounts to maintain accuracy and integrity in financial records.
+de:
+  title: Buchhaltung
+  description: Buchführung und Berichterstattung an die Steuerbehörden
+  objective: |-
+    - Jahresabschlüsse erstellen
+    - Einhaltung der gesetzlichen und regulatorischen Vorgaben sicherstellen
+    - Konten abstimmen
+  description_long: |-
+    Eine wirksame Buchhaltung und Buchführung umfasst die Erstellung von Abschlüssen, die einen klaren Überblick über die finanzielle Lage des Projekts geben. Halten Sie alle gesetzlichen und regulatorischen Vorgaben ein, um rechtliche Probleme zu vermeiden. Stimmen Sie die Konten regelmäßig ab, damit die Finanzunterlagen korrekt und vollständig bleiben.
+  reviewed: false
+fr:
+  title: Comptabilité
+  description: Tenue des comptes et déclarations auprès de l'administration fiscale
+  objective: |-
+    - Établir les états financiers
+    - Garantir le respect des obligations légales et réglementaires
+    - Rapprocher les comptes
+  description_long: |-
+    Une comptabilité efficace consiste à établir des états financiers qui donnent une vue claire de la santé financière du projet. Respectez toutes les obligations légales et réglementaires pour éviter tout problème juridique. Rapprochez régulièrement les comptes pour garantir l'exactitude et la fiabilité des documents financiers.
+  reviewed: false
+it:
+  title: Contabilità
+  description: Tenuta della contabilità e rendicontazione all'amministrazione fiscale
+  objective: |-
+    - Redigere i bilanci
+    - Garantire il rispetto degli obblighi di legge e regolamentari
+    - Riconciliare i conti
+  description_long: |-
+    Una contabilità efficace comprende la redazione di bilanci che offrano un quadro chiaro della salute finanziaria del progetto. Rispettate tutti gli obblighi di legge e regolamentari per evitare problemi legali. Riconciliate regolarmente i conti per mantenere la documentazione finanziaria corretta e affidabile.
+  reviewed: false
+hr:
+  title: Računovodstvo
+  description: Knjigovodstvo i izvještavanje prema poreznim tijelima
+  objective: |-
+    - Izrada financijskih izvještaja
+    - Osiguravanje usklađenosti sa zakonskim i regulatornim zahtjevima
+    - Usklađivanje računa
+  description_long: |-
+    Učinkovito računovodstvo i knjigovodstvo uključuju izradu financijskih izvještaja koji daju jasan pregled financijskog stanja projekta. Poštujte sve zakonske i regulatorne zahtjeve kako biste izbjegli pravne probleme. Redovito usklađujte račune kako bi financijska evidencija bila točna i pouzdana.
+  reviewed: false
+bg:
+  title: Счетоводство
+  description: Счетоводна отчетност и отчитане пред данъчните органи
+  objective: |-
+    - Изготвяне на финансови отчети
+    - Спазване на законовите и регулаторните изисквания
+    - Равнение на сметките
+  description_long: |-
+    Ефективното счетоводство включва изготвяне на финансови отчети, които дават ясна представа за финансовото състояние на проекта. Спазвайте всички законови и регулаторни изисквания, за да избегнете правни проблеми. Редовно равнявайте сметките, за да поддържате финансовите документи точни и надеждни.
+  reviewed: false

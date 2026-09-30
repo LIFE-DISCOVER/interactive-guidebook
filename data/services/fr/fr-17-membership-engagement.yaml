@@ -1,0 +1,13 @@
+name: FR-17-Membership engagement
+step: membership-engagement
+summary: |-
+  Recruiting new consumers and producers is a way for the community to optimize self-consumption rates and inject to the grid the least of surplus possible.
+description: |-
+  The OSS helps you to define the right size of your community throughout its lifecycle, and to look for new members. The OSS centralizes information and the network of stakeholders.
+fr:
+  name: FR-17-Mobilisation des membres
+  summary: |-
+    Recruter de nouveaux consommateurs et producteurs permet à la communauté d'optimiser ses taux d'autoconsommation et d'injecter le moins de surplus possible sur le réseau.
+  description: |-
+    Le guichet unique vous aide à définir la bonne taille de votre communauté tout au long de sa vie et à rechercher de nouveaux membres. Il centralise l'information et le réseau d'acteurs.
+  reviewed: false

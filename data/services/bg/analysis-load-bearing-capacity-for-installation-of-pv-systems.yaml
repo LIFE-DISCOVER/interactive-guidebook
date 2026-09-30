@@ -1,0 +1,20 @@
+name: 'BG 07: Analysis - Load bearing capacity for installation of PV systems'
+step: analysis-structural
+summary: |-
+  Determine whether the roof structure can bear additional load of PV installation and how big the load can be.
+description: |-
+  Determine the general condition of the building and its roof structures. Obtain a confirmation of the load-bearing capacity (required by law) of the structures from a certified engineer as well as any necessary repairs and/or reinforcements.
+input: |-
+  Design drawings of the building and the roof. Application of the investor to the certified construction engineer.
+result: |-
+  Set of certified constructor's technical drawings, with indication of load-bearing capacity on the roof
+bg:
+  name: 'BG 07: Анализ - Носимоспособност за монтаж на фотоволтаични системи'
+  summary: |-
+    Определете дали покривната конструкция може да понесе допълнителното натоварване от фотоволтаичната инсталация и колко голямо може да бъде то.
+  description: |-
+    Определете общото състояние на сградата и на покривните ѝ конструкции. Получете от правоспособен инженер потвърждение за носимоспособността на конструкциите (изисква се по закон), както и за необходимите ремонти и/или укрепвания.
+  input: |-
+    Проектни чертежи на сградата и покрива. Възлагане от инвеститора към правоспособен инженер-конструктор.
+  result: Комплект заверени конструктивни чертежи с посочена носимоспособност на покрива
+  reviewed: false

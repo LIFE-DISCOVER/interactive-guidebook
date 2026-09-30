@@ -1,0 +1,19 @@
+name: IT-Identification of Point of delivery
+step: analysis-power-grid
+summary: |-
+  It is important to know the POD (Point of Delivery) in Renewable Energy Communities (RECs) because it uniquely identifies each electricity user within the grid.
+description: |-
+  The service helps you to identify your POD. The POD code is an alphanumeric sequence composed of several mandatory and meaningful elements. It begins with a unique prefix that identifies the country; for Italy, it is represented by IT.
+input: |-
+  To find your POD, push the smart meter button and read the 14-15 letter/numbers. Alternatively, find it on the first page of your energy bill.
+result: 'ID number with 14/15 letters/numbers: IT001Exxxxxxxxx'
+it:
+  name: IT-Individuazione del punto di prelievo (POD)
+  summary: |-
+    Nelle Comunità Energetiche Rinnovabili (CER) è importante conoscere il POD (punto di prelievo), perché identifica in modo univoco ogni utenza elettrica sulla rete.
+  description: |-
+    Il servizio aiuta a individuare il proprio POD. Il codice POD è una sequenza alfanumerica composta da diversi elementi obbligatori e significativi. Inizia con un prefisso univoco che identifica il Paese: per l'Italia è IT.
+  input: |-
+    Per trovare il POD, premere il pulsante del contatore elettronico e leggere i 14-15 caratteri alfanumerici. In alternativa, lo si trova nella prima pagina della bolletta.
+  result: 'Codice identificativo di 14/15 caratteri alfanumerici: IT001Exxxxxxxxx'
+  reviewed: false

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% if object %}{% blocktranslate with name=object.full_name %}Edit {{ name }}{% endblocktranslate %}{% else %}{% translate "New Initiator" %}{% endif %}{% endblock %}
+{% block content %}
+<div class="page-header">
+  <div class="breadcrumb">
+    {% if object %}
+      <a href="{% url 'initiators:initiator_detail' object.pk %}">← {{ object.full_name }}</a>
+    {% else %}
+      <a href="{% url 'initiators:initiator_list' %}">← {% translate "Initiators" %}</a>
+    {% endif %}
+  </div>
+  <h1>{% if object %}{% blocktranslate with name=object.full_name %}Edit {{ name }}{% endblocktranslate %}{% else %}{% translate "New Initiator" %}{% endif %}</h1>
+</div>
+
+<div class="form-card">
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit">{% translate "Save" %}</button>
+      {% if object %}
+        <a href="{% url 'initiators:initiator_detail' object.pk %}" class="btn btn-outline">{% translate "Cancel" %}</a>
+      {% else %}
+        <a href="{% url 'initiators:initiator_list' %}" class="btn btn-outline">{% translate "Cancel" %}</a>
+      {% endif %}
+    </div>
+  </form>
+</div>
+{% endblock %}

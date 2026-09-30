@@ -1,0 +1,78 @@
+title: Analysis - Yield
+sort_order: 180
+topic: PV Plant
+description: What is the size and outcome of my PV plant?
+objective: |-
+  - What area is available and how much PV does it fit?
+  - What is the solar radiation?
+  - What is the efficiency of the panel?
+  - What is the annual solar yield?
+  - What is the generation profile and the expected peaks?
+  - What is the optimal size of the PV system?
+description_long: |-
+  When planning a PV installation, start by evaluating the available area for panel placement to determine how much photovoltaic capacity can be accommodated. Assess the solar radiation at your location, as this will influence the system's performance and energy production. Consider the efficiency of the PV panels you plan to use, as higher efficiency panels will produce more energy from the same amount of sunlight.
+de:
+  title: Analyse - Ertrag
+  description: Wie groß wird meine PV-Anlage und was bringt sie?
+  objective: |-
+    - Welche Fläche steht zur Verfügung und wie viel PV passt darauf?
+    - Wie hoch ist die Sonneneinstrahlung?
+    - Welchen Wirkungsgrad haben die Module?
+    - Wie hoch ist der jährliche Solarertrag?
+    - Wie sehen das Erzeugungsprofil und die erwarteten Spitzen aus?
+    - Welche Anlagengröße ist optimal?
+  description_long: |-
+    Bewerten Sie bei der Planung einer PV-Anlage zuerst die verfügbare Fläche für die Module, um zu bestimmen, wie viel PV-Leistung Platz findet. Ermitteln Sie die Sonneneinstrahlung an Ihrem Standort, da sie Leistung und Energieertrag der Anlage beeinflusst. Berücksichtigen Sie den Wirkungsgrad der geplanten Module: Effizientere Module erzeugen aus derselben Sonneneinstrahlung mehr Energie.
+  reviewed: false
+fr:
+  title: Analyse - Production
+  description: Quelle taille et quelle production pour ma centrale photovoltaïque ?
+  objective: |-
+    - Quelle surface est disponible et combien de panneaux peut-elle accueillir ?
+    - Quel est l'ensoleillement ?
+    - Quel est le rendement des panneaux ?
+    - Quelle est la production solaire annuelle ?
+    - Quel est le profil de production et quels sont les pics attendus ?
+    - Quelle est la taille optimale de l'installation ?
+  description_long: |-
+    Pour concevoir une installation photovoltaïque, évaluez d'abord la surface disponible pour les panneaux afin de déterminer la puissance qui peut être installée. Évaluez l'ensoleillement de votre site, qui influence la performance et la production du système. Tenez compte du rendement des panneaux prévus : des panneaux plus performants produisent davantage d'énergie avec le même ensoleillement.
+  reviewed: false
+it:
+  title: Analisi - Producibilità
+  description: Quale taglia e quale produzione per il mio impianto fotovoltaico?
+  objective: |-
+    - Quale superficie è disponibile e quanti moduli può ospitare?
+    - Qual è l'irraggiamento solare?
+    - Qual è l'efficienza dei moduli?
+    - Qual è la produzione solare annua?
+    - Qual è il profilo di produzione e quali sono i picchi attesi?
+    - Qual è la taglia ottimale dell'impianto?
+  description_long: |-
+    Nel pianificare un impianto fotovoltaico, valutate innanzitutto la superficie disponibile per i moduli per determinare quanta potenza si può installare. Valutate l'irraggiamento solare del sito, che influisce sulle prestazioni e sulla produzione dell'impianto. Considerate l'efficienza dei moduli previsti: moduli più efficienti producono più energia con la stessa quantità di sole.
+  reviewed: false
+hr:
+  title: Analiza - Prinos
+  description: Kolika je moja fotonaponska elektrana i koliko proizvodi?
+  objective: |-
+    - Koja je površina dostupna i koliko fotonapona stane na nju?
+    - Koliko je sunčevo zračenje?
+    - Kolika je učinkovitost panela?
+    - Koliki je godišnji sunčani prinos?
+    - Kakav je profil proizvodnje i koji su očekivani vrhovi?
+    - Koja je optimalna veličina sustava?
+  description_long: |-
+    Pri planiranju fotonaponske instalacije najprije procijenite raspoloživu površinu za postavljanje panela kako biste utvrdili koliko se snage može smjestiti. Procijenite sunčevo zračenje na lokaciji, jer ono utječe na rad i proizvodnju sustava. Uzmite u obzir učinkovitost planiranih panela: učinkovitiji paneli proizvode više energije iz iste količine sunčeve svjetlosti.
+  reviewed: false
+bg:
+  title: Анализ - Производство
+  description: Какъв е размерът и какво ще произвежда моята фотоволтаична централа?
+  objective: |-
+    - Каква площ е налична и колко панели се побират?
+    - Какво е слънчевото греене?
+    - Каква е ефективността на панелите?
+    - Какво е годишното слънчево производство?
+    - Какъв е профилът на производство и какви са очакваните пикове?
+    - Какъв е оптималният размер на системата?
+  description_long: |-
+    При планирането на фотоволтаична инсталация първо оценете наличната площ за панели, за да определите каква мощност може да се инсталира. Оценете слънчевото греене на мястото, защото то влияе върху работата и производството на системата. Вземете предвид ефективността на планираните панели: по-ефективните панели произвеждат повече енергия от същото количество слънчева светлина.
+  reviewed: false

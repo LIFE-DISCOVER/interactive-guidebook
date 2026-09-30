@@ -1,0 +1,34 @@
+services:
+  web:
+    build: .
+    restart: unless-stopped
+    environment:
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?set DJANGO_SECRET_KEY in .env}
+      DJANGO_ALLOWED_HOSTS: ${DOMAIN:?set DOMAIN in .env}
+      DJANGO_HTTPS: "1"
+      CONTENT_REPO_URL: ${CONTENT_REPO_URL:-}
+      DJANGO_SUPERUSER_PASSWORD: ${DJANGO_SUPERUSER_PASSWORD:-}
+      DJANGO_SUPERUSER_EMAIL: ${DJANGO_SUPERUSER_EMAIL:-}
+    volumes:
+      - db:/data
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      DOMAIN: ${DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - web
+
+volumes:
+  db:
+  caddy_data:
+  caddy_config:

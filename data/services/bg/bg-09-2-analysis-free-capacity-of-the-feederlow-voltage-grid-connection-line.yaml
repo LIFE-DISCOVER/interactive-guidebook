@@ -1,0 +1,24 @@
+name: 'BG 09-2: Analysis - Free capacity of the feeder/low voltage grid connection line'
+step: analysis-power-grid
+summary: |-
+  Obtain information of the DSO free grid capacity to assess whether it will be possible to sell surplus energy to the electricity market.
+description: |-
+  Submit an application to the DSO in order to find the free capacity of the grid connection line and of the local transformer unit or substation.
+web_link: https://ermzapad.bg/bg/za-klienta/uslugi/prisedinyavaniya/
+stakeholder: Electricity System Operator Bulgaria (ESO)
+input: Building location; building drawings, investment concept, notary deed.
+result: |-
+  Detailed load diagrams and confirmation/approval by the DSO for sufficient free grid capacity.
+bg:
+  name: |-
+    BG 09-2: Анализ - Свободен капацитет на извода/присъединителната линия ниско напрежение
+  summary: |-
+    Получете от ЕРП информация за свободния капацитет на мрежата, за да прецените дали ще е възможно излишната енергия да се продава на пазара на електроенергия.
+  description: |-
+    Подайте заявление до ЕРП, за да установите свободния капацитет на присъединителната линия и на местния трансформаторен пост или подстанция.
+  stakeholder: Електроенергиен системен оператор (ЕСО)
+  input: |-
+    Местоположение на сградата; чертежи на сградата, инвестиционна концепция, нотариален акт.
+  result: |-
+    Подробни товарови диаграми и потвърждение/одобрение от ЕРП за достатъчен свободен капацитет на мрежата.
+  reviewed: false

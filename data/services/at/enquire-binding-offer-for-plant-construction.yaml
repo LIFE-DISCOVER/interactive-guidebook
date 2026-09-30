@@ -1,0 +1,11 @@
+name: 'AT: Enquire binding offer for plant construction'
+step: sourcing-equipment
+summary: |-
+  Provide pre-planning documents, scope of equipment, information about location, address, restrictions, information about building, roof, electrical installations and related locations including pictures, provide grid access confirmation document.
+description: Provide pre-planning documents and scope of equipment to potential suppliers.
+de:
+  name: 'AT: Verbindliches Angebot für die Anlagenerrichtung einholen'
+  summary: |-
+    Stellen Sie Vorplanungsunterlagen, den Lieferumfang, Angaben zu Standort, Adresse und Einschränkungen sowie Angaben zu Gebäude, Dach, Elektroinstallation und den betreffenden Räumen einschließlich Fotos bereit, dazu die Bestätigung über den Netzzugang.
+  description: Vorplanungsunterlagen und Lieferumfang an mögliche Anbieter übermitteln.
+  reviewed: false

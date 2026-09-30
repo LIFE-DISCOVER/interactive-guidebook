@@ -1,0 +1,23 @@
+name: 'BG 09-3: Obtaining a Permit for connection to the grid'
+step: analysis-power-grid
+summary: |-
+  To build a PV plant first of all is necessary to obtain preliminary permit by the DSO, stating that connection to the grid in the area is possible and is generally available.
+description: |-
+  Apply to the grid operator for feed-in power for the PV installation. For systems up to 30 kWp the grid operator is obliged to connect the PV plant to the grid.
+stakeholder: Electricity System Operator Bulgaria (ESO)
+input: |-
+  Existing grid connection points ID; Application to connect to the public power grid.
+result: |-
+  Approval for connecting to the power grid in the form of operation contract and power-in permit.
+bg:
+  name: 'BG 09-3: Получаване на разрешение за присъединяване към мрежата'
+  summary: |-
+    За изграждане на фотоволтаична централа първо е необходимо предварително становище от ЕРП, че присъединяването към мрежата в района е възможно и по принцип достъпно.
+  description: |-
+    Подайте заявление до мрежовия оператор за мощност за подаване от фотоволтаичната инсталация. За системи до 30 kWp мрежовият оператор е длъжен да присъедини централата към мрежата.
+  stakeholder: Електроенергиен системен оператор (ЕСО)
+  input: |-
+    Идентификатори на съществуващите точки на присъединяване; заявление за присъединяване към обществената електрическа мрежа.
+  result: |-
+    Разрешение за присъединяване към мрежата под формата на договор за експлоатация и разрешение за подаване на мощност.
+  reviewed: false

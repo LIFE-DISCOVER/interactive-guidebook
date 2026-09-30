@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{{ initiator.full_name }}{% endblock %}
+{% block content %}
+<div class="page-header">
+  <div class="breadcrumb"><a href="{% url 'initiators:initiator_list' %}">← {% translate "Initiators" %}</a></div>
+  <h1>{{ initiator.full_name }}</h1>
+  <div class="page-actions">
+    <a href="{% url 'initiators:initiator_update' initiator.pk %}" class="btn btn-outline">{% translate "Edit" %}</a>
+  </div>
+</div>
+
+<dl class="detail-dl">
+  <dt>{% translate "Email" %}</dt><dd>{{ initiator.email }}</dd>
+  {% if initiator.phone %}<dt>{% translate "Phone" %}</dt><dd>{{ initiator.phone }}</dd>{% endif %}
+  {% if initiator.organization %}<dt>{% translate "Organization" %}</dt><dd>{{ initiator.organization }}</dd>{% endif %}
+  {% if initiator.notes %}<dt>{% translate "Notes" %}</dt><dd>{{ initiator.notes|linebreaks }}</dd>{% endif %}
+</dl>
+
+<div class="section-panel">
+  <div class="section-panel-header">
+    <h2>{% translate "Projects" %}</h2>
+    <a href="{% url 'initiators:project_create' initiator.pk %}" class="btn btn-primary">+ {% translate "New Project" %}</a>
+  </div>
+
+  {% if projects %}
+  <div class="card-list">
+    {% for project in projects %}
+    <div class="card">
+      <h2><a href="{% url 'projects:project_detail' project.pk %}">{{ project.name }}</a></h2>
+      <div class="card-meta">
+        <span class="badge badge-{{ project.current_phase.slug }}">{{ project.current_phase.label }}</span>
+        <span class="badge badge-{{ project.status }}">{{ project.get_status_display }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    {% translate "No projects yet." %} <a href="{% url 'initiators:project_create' initiator.pk %}">{% translate "Create the first project" %}</a>.
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

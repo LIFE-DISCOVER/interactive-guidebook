@@ -1,0 +1,28 @@
+# Local data and secrets
+db.sqlite3
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+backups/
+.env
+.env.*
+!.env.example
+
+# Generated files
+staticfiles/
+__pycache__/
+*.py[cod]
+locale/*/LC_MESSAGES/*.mo
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local notes and tools
+memory/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store

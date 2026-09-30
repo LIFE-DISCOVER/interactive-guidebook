@@ -1,0 +1,22 @@
+name: HR-04-1-Permit - Environmental
+step: permit-environmental
+summary: |-
+  Determining whether an environmental assessment is required depends on the specifics of your project. Generally, an assessment is necessary if the plant size exceeds 10 MW and if PV plant is freestanding object.
+description: |-
+  Find out if an environmental assessment is required in this area. Find out if PV plant exceeds 10 MW and if it is freestanding object.
+web_link: https://bioportal.hr/gis/
+input: |-
+  Exact location of future project; 10MW - less or more; Freestanding object - yes or no
+result: |-
+  Information on the possibility of building a PV plant; Specialist's bid for preparation of assessment
+hr:
+  name: HR-04-1-Dozvola - Zaštita okoliša
+  summary: |-
+    Je li potrebna procjena utjecaja na okoliš ovisi o značajkama vašeg projekta. U pravilu je procjena potrebna ako snaga elektrane prelazi 10 MW i ako je fotonaponska elektrana samostojeći objekt.
+  description: |-
+    Utvrdite je li na tom području potrebna procjena utjecaja na okoliš. Utvrdite prelazi li elektrana 10 MW i je li samostojeći objekt.
+  input: |-
+    Točna lokacija budućeg projekta; 10 MW - manje ili više; samostojeći objekt - da ili ne
+  result: |-
+    Informacija o mogućnosti izgradnje fotonaponske elektrane; ponuda stručnjaka za izradu procjene
+  reviewed: false

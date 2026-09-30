@@ -1,0 +1,25 @@
+name: IT-Mapping of primary substations
+step: analysis-power-grid
+summary: |-
+  The interactive map of the primary substations helps developers of energy communities to identify grid connection area of the same primary electrical substation.
+description: |-
+  Guidance to use the tool and allow users to geolocalize connection points for energy communities.
+web_link: |-
+  https://mappe.gse.it/portal/apps/experiencebuilder/experience/?id=7cdfc4cfb0bb4beead292e9290fdeebd
+stakeholder: GSE
+input: Address of the home or business; POD code
+result: |-
+  Identification of the reference primary substation; Verification that members PODs are connected to the same primary substation
+remaining_hurdles: Updated only every 2 years; Geographical or network coverage limitations
+it:
+  name: IT-Mappa delle cabine primarie
+  summary: |-
+    La mappa interattiva delle cabine primarie aiuta chi sviluppa comunità energetiche a individuare l'area di connessione alla rete sottesa alla stessa cabina primaria.
+  description: |-
+    Guida all'uso dello strumento, che consente di geolocalizzare i punti di connessione per le comunità energetiche.
+  stakeholder: GSE
+  input: Indirizzo dell'abitazione o dell'impresa; codice POD
+  result: |-
+    Individuazione della cabina primaria di riferimento; verifica che i POD dei membri siano connessi alla stessa cabina primaria
+  remaining_hurdles: Aggiornata solo ogni 2 anni; limiti di copertura geografica o di rete
+  reviewed: false

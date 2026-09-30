@@ -1,0 +1,19 @@
+name: IT-Membership engagement
+step: membership-engagement
+summary: |-
+  To maintain CEP member services and continuous engagement, keep members updated with the latest information and developments. Actively recruit new members to expand the community and enhance its impact.
+description: |-
+  The service consists of organizing informational and awareness-raising activities aimed at citizens, public authorities, businesses, schools, associations, and other local stakeholders.
+input: List of current and potential REC members
+result: |-
+  Keeping members updated; Recruiting new members; Organizing informational and social events; Offering assistance
+it:
+  name: IT-Coinvolgimento dei membri
+  summary: |-
+    Per mantenere i servizi ai membri della comunità e il loro coinvolgimento continuo, tenerli aggiornati sulle ultime informazioni e novità. Reclutare attivamente nuovi membri per ampliare la comunità e accrescerne l'impatto.
+  description: |-
+    Il servizio consiste nell'organizzare attività informative e di sensibilizzazione rivolte a cittadini, enti pubblici, imprese, scuole, associazioni e altri soggetti del territorio.
+  input: Elenco dei membri attuali e potenziali della CER
+  result: |-
+    Aggiornamento dei membri; reclutamento di nuovi membri; organizzazione di eventi informativi e sociali; offerta di assistenza
+  reviewed: false

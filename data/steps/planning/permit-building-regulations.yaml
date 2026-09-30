@@ -1,0 +1,48 @@
+title: Permit - Building Regulations
+sort_order: 121
+topic: PV Plant
+description: Apply for permit.
+objective: |-
+  - Is a permit from the building regulation required for the installation of your PV?
+  - Are there regulations regarding minimum distances to neighboring properties?
+  - What are the guidelines for fire protection, glare, and structural integrity?
+de:
+  title: Genehmigung - Baurecht
+  description: Genehmigung beantragen.
+  objective: |-
+    - Braucht die Installation Ihrer PV-Anlage eine baurechtliche Genehmigung?
+    - Gibt es Vorschriften zu Mindestabständen zu Nachbargrundstücken?
+    - Welche Vorgaben gelten für Brandschutz, Blendwirkung und Standsicherheit?
+  reviewed: false
+fr:
+  title: Autorisation - Règles de construction
+  description: Demander l'autorisation.
+  objective: |-
+    - Votre installation photovoltaïque nécessite-t-elle une autorisation d'urbanisme ?
+    - Existe-t-il des règles de distance minimale par rapport aux propriétés voisines ?
+    - Quelles sont les prescriptions en matière de sécurité incendie, d'éblouissement et de solidité ?
+  reviewed: false
+it:
+  title: Autorizzazione - Norme edilizie
+  description: Richiedere l'autorizzazione.
+  objective: |-
+    - L'installazione del vostro impianto richiede un titolo edilizio?
+    - Esistono norme sulle distanze minime dalle proprietà confinanti?
+    - Quali sono le prescrizioni su prevenzione incendi, abbagliamento e stabilità strutturale?
+  reviewed: false
+hr:
+  title: Dozvola - Građevinski propisi
+  description: Podnesite zahtjev za dozvolu.
+  objective: |-
+    - Je li za ugradnju vaše fotonaponske elektrane potrebna dozvola prema građevinskim propisima?
+    - Postoje li propisi o najmanjoj udaljenosti od susjednih čestica?
+    - Koje su smjernice za zaštitu od požara, bliještanje i stabilnost konstrukcije?
+  reviewed: false
+bg:
+  title: Разрешение - Строителни правила
+  description: Подайте заявление за разрешение.
+  objective: |-
+    - Необходимо ли е разрешение по строителните правила за монтажа на фотоволтаичната ви инсталация?
+    - Има ли изисквания за минимални отстояния до съседните имоти?
+    - Какви са изискванията за пожарна безопасност, заслепяване и носимоспособност?
+  reviewed: false

@@ -1,0 +1,23 @@
+name: 'AT: Registration - VAT Number'
+step: registration-tax
+summary: |-
+  For energy communities whose turnover does not exceed 55,000 euros p.a., the tax exemption for small businesses applies. These entrepreneurs do not need to pay VAT to the tax office; however, they are not allowed to show VAT on invoices they issue.
+description: |-
+  Support the decision process: Should the community waive the tax exemption in order to show VAT on invoices?
+stakeholder: Finanzamt
+input: |-
+  Know the community members and understand if they may request invoices showing VAT
+result: Receive a VAT ID number
+remaining_hurdles: Quarterly VAT reports
+de:
+  name: 'AT: Registrierung - UID-Nummer'
+  summary: |-
+    Für Energiegemeinschaften mit einem Umsatz von höchstens 55.000 Euro pro Jahr gilt die Kleinunternehmerregelung (Umsatzsteuerbefreiung). Sie müssen keine Umsatzsteuer an das Finanzamt abführen, dürfen auf ihren Rechnungen aber auch keine Umsatzsteuer ausweisen.
+  description: |-
+    Unterstützung bei der Entscheidung: Soll die Gemeinschaft auf die Steuerbefreiung verzichten, um auf Rechnungen Umsatzsteuer ausweisen zu können?
+  stakeholder: Finanzamt
+  input: |-
+    Die Mitglieder der Gemeinschaft kennen und wissen, ob sie Rechnungen mit ausgewiesener Umsatzsteuer verlangen könnten
+  result: Erhalt einer UID-Nummer
+  remaining_hurdles: Vierteljährliche Umsatzsteuervoranmeldungen
+  reviewed: false

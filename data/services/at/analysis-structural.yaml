@@ -1,0 +1,21 @@
+name: 'AT: Analysis - Structural'
+step: analysis-structural
+summary: |-
+  If a structural analysis is required, then it must include the following: For a new building: Proof of the load-bearing capacity, usability, and durability of the load-bearing structure in accordance with OIB-RL 1. For the subsequent installation of a PV system: Survey of the existing structure, at least to Level 1, in accordance with the guidelines of OIB-RL 1; Proof of the minimal impact of the measure (load increase <= 3%) OR Proof of the load-bearing capacity, usability, and durability of…
+description: |-
+  If a structural analysis is required, then it must include the following: For a new building: Proof of the load-bearing capacity, usability, and durability of the load-bearing structure in accordance with OIB-RL 1. For the subsequent installation of a PV system: Survey of the existing structure, at least to Level 1, in accordance with the guidelines of OIB-RL 1; Proof of the minimal impact of the measure (load increase <= 3%) OR Proof of the load-bearing capacity, usability, and durability of the load-bearing structure in accordance with OIB-RL 1
+
+  Provide a referral for a civil engineer
+input: Construction Plans that show the roof structure
+result: Structural analysis approved
+de:
+  name: 'AT: Analyse - Statik'
+  summary: |-
+    Ist ein statischer Nachweis erforderlich, muss er Folgendes umfassen: Bei einem Neubau den Nachweis der Tragfähigkeit, Gebrauchstauglichkeit und Dauerhaftigkeit des Tragwerks gemäß OIB-RL 1. Bei der nachträglichen Montage einer PV-Anlage: Bestandsaufnahme des Tragwerks mindestens in Stufe 1 gemäß OIB-RL 1; Nachweis der geringfügigen Auswirkung der Maßnahme (Lasterhöhung ≤ 3 %) ODER Nachweis der Tragfähigkeit, Gebrauchstauglichkeit und Dauerhaftigkeit…
+  description: |-
+    Ist ein statischer Nachweis erforderlich, muss er Folgendes umfassen: Bei einem Neubau den Nachweis der Tragfähigkeit, Gebrauchstauglichkeit und Dauerhaftigkeit des Tragwerks gemäß OIB-RL 1. Bei der nachträglichen Montage einer PV-Anlage: Bestandsaufnahme des Tragwerks mindestens in Stufe 1 gemäß OIB-RL 1; Nachweis der geringfügigen Auswirkung der Maßnahme (Lasterhöhung ≤ 3 %) ODER Nachweis der Tragfähigkeit, Gebrauchstauglichkeit und Dauerhaftigkeit des Tragwerks gemäß OIB-RL 1
+
+    Vermittlung an eine Ziviltechnikerin oder einen Ziviltechniker
+  input: Baupläne, die die Dachkonstruktion zeigen
+  result: Statischer Nachweis genehmigt
+  reviewed: false

@@ -1,0 +1,20 @@
+name: IT-Procurement procedures for PV systems for public bodies
+step: sourcing-equipment
+summary: |-
+  If you are a public body, you can simplify the procedures for purchasing and installing photovoltaic systems directly on MePA (Electronic Market of Public Administration).
+description: Support the public body for the comparison of different solutions.
+web_link: https://www.acquistinretepa.it/opencms/opencms/
+stakeholder: MEPA - Mercato Elettronico
+input: |-
+  Register on acquistinretepa.it, enter with SPID, select the typology of product (PV system), compare different solutions and purchase your PV system.
+result: Signed contract with the installers
+it:
+  name: IT-Procedure di acquisto di impianti fotovoltaici per gli enti pubblici
+  summary: |-
+    Se siete un ente pubblico, potete semplificare le procedure di acquisto e installazione di impianti fotovoltaici acquistando direttamente sul MePA (Mercato Elettronico della Pubblica Amministrazione).
+  description: Supporto all'ente pubblico nel confronto tra diverse soluzioni.
+  stakeholder: MEPA - Mercato Elettronico
+  input: |-
+    Registrarsi su acquistinretepa.it, accedere con SPID, selezionare la tipologia di prodotto (impianto fotovoltaico), confrontare le soluzioni e acquistare l'impianto.
+  result: Contratto firmato con gli installatori
+  reviewed: false

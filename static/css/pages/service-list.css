@@ -1,0 +1,74 @@
+.list-toolbar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.phase-tabs {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.phase-tab {
+  padding: 0.35rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid transparent;
+  color: #666;
+  background: var(--light);
+  transition: all 0.15s;
+}
+.phase-tab:hover { background: #e8e8e8; color: var(--dark); }
+.phase-tab.active { background: var(--dark); color: var(--white); border-color: var(--dark); }
+.phase-tab.planning.active    { background: var(--blue);   border-color: var(--blue); }
+.phase-tab.realisation.active { background: var(--green);  border-color: var(--green); }
+.phase-tab.operation.active   { background: var(--orange); border-color: var(--orange); }
+
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.search-bar input[type="text"] {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  width: 220px;
+  transition: border-color 0.15s;
+}
+.search-bar input:focus,
+.search-bar select:focus { outline: none; border-color: var(--blue); }
+
+.search-bar .country-select {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  background: var(--white);
+  color: var(--dark);
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.result-count { font-size: 0.85rem; color: #888; margin-bottom: 0.75rem; }
+
+.service-card .phases-row { margin-top: 0.6rem; display: flex; gap: 0.35rem; flex-wrap: wrap; }
+
+@media (max-width: 600px) {
+  .search-bar { margin-left: 0; width: 100%; }
+  .search-bar input[type="text"] { width: 100%; }
+}

@@ -1,0 +1,81 @@
+.phase-history-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.phase-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--light);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+.phase-entry-date { color: #888; font-size: 0.82rem; white-space: nowrap; padding-top: 0.1rem; }
+.phase-entry-notes { color: #666; font-size: 0.85rem; margin-top: 0.2rem; font-style: italic; }
+
+.sa-item {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  scroll-margin-top: calc(var(--nav-h) + 1rem);
+}
+.sa-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.sa-item + .sa-item { margin-top: 0.5rem; }
+.sa-meta { color: #888; font-size: 0.82rem; margin-top: 0.2rem; }
+.sa-notes { color: #666; font-size: 0.85rem; font-style: italic; margin-top: 0.2rem; }
+.sa-remove form { margin: 0; }
+
+.inline-action { margin-left: 0.5rem; font-size: 0.85rem; }
+.phase-entry-body { flex: 1; }
+
+/* Link for the initiator */
+.sa-link {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.sa-link-title { font-size: 0.82rem; font-weight: 700; color: #555; }
+.sa-link-label { display: block; font-size: 0.78rem; font-weight: 700; color: #888; margin-bottom: 0.2rem; }
+.sa-link-share { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.sa-link-url {
+  flex: 1 1 260px;
+  min-width: 0;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  color: var(--dark);
+  background: var(--light);
+}
+.sa-link-message,
+.sa-initiator-note-context { font-size: 0.85rem; color: #555; }
+.sa-link-actions form { margin: 0; }
+.sa-link-create summary { cursor: pointer; color: var(--blue); font-size: 0.85rem; font-weight: 600; }
+.sa-link-create form { margin-top: 0.6rem; }
+.sa-link-create label { display: block; font-size: 0.82rem; font-weight: 700; color: #555; margin-bottom: 0.3rem; }
+.sa-link-create textarea {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  resize: vertical;
+}
+.sa-link-create .field-help { display: block; font-size: 0.78rem; color: #888; margin: 0.2rem 0 0.5rem; }
+.sa-initiator-note {
+  padding: 0.6rem 0.8rem;
+  background: #f4faed;
+  border-left: 3px solid var(--green);
+  border-radius: 4px;
+}
+.sa-initiator-note p { margin: 0 0 0.4rem; }
+.sa-initiator-note-context { font-style: italic; color: #888; }

@@ -1,0 +1,24 @@
+name: IT-Registration on GSE portal
+step: registration-market
+summary: |-
+  Registration with the GSE is required for the official recognition of the REC and access to incentive schemes. At this stage, the REC is configured from both an administrative and technical perspective.
+description: |-
+  This service supports: registration on the GSE portal; access to Distributed Self-Consumption/REC service; configuration of the energy community; upload and validation of required documentation.
+web_link: https://auth.gse.it/
+stakeholder: GSE
+input: |-
+  Access to GSE Client Area; Appointment of REC representative; REC bylaws and deed of incorporation; Members list (consumers, producers, prosumers); POD codes and connection data
+result: GSE identification code assigned.
+remaining_hurdles: Complexity in data collection and validation; GSE validation timelines
+it:
+  name: IT-Registrazione sul portale GSE
+  summary: |-
+    La registrazione presso il GSE è necessaria per il riconoscimento ufficiale della CER e l'accesso ai regimi di incentivazione. In questa fase la CER viene configurata sia dal punto di vista amministrativo sia da quello tecnico.
+  description: |-
+    Questo servizio supporta: la registrazione sul portale GSE; l'accesso al servizio Autoconsumo diffuso/CER; la configurazione della comunità energetica; il caricamento e la convalida della documentazione richiesta.
+  stakeholder: GSE
+  input: |-
+    Accesso all'Area Clienti GSE; nomina del referente della CER; statuto e atto costitutivo della CER; elenco dei membri (consumatori, produttori, prosumer); codici POD e dati di connessione
+  result: Assegnazione del codice identificativo GSE.
+  remaining_hurdles: Complessità nella raccolta e convalida dei dati; tempi di convalida del GSE
+  reviewed: false

@@ -1,0 +1,218 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% translate "Home" %}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">{% translate "EU DISCOVER Project" %}</div>
+  <h1>{% blocktranslate trimmed %}The Interactive <span>Guidebook</span><br>for Community Energy{% endblocktranslate %}</h1>
+  <p>
+    {% blocktranslate trimmed %}
+    A practical tool for energy agency managers supporting initiators of Community Energy Projects (CEPs)
+    through every stage, from first idea to long-term operation.
+    {% endblocktranslate %}
+  </p>
+  <div class="hero-actions">
+    <a href="{% url 'catalog:service_list' %}" class="btn btn-success">{% translate "Browse Service Catalog" %}</a>
+    {% if user.is_authenticated %}
+      <a href="{% url 'initiators:initiator_list' %}" class="btn btn-outline btn-outline-light">{% translate "Manage Initiators" %}</a>
+    {% else %}
+      <a href="{% url 'accounts:login' %}" class="btn btn-outline btn-outline-light">{% translate "Sign In" %}</a>
+    {% endif %}
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section">
+  <div class="section-title">{% translate "What is the DISCOVER Guidebook?" %}</div>
+  <div class="section-subtitle">{% translate "Supporting the energy transition through community action" %}</div>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p>
+        {% blocktranslate trimmed %}
+        The <strong>DISCOVER project</strong> (funded under EU Horizon) helps local energy agencies
+        across Europe support citizens who want to start or join a Community Energy Project (CEP).
+        These projects — from solar cooperatives to renewable energy communities — play a key role
+        in the clean energy transition.
+        {% endblocktranslate %}
+      </p>
+      <p>
+        {% blocktranslate trimmed %}
+        Initiating a CEP is complex. Founders face technical, legal, financial, and social
+        challenges that require expertise across many disciplines. Energy agency managers
+        (the <em>intermediaries</em>) are uniquely positioned to guide initiators through this
+        journey, but they need structured tools to do so effectively.
+        {% endblocktranslate %}
+      </p>
+      <p>
+        {% blocktranslate trimmed %}
+        This interactive guidebook translates the DISCOVER methodology into a practical
+        day-to-day tool: a searchable service catalog, project tracking, and phase-based
+        guidance — all in one place.
+        {% endblocktranslate %}
+      </p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card">
+        <span class="stat-num">3</span>
+        <span class="stat-label">{% blocktranslate trimmed %}Lifecycle phases:<br>Planning, Realisation, Operation{% endblocktranslate %}</span>
+      </div>
+      <div class="stat-card blue">
+        <span class="stat-num">27</span>
+        <span class="stat-label">{% translate "Structured steps covering the full CEP journey" %}</span>
+      </div>
+      <div class="stat-card orange">
+        <span class="stat-num">4</span>
+        <span class="stat-label">{% translate "Disciplines: Technical, Legal, Financial, Social" %}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHASES -->
+<section class="phases-section">
+  <div class="section-title">{% translate "Three Phases of a Community Energy Project" %}</div>
+  <div class="section-subtitle">{% translate "Each phase brings its own challenges — and its own services" %}</div>
+
+  <div class="phases-grid">
+
+    <!-- Planning -->
+    <div class="phase-card planning">
+      <div class="phase-num">1</div>
+      <h3>{% translate "Planning" %}</h3>
+      <p>
+        {% blocktranslate trimmed %}
+        From first idea to ready-to-build. Initiators assess feasibility, form the legal entity,
+        secure financing, and obtain permits. This is the most demanding phase — 14 structured steps
+        guide initiators from concept to approved project.
+        {% endblocktranslate %}
+      </p>
+      <div class="phase-step-count">{% blocktranslate count counter=14 %}{{ counter }} step{% plural %}{{ counter }} steps{% endblocktranslate %}</div>
+      <ul class="phase-steps-list">
+        <li><span class="step-dot"></span>{% translate "Idea generation & community mapping" %}</li>
+        <li><span class="step-dot"></span>{% translate "Site assessment & technical pre-feasibility" %}</li>
+        <li><span class="step-dot"></span>{% translate "Legal structure selection & registration" %}</li>
+        <li><span class="step-dot"></span>{% translate "Business plan & financial modelling" %}</li>
+        <li><span class="step-dot"></span>{% translate "Grid connection & permit applications" %}</li>
+        <li><span class="step-dot"></span>{% translate "Member recruitment & share offering" %}</li>
+        <li><span class="step-dot"></span>{% translate "Final investment decision" %}</li>
+      </ul>
+    </div>
+
+    <!-- Realisation -->
+    <div class="phase-card realisation">
+      <div class="phase-num">2</div>
+      <h3>{% translate "Realisation" %}</h3>
+      <p>
+        {% blocktranslate trimmed %}
+        From approved project to operational installation. Procurement, construction, grid
+        connection, and commissioning. The focus shifts from planning documents to physical
+        delivery — 8 steps take the project through to handover.
+        {% endblocktranslate %}
+      </p>
+      <div class="phase-step-count">{% blocktranslate count counter=8 %}{{ counter }} step{% plural %}{{ counter }} steps{% endblocktranslate %}</div>
+      <ul class="phase-steps-list">
+        <li><span class="step-dot"></span>{% translate "Procurement & contractor selection" %}</li>
+        <li><span class="step-dot"></span>{% translate "Construction management & supervision" %}</li>
+        <li><span class="step-dot"></span>{% translate "Grid connection execution" %}</li>
+        <li><span class="step-dot"></span>{% translate "Technical commissioning & testing" %}</li>
+        <li><span class="step-dot"></span>{% translate "Metering & monitoring setup" %}</li>
+        <li><span class="step-dot"></span>{% translate "Handover & documentation" %}</li>
+      </ul>
+    </div>
+
+    <!-- Operation -->
+    <div class="phase-card operation">
+      <div class="phase-num">3</div>
+      <h3>{% translate "Operation" %}</h3>
+      <p>
+        {% blocktranslate trimmed %}
+        Long-term management of the running CEP. Technical maintenance, financial reporting,
+        member engagement, and regulatory compliance. Five ongoing tasks keep the community
+        energy project healthy and growing.
+        {% endblocktranslate %}
+      </p>
+      <div class="phase-step-count">{% blocktranslate count counter=5 %}{{ counter }} step{% plural %}{{ counter }} steps{% endblocktranslate %}</div>
+      <ul class="phase-steps-list">
+        <li><span class="step-dot"></span>{% translate "Asset operation & maintenance" %}</li>
+        <li><span class="step-dot"></span>{% translate "Financial management & member distributions" %}</li>
+        <li><span class="step-dot"></span>{% translate "Regulatory reporting & compliance" %}</li>
+        <li><span class="step-dot"></span>{% translate "Community engagement & governance" %}</li>
+        <li><span class="step-dot"></span>{% translate "Growth planning & reinvestment" %}</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- HOW IT HELPS -->
+<section class="helps-section">
+  <div class="section-title">{% translate "How This Tool Helps" %}</div>
+  <div class="section-subtitle">{% translate "Designed for energy agency managers supporting initiators" %}</div>
+
+  <div class="helps-grid">
+    <div class="helps-card">
+      <div class="helps-icon">📋</div>
+      <h3>{% translate "Service Catalog" %}</h3>
+      <p>
+        {% blocktranslate trimmed %}
+        Browse and search all support services available to CEP initiators, filtered by
+        lifecycle phase or discipline. Know exactly what help is available at each step.
+        {% endblocktranslate %}
+      </p>
+    </div>
+    <div class="helps-card">
+      <div class="helps-icon">👥</div>
+      <h3>{% translate "Initiator Profiles" %}</h3>
+      <p>
+        {% blocktranslate trimmed %}
+        Maintain records for each initiator — contact details, project history, and the
+        services they have received — so nothing falls through the cracks.
+        {% endblocktranslate %}
+      </p>
+    </div>
+    <div class="helps-card">
+      <div class="helps-icon">📈</div>
+      <h3>{% translate "Project Tracking" %}</h3>
+      <p>
+        {% blocktranslate trimmed %}
+        Track every project through its phase journey. Record phase transitions, note
+        decisions, and log which services have been applied and with what outcomes.
+        {% endblocktranslate %}
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+{% if user.is_authenticated %}
+<section class="cta-section">
+  <h2>{% translate "Ready to get started?" %}</h2>
+  <p>{% translate "Browse the service catalog to explore available support, or open an initiator record to review their project." %}</p>
+  <div class="cta-actions">
+    <a href="{% url 'catalog:service_list' %}" class="btn btn-white">{% translate "Service Catalog" %}</a>
+    <a href="{% url 'initiators:initiator_list' %}" class="btn btn-ghost">{% translate "Initiators" %}</a>
+    <a href="{% url 'projects:project_list' %}" class="btn btn-ghost">{% translate "Projects" %}</a>
+  </div>
+</section>
+{% else %}
+<section class="cta-section">
+  <h2>{% translate "Sign in to manage initiators and projects" %}</h2>
+  <p>{% translate "The guidebook and the service catalog are open to everyone. Sign in to access initiator records and project tracking." %}</p>
+  <div class="cta-actions">
+    <a href="{% url 'accounts:login' %}" class="btn btn-white">{% translate "Sign In" %}</a>
+    <a href="{% url 'catalog:guidebook' %}" class="btn btn-ghost">{% translate "Open Guidebook" %}</a>
+    <a href="{% url 'catalog:service_list' %}" class="btn btn-ghost">{% translate "Browse Catalog" %}</a>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}

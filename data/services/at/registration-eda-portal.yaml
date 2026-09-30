@@ -1,0 +1,24 @@
+name: 'AT: Registration - EDA Portal'
+step: registration-market
+summary: |-
+  The EDA Portal is a web platform for energy service providers and energy communities. It provides easy access to energy industry data.
+description: Fill out online form
+web_link: https://www.eda.at/registrierung-portal
+stakeholder: EDA Portal
+input: |-
+  Network operator agreement; Extract from the association register; ID document of the user; Power of attorney for signing
+result: EDA account and access to eda portal
+remaining_hurdles: |-
+  Participation via the EDA Portal is free for up to 50 metering points per market participant.
+de:
+  name: 'AT: Registrierung - EDA-Portal'
+  summary: |-
+    Das EDA-Portal ist eine Webplattform für Energiedienstleister und Energiegemeinschaften. Es bietet einfachen Zugang zu Daten der Energiewirtschaft.
+  description: Online-Formular ausfüllen
+  stakeholder: EDA-Portal
+  input: |-
+    Netzbetreibervereinbarung; Vereinsregisterauszug; Ausweis der Benutzerin bzw. des Benutzers; Zeichnungsvollmacht
+  result: EDA-Konto und Zugang zum EDA-Portal
+  remaining_hurdles: |-
+    Die Teilnahme über das EDA-Portal ist bis zu 50 Zählpunkte je Marktteilnehmer kostenlos.
+  reviewed: false

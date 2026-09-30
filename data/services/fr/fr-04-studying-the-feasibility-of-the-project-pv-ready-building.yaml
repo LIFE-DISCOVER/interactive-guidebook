@@ -1,0 +1,17 @@
+name: FR-04-Studying the feasibility of the project - PV-ready building
+step: analysis-structural
+summary: |-
+  Implementing a PV plant on your roof requires your building to be PV-ready in terms of: load bearing capacity; water-proofing; human accessibility; accessibility for PV panels; among other aspects.
+description: |-
+  The OSS will advise you to formulate your need to Professionals of building structure.
+input: Information of the roof structure
+result: Advice on how to order a structural feasibility study
+fr:
+  name: FR-04-Étudier la faisabilité du projet - Bâtiment PV-ready
+  summary: |-
+    Installer une centrale photovoltaïque sur votre toit suppose que le bâtiment soit « PV-ready », notamment en matière de capacité portante, d'étanchéité, d'accessibilité pour les personnes et d'accessibilité pour les panneaux.
+  description: |-
+    Le guichet unique vous aide à formuler votre besoin auprès de professionnels de la structure du bâtiment.
+  input: Informations sur la structure de la toiture
+  result: Conseils pour commander une étude de faisabilité structurelle
+  reviewed: false

@@ -1,0 +1,23 @@
+name: IT-Support for the investments - Bonus casa for citizens
+step: financing-public-funding
+summary: |-
+  Ten-year tax deduction for the installation of photovoltaic systems up to 200kW and energy storage systems, equal to 50% of the expenses incurred for the primary residence, with a spending cap of 96,000 euro per property unit.
+description: Guidance in order to provide information about the Bonus casa and how to apply.
+web_link: https://www.efficienzaenergetica.enea.it/detrazioni-fiscali/bonus-casa.html
+stakeholder: ENEA
+input: Identify kind of producer (citizen, PMI, association). Go to ENEA website.
+result: Information of the financing support and how to apply.
+remaining_hurdles: |-
+  The update of the portals is underway to align with the provisions of the 2025 Budget Law.
+it:
+  name: IT-Sostegno agli investimenti - Bonus casa per i cittadini
+  summary: |-
+    Detrazione fiscale in dieci anni per l'installazione di impianti fotovoltaici fino a 200 kW e di sistemi di accumulo, pari al 50 % delle spese sostenute per l'abitazione principale, con un tetto di spesa di 96.000 euro per unità immobiliare.
+  description: Guida con informazioni sul Bonus casa e su come richiederlo.
+  stakeholder: ENEA
+  input: |-
+    Individuare il tipo di produttore (cittadino, PMI, associazione). Andare sul sito dell'ENEA.
+  result: Informazioni sul sostegno finanziario e su come richiederlo.
+  remaining_hurdles: |-
+    È in corso l'aggiornamento dei portali per allinearli alle disposizioni della Legge di Bilancio 2025.
+  reviewed: false

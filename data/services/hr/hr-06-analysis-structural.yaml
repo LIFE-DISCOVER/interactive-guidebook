@@ -1,0 +1,26 @@
+name: HR-06-Analysis - Structural
+step: analysis-structural
+summary: |-
+  Before installing a PV system, it is crucial to assess the quality, structure, and condition of your roof to ensure it can support the installation.
+description: |-
+  Determine the general condition of the roof. Request a calculation of the load-bearing capacity of the structure from a professional. Define required repairs and/or reinforcements.
+web_link: https://www.hkig.hr/Imenici-i-upisnici/Imenici/
+input: |-
+  Collection of technical data of the existing building: Architectural data; Construction data; Electrical data; Data on the existing connection; Safety in the event of fire
+result: |-
+  Load-bearing Capacity on the roof in kg/m2; Opinion of Certified Civil Engineer about additional load of PV plant
+remaining_hurdles: |-
+  Insufficient available area for the construction of a photovoltaic system with sufficient capacity
+hr:
+  name: HR-06-Analiza - Statika
+  summary: |-
+    Prije ugradnje fotonaponskog sustava ključno je procijeniti kvalitetu, konstrukciju i stanje krova kako biste bili sigurni da može nositi instalaciju.
+  description: |-
+    Utvrdite opće stanje krova. Zatražite od stručnjaka proračun nosivosti konstrukcije. Odredite potrebne popravke i/ili ojačanja.
+  input: |-
+    Prikupljanje tehničkih podataka o postojećoj zgradi: arhitektonski podaci; građevinski podaci; elektrotehnički podaci; podaci o postojećem priključku; zaštita od požara
+  result: |-
+    Nosivost krova u kg/m²; mišljenje ovlaštenog inženjera građevinarstva o dodatnom opterećenju od fotonaponske elektrane
+  remaining_hurdles: |-
+    Nedovoljna raspoloživa površina za izgradnju fotonaponskog sustava dovoljne snage
+  reviewed: false

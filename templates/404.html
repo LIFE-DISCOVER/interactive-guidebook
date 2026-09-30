@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% translate "Page not found" %}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/not-found.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="error-page">
+  <div class="error-code">404</div>
+  <h1>{% translate "Page not found" %}</h1>
+  <p>{% translate "The page you were looking for doesn't exist. It may have been moved or deleted, or the link may be mistyped." %}</p>
+  <div class="form-actions">
+    <a href="{% url 'catalog:guidebook' %}" class="btn btn-primary">{% translate "Go to the Guidebook" %}</a>
+    <a href="{% url 'catalog:service_list' %}" class="btn btn-outline">{% translate "Browse services" %}</a>
+  </div>
+</div>
+{% endblock %}

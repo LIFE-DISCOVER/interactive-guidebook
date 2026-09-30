@@ -1,0 +1,25 @@
+name: FR-02-Analysing opportunity - PV project within a holistic approach
+step: analysis-construction-synergies
+summary: |-
+  Planning works on your roof for the implementation of a PV plant is an opportunity to consider the building as a whole. You are advised to investigate the need for works in all technical dimensions, structural, architectural and environmental.
+description: |-
+  The OSS advises you from the start of your project, to investigate your building as a whole in the right way and look for construction synergies with a PV project.
+input: |-
+  A statement of your need for an analysis for electricity production and consumption, and for your building as a whole.
+result: |-
+  If interested in a holistic approach: A global technical investigation of your building; Technical and economical proposals for renovation works; Constructing synergies and PV-ready requirements
+remaining_hurdles: |-
+  Chartered professionals that currently provide the investigation mission, are not necessarily skilled nor qualified for the PV investigation.
+fr:
+  name: FR-02-Analyse d'opportunité - Le projet photovoltaïque dans une approche globale
+  summary: |-
+    Prévoir des travaux sur votre toit pour installer une centrale photovoltaïque est l'occasion de considérer le bâtiment dans son ensemble. Il est conseillé d'examiner les besoins de travaux dans toutes les dimensions techniques : structurelle, architecturale et environnementale.
+  description: |-
+    Dès le début de votre projet, le guichet unique vous conseille pour examiner correctement votre bâtiment dans son ensemble et rechercher des synergies de travaux avec un projet photovoltaïque.
+  input: |-
+    L'expression de votre besoin d'une analyse de la production et de la consommation d'électricité, et de votre bâtiment dans son ensemble.
+  result: |-
+    En cas d'intérêt pour une approche globale : un diagnostic technique global de votre bâtiment ; des propositions techniques et économiques de travaux de rénovation ; des synergies de travaux et des exigences « PV-ready »
+  remaining_hurdles: |-
+    Les professionnels agréés qui réalisent actuellement la mission de diagnostic ne sont pas forcément compétents ni qualifiés pour l'étude photovoltaïque.
+  reviewed: false

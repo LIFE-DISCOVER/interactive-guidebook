@@ -1,0 +1,21 @@
+name: 'BG 09-1: Analysis - Additional grid connections'
+step: analysis-power-grid
+summary: |-
+  For a CEP/EC with several buildings included and several direct power lines between the participants more than one grid connections with different characteristics maybe explored.
+description: |-
+  Find out the limitations of the grid connections and direct power lines between participants that will limit the composition of the CEP/EC.
+input: |-
+  Request by the client - EC or building owners; description of the structure and organization of the EC.
+result: |-
+  Provisional structure of the multiple connections of the energy community to the local grid.
+bg:
+  name: 'BG 09-1: Анализ - Допълнителни присъединявания към мрежата'
+  summary: |-
+    При ОЕП/ЕО с няколко сгради и няколко директни електропровода между участниците може да се проучи повече от едно присъединяване към мрежата с различни характеристики.
+  description: |-
+    Установете ограниченията на присъединяванията към мрежата и на директните електропроводи между участниците, които ще ограничат състава на ОЕП/ЕО.
+  input: |-
+    Искане от клиента - ЕО или собствениците на сгради; описание на структурата и организацията на ЕО.
+  result: |-
+    Предварителна структура на множеството присъединявания на енергийната общност към местната мрежа.
+  reviewed: false

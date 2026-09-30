@@ -1,0 +1,20 @@
+name: 'AT: Permit - Building Code'
+step: permit-building-regulations
+summary: |-
+  Some PV installations need building notification (Bausanzeige), some need building permit (Baubewilligung) some need none. In any case, compliance with fire protection, glare, and structural integrity is required.
+description: Guidance
+web_link: https://www.wien.gv.at/wohnen/baupolizei/pdf/merkblatt-photovoltaikanlagen.pdf
+input: |-
+  Provide Site plan with roof view showing the PV system; Representation of the location of the inverter; Specification of the fire protection systems in the building; Construction plan of the top ceiling
+result: Permit
+remaining_hurdles: Sophisticated
+de:
+  name: 'AT: Genehmigung - Bauordnung'
+  summary: |-
+    Manche PV-Anlagen brauchen eine Bauanzeige, manche eine Baubewilligung, manche keines von beiden. In jedem Fall sind Brandschutz, Blendwirkung und Standsicherheit einzuhalten.
+  description: Anleitung
+  input: |-
+    Lageplan mit Dachansicht und eingezeichneter PV-Anlage; Darstellung des Wechselrichterstandorts; Angaben zu den Brandschutzeinrichtungen im Gebäude; Konstruktionsplan der obersten Geschoßdecke
+  result: Genehmigung
+  remaining_hurdles: Aufwendig
+  reviewed: false

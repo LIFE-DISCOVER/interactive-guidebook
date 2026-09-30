@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Change Phase" %} — {{ project.name }}{% endblock %}
+{% block content %}
+<div class="page-header">
+  <div class="breadcrumb"><a href="{% url 'projects:project_detail' project.pk %}">← {{ project.name }}</a></div>
+  <h1>{% translate "Change Phase" %}</h1>
+</div>
+
+<div class="form-card">
+  <p class="form-intro">
+    {% translate "Current phase:" %}
+    <span class="badge badge-{{ project.current_phase.slug }}">{{ project.current_phase.label }}</span>
+  </p>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit">{% translate "Change Phase" %}</button>
+      <a href="{% url 'projects:project_detail' project.pk %}" class="btn btn-outline">{% translate "Cancel" %}</a>
+    </div>
+  </form>
+</div>
+{% endblock %}

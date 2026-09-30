@@ -1,0 +1,24 @@
+name: IT-Analysis - Consumption
+step: analysis-consumption
+summary: |-
+  Understanding your energy needs is crucial for optimizing a PV installation. Start by assessing your daily, monthly, and annual consumption to determine the system size required to meet your energy demands.
+description: |-
+  Guidance for the collection of these data: Supply voltage; Committed power; Available power; Customer type; Daily, monthly, annual consumption.
+web_link: https://www.acquirenteunico.it/portale-consumi
+input: |-
+  Access to your supplier web portal and download your latest electricity bills (last 12 months); or check annual consumption on consumienergia.it portal
+result: Total annual consumption in kWh and total consumption per timeband F1, F2, F3
+remaining_hurdles: |-
+  The characterization of end users other than residential customers is difficult to standardize.
+it:
+  name: IT-Analisi - Consumi
+  summary: |-
+    Conoscere il proprio fabbisogno energetico è fondamentale per ottimizzare un impianto fotovoltaico. Iniziate valutando i consumi giornalieri, mensili e annuali per determinare la taglia dell'impianto necessaria a coprire il vostro fabbisogno.
+  description: |-
+    Guida alla raccolta di questi dati: tensione di alimentazione; potenza impegnata; potenza disponibile; tipologia di cliente; consumi giornalieri, mensili e annuali.
+  input: |-
+    Accedere al portale web del proprio fornitore e scaricare le ultime bollette (ultimi 12 mesi), oppure verificare i consumi annuali sul portale consumienergia.it
+  result: Consumo annuo totale in kWh e consumo totale per fascia oraria F1, F2, F3
+  remaining_hurdles: |-
+    La caratterizzazione degli utenti finali diversi dai clienti domestici è difficile da standardizzare.
+  reviewed: false

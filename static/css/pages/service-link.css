@@ -1,0 +1,37 @@
+.link-page { max-width: 760px; margin: 0 auto; }
+.link-eyebrow { font-size: 0.85rem; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.4rem; }
+.link-page h1 { margin-bottom: 1.5rem; }
+.link-page h2 { font-size: 1.15rem; margin-bottom: 0.75rem; }
+.link-page section { margin-bottom: 2rem; }
+
+.link-message {
+  background: #e8f6fd;
+  border-left: 4px solid var(--blue);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+}
+.link-message-from { font-size: 0.82rem; font-weight: 700; color: #0077a8; margin-bottom: 0.4rem; }
+.link-message p { margin: 0 0 0.5rem; }
+.link-message p:last-child { margin-bottom: 0; }
+
+.link-summary {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.65;
+  border-left: 4px solid var(--green);
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+.link-description { line-height: 1.65; margin-bottom: 1rem; }
+.link-description p { margin-bottom: 0.75rem; }
+
+.link-note-sent { color: #5a8c00; font-weight: 600; margin-bottom: 0.5rem; }
+.link-note-text {
+  background: #f4faed;
+  border-left: 3px solid var(--green);
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+}
+.link-note-text p { margin: 0 0 0.5rem; }
+.link-note-text p:last-child { margin-bottom: 0; }
+.link-note .form-card { max-width: none; }

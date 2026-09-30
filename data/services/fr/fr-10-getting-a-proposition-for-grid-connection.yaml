@@ -1,0 +1,17 @@
+name: FR-10-Getting a Proposition for grid connection
+step: analysis-power-grid
+summary: |-
+  Once you have completed your demand for grid connection (DCR), you will receive within a defined timeframe a Proposition with a price to pay for connecting to the grid (PTF or PDR) that you will have to accept to launch construction work.
+description: Technical and financial proposition from Enedis.
+stakeholder: ENEDIS
+input: Demande Complete de Raccordement (DCR)
+result: Getting and accepting the financial and technical Proposition (PTF or PDR)
+fr:
+  name: FR-10-Obtenir une proposition de raccordement
+  summary: |-
+    Une fois votre demande complète de raccordement (DCR) déposée, vous recevrez dans un délai défini une proposition indiquant le prix du raccordement au réseau (PTF ou PDR), que vous devrez accepter pour lancer les travaux.
+  description: Proposition technique et financière d'Enedis.
+  stakeholder: ENEDIS
+  input: Demande complète de raccordement (DCR)
+  result: Réception et acceptation de la proposition technique et financière (PTF ou PDR)
+  reviewed: false

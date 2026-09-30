@@ -1,0 +1,25 @@
+name: 'BG 23: Registration as market participant (ESO and SEDA)'
+step: registration-market
+summary: |-
+  To actively participate in electricity market processes, you must register the REC with the electricity system operator (ESO) and the sustainable energy development agency (SEDA) for reporting purposes.
+description: |-
+  Register the REC to be involved in the electricity market processes and reporting purposes.
+stakeholder: Electricity System Operator Bulgaria (ESO)
+input: |-
+  Estimated electricity production data; Technological solution; Uptake agreement for sale of extra electricity
+result: All necessary market participation and reporting registrations
+remaining_hurdles: |-
+  Significant bank guarantee/financial needs to cover all market participation contract requirements
+bg:
+  name: 'BG 23: Регистрация като пазарен участник (ЕСО и АУЕР)'
+  summary: |-
+    За да участвате активно в процесите на пазара на електроенергия, трябва да регистрирате ВЕО при Електроенергийния системен оператор (ЕСО) и в Агенцията за устойчиво енергийно развитие (АУЕР) за целите на отчитането.
+  description: |-
+    Регистрирайте ВЕО, за да участва в процесите на пазара на електроенергия и за целите на отчитането.
+  stakeholder: Електроенергиен системен оператор (ЕСО)
+  input: |-
+    Данни за очакваното производство на електроенергия; технологично решение; договор за изкупуване на излишната електроенергия
+  result: Всички необходими регистрации за участие на пазара и за отчитане
+  remaining_hurdles: |-
+    Значителна банкова гаранция/финансови средства за покриване на всички изисквания на договорите за участие на пазара
+  reviewed: false

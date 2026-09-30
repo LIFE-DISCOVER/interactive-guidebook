@@ -1,0 +1,27 @@
+name: IT-Analysis - Solar Radiation and Electricity yield
+step: analysis-yield
+summary: |-
+  This step aims to estimate the expected electricity production of the photovoltaic (PV) system based on local solar radiation conditions. The analysis includes: Determining the annual solar irradiation at the project location; Estimating the electricity yield.
+description: |-
+  Support and guidance finding radiation and calculating yield. This step is supported by PVGIS: main tool for estimating solar radiation and PV yield in Europe. The tool allows users to retrieve solar radiation data for a specific location.
+web_link: |-
+  https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis_en
+input: |-
+  Access the PVGIS website; Select your geographic location; Set the PV system size, the tilt and orientation of the panels
+result: |-
+  Annual electricity production (kWh/year); Monthly production profile; Solar irradiation values
+remaining_hurdles: |-
+  Simulation tools provide reliable estimates but are based on historical climate data.
+it:
+  name: IT-Analisi - Irraggiamento solare e producibilità
+  summary: |-
+    Questo passaggio stima la produzione elettrica attesa dell'impianto fotovoltaico in base alle condizioni locali di irraggiamento. L'analisi comprende: determinazione dell'irraggiamento solare annuo nel luogo del progetto; stima della producibilità.
+  description: |-
+    Supporto e guida per trovare i dati di irraggiamento e calcolare la producibilità. Questo passaggio si avvale di PVGIS, lo strumento principale per stimare l'irraggiamento solare e la produzione fotovoltaica in Europa, che consente di ottenere i dati di irraggiamento per un luogo specifico.
+  input: |-
+    Accedere al sito PVGIS; selezionare la propria posizione geografica; impostare la taglia dell'impianto, l'inclinazione e l'orientamento dei pannelli
+  result: |-
+    Produzione elettrica annua (kWh/anno); profilo mensile di produzione; valori di irraggiamento solare
+  remaining_hurdles: |-
+    Gli strumenti di simulazione forniscono stime affidabili, ma basate su dati climatici storici.
+  reviewed: false

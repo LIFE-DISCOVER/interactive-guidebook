@@ -1,0 +1,23 @@
+name: IT-Registration on GAUDI portal
+step: commissioning-plant
+summary: |-
+  The registration of a photovoltaic system on Gaudi Terna is a fundamental and binding step for connecting the photovoltaic system to the national electricity grid. Without a valid registration on the Gaudi portal, it is not possible to connect your photovoltaic system to the national grid.
+description: |-
+  It supports the registration of the PV plant on the GAUDI platform, managed by TERNA.
+web_link: https://www.terna.it/it/sistema-elettrico/gaudi
+stakeholder: TERNA
+input: |-
+  Access the GAUDI system; Enter the plant registry data; Enter the POD; Choose a commercial regime managed by GSE (Net Metering, Dedicated Withdrawal, All-Inclusive Tariff).
+result: Attribution of CENSIMP code. The plant can be connected to the national grid.
+it:
+  name: IT-Registrazione sul portale GAUDÌ
+  summary: |-
+    La registrazione dell'impianto fotovoltaico su GAUDÌ di Terna è un passaggio fondamentale e vincolante per collegare l'impianto alla rete elettrica nazionale. Senza una registrazione valida su GAUDÌ non è possibile collegare l'impianto alla rete nazionale.
+  description: |-
+    Supporta la registrazione dell'impianto fotovoltaico sulla piattaforma GAUDÌ, gestita da TERNA.
+  stakeholder: TERNA
+  input: |-
+    Accedere al sistema GAUDÌ; inserire i dati anagrafici dell'impianto; inserire il POD; scegliere un regime commerciale gestito dal GSE (Scambio sul posto, Ritiro Dedicato, Tariffa onnicomprensiva).
+  result: |-
+    Attribuzione del codice CENSIMP. L'impianto può essere collegato alla rete nazionale.
+  reviewed: false

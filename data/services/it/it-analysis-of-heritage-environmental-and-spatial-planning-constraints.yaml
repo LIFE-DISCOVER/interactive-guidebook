@@ -1,0 +1,25 @@
+name: IT-Analysis of Heritage, Environmental and Spatial Planning Constraints
+step: permit-spatial-planning
+summary: |-
+  When planning a photovoltaic (PV) installation within a Renewable Energy Community (REC), it is essential to assess all regulatory and environmental constraints affecting the project site.
+description: |-
+  Guidance through all regulatory and environmental constraints affecting the project site. This step is supported by a combination of national and regional GIS platforms: SITAP for landscape and heritage constraints; Geoportale Regione Abruzzo; Piano Paesaggistico Regionale Abruzzo.
+web_link: https://sitap.cultura.gov.it/
+input: Municipality and exact project location; Selection of relevant constraint layers
+result: |-
+  Identification of applicable constraints; Preliminary classification of project feasibility: feasible, feasible with restrictions, or not feasible
+remaining_hurdles: |-
+  The above tools provide preliminary and technical information but do not have legal certifying value.
+it:
+  name: IT-Analisi dei vincoli paesaggistici, ambientali e urbanistici
+  summary: |-
+    Quando si pianifica un impianto fotovoltaico all'interno di una Comunità Energetica Rinnovabile (CER), è essenziale valutare tutti i vincoli normativi e ambientali che interessano il sito del progetto.
+  description: |-
+    Guida attraverso tutti i vincoli normativi e ambientali che interessano il sito del progetto. Questo passaggio si avvale di piattaforme GIS nazionali e regionali: SITAP per i vincoli paesaggistici e culturali; Geoportale Regione Abruzzo; Piano Paesaggistico Regionale dell'Abruzzo.
+  input: |-
+    Comune e ubicazione esatta del progetto; selezione dei livelli di vincolo pertinenti
+  result: |-
+    Individuazione dei vincoli applicabili; classificazione preliminare della fattibilità del progetto: fattibile, fattibile con limitazioni o non fattibile
+  remaining_hurdles: |-
+    Gli strumenti indicati forniscono informazioni preliminari e tecniche, ma non hanno valore di certificazione legale.
+  reviewed: false

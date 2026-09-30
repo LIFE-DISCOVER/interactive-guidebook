@@ -1,0 +1,60 @@
+title: Financing - Private Capital
+sort_order: 220
+topic: PV Plant
+description: Ensure financing and source external capital.
+objective: |-
+  - Apply for a bank loan
+  - Find investors
+  - Crowdfunding
+description_long: |-
+  To finance your project, consider three primary options: applying for a bank loan, finding investors, and crowdfunding. A bank loan can provide a significant amount of capital based on your credit profile. Investors may be interested in funding your project in exchange for equity or a share of the profits.
+de:
+  title: Finanzierung - Privatkapital
+  description: Sichern Sie die Finanzierung und beschaffen Sie externes Kapital.
+  objective: |-
+    - Bankkredit beantragen
+    - Investoren finden
+    - Crowdfunding
+  description_long: |-
+    Für die Finanzierung Ihres Projekts gibt es drei Hauptmöglichkeiten: einen Bankkredit, Investoren und Crowdfunding. Ein Bankkredit kann je nach Bonität erhebliches Kapital bereitstellen. Investoren sind möglicherweise bereit, Ihr Projekt gegen eine Beteiligung oder einen Anteil am Gewinn zu finanzieren.
+  reviewed: false
+fr:
+  title: Financement - Capitaux privés
+  description: Assurez le financement et trouvez des capitaux extérieurs.
+  objective: |-
+    - Demander un prêt bancaire
+    - Trouver des investisseurs
+    - Financement participatif
+  description_long: |-
+    Pour financer votre projet, trois options principales s'offrent à vous : un prêt bancaire, des investisseurs et le financement participatif. Un prêt bancaire peut apporter un capital important selon votre profil de crédit. Des investisseurs peuvent être intéressés par le financement de votre projet en échange d'une participation au capital ou d'une part des bénéfices.
+  reviewed: false
+it:
+  title: Finanziamento - Capitale privato
+  description: Assicurare il finanziamento e reperire capitale esterno.
+  objective: |-
+    - Richiedere un prestito bancario
+    - Trovare investitori
+    - Crowdfunding
+  description_long: |-
+    Per finanziare il progetto considerate tre opzioni principali: un prestito bancario, investitori e crowdfunding. Un prestito bancario può fornire un capitale consistente in base al vostro merito creditizio. Gli investitori potrebbero essere interessati a finanziare il progetto in cambio di una quota del capitale o degli utili.
+  reviewed: false
+hr:
+  title: Financiranje - Privatni kapital
+  description: Osigurajte financiranje i pribavite vanjski kapital.
+  objective: |-
+    - Zahtjev za bankovni kredit
+    - Pronalazak ulagača
+    - Skupno financiranje
+  description_long: |-
+    Za financiranje projekta razmotrite tri glavne mogućnosti: bankovni kredit, ulagače i skupno financiranje. Bankovni kredit može osigurati znatan kapital, ovisno o vašoj kreditnoj sposobnosti. Ulagači bi mogli financirati projekt u zamjenu za udio u vlasništvu ili dobiti.
+  reviewed: false
+bg:
+  title: Финансиране - Частен капитал
+  description: Осигурете финансиране и привлечете външен капитал.
+  objective: |-
+    - Кандидатстване за банков кредит
+    - Намиране на инвеститори
+    - Краудфъндинг
+  description_long: |-
+    За финансиране на проекта има три основни възможности: банков кредит, инвеститори и краудфъндинг. Банковият кредит може да осигури значителен капитал според кредитния ви профил. Инвеститорите може да проявят интерес да финансират проекта срещу дял в капитала или в печалбата.
+  reviewed: false

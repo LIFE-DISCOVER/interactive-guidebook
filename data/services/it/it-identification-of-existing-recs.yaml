@@ -1,0 +1,22 @@
+name: IT-Identification of existing RECs
+step: community-building
+summary: |-
+  Joining an already established REC can significantly simplify the process compared to creating a new one. Existing communities have usually already completed the main administrative, legal, and technical steps required to operate.
+description: |-
+  Guidance to join existing RECs. AGENA periodically updates the register of existing RECs.
+web_link: https://www.agenateramo.it/mappa-delle-cer
+stakeholder: Province of Teramo
+input: |-
+  Identify your primary substation; check if there are active Energy Communities in your area.
+result: Identification of existing RECs and contact to join them
+it:
+  name: IT-Individuazione delle CER esistenti
+  summary: |-
+    Aderire a una CER già costituita può semplificare notevolmente il percorso rispetto alla creazione di una nuova. Le comunità esistenti hanno di solito già completato i principali passaggi amministrativi, legali e tecnici necessari per operare.
+  description: |-
+    Guida all'adesione alle CER esistenti. AGENA aggiorna periodicamente il registro delle CER esistenti.
+  stakeholder: Provincia di Teramo
+  input: |-
+    Individuare la propria cabina primaria; verificare se nella propria zona sono attive comunità energetiche.
+  result: Individuazione delle CER esistenti e contatto per aderire
+  reviewed: false

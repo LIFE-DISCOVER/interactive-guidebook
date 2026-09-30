@@ -1,0 +1,26 @@
+name: HR-05-2-Apply for Permit - Spatial Planning Legislation
+step: permit-spatial-planning
+summary: |-
+  When planning a PV installation, it is important to consider any limitations regarding the appearance of the building. Some areas have aesthetic guidelines or building codes that restrict changes to a building's exterior.
+description: |-
+  Apply for an approval from the cultural heritage protection agency or the conservation department.
+web_link: https://min-kulture.gov.hr/kontakt-103/konzervatorski-odjeli-16811/16811
+stakeholder: Adriaprojekt d.o.o. Rijeka
+input: Exact location of future PV plant; Special protection conditions
+result: |-
+  Considering the limitations, the architect can propose a design that meets the required conditions.
+remaining_hurdles: |-
+  The process is expensive and time-consuming; in practice, the construction of PV plants on protected buildings is often not approved
+hr:
+  name: HR-05-2-Zahtjev za dozvolu - Propisi o prostornom uređenju
+  summary: |-
+    Pri planiranju fotonaponske instalacije važno je uzeti u obzir ograničenja u pogledu izgleda zgrade. Za neka područja postoje estetske smjernice ili građevinski propisi koji ograničavaju promjene vanjskog izgleda zgrade.
+  description: |-
+    Zatražite suglasnost nadležnog tijela za zaštitu kulturne baštine ili konzervatorskog odjela.
+  stakeholder: Adriaprojekt d.o.o. Rijeka
+  input: Točna lokacija buduće fotonaponske elektrane; posebni uvjeti zaštite
+  result: |-
+    Uzimajući u obzir ograničenja, arhitekt može predložiti rješenje koje ispunjava propisane uvjete.
+  remaining_hurdles: |-
+    Postupak je skup i dugotrajan; u praksi se izgradnja fotonaponskih elektrana na zaštićenim zgradama često ne odobrava
+  reviewed: false

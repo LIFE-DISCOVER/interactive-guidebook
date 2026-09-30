@@ -1,0 +1,20 @@
+name: IT-Capital grant for citizens beneficiaries national energy income
+step: financing-public-funding
+summary: |-
+  This step identifies some of the options available to an REC for the implementation of systems for the production of energy from renewable sources. It is a capital grant aimed at the installation of domestic PV systems (from 2 kW to 6 kW), serving residential properties owned by households in economic hardship.
+description: Guidance for apply for the National Energy Income.
+stakeholder: GSE
+input: |-
+  Check if you meet the requirements; Select an installer from the list; Submit the application on GSE Customer Area
+result: Application for the grant submitted. The result of the request is within 60 days
+it:
+  name: |-
+    IT-Contributo in conto capitale per i cittadini beneficiari del Reddito energetico nazionale
+  summary: |-
+    Questo passaggio individua alcune delle opzioni a disposizione di una CER per realizzare impianti di produzione da fonti rinnovabili. Si tratta di un contributo in conto capitale per l'installazione di impianti fotovoltaici domestici (da 2 kW a 6 kW) al servizio di abitazioni di proprietà di nuclei familiari in condizioni di disagio economico.
+  description: Guida alla domanda per il Reddito energetico nazionale.
+  stakeholder: GSE
+  input: |-
+    Verificare di possedere i requisiti; scegliere un installatore dall'elenco; presentare la domanda nell'Area Clienti GSE
+  result: Domanda di contributo presentata. L'esito arriva entro 60 giorni
+  reviewed: false

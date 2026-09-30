@@ -1,0 +1,21 @@
+name: 'BG 01: Community building'
+step: community-building
+summary: |-
+  Create an initiative committee by experienced individuals. Organize a steering committee with a project coordinator. Engage local individuals interested in PV and CEPs. Introduce and promote the CEP to local authorities.
+description: |-
+  We will facilitate the discussions between the initiators of CEP and advise on the procedural steps to create the Community. Form the Steering committee and other structures based on the investment concept. Plan discussions with other stakeholders, such as local SMEs, NGOs and citizens.
+stakeholder: Chamber of Energy communities in Bulgaria
+input: Motivated and skilled CEP initiators, CEP investment concept.
+result: |-
+  Protocols of meetings for the establishment of Energy community; Presentation document of the investment concept
+bg:
+  name: 'BG 01: Изграждане на общността'
+  summary: |-
+    Създайте инициативен комитет от опитни хора. Сформирайте управителен комитет с координатор на проекта. Привлечете местни хора, които се интересуват от фотоволтаици и ОЕП. Представете и популяризирайте ОЕП пред местните власти.
+  description: |-
+    Ще подпомогнем разговорите между инициаторите на ОЕП и ще дадем съвети за процедурните стъпки за създаване на общността. Сформирайте управителния комитет и други структури според инвестиционната концепция. Планирайте разговори с други заинтересовани страни, като местни МСП, НПО и граждани.
+  stakeholder: Камара на енергийните общности в България
+  input: Мотивирани и компетентни инициатори на ОЕП, инвестиционна концепция на ОЕП.
+  result: |-
+    Протоколи от срещите за създаване на енергийната общност; документ с представяне на инвестиционната концепция
+  reviewed: false

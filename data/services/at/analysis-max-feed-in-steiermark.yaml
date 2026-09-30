@@ -1,0 +1,22 @@
+name: 'AT: Analysis - Max Feed-In Steiermark'
+step: analysis-power-grid
+summary: |-
+  For systems up to 250 kW, the feed-in capacity can be temporarily or generally reduced to an agreed maximum value to guarantee safe and efficient operation of the grid. The limitation may not exceed 1% of the maximum capacity at the grid connection point.
+description: |-
+  Find how much feed-in the grid can handle. If the grid infrastructure is limited, your feed-in power may be restricted.
+web_link: https://ole.e-netze.at/
+stakeholder: Energy Netze Steiermark
+input: Smart meter's ID (aka Measurement Point)
+result: Max available feed in power
+remaining_hurdles: Some regions only allow a small feed in power
+de:
+  name: 'AT: Analyse - Maximale Einspeisung Steiermark'
+  summary: |-
+    Bei Anlagen bis 250 kW kann die Einspeiseleistung vorübergehend oder generell auf einen vereinbarten Höchstwert begrenzt werden, um einen sicheren und effizienten Netzbetrieb zu gewährleisten. Die Begrenzung darf 1 % der maximalen Leistung am Netzanschlusspunkt nicht überschreiten.
+  description: |-
+    Ermitteln Sie, wie viel Einspeisung das Netz aufnehmen kann. Ist die Netzinfrastruktur begrenzt, kann Ihre Einspeiseleistung eingeschränkt werden.
+  stakeholder: Energienetze Steiermark
+  input: Zählpunktnummer des Smart Meters
+  result: Maximal verfügbare Einspeiseleistung
+  remaining_hurdles: In manchen Regionen ist nur eine geringe Einspeiseleistung erlaubt
+  reviewed: false

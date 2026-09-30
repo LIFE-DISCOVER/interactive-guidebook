@@ -1,0 +1,22 @@
+{% load static i18n %}<!DOCTYPE html>
+{% comment %}
+  Rendered without request context when the server hits an unexpected error,
+  so this page must not extend base.html or rely on the user, database or URL names.
+{% endcomment %}
+{% get_current_language as LANGUAGE_CODE %}<html lang="{{ LANGUAGE_CODE }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% translate "Server error" %} — {% translate "DISCOVER Interactive Guidebook" %}</title>
+  <link rel="stylesheet" href="{% static 'css/pages/server-error.css' %}">
+</head>
+<body>
+  <div class="error-card">
+    <img src="{% static 'img/discover-logo-color.png' %}" alt="DISCOVER">
+    <div class="error-code">500</div>
+    <h1>{% translate "Something went wrong" %}</h1>
+    <p>{% translate "An unexpected error occurred on our side. Please try again in a moment. If the problem persists, contact your administrator." %}</p>
+    <a class="btn" href="/">{% translate "Back to the start page" %}</a>
+  </div>
+</body>
+</html>

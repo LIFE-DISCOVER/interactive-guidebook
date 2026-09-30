@@ -1,0 +1,18 @@
+name: FR-03-Getting approval to launch the project
+step: community-building
+summary: |-
+  To launch a photovoltaic community energy project within a condominium, you are advised to get approval by other people in your community, such as the council board of your condominium or the General Assembly.
+description: |-
+  The OSS provides tailored advisory as long as your condominium is registered on Coach Copro platform. You get advisory through email or online meeting.
+input: Building address; Information on your roof; Your needs and motivations
+result: Decision to launch the project within the condominium or the community.
+fr:
+  name: FR-03-Obtenir l'accord pour lancer le projet
+  summary: |-
+    Pour lancer un projet d'énergie communautaire photovoltaïque dans une copropriété, il est conseillé d'obtenir l'accord des autres membres de votre communauté, par exemple du conseil syndical ou de l'assemblée générale.
+  description: |-
+    Le guichet unique vous conseille de façon personnalisée dès lors que votre copropriété est inscrite sur la plateforme CoachCopro. Le conseil se fait par e-mail ou en visioconférence.
+  input: |-
+    Adresse du bâtiment ; informations sur votre toiture ; vos besoins et motivations
+  result: Décision de lancer le projet au sein de la copropriété ou de la communauté.
+  reviewed: false

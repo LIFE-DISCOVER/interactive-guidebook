@@ -1,0 +1,17 @@
+name: 'AT: Insurance'
+step: insurance
+summary: |-
+  Find insurance. Covers damage from hail, storms, lightning strikes, and fire. Many building insurances already include coverage. Consider separate insurance for off roof installations. Typical costs: 2 EUR per kWp
+description: Have reference insurance products for price comparison ready.
+stakeholder: 123Versichert
+input: Address, plant size
+result: Insurance Policy
+de:
+  name: 'AT: Versicherung'
+  summary: |-
+    Schließen Sie eine Versicherung ab. Sie deckt Schäden durch Hagel, Sturm, Blitzschlag und Feuer. Viele Gebäudeversicherungen enthalten diesen Schutz bereits. Für Anlagen, die nicht am Dach montiert sind, ist eine eigene Versicherung zu überlegen. Typische Kosten: 2 EUR pro kWp
+  description: Vergleichsangebote von Versicherungen für den Preisvergleich bereithalten.
+  stakeholder: 123Versichert
+  input: Adresse, Anlagengröße
+  result: Versicherungspolizze
+  reviewed: false

@@ -1,0 +1,21 @@
+name: 'BG 16: Consulting EC roles'
+step: community-roles
+summary: |-
+  General consulting depending on the objectives of the CEP/EC, including organizational structure, workload and responsibility distribution and management structures.
+description: |-
+  Define the various structures depending on the founding members and objectives of the CEP/EC. Design a lean and functional organisational structure, consisting a General Assembly, Executive Board and Supervisory Board.
+input: |-
+  General concept of the structure; Members types; Professional background and expertise; capacity building needs.
+result: |-
+  CEP/EC structure defined, GA, ExB and SB established and roles assigned to relevant members.
+bg:
+  name: 'BG 16: Консултиране за ролите в ЕО'
+  summary: |-
+    Общо консултиране според целите на ОЕП/ЕО, включително организационна структура, разпределение на натоварването и отговорностите и структури за управление.
+  description: |-
+    Определете различните структури според учредителите и целите на ОЕП/ЕО. Изгответе олекотена и функционална организационна структура, състояща се от Общо събрание, Управителен съвет и Надзорен съвет.
+  input: |-
+    Обща концепция за структурата; видове членове; професионален опит и експертиза; нужди от изграждане на капацитет.
+  result: |-
+    Определена структура на ОЕП/ЕО, създадени Общо събрание, Управителен съвет и Надзорен съвет и разпределени роли между съответните членове.
+  reviewed: false

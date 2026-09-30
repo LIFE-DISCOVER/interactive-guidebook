@@ -1,0 +1,18 @@
+name: FR-13-Establishing legal entity for collective self-consumption
+step: establish-legal-entity
+summary: |-
+  A legal entity gathering producers and consumers that will exchange energy among themselves is mandatory in the French law. It is called a Moral Organizing Persona (PMO in French).
+description: |-
+  The OSS advises the community in the legal aspects of a PMO, and the process of establishing it. The OSS advises each member in order to check the feasibility of its share in the project.
+input: Sufficient proof of technical, legal and economic feasibility of the project.
+result: Legal entity PMO established.
+fr:
+  name: FR-13-Créer la personne morale pour l'autoconsommation collective
+  summary: |-
+    Le droit français impose une personne morale réunissant les producteurs et les consommateurs qui échangent de l'énergie entre eux. Elle s'appelle la personne morale organisatrice (PMO).
+  description: |-
+    Le guichet unique conseille la communauté sur les aspects juridiques d'une PMO et sur sa création. Il conseille chaque membre afin de vérifier la faisabilité de sa participation au projet.
+  input: |-
+    Preuve suffisante de la faisabilité technique, juridique et économique du projet.
+  result: Personne morale organisatrice (PMO) créée.
+  reviewed: false

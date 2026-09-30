@@ -1,0 +1,60 @@
+title: Commissioning - Plant
+sort_order: 250
+topic: PV Plant
+description: Get the permission to start operation
+objective: |-
+  - Is the plant installed correctly
+  - Does it operate safely
+  - Does it meet all regulatory requirements
+description_long: |-
+  Once the plant is installed, it is crucial to verify that it has been installed correctly. Assess whether the plant operates safely by checking for any signs of malfunction or potential hazards, and confirm that all safety protocols are in place. Additionally, ensure that the installation meets all regulatory requirements.
+de:
+  title: Inbetriebnahme - Anlage
+  description: Holen Sie die Erlaubnis zur Inbetriebnahme ein
+  objective: |-
+    - Ist die Anlage korrekt installiert
+    - Arbeitet sie sicher
+    - Erfüllt sie alle behördlichen Anforderungen
+  description_long: |-
+    Nach der Montage muss unbedingt geprüft werden, ob die Anlage korrekt installiert wurde. Prüfen Sie, ob sie sicher arbeitet, achten Sie auf Anzeichen von Fehlfunktionen oder Gefahren und stellen Sie sicher, dass alle Sicherheitsvorkehrungen getroffen sind. Vergewissern Sie sich außerdem, dass die Installation alle behördlichen Anforderungen erfüllt.
+  reviewed: false
+fr:
+  title: Mise en service - Centrale
+  description: Obtenir l'autorisation de mise en service
+  objective: |-
+    - La centrale est-elle correctement installée
+    - Fonctionne-t-elle en toute sécurité
+    - Respecte-t-elle toutes les exigences réglementaires
+  description_long: |-
+    Une fois la centrale installée, il est essentiel de vérifier qu'elle l'a été correctement. Vérifiez qu'elle fonctionne en toute sécurité, recherchez tout signe de dysfonctionnement ou de danger et assurez-vous que toutes les mesures de sécurité sont en place. Vérifiez également que l'installation respecte toutes les exigences réglementaires.
+  reviewed: false
+it:
+  title: Messa in esercizio - Impianto
+  description: Ottenere l'autorizzazione all'esercizio
+  objective: |-
+    - L'impianto è installato correttamente
+    - Funziona in sicurezza
+    - Rispetta tutti i requisiti normativi
+  description_long: |-
+    Dopo l'installazione è fondamentale verificare che l'impianto sia stato installato correttamente. Verificate che funzioni in sicurezza, controllando eventuali segni di malfunzionamento o pericoli, e che tutte le misure di sicurezza siano attive. Assicuratevi inoltre che l'installazione rispetti tutti i requisiti normativi.
+  reviewed: false
+hr:
+  title: Puštanje u pogon - Elektrana
+  description: Ishodite dopuštenje za početak rada
+  objective: |-
+    - Je li elektrana pravilno ugrađena
+    - Radi li sigurno
+    - Ispunjava li sve propisane zahtjeve
+  description_long: |-
+    Nakon ugradnje ključno je provjeriti je li elektrana pravilno ugrađena. Procijenite radi li sigurno, provjerite ima li znakova kvara ili mogućih opasnosti i potvrdite da su sve sigurnosne mjere na snazi. Uvjerite se i da instalacija ispunjava sve propisane zahtjeve.
+  reviewed: false
+bg:
+  title: Въвеждане в експлоатация - Централа
+  description: Получете разрешение за започване на експлоатация
+  objective: |-
+    - Правилно ли е монтирана централата
+    - Работи ли безопасно
+    - Отговаря ли на всички нормативни изисквания
+  description_long: |-
+    След монтажа е от решаващо значение да се провери дали централата е монтирана правилно. Проверете дали работи безопасно, дали има признаци на неизправност или опасност и дали са въведени всички мерки за безопасност. Уверете се също, че инсталацията отговаря на всички нормативни изисквания.
+  reviewed: false

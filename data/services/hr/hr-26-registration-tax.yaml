@@ -1,0 +1,18 @@
+name: HR-26-Registration - Tax
+step: registration-tax
+summary: |-
+  In Croatia, it is only possible to register REC or CEC as association - nonprofit organization. Once registered, you will receive a tax verification number.
+description: |-
+  In the process of registration of association, tax authority will give you VAT number - OIB. Once association is established, apply for entry in Register of nonprofit organizations.
+web_link: https://saznaj-oib.porezna-uprava.hr/
+input: Statute of organization
+result: Tax number - OIB; Entry in the Register of Non-Profit Organizations
+hr:
+  name: HR-26-Registracija - Porez
+  summary: |-
+    U Hrvatskoj je ZOE ili ZGE moguće registrirati samo kao udrugu - neprofitnu organizaciju. Nakon registracije dobit ćete porezni identifikacijski broj.
+  description: |-
+    U postupku registracije udruge porezna uprava dodjeljuje vam porezni broj - OIB. Nakon osnivanja udruge podnesite zahtjev za upis u Registar neprofitnih organizacija.
+  input: Statut organizacije
+  result: Porezni broj - OIB; upis u Registar neprofitnih organizacija
+  reviewed: false

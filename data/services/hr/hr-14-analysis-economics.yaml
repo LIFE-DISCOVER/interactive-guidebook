@@ -1,0 +1,19 @@
+name: HR-14-Analysis - Economics
+step: analysis-economics
+summary: |-
+  When evaluating a PV system, determine how much of the generated electricity you can use personally versus how much can be sold or donated to others.
+description: |-
+  Determine: expected years of operation; expected costs; are there incentives; the amount of electricity for self-consumption and for exchange within the CEP. Calculate the savings by self-consuming electricity.
+input: |-
+  Electricity yield, consumption profile; Plant size - cost for materials and work; Costs for providing necessary documents
+result: Break-even point
+hr:
+  name: HR-14-Analiza - Ekonomičnost
+  summary: |-
+    Pri procjeni fotonaponskog sustava utvrdite koliko proizvedene električne energije možete sami iskoristiti, a koliko se može prodati ili ustupiti drugima.
+  description: |-
+    Utvrdite: očekivani broj godina rada; očekivane troškove; postoje li poticaji; količinu električne energije za vlastitu potrošnju i za razmjenu unutar energetske zajednice. Izračunajte uštede od vlastite potrošnje električne energije.
+  input: |-
+    Proizvodnja električne energije, profil potrošnje; snaga elektrane - troškovi materijala i rada; troškovi pribavljanja potrebne dokumentacije
+  result: Točka povrata ulaganja
+  reviewed: false

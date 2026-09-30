@@ -1,0 +1,54 @@
+title: Registration - Tax
+sort_order: 290
+topic: REC
+description: Register your REC at the tax authority.
+objective: |-
+  - Provide an economical outlook
+  - Receive tax verification number
+description_long: |-
+  Registration of the legal entity with the tax authority may involve providing an economical outlook, which includes an assessment of expected revenues. Once registered, you will receive a tax verification number, which is essential for fulfilling tax obligations.
+de:
+  title: Registrierung - Steuer
+  description: Melden Sie Ihre Energiegemeinschaft bei der Steuerbehörde an.
+  objective: |-
+    - Eine wirtschaftliche Vorschau vorlegen
+    - Steuernummer erhalten
+  description_long: |-
+    Bei der Anmeldung des Rechtsträgers bei der Steuerbehörde kann eine wirtschaftliche Vorschau verlangt werden, die eine Einschätzung der erwarteten Einnahmen enthält. Nach der Anmeldung erhalten Sie eine Steuernummer, die Sie zur Erfüllung Ihrer steuerlichen Pflichten brauchen.
+  reviewed: false
+fr:
+  title: Enregistrement - Fiscalité
+  description: Enregistrez votre communauté auprès de l'administration fiscale.
+  objective: |-
+    - Présenter des perspectives économiques
+    - Obtenir un numéro d'identification fiscale
+  description_long: |-
+    L'enregistrement de la personne morale auprès de l'administration fiscale peut exiger de présenter des perspectives économiques, avec une estimation des recettes attendues. Une fois enregistré, vous recevrez un numéro d'identification fiscale, indispensable pour remplir vos obligations fiscales.
+  reviewed: false
+it:
+  title: Registrazione - Fisco
+  description: Registrate la vostra CER presso l'amministrazione fiscale.
+  objective: |-
+    - Presentare una previsione economica
+    - Ottenere il codice fiscale
+  description_long: |-
+    La registrazione del soggetto giuridico presso l'amministrazione fiscale può richiedere una previsione economica con una stima dei ricavi attesi. Dopo la registrazione riceverete un codice fiscale, indispensabile per adempiere agli obblighi fiscali.
+  reviewed: false
+hr:
+  title: Registracija - Porez
+  description: Registrirajte svoju zajednicu kod porezne uprave.
+  objective: |-
+    - Dostaviti ekonomsku projekciju
+    - Dobiti porezni broj
+  description_long: |-
+    Pri registraciji pravne osobe kod porezne uprave može se tražiti ekonomska projekcija s procjenom očekivanih prihoda. Nakon registracije dobit ćete porezni broj, nužan za ispunjavanje poreznih obveza.
+  reviewed: false
+bg:
+  title: Регистрация - Данъци
+  description: Регистрирайте своята ВЕО в данъчната администрация.
+  objective: |-
+    - Представяне на икономическа прогноза
+    - Получаване на данъчен номер
+  description_long: |-
+    Регистрацията на юридическото лице в данъчната администрация може да изисква икономическа прогноза с оценка на очакваните приходи. След регистрацията ще получите данъчен номер, който е необходим за изпълнението на данъчните задължения.
+  reviewed: false

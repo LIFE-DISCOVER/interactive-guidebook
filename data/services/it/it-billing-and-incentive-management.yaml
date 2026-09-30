@@ -1,0 +1,25 @@
+name: IT-Billing and incentive management
+step: billing
+summary: |-
+  The billing process includes: Metering and data collection from each member's POD; Aggregation and processing of data; Calculation of self-consumed and shared energy; Determination of energy injected or withdrawn from the national grid; Application of incentive mechanisms.
+description: |-
+  Guidance to data interpretation and suggestion how to maximize the shared and self consumed energy.
+stakeholder: GSE
+input: |-
+  POD codes of all members; Hourly metering data; REC configuration registered on GSE; Incentive-sharing rules
+result: |-
+  Shared energy (hourly, monthly); Self-consumed energy; Incentives calculated and paid by GSE; Energy and financial reports
+remaining_hurdles: Access and quality of metering data (delays, inconsistencies)
+it:
+  name: IT-Fatturazione e gestione degli incentivi
+  summary: |-
+    Il processo di fatturazione comprende: misura e raccolta dei dati dal POD di ciascun membro; aggregazione ed elaborazione dei dati; calcolo dell'energia autoconsumata e condivisa; determinazione dell'energia immessa o prelevata dalla rete nazionale; applicazione dei meccanismi di incentivazione.
+  description: |-
+    Guida all'interpretazione dei dati e suggerimenti per massimizzare l'energia condivisa e autoconsumata.
+  stakeholder: GSE
+  input: |-
+    Codici POD di tutti i membri; dati di misura orari; configurazione della CER registrata presso il GSE; regole di ripartizione degli incentivi
+  result: |-
+    Energia condivisa (oraria, mensile); energia autoconsumata; incentivi calcolati e pagati dal GSE; rendiconti energetici e finanziari
+  remaining_hurdles: Accesso ai dati di misura e loro qualità (ritardi, incongruenze)
+  reviewed: false

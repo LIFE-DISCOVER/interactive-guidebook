@@ -1,0 +1,26 @@
+name: IT-Registration on the business registry
+step: registration-tax
+summary: |-
+  Depending on the chosen legal form, the REC may be required to register in the Business Register (Registro delle Imprese) at the competent Chamber of Commerce.
+description: |-
+  This service supports: verification of registration requirements; preparation and submission of the registration application; filing of the deed of incorporation and bylaws; registration of legal representatives.
+web_link: https://www.cameragransasso.camcom.it/
+stakeholder: Chamber of Commerce Gran Sasso d'Italia
+input: |-
+  Legal entity type; Signed deed of incorporation and bylaws; Founders' and directors' data; Governance structure
+result: |-
+  Registration in the Business Register (if required); Official company extract; Public disclosure of legal and corporate information
+remaining_hurdles: Uncertainty about whether registration is required; Costs and timing
+it:
+  name: IT-Iscrizione al Registro delle Imprese
+  summary: |-
+    A seconda della forma giuridica scelta, la CER può essere tenuta a iscriversi al Registro delle Imprese presso la Camera di Commercio competente.
+  description: |-
+    Questo servizio supporta: la verifica dei requisiti di iscrizione; la preparazione e presentazione della domanda di iscrizione; il deposito dell'atto costitutivo e dello statuto; l'iscrizione dei legali rappresentanti.
+  stakeholder: Camera di Commercio Gran Sasso d'Italia
+  input: |-
+    Tipo di soggetto giuridico; atto costitutivo e statuto firmati; dati dei fondatori e degli amministratori; struttura di governance
+  result: |-
+    Iscrizione al Registro delle Imprese (se richiesta); visura camerale; pubblicità legale delle informazioni giuridiche e societarie
+  remaining_hurdles: Incertezza sull'obbligo di iscrizione; costi e tempi
+  reviewed: false

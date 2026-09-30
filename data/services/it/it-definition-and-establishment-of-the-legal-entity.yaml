@@ -1,0 +1,29 @@
+name: IT-Definition and Establishment of the Legal Entity
+step: establish-legal-entity
+summary: |-
+  A Renewable Energy Community must be established as an independent legal entity. This step includes both the selection of the most suitable legal model and the formal establishment of the entity.
+description: |-
+  This service supports: identification and selection of the most appropriate legal form (association, cooperative, benefit cooperative, foundation, consortium); comparative assessment of advantages and limitations; preparation of standard legal documentation.
+web_link: |-
+  https://www.gse.it/servizi-per-te/autoconsumo/gruppi-di-autoconsumatori-e-comunita-di-energia-rinnovabile/
+stakeholder: University of Teramo
+input: |-
+  Type and number of members; REC objectives (social, environmental, economic); Desired governance model; Technical configuration of the REC
+result: |-
+  Selection of the optimal legal structure; Deed of incorporation to be adapted and signed; REC-compliant bylaws; Operational internal regulation
+remaining_hurdles: |-
+  Customization of standard templates to specific REC needs; Complexity in defining governance and incentive-sharing rules
+it:
+  name: IT-Definizione e costituzione del soggetto giuridico
+  summary: |-
+    Una Comunità Energetica Rinnovabile deve essere costituita come soggetto giuridico autonomo. Questo passaggio comprende sia la scelta del modello giuridico più adatto sia la costituzione formale del soggetto.
+  description: |-
+    Questo servizio supporta: l'individuazione e la scelta della forma giuridica più adatta (associazione, cooperativa, cooperativa benefit, fondazione, consorzio); la valutazione comparativa di vantaggi e limiti; la preparazione della documentazione legale standard.
+  stakeholder: Università degli Studi di Teramo
+  input: |-
+    Tipologia e numero dei membri; obiettivi della CER (sociali, ambientali, economici); modello di governance desiderato; configurazione tecnica della CER
+  result: |-
+    Scelta della struttura giuridica ottimale; atto costitutivo da adattare e firmare; statuto conforme ai requisiti delle CER; regolamento interno operativo
+  remaining_hurdles: |-
+    Adattamento dei modelli standard alle esigenze specifiche della CER; complessità nella definizione della governance e delle regole di ripartizione degli incentivi
+  reviewed: false

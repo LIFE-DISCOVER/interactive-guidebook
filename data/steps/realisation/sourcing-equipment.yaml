@@ -1,0 +1,54 @@
+title: Sourcing - Equipment
+sort_order: 242
+topic: PV Plant
+description: Initiate bidding process and buy equipment
+objective: |-
+  - Specify requirements
+  - Compare prices
+description_long: |-
+  To ensure a successful procurement process, start by clearly specifying your requirements. This involves detailing the technical and functional needs of the desired equipment, including any performance criteria or standards. Once you have a comprehensive list of requirements, compare prices from different suppliers or vendors.
+de:
+  title: Beschaffung - Ausrüstung
+  description: Ausschreibung starten und Ausrüstung kaufen
+  objective: |-
+    - Anforderungen festlegen
+    - Preise vergleichen
+  description_long: |-
+    Für eine erfolgreiche Beschaffung legen Sie zuerst Ihre Anforderungen klar fest. Beschreiben Sie die technischen und funktionalen Anforderungen an die gewünschte Ausrüstung, einschließlich Leistungskriterien oder Normen. Mit einer vollständigen Anforderungsliste vergleichen Sie dann die Preise verschiedener Lieferanten oder Anbieter.
+  reviewed: false
+fr:
+  title: Achats - Équipements
+  description: Lancer l'appel d'offres et acheter les équipements
+  objective: |-
+    - Définir les besoins
+    - Comparer les prix
+  description_long: |-
+    Pour réussir vos achats, commencez par définir clairement vos besoins. Décrivez les exigences techniques et fonctionnelles des équipements souhaités, y compris les critères de performance ou les normes. Avec une liste complète des exigences, comparez ensuite les prix de différents fournisseurs.
+  reviewed: false
+it:
+  title: Approvvigionamento - Apparecchiature
+  description: Avviare la gara e acquistare le apparecchiature
+  objective: |-
+    - Definire i requisiti
+    - Confrontare i prezzi
+  description_long: |-
+    Per un approvvigionamento efficace, iniziate definendo chiaramente i vostri requisiti. Descrivete le esigenze tecniche e funzionali delle apparecchiature desiderate, compresi eventuali criteri di prestazione o norme. Con un elenco completo dei requisiti, confrontate poi i prezzi di diversi fornitori.
+  reviewed: false
+hr:
+  title: Nabava - Oprema
+  description: Pokrenite postupak nabave i kupite opremu
+  objective: |-
+    - Definirati zahtjeve
+    - Usporediti cijene
+  description_long: |-
+    Za uspješnu nabavu najprije jasno definirajte svoje zahtjeve. Opišite tehničke i funkcionalne potrebe za željenom opremom, uključujući kriterije učinkovitosti ili norme. Kada imate potpun popis zahtjeva, usporedite cijene različitih dobavljača.
+  reviewed: false
+bg:
+  title: Доставки - Оборудване
+  description: Стартирайте процедура за оферти и закупете оборудването
+  objective: |-
+    - Определяне на изискванията
+    - Сравняване на цените
+  description_long: |-
+    За успешна доставка първо ясно определете изискванията си. Опишете техническите и функционалните нужди от желаното оборудване, включително критериите за ефективност или стандартите. След като имате пълен списък с изисквания, сравнете цените на различни доставчици.
+  reviewed: false

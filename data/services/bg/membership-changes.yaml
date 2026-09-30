@@ -1,0 +1,19 @@
+name: 'BG 26: Membership changes'
+step: membership-administration
+summary: |-
+  In order to manage the CEP/EC effectively, report any membership changes to the power grid operator to ensure accurate records. Register new participants in the REC and update the member list.
+description: |-
+  Prepare to report membership changes to the DSO. Register new participants of REC and update the list in the National Registration Information System.
+stakeholder: Elektrohold
+input: Notification of new members and their roles, if appropriate.
+result: Updated records of the EC members in DSO/NRIS.
+bg:
+  name: 'BG 26: Промени в членството'
+  summary: |-
+    За ефективното управление на ОЕП/ЕО съобщавайте всички промени в членството на мрежовия оператор, за да се поддържат точни данни. Регистрирайте новите участници във ВЕО и актуализирайте списъка на членовете.
+  description: |-
+    Подгответе се да съобщавате промените в членството на ЕРП. Регистрирайте новите участници във ВЕО и актуализирайте списъка в Националната регистрационна информационна система.
+  stakeholder: Електрохолд
+  input: Уведомление за новите членове и техните роли, ако е приложимо.
+  result: Актуализирани данни за членовете на ЕО при ЕРП/в НРИС.
+  reviewed: false

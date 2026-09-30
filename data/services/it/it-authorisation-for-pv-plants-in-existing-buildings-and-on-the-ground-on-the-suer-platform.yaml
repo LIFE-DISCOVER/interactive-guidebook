@@ -1,0 +1,26 @@
+name: |-
+  IT-Authorisation for PV plants in existing buildings and on the ground on the SUER platform
+step: permit-building-regulations
+summary: |-
+  The service supports the user to join the SUER Platform (helpdesk for renewable energies) and provides the single model for permit for integrated PV plants systems in existing buildings.
+description: |-
+  Guidance to access to SUER Platform and how to fill templates for authorisation. The new Consolidated Act on Renewable Energy Sources (FER), published on 12 December 2024, simplifies administrative procedures for the production of energy from renewable sources.
+web_link: https://suer.gse.it/suer/home
+stakeholder: GSE
+input: |-
+  Go to https://suer.gse.it/suer/home, enter your access credentials, download the module, collect all the required information and fill in
+result: Submission of all applications for new renewable installations.
+remaining_hurdles: The platform is still under construction.
+it:
+  name: |-
+    IT-Autorizzazione per impianti fotovoltaici su edifici esistenti e a terra sulla piattaforma SUER
+  summary: |-
+    Il servizio aiuta l'utente ad accedere alla piattaforma SUER (sportello per le energie rinnovabili) e fornisce il modello unico per l'autorizzazione di impianti fotovoltaici integrati su edifici esistenti.
+  description: |-
+    Guida all'accesso alla piattaforma SUER e alla compilazione dei modelli di autorizzazione. Il nuovo Testo unico sulle fonti di energia rinnovabile (FER), pubblicato il 12 dicembre 2024, semplifica le procedure amministrative per la produzione di energia da fonti rinnovabili.
+  stakeholder: GSE
+  input: |-
+    Andare su https://suer.gse.it/suer/home, inserire le proprie credenziali, scaricare il modulo, raccogliere tutte le informazioni richieste e compilarlo
+  result: Presentazione di tutte le domande per i nuovi impianti a fonti rinnovabili.
+  remaining_hurdles: La piattaforma è ancora in fase di sviluppo.
+  reviewed: false

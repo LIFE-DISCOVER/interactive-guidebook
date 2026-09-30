@@ -1,0 +1,17 @@
+name: 'BG 14-2: Key elements of economic and financial analysis and business plan'
+step: analysis-economics
+summary: |-
+  Evaluate the PV system to determine how much of the generated electricity can be used by the members of the EC and how much can be sold. Develop a business plan and a cash-flow analysis.
+description: |-
+  Develop a business plan and a cash-flow analysis, including CBA for the construction of the PV installations, electricity storages, direct power lines.
+input: Financial information, CAPEX and OPEX, other financial resources attracted.
+result: Business plan, including step-by-step plan and cash flow analysis.
+bg:
+  name: 'BG 14-2: Основни елементи на икономическия и финансовия анализ и бизнес плана'
+  summary: |-
+    Оценете фотоволтаичната система, за да определите каква част от произведената електроенергия могат да използват членовете на ЕО и каква част може да се продаде. Изгответе бизнес план и анализ на паричните потоци.
+  description: |-
+    Изгответе бизнес план и анализ на паричните потоци, включително анализ на разходите и ползите за изграждането на фотоволтаичните инсталации, съоръженията за съхранение и директните електропроводи.
+  input: Финансова информация, CAPEX и OPEX, други привлечени финансови ресурси.
+  result: Бизнес план, включително поетапен план и анализ на паричните потоци.
+  reviewed: false

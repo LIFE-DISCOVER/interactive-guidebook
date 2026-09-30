@@ -1,0 +1,22 @@
+name: HR-20-Financing - Public Funding
+step: financing-public-funding
+summary: |-
+  To secure additional funding for your project, consider applying for grants and state loans.
+description: |-
+  Find out if there are grants or loans for financing your projects. If process of applying is to complex, find external help.
+input: |-
+  Project value and proposed timeline for construction; Preferred method for financing
+result: Apply for grants; Apply for state loans
+remaining_hurdles: |-
+  Long delays and waiting list for Government grants. Complex administrative procedures.
+hr:
+  name: HR-20-Financiranje - Javna sredstva
+  summary: |-
+    Da biste osigurali dodatna sredstva za projekt, razmotrite prijavu za bespovratna sredstva i državne kredite.
+  description: |-
+    Saznajte postoje li bespovratna sredstva ili krediti za financiranje vaših projekata. Ako je postupak prijave presložen, potražite vanjsku pomoć.
+  input: Vrijednost projekta i predloženi rok izgradnje; željeni način financiranja
+  result: Prijava za bespovratna sredstva; prijava za državne kredite
+  remaining_hurdles: |-
+    Dugo čekanje i liste čekanja za državne potpore. Složeni administrativni postupci.
+  reviewed: false

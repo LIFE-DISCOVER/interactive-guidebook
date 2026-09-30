@@ -1,0 +1,14 @@
+name: 'AT: Analysis Economical'
+step: analysis-economics
+summary: Use the calculation tool
+description: Suggest the tool
+web_link: https://pvaustria.at/pv-rechner/
+input: Information about the PV plant and electricity demand
+result: Break even, annual revenue
+de:
+  name: 'AT: Analyse Wirtschaftlichkeit'
+  summary: Verwenden Sie das Berechnungstool
+  description: Das Tool empfehlen
+  input: Angaben zur PV-Anlage und zum Strombedarf
+  result: Amortisationszeitpunkt, jährliche Erlöse
+  reviewed: false

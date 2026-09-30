@@ -1,0 +1,63 @@
+title: Registration - Market
+sort_order: 270
+topic: REC
+description: Register your REC to be involved in the electricity market processes.
+objective: |-
+  - Register as Market participant
+  - Register to access energy aggregation portal
+  - Register REC participants
+description_long: |-
+  To actively participate in electricity market processes, you must register your Renewable Energy Community (REC). Begin by registering as a market participant, which involves completing the necessary applications and meeting the requirements set by market regulators.
+de:
+  title: Registrierung - Markt
+  description: |-
+    Registrieren Sie Ihre Energiegemeinschaft für die Teilnahme an den Prozessen des Strommarkts.
+  objective: |-
+    - Als Marktteilnehmer registrieren
+    - Für den Zugang zum Portal für die Energiedatenaggregation registrieren
+    - Mitglieder der Energiegemeinschaft registrieren
+  description_long: |-
+    Um aktiv an den Prozessen des Strommarkts teilzunehmen, müssen Sie Ihre Erneuerbare-Energie-Gemeinschaft registrieren. Registrieren Sie sich zuerst als Marktteilnehmer: Dazu gehören die nötigen Anträge und die Erfüllung der Vorgaben der Marktregulierung.
+  reviewed: false
+fr:
+  title: Enregistrement - Marché
+  description: |-
+    Enregistrez votre communauté pour participer aux processus du marché de l'électricité.
+  objective: |-
+    - S'enregistrer comme acteur du marché
+    - S'enregistrer pour accéder au portail d'agrégation des données énergétiques
+    - Enregistrer les participants à la communauté
+  description_long: |-
+    Pour participer activement aux processus du marché de l'électricité, vous devez enregistrer votre communauté d'énergie renouvelable. Commencez par vous enregistrer comme acteur du marché, ce qui implique de déposer les demandes nécessaires et de satisfaire aux exigences des régulateurs.
+  reviewed: false
+it:
+  title: Registrazione - Mercato
+  description: Registrate la vostra CER per partecipare ai processi del mercato elettrico.
+  objective: |-
+    - Registrarsi come operatore di mercato
+    - Registrarsi per accedere al portale di aggregazione dei dati energetici
+    - Registrare i partecipanti alla CER
+  description_long: |-
+    Per partecipare attivamente ai processi del mercato elettrico dovete registrare la vostra Comunità Energetica Rinnovabile. Iniziate registrandovi come operatore di mercato, presentando le domande necessarie e soddisfacendo i requisiti stabiliti dalle autorità di regolazione.
+  reviewed: false
+hr:
+  title: Registracija - Tržište
+  description: |-
+    Registrirajte svoju zajednicu radi sudjelovanja u procesima tržišta električne energije.
+  objective: |-
+    - Registracija kao sudionik tržišta
+    - Registracija za pristup portalu za agregaciju energetskih podataka
+    - Registracija sudionika zajednice
+  description_long: |-
+    Da biste aktivno sudjelovali u procesima tržišta električne energije, morate registrirati svoju zajednicu obnovljive energije. Najprije se registrirajte kao sudionik tržišta, što uključuje podnošenje potrebnih zahtjeva i ispunjavanje uvjeta regulatora tržišta.
+  reviewed: false
+bg:
+  title: Регистрация - Пазар
+  description: Регистрирайте своята ВЕО, за да участва в процесите на пазара на електроенергия.
+  objective: |-
+    - Регистрация като пазарен участник
+    - Регистрация за достъп до портала за агрегиране на енергийни данни
+    - Регистрация на участниците във ВЕО
+  description_long: |-
+    За да участвате активно в процесите на пазара на електроенергия, трябва да регистрирате своята възобновяема енергийна общност. Първо се регистрирайте като пазарен участник, което включва подаване на необходимите заявления и изпълнение на изискванията на регулаторите.
+  reviewed: false

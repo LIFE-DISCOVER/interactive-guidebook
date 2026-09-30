@@ -1,0 +1,18 @@
+name: 'AT: Registration - Grid Operator'
+step: registration-market
+summary: Energy communities need to sign a contract with the grid operator.
+description: Fill out the online mask
+web_link: https://www.salzburgnetz.at/stromnetz/energiegemeinschaften/
+stakeholder: Energy Netze Steiermark
+input: |-
+  RC Number; Contract partner data; ID of society; Allocation type; Grid level; ID of substation
+result: Gemeinschafts ID
+de:
+  name: 'AT: Registrierung - Netzbetreiber'
+  summary: Energiegemeinschaften müssen einen Vertrag mit dem Netzbetreiber abschließen.
+  description: Online-Maske ausfüllen
+  stakeholder: Energienetze Steiermark
+  input: |-
+    Marktpartner-ID (RC-Nummer); Daten des Vertragspartners; Kennung des Vereins; Aufteilungsmodell; Netzebene; Kennung des Umspannwerks
+  result: Gemeinschafts-ID
+  reviewed: false

@@ -1,0 +1,20 @@
+name: FR-09-Getting permit - Focus on heritage protection
+step: permit-spatial-planning
+summary: |-
+  PV plant in Paris will be located on rooftops in most cases. Such PV plant changes the aspect of a building. It has to be authorized according to urbanism and heritage protection rules.
+description: |-
+  The OSS utilizes the State tools and advises on heritage protection and guidelines: Is the project situated in an heritage protection zone? What are the technical guidelines to follow?
+web_link: http://atlas.patrimoines.culture.fr/atlas/trunk/
+stakeholder: UDAP 75
+input: Address of the buildings
+result: Qualification of heritage protection and guidelines.
+fr:
+  name: FR-09-Obtenir l'autorisation - Focus sur la protection du patrimoine
+  summary: |-
+    À Paris, la centrale photovoltaïque sera le plus souvent installée en toiture. Elle modifie donc l'aspect du bâtiment et doit être autorisée conformément aux règles d'urbanisme et de protection du patrimoine.
+  description: |-
+    Le guichet unique utilise les outils de l'État et conseille sur la protection du patrimoine et les prescriptions : le projet se situe-t-il dans un périmètre protégé ? Quelles prescriptions techniques faut-il respecter ?
+  stakeholder: UDAP 75
+  input: Adresse des bâtiments
+  result: Qualification de la protection patrimoniale et prescriptions.
+  reviewed: false

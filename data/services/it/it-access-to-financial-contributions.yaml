@@ -1,0 +1,19 @@
+name: IT-Access to financial contributions
+step: financing-public-funding
+summary: |-
+  This step identifies financial contributions available. The financial contributions are granted for a period of 20 years. The eligible contributions are: Enhancement of self-consumed electricity; Incentivization (premium tariff) of shared electricity; Compensation for the withdrawal of electricity fed into the grid.
+description: Guidance to access to incentives.
+stakeholder: GSE
+input: |-
+  Register on GSE portal; Access the GSE customer area via the SPC application; Enter the installation start date of the system and the creation date of the legal entity.
+result: Access to incentives
+it:
+  name: IT-Accesso ai contributi economici
+  summary: |-
+    Questo passaggio individua i contributi economici disponibili, riconosciuti per un periodo di 20 anni. I contributi ammissibili sono: valorizzazione dell'energia elettrica autoconsumata; incentivo (tariffa premio) sull'energia elettrica condivisa; corrispettivo per il ritiro dell'energia elettrica immessa in rete.
+  description: Guida all'accesso agli incentivi.
+  stakeholder: GSE
+  input: |-
+    Registrarsi sul portale GSE; accedere all'Area Clienti GSE tramite l'applicazione SPC; inserire la data di entrata in esercizio dell'impianto e la data di costituzione del soggetto giuridico.
+  result: Accesso agli incentivi
+  reviewed: false

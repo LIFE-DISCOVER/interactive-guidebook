@@ -1,0 +1,22 @@
+name: 'AT: Registration - EC members'
+step: registration-market
+summary: |-
+  With your eda access, you can create a new energy community in your eda portal. Afterwards you can invite others to join your community.
+description: Setup your eda portal
+web_link: https://portal.eda-portal.at/EDAPORTAL/login.html
+stakeholder: EDA Portal
+input: Metering point Numbers of members
+result: |-
+  Energy data for your community members will be aggregated and saved on your portal
+remaining_hurdles: Members must accept the invitation
+de:
+  name: 'AT: Registrierung - Mitglieder der Energiegemeinschaft'
+  summary: |-
+    Mit Ihrem EDA-Zugang können Sie im EDA-Portal eine neue Energiegemeinschaft anlegen. Danach können Sie andere zum Beitritt einladen.
+  description: Richten Sie Ihr EDA-Portal ein
+  stakeholder: EDA-Portal
+  input: Zählpunktnummern der Mitglieder
+  result: |-
+    Die Energiedaten Ihrer Mitglieder werden zusammengeführt und in Ihrem Portal gespeichert
+  remaining_hurdles: Die Mitglieder müssen die Einladung annehmen
+  reviewed: false

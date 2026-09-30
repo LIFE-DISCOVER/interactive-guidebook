@@ -1,0 +1,27 @@
+name: 'BG 08-1: Analysis - Connection to the power grid for self consumption'
+step: analysis-wiring
+summary: |-
+  Identify the nearest connection point to the grid with the DSO and check whether there are possibilities for augmentation of the feed in power. Check if there are any limitations on feed-in power, as well as the hardware requirements for connecting the PV system to the grid.
+description: |-
+  Explore with DSO the available on-site options for connecting the PV plant, energy storage and direct power lines for self consumption by CEP/EC participants.
+web_link: https://ermzapad.bg/bg/za-klienta/uslugi/prisedinyavaniya/
+stakeholder: Electricity System Operator Bulgaria (ESO)
+input: |-
+  Application for connection to the grid. Wiring schemes and drawings of existing building.
+result: |-
+  Wiring schemes (internal and external) for all buildings and direct power lines within the scope of the CEP/EC approved by the DSO.
+remaining_hurdles: Not enough connection capacity to the grid infrastructure.
+bg:
+  name: |-
+    BG 08-1: Анализ - Присъединяване към електропреносната мрежа за собствено потребление
+  summary: |-
+    Определете заедно с ЕРП най-близката точка на присъединяване към мрежата и проверете дали има възможност за увеличаване на мощността за подаване. Проверете дали има ограничения на подаваната мощност, както и изискванията към оборудването за присъединяване на фотоволтаичната система към мрежата.
+  description: |-
+    Проучете с ЕРП наличните възможности на място за присъединяване на фотоволтаичната централа, съоръженията за съхранение на енергия и директните електропроводи за собствено потребление от участниците в ОЕП/ЕО.
+  stakeholder: Електроенергиен системен оператор (ЕСО)
+  input: |-
+    Заявление за присъединяване към мрежата. Електрически схеми и чертежи на съществуващата сграда.
+  result: |-
+    Одобрени от ЕРП електрически схеми (вътрешни и външни) за всички сгради и директни електропроводи в обхвата на ОЕП/ЕО.
+  remaining_hurdles: Недостатъчен капацитет за присъединяване към мрежовата инфраструктура.
+  reviewed: false

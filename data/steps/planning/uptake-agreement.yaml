@@ -1,0 +1,66 @@
+title: Uptake Agreement
+sort_order: 170
+topic: PV Plant
+description: Find someone who will buy your excess electricity.
+objective: |-
+  - Do you qualify as an electricity vendor?
+  - Who are potential off-takers?
+  - Agree on tariff model
+  - Understand contractual constraints
+description_long: |-
+  Before integrating a PV system, verify if you qualify as an electricity vendor, as this status will determine your ability to sell excess energy back to the grid. Identify potential off-takers who might purchase your excess electricity, such as local utilities or businesses. Next, agree on a tariff model with these off-takers to establish favorable terms for the energy you supply.
+de:
+  title: Abnahmevertrag
+  description: Finden Sie jemanden, der Ihren überschüssigen Strom kauft.
+  objective: |-
+    - Erfüllen Sie die Voraussetzungen als Stromverkäufer?
+    - Wer kommt als Abnehmer in Frage?
+    - Tarifmodell vereinbaren
+    - Vertragliche Einschränkungen verstehen
+  description_long: |-
+    Prüfen Sie vor dem Anschluss einer PV-Anlage, ob Sie die Voraussetzungen als Stromverkäufer erfüllen, denn davon hängt ab, ob Sie überschüssige Energie ins Netz verkaufen können. Finden Sie mögliche Abnehmer für Ihren Überschussstrom, etwa örtliche Energieversorger oder Unternehmen. Vereinbaren Sie anschließend mit ihnen ein Tarifmodell mit günstigen Bedingungen für die gelieferte Energie.
+  reviewed: false
+fr:
+  title: Contrat d'achat
+  description: Trouvez un acheteur pour votre surplus d'électricité.
+  objective: |-
+    - Remplissez-vous les conditions pour vendre de l'électricité ?
+    - Qui sont les acheteurs potentiels ?
+    - Convenir d'un modèle tarifaire
+    - Comprendre les contraintes contractuelles
+  description_long: |-
+    Avant de raccorder une installation photovoltaïque, vérifiez si vous remplissez les conditions pour vendre de l'électricité, car ce statut détermine si vous pouvez revendre votre surplus au réseau. Identifiez les acheteurs potentiels de votre surplus, comme des fournisseurs locaux ou des entreprises. Convenez ensuite avec eux d'un modèle tarifaire offrant des conditions favorables pour l'énergie fournie.
+  reviewed: false
+it:
+  title: Accordo di ritiro dell'energia
+  description: Trovate chi acquisti la vostra energia in eccesso.
+  objective: |-
+    - Avete i requisiti per vendere energia elettrica?
+    - Chi sono i potenziali acquirenti?
+    - Concordare il modello tariffario
+    - Comprendere i vincoli contrattuali
+  description_long: |-
+    Prima di collegare un impianto fotovoltaico, verificate se avete i requisiti per vendere energia elettrica, perché da questo dipende la possibilità di vendere l'energia in eccesso alla rete. Individuate i potenziali acquirenti della vostra energia in eccesso, come società di vendita locali o imprese. Concordate poi con loro un modello tariffario con condizioni favorevoli per l'energia fornita.
+  reviewed: false
+hr:
+  title: Ugovor o otkupu
+  description: Pronađite nekoga tko će kupiti vaš višak električne energije.
+  objective: |-
+    - Ispunjavate li uvjete za prodaju električne energije?
+    - Tko su mogući otkupljivači?
+    - Dogovor o tarifnom modelu
+    - Razumijevanje ugovornih ograničenja
+  description_long: |-
+    Prije uključivanja fotonaponskog sustava provjerite ispunjavate li uvjete za prodaju električne energije, jer o tome ovisi možete li višak energije prodavati mreži. Pronađite moguće otkupljivače viška, poput lokalnih opskrbljivača ili poduzeća. Zatim s njima dogovorite tarifni model s povoljnim uvjetima za isporučenu energiju.
+  reviewed: false
+bg:
+  title: Договор за изкупуване
+  description: Намерете купувач за излишната си електроенергия.
+  objective: |-
+    - Отговаряте ли на условията за продавач на електроенергия?
+    - Кои са възможните купувачи?
+    - Договаряне на тарифен модел
+    - Разбиране на договорните ограничения
+  description_long: |-
+    Преди включването на фотоволтаична система проверете дали отговаряте на условията за продавач на електроенергия, защото от това зависи дали можете да продавате излишната енергия в мрежата. Намерете възможни купувачи на излишната електроенергия, като местни доставчици или предприятия. След това договорете с тях тарифен модел с изгодни условия за доставяната енергия.
+  reviewed: false

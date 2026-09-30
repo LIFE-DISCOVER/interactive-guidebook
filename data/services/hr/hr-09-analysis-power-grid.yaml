@@ -1,0 +1,25 @@
+name: HR-09-Analysis - Power Grid
+step: analysis-power-grid
+summary: |-
+  When planning a PV installation, it is important to identify the nearest connection point to the grid to determine how the system will integrate with the existing infrastructure.
+description: |-
+  Obtaining Special Conditions Verification of the Possibility of Connecting a Household with its own Production requires: preparation and collection of documentation and completion of application for the issuance of electricity approval from HEP ODS
+stakeholder: HEP ODS
+input: |-
+  Document of legality of existing building; Document of ownership of building; Construction plans; Structural analysis; Electrical installation project for PV plant
+result: |-
+  Special Conditions Verification obtained from HEP ODS; Offer for equipment for billing metering point from HEP ODS
+remaining_hurdles: Insufficient capacity of the DSO in certain periods
+hr:
+  name: HR-09-Analiza - Elektroenergetska mreža
+  summary: |-
+    Pri planiranju fotonaponske instalacije važno je utvrditi najbližu točku priključenja na mrežu kako biste odredili kako će se sustav uklopiti u postojeću infrastrukturu.
+  description: |-
+    Za dobivanje potvrde posebnih uvjeta o mogućnosti priključenja kućanstva s vlastitom proizvodnjom potrebno je: pripremiti i prikupiti dokumentaciju te ispuniti zahtjev za izdavanje elektroenergetske suglasnosti od HEP ODS-a
+  stakeholder: HEP ODS
+  input: |-
+    Dokaz o legalnosti postojeće zgrade; dokaz o vlasništvu zgrade; građevinski nacrti; statički proračun; projekt električnih instalacija za fotonaponsku elektranu
+  result: |-
+    Dobivena potvrda posebnih uvjeta od HEP ODS-a; ponuda HEP ODS-a za opremu obračunskog mjernog mjesta
+  remaining_hurdles: Nedostatni kapaciteti ODS-a u određenim razdobljima
+  reviewed: false

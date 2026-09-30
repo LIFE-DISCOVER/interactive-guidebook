@@ -1,0 +1,21 @@
+name: FR-08-Getting a collective loan
+step: financing-private-capital
+summary: |-
+  Financing a PV installation in a condominium or community may require to contract a loan. Certain banks offer collective loans with low or zero rates, such as Eco Prets a Taux Zero (EcoPTZ) for collective housing.
+description: |-
+  The OSS can help you get in touch with the bank. In France two banks offer collective ECPTZ: Domofinance and Caisse d'Epargne.
+input: Investment needs and business model
+result: Loan contract
+remaining_hurdles: |-
+  A loan may not be enough. Public aids or other financing schemes may be necessary.
+fr:
+  name: FR-08-Obtenir un prêt collectif
+  summary: |-
+    Financer une installation photovoltaïque dans une copropriété ou une communauté peut nécessiter un emprunt. Certaines banques proposent des prêts collectifs à taux faible ou nul, comme l'éco-prêt à taux zéro (éco-PTZ) copropriété.
+  description: |-
+    Le guichet unique peut vous mettre en relation avec la banque. En France, deux banques proposent l'éco-PTZ collectif : Domofinance et la Caisse d'Épargne.
+  input: Besoins d'investissement et modèle économique
+  result: Contrat de prêt
+  remaining_hurdles: |-
+    Un prêt peut ne pas suffire. Des aides publiques ou d'autres modes de financement peuvent être nécessaires.
+  reviewed: false

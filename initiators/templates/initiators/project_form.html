@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% if object %}{% blocktranslate with name=object.name %}Edit {{ name }}{% endblocktranslate %}{% else %}{% translate "New Project" %}{% endif %}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/project-form.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="breadcrumb">
+    {% if initiator %}
+      <a href="{% url 'initiators:initiator_detail' initiator.pk %}">← {{ initiator.full_name }}</a>
+    {% elif object %}
+      <a href="{% url 'projects:project_detail' object.pk %}">← {{ object.name }}</a>
+    {% endif %}
+  </div>
+  <h1>{% if object %}{% blocktranslate with name=object.name %}Edit {{ name }}{% endblocktranslate %}{% else %}{% translate "New Project" %}{% endif %}</h1>
+</div>
+
+<div class="form-card">
+  <form method="post">
+    {% csrf_token %}
+
+    <div class="form-section-title">{% translate "Project basics" %}</div>
+    <p>{{ form.name.label_tag }} {{ form.name }}</p>
+    <p>{{ form.description.label_tag }} {{ form.description }}</p>
+    {% if form.current_phase %}
+    <p>{{ form.current_phase.label_tag }} {{ form.current_phase }}</p>
+    {% endif %}
+    <div class="form-row-2">
+      <p>{{ form.status.label_tag }} {{ form.status }}</p>
+      <p>{{ form.started_on.label_tag }} {{ form.started_on }}</p>
+    </div>
+
+    <div class="form-section-title">{% translate "Project details" %} <span class="form-section-optional">({% translate "optional" %})</span></div>
+    <p>{{ form.category.label_tag }} {{ form.category }}</p>
+    <p>{{ form.address.label_tag }} {{ form.address }}</p>
+    <div class="form-row-2">
+      <p>
+        {{ form.power_installed.label_tag }} {{ form.power_installed }}
+        {% if form.power_installed.help_text %}<span class="field-help">{{ form.power_installed.help_text }}</span>{% endif %}
+      </p>
+      <p>
+        {{ form.energy_generation.label_tag }} {{ form.energy_generation }}
+        {% if form.energy_generation.help_text %}<span class="field-help">{{ form.energy_generation.help_text }}</span>{% endif %}
+      </p>
+    </div>
+    <p>
+      {{ form.investment.label_tag }} {{ form.investment }}
+      {% if form.investment.help_text %}<span class="field-help">{{ form.investment.help_text }}</span>{% endif %}
+    </p>
+
+    {% if form.errors %}
+    <div class="form-errors">
+      {% for field in form %}{% for error in field.errors %}<p class="error">{{ field.label }}: {{ error }}</p>{% endfor %}{% endfor %}
+      {% for error in form.non_field_errors %}<p class="error">{{ error }}</p>{% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit">{% translate "Save" %}</button>
+      {% if object %}
+        <a href="{% url 'projects:project_detail' object.pk %}" class="btn btn-outline">{% translate "Cancel" %}</a>
+      {% elif initiator %}
+        <a href="{% url 'initiators:initiator_detail' initiator.pk %}" class="btn btn-outline">{% translate "Cancel" %}</a>
+      {% endif %}
+    </div>
+  </form>
+</div>
+{% endblock %}

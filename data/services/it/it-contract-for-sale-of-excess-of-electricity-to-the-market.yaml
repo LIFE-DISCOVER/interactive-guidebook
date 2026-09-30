@@ -1,0 +1,19 @@
+name: IT-Contract for sale of excess of electricity to the market
+step: uptake-agreement
+summary: |-
+  It consists of selling the excess of electricity fed into the grid from PV systems on the market.
+description: |-
+  Support REC to find off takers and agree on tariff model. This model is alternative to GSE mechanism (RID - dedicated withdrawal).
+input: Grid connection agreement and consumption profile.
+result: Agreement with utilities or businesses.
+remaining_hurdles: Understand any contractual constraints, including obligation and limitations.
+it:
+  name: IT-Contratto di vendita sul mercato dell'energia elettrica in eccesso
+  summary: |-
+    Consiste nel vendere sul mercato l'energia elettrica in eccesso immessa in rete dagli impianti fotovoltaici.
+  description: |-
+    Supporto alla CER nella ricerca di acquirenti e nella definizione del modello tariffario. Questo modello è alternativo al meccanismo del GSE (RID - Ritiro Dedicato).
+  input: Contratto di connessione alla rete e profilo di consumo.
+  result: Accordo con società di vendita o imprese.
+  remaining_hurdles: Comprendere gli eventuali vincoli contrattuali, compresi obblighi e limitazioni.
+  reviewed: false

@@ -1,0 +1,66 @@
+title: Analysis - Construction Synergies
+sort_order: 150
+topic: Social
+description: |-
+  Think about construction work that can be done in parallel while installing a PV plant.
+objective: |-
+  - Work on the roof: Refurbishment, insulation, new shingles, water proofing, fire protection
+  - Work on the facade
+  - Work on infrastructure: New wires channels, new piping
+description_long: |-
+  When installing a PV plant, it is beneficial to consider construction work that can be done concurrently to maximize efficiency and minimize disruptions. Coordinating these parallel tasks can enhance project efficiency and reduce overall costs.
+de:
+  title: Analyse - Synergien bei Bauarbeiten
+  description: |-
+    Überlegen Sie, welche Bauarbeiten parallel zur Errichtung der PV-Anlage durchgeführt werden können.
+  objective: |-
+    - Arbeiten am Dach: Sanierung, Dämmung, neue Dachdeckung, Abdichtung, Brandschutz
+    - Arbeiten an der Fassade
+    - Arbeiten an der Infrastruktur: neue Kabelkanäle, neue Leitungen
+  description_long: |-
+    Bei der Errichtung einer PV-Anlage lohnt es sich, Bauarbeiten mitzudenken, die gleichzeitig erledigt werden können, um effizienter zu arbeiten und Störungen gering zu halten. Die Abstimmung dieser parallelen Arbeiten steigert die Effizienz des Projekts und senkt die Gesamtkosten.
+  reviewed: false
+fr:
+  title: Analyse - Synergies de travaux
+  description: |-
+    Réfléchissez aux travaux qui peuvent être réalisés en parallèle de l'installation de la centrale photovoltaïque.
+  objective: |-
+    - Travaux de toiture : réfection, isolation, nouvelle couverture, étanchéité, protection incendie
+    - Travaux de façade
+    - Travaux d'infrastructure : nouveaux chemins de câbles, nouvelles canalisations
+  description_long: |-
+    Lors de l'installation d'une centrale photovoltaïque, il est utile de prévoir les travaux qui peuvent être menés en même temps, pour gagner en efficacité et limiter les nuisances. Coordonner ces travaux parallèles améliore l'efficacité du projet et réduit son coût global.
+  reviewed: false
+it:
+  title: Analisi - Sinergie con altri lavori edili
+  description: |-
+    Valutate quali lavori edili si possono eseguire in parallelo all'installazione dell'impianto fotovoltaico.
+  objective: |-
+    - Lavori sul tetto: rifacimento, isolamento, nuovo manto di copertura, impermeabilizzazione, protezione antincendio
+    - Lavori sulla facciata
+    - Lavori sulle infrastrutture: nuove canaline per cavi, nuove tubazioni
+  description_long: |-
+    Quando si installa un impianto fotovoltaico conviene considerare i lavori edili che si possono eseguire contemporaneamente, per aumentare l'efficienza e ridurre i disagi. Coordinare questi lavori in parallelo migliora l'efficienza del progetto e ne riduce i costi complessivi.
+  reviewed: false
+hr:
+  title: Analiza - Građevinske sinergije
+  description: |-
+    Razmislite o građevinskim radovima koji se mogu izvesti usporedno s ugradnjom fotonaponske elektrane.
+  objective: |-
+    - Radovi na krovu: obnova, izolacija, novi pokrov, hidroizolacija, zaštita od požara
+    - Radovi na pročelju
+    - Radovi na infrastrukturi: novi kabelski kanali, nove cijevi
+  description_long: |-
+    Pri ugradnji fotonaponske elektrane korisno je razmotriti građevinske radove koji se mogu izvesti istodobno, kako bi se povećala učinkovitost i smanjile smetnje. Usklađivanje tih usporednih radova povećava učinkovitost projekta i smanjuje ukupne troškove.
+  reviewed: false
+bg:
+  title: Анализ - Синергии при строителните работи
+  description: |-
+    Помислете кои строителни работи могат да се извършат успоредно с монтажа на фотоволтаичната централа.
+  objective: |-
+    - Работи по покрива: ремонт, изолация, нова покривка, хидроизолация, пожарозащита
+    - Работи по фасадата
+    - Работи по инфраструктурата: нови кабелни канали, нови тръби
+  description_long: |-
+    При монтажа на фотоволтаична централа е полезно да се обмислят строителни работи, които могат да се извършат едновременно, за да се повиши ефективността и да се намалят неудобствата. Координирането на тези успоредни работи повишава ефективността на проекта и намалява общите разходи.
+  reviewed: false

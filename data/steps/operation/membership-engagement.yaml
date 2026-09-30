@@ -1,0 +1,66 @@
+title: Membership - Engagement
+sort_order: 380
+topic: Social
+description: Member services and continuous engagement.
+objective: |-
+  - Keeping members updated
+  - Recruiting new members
+  - Organising informational and social events
+  - Offering assistance
+description_long: |-
+  To maintain REC member services and continuous engagement, keep members updated with the latest information and developments. Actively recruit new members to expand the community and enhance its impact. Organize informational and social events to foster a sense of community and provide valuable insights.
+de:
+  title: Mitglieder - Einbindung
+  description: Service für Mitglieder und laufende Einbindung.
+  objective: |-
+    - Mitglieder auf dem Laufenden halten
+    - Neue Mitglieder gewinnen
+    - Informations- und Gemeinschaftsveranstaltungen organisieren
+    - Unterstützung anbieten
+  description_long: |-
+    Um den Service für die Mitglieder und ihre laufende Einbindung zu sichern, informieren Sie sie regelmäßig über Neuigkeiten und Entwicklungen. Werben Sie aktiv neue Mitglieder, um die Gemeinschaft zu vergrößern und ihre Wirkung zu stärken. Organisieren Sie Informations- und Gemeinschaftsveranstaltungen, die den Zusammenhalt fördern und wertvolles Wissen vermitteln.
+  reviewed: false
+fr:
+  title: Membres - Mobilisation
+  description: Services aux membres et mobilisation continue.
+  objective: |-
+    - Tenir les membres informés
+    - Recruter de nouveaux membres
+    - Organiser des événements d'information et de convivialité
+    - Proposer de l'aide
+  description_long: |-
+    Pour maintenir les services aux membres et leur mobilisation continue, tenez-les informés des dernières nouvelles et évolutions. Recrutez activement de nouveaux membres pour agrandir la communauté et renforcer son impact. Organisez des événements d'information et de convivialité qui renforcent le sentiment d'appartenance et apportent des connaissances utiles.
+  reviewed: false
+it:
+  title: Membri - Coinvolgimento
+  description: Servizi ai membri e coinvolgimento continuo.
+  objective: |-
+    - Tenere aggiornati i membri
+    - Reclutare nuovi membri
+    - Organizzare eventi informativi e sociali
+    - Offrire assistenza
+  description_long: |-
+    Per mantenere i servizi ai membri della CER e il loro coinvolgimento continuo, teneteli aggiornati sulle ultime informazioni e novità. Reclutate attivamente nuovi membri per ampliare la comunità e accrescerne l'impatto. Organizzate eventi informativi e sociali che rafforzino il senso di comunità e offrano spunti utili.
+  reviewed: false
+hr:
+  title: Članstvo - Uključenost
+  description: Usluge za članove i njihova stalna uključenost.
+  objective: |-
+    - Redovito informiranje članova
+    - Privlačenje novih članova
+    - Organiziranje informativnih i društvenih događanja
+    - Pružanje pomoći
+  description_long: |-
+    Da biste održali usluge za članove i njihovu stalnu uključenost, redovito ih obavještavajte o najnovijim informacijama i događanjima. Aktivno privlačite nove članove kako bi zajednica rasla i imala veći učinak. Organizirajte informativna i društvena događanja koja jačaju osjećaj zajedništva i pružaju korisna znanja.
+  reviewed: false
+bg:
+  title: Членство - Ангажиране
+  description: Услуги за членовете и постоянното им ангажиране.
+  objective: |-
+    - Информиране на членовете
+    - Привличане на нови членове
+    - Организиране на информационни и социални събития
+    - Предлагане на помощ
+  description_long: |-
+    За да поддържате услугите за членовете на ВЕО и тяхното постоянно ангажиране, информирайте ги редовно за новостите и развитието. Активно привличайте нови членове, за да разширите общността и да увеличите въздействието ѝ. Организирайте информационни и социални събития, които укрепват чувството за общност и дават полезни знания.
+  reviewed: false

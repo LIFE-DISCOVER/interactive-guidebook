@@ -1,0 +1,22 @@
+name: FR-02-Analysing opportunity 3-Economics
+step: analysis-economics
+summary: |-
+  Once you have estimated potential for production and self-consumption of electricity, you have to know how much it should cost and how much you should benefit from it. The preassessment of economic balance gives you an estimation of the return on investment.
+description: The OSS uses the licensed Autocalsol software and estimations of cash flows.
+web_link: https://autocalsol.ines-solaire.org/
+input: |-
+  Estimated costs (PV plant investment, ancillary works, maintenance, insurance, etc.); Estimated revenues with multiple scenarios
+result: Preassessment of economic balance with estimation of the return on investment.
+remaining_hurdles: May not include all prosumers at one stage
+fr:
+  name: FR-02-Analyse d'opportunité 3-Économie
+  summary: |-
+    Une fois estimés les potentiels de production et d'autoconsommation, vous devez savoir combien le projet coûtera et ce qu'il vous rapportera. La pré-évaluation de l'équilibre économique vous donne une estimation du retour sur investissement.
+  description: |-
+    Le guichet unique utilise le logiciel sous licence Autocalsol et des estimations de flux de trésorerie.
+  input: |-
+    Coûts estimés (investissement dans la centrale, travaux annexes, maintenance, assurance, etc.) ; recettes estimées selon plusieurs scénarios
+  result: |-
+    Pré-évaluation de l'équilibre économique avec estimation du retour sur investissement.
+  remaining_hurdles: Tous les prosommateurs ne peuvent pas forcément être intégrés dès cette étape
+  reviewed: false

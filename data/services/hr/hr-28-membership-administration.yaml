@@ -1,0 +1,24 @@
+name: HR-28-Membership - Administration
+step: membership-administration
+summary: |-
+  To manage your CEP effectively, report any membership changes to the power grid operator to ensure accurate records.
+description: On/Off boarding of CEP members. Defining a Sharing Key
+input: |-
+  Data on own consumption, leased power and other technical prerequisites; Defining a Sharing Key
+result: |-
+  Report membership changes to the power grid operator; Register new participants of REC; Maintain and update member list
+remaining_hurdles: |-
+  Lack of expertise and capacity among members to develop the sharing key; Lack of examples of good practice in Croatia
+hr:
+  name: HR-28-Članstvo - Administracija
+  summary: |-
+    Za učinkovito upravljanje energetskom zajednicom prijavljujte sve promjene članstva operatoru mreže kako bi evidencija bila točna.
+  description: |-
+    Pristupanje i istupanje članova energetske zajednice. Definiranje ključa raspodjele
+  input: |-
+    Podaci o vlastitoj potrošnji, zakupljenoj snazi i drugim tehničkim preduvjetima; definiranje ključa raspodjele
+  result: |-
+    Prijava promjena članstva operatoru mreže; registracija novih sudionika ZOE; vođenje i ažuriranje popisa članova
+  remaining_hurdles: |-
+    Nedostatak stručnosti i kapaciteta među članovima za izradu ključa raspodjele; nedostatak primjera dobre prakse u Hrvatskoj
+  reviewed: false

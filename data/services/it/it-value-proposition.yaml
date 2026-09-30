@@ -1,0 +1,21 @@
+name: IT-Value proposition
+step: value-proposition
+summary: |-
+  The initial vision of your project should clearly outline its overarching goals and aspirations. Consider the potential outcomes of the project to define its success criteria and impact.
+description: |-
+  It helps initiators to better define: purpose and vision of the community; main goals and outcomes; benefits for members and the community
+input: |-
+  Understand if initiators are local public administrations, local promoters enabling horizontal community models, or promoters external to the community.
+result: |-
+  First draft of business development plan, which outlines the objectives that the promoters aim to achieve with the establishment of the REC.
+it:
+  name: IT-Proposta di valore
+  summary: |-
+    La visione iniziale del progetto dovrebbe delineare chiaramente i suoi obiettivi e le sue aspirazioni generali. Considerate i possibili risultati del progetto per definirne i criteri di successo e l'impatto.
+  description: |-
+    Aiuta i promotori a definire meglio: scopo e visione della comunità; obiettivi e risultati principali; benefici per i membri e per la comunità
+  input: |-
+    Capire se i promotori sono amministrazioni pubbliche locali, promotori locali che favoriscono modelli di comunità orizzontali o promotori esterni alla comunità.
+  result: |-
+    Prima bozza del piano di sviluppo, che delinea gli obiettivi che i promotori intendono raggiungere con la costituzione della CER.
+  reviewed: false

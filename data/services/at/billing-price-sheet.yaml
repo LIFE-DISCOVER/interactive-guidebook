@@ -1,0 +1,17 @@
+name: 'AT: Billing - Price Sheet'
+step: billing
+summary: |-
+  Costs for electricity consumption from the energy community need to be adjusted and communicated frequently.
+description: Referral to company that offers rate sheet services
+stakeholder: Pixel Energy Solutions GmbH
+input: Reference energy costs for energy community members
+result: Price sheets sent out to community members periodically.
+de:
+  name: 'AT: Abrechnung - Preisblatt'
+  summary: |-
+    Die Kosten für den Strombezug aus der Energiegemeinschaft müssen regelmäßig angepasst und kommuniziert werden.
+  description: Vermittlung an ein Unternehmen, das Preisblätter erstellt
+  stakeholder: Pixel Energy Solutions GmbH
+  input: Referenz-Energiekosten für die Mitglieder der Energiegemeinschaft
+  result: Preisblätter werden regelmäßig an die Mitglieder versendet.
+  reviewed: false

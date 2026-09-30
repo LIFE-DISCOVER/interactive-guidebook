@@ -1,0 +1,72 @@
+title: Billing
+sort_order: 350
+topic: REC
+description: Periodic settlement of electricity consumption and feed-in.
+objective: |-
+  - Collecting energy data
+  - Rate Application and Updates
+  - Invoice Generation
+  - Payment monitoring and processing
+  - Record keeping
+description_long: |-
+  For effective billing and periodic settlement of electricity consumption and feed-in, start by collecting accurate energy data. Apply and update applicable rates to ensure correct pricing. Generate invoices based on this data and monitor and process payments to ensure timely transactions.
+de:
+  title: Abrechnung
+  description: Periodische Abrechnung von Stromverbrauch und Einspeisung.
+  objective: |-
+    - Energiedaten erfassen
+    - Tarife anwenden und aktualisieren
+    - Rechnungen erstellen
+    - Zahlungen überwachen und verbuchen
+    - Unterlagen aufbewahren
+  description_long: |-
+    Für eine wirksame Abrechnung und periodische Verrechnung von Stromverbrauch und Einspeisung erfassen Sie zuerst genaue Energiedaten. Wenden Sie die geltenden Tarife an und halten Sie sie aktuell, damit die Preise stimmen. Erstellen Sie auf dieser Grundlage die Rechnungen und überwachen und verbuchen Sie die Zahlungen, damit sie pünktlich eingehen.
+  reviewed: false
+fr:
+  title: Facturation
+  description: Décompte périodique de la consommation et de l'injection d'électricité.
+  objective: |-
+    - Collecter les données énergétiques
+    - Appliquer et mettre à jour les tarifs
+    - Émettre les factures
+    - Suivre et traiter les paiements
+    - Conserver les documents
+  description_long: |-
+    Pour une facturation efficace et un décompte périodique de la consommation et de l'injection d'électricité, commencez par collecter des données énergétiques exactes. Appliquez et mettez à jour les tarifs en vigueur pour garantir des prix corrects. Émettez les factures sur cette base, puis suivez et traitez les paiements pour qu'ils soient réglés dans les délais.
+  reviewed: false
+it:
+  title: Fatturazione
+  description: Conguaglio periodico dei consumi e dell'energia immessa in rete.
+  objective: |-
+    - Raccogliere i dati energetici
+    - Applicare e aggiornare le tariffe
+    - Emettere le fatture
+    - Monitorare e gestire i pagamenti
+    - Conservare la documentazione
+  description_long: |-
+    Per una fatturazione efficace e un conguaglio periodico dei consumi e dell'energia immessa, iniziate raccogliendo dati energetici accurati. Applicate e aggiornate le tariffe in vigore per garantire prezzi corretti. Emettete le fatture su questa base e monitorate e gestite i pagamenti perché avvengano nei tempi previsti.
+  reviewed: false
+hr:
+  title: Obračun
+  description: Periodični obračun potrošnje i predaje električne energije u mrežu.
+  objective: |-
+    - Prikupljanje energetskih podataka
+    - Primjena i ažuriranje tarifa
+    - Izrada računa
+    - Praćenje i obrada plaćanja
+    - Vođenje evidencije
+  description_long: |-
+    Za učinkovit obračun i periodično poravnanje potrošnje i predaje električne energije najprije prikupite točne energetske podatke. Primjenjujte i ažurirajte važeće tarife kako bi cijene bile ispravne. Na temelju tih podataka izradite račune te pratite i obrađujte plaćanja kako bi se izvršavala na vrijeme.
+  reviewed: false
+bg:
+  title: Фактуриране
+  description: Периодично уравняване на потреблението и подаването на електроенергия в мрежата.
+  objective: |-
+    - Събиране на енергийни данни
+    - Прилагане и актуализиране на тарифите
+    - Издаване на фактури
+    - Проследяване и обработка на плащанията
+    - Съхраняване на документацията
+  description_long: |-
+    За ефективно фактуриране и периодично уравняване на потреблението и подаването на електроенергия първо съберете точни енергийни данни. Прилагайте и актуализирайте действащите тарифи, за да са правилни цените. Въз основа на тези данни издавайте фактури и проследявайте и обработвайте плащанията, за да постъпват навреме.
+  reviewed: false

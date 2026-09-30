@@ -1,0 +1,26 @@
+name: 'IT-Permit: grid connection'
+step: analysis-power-grid
+summary: |-
+  When planning a PV installation, it is important to identify the nearest connection point to the grid. Check if there are any limitations on feed-in power. Review the hardware requirements for connecting your PV system to the grid.
+description: |-
+  Support to request an approval from power grid operator for your PV plant. The fee for obtaining the estimate varies based on the system's power capacity.
+web_link: https://private.e-distribuzione.it/PortaleClienti/s/registrationpage
+stakeholder: E-distribuzione
+input: |-
+  Sign up on the e-distribuzione website; Enter the location, general system data, and the required attachments, including the cadastral map, electrical diagram, and the fee.
+result: |-
+  After submitting the connection request, you will receive the corresponding quote. The timeframes prescribed by ARERA are: 20 working days for power up to 100 kW; 45 working days for up to 1,000 kW; 60 working days for over 1,000 kW.
+remaining_hurdles: The grid operator can limit the feed-in
+it:
+  name: 'IT-Autorizzazione: connessione alla rete'
+  summary: |-
+    Quando si pianifica un impianto fotovoltaico è importante individuare il punto di connessione alla rete più vicino. Verificare se ci sono limitazioni alla potenza immessa ed esaminare i requisiti tecnici per collegare l'impianto alla rete.
+  description: |-
+    Supporto nella richiesta di connessione al gestore di rete per il vostro impianto fotovoltaico. Il corrispettivo per ottenere il preventivo varia in base alla potenza dell'impianto.
+  stakeholder: E-distribuzione
+  input: |-
+    Registrarsi sul sito di e-distribuzione; inserire l'ubicazione, i dati generali dell'impianto e gli allegati richiesti, tra cui estratto di mappa catastale, schema elettrico e corrispettivo.
+  result: |-
+    Dopo l'invio della richiesta di connessione si riceve il relativo preventivo. I tempi fissati da ARERA sono: 20 giorni lavorativi fino a 100 kW; 45 giorni lavorativi fino a 1.000 kW; 60 giorni lavorativi oltre 1.000 kW.
+  remaining_hurdles: Il gestore di rete può limitare l'immissione
+  reviewed: false

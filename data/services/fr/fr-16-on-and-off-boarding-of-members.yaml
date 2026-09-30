@@ -1,0 +1,19 @@
+name: FR-16-On- and off-boarding of members
+step: membership-administration
+summary: |-
+  Throughout the lifecycle of your project, you may wish to recruit new members, and members may wish to leave the community. Informal at the start, membership will become formal once you have created a legal entity.
+description: |-
+  The OSS helps you to define the right rules for on- and off-boarding, and the correct legal terms once the legal entity is created.
+input: |-
+  Statement of your Community energy project; Creation of your Community energy legal entity.
+result: New members on-boarded; Old members off-boarded.
+fr:
+  name: FR-16-Arrivée et départ des membres
+  summary: |-
+    Tout au long de la vie de votre projet, vous pourrez vouloir recruter de nouveaux membres, et des membres pourront vouloir quitter la communauté. Informelle au départ, l'adhésion deviendra formelle une fois la personne morale créée.
+  description: |-
+    Le guichet unique vous aide à définir les bonnes règles d'entrée et de sortie, ainsi que les bonnes dispositions juridiques une fois la personne morale créée.
+  input: |-
+    Description de votre projet d'énergie communautaire ; création de la personne morale de votre communauté d'énergie.
+  result: Nouveaux membres accueillis ; départs de membres réglés.
+  reviewed: false

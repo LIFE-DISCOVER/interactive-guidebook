@@ -1,0 +1,66 @@
+title: Analysis - Power Grid
+sort_order: 135
+topic: PV Plant
+description: Investigate the prerequisites for connecting your PV to the grid.
+objective: |-
+  - What is the nearest connection point to the grid?
+  - Is the feed-in power limited?
+  - What are the hardware requirements for connecting your PV to the grid?
+  - What are the hardware requirements for metering energy?
+description_long: |-
+  When planning a PV installation, it is important to identify the nearest connection point to the grid to determine how the system will integrate with the existing infrastructure. Check if there are any limitations on feed-in power, as some utilities impose restrictions on the amount of electricity that can be fed back into the grid. Additionally, review the hardware requirements for connecting your PV system to the grid, including inverters, switches, interrupters and other connection equipment.
+de:
+  title: Analyse - Stromnetz
+  description: Klären Sie die Voraussetzungen für den Netzanschluss Ihrer PV-Anlage.
+  objective: |-
+    - Wo ist der nächste Netzanschlusspunkt?
+    - Ist die Einspeiseleistung begrenzt?
+    - Welche technischen Anforderungen gelten für den Netzanschluss Ihrer PV-Anlage?
+    - Welche technischen Anforderungen gelten für die Messung der Energie?
+  description_long: |-
+    Bei der Planung einer PV-Anlage ist es wichtig, den nächsten Netzanschlusspunkt zu kennen, um zu klären, wie sich die Anlage in die bestehende Infrastruktur einfügt. Prüfen Sie, ob die Einspeiseleistung begrenzt ist, denn manche Netzbetreiber beschränken die Strommenge, die ins Netz eingespeist werden darf. Prüfen Sie außerdem die technischen Anforderungen für den Netzanschluss, etwa an Wechselrichter, Schalter, Trennvorrichtungen und weitere Anschlusskomponenten.
+  reviewed: false
+fr:
+  title: Analyse - Réseau électrique
+  description: Étudiez les conditions du raccordement de votre installation au réseau.
+  objective: |-
+    - Quel est le point de raccordement au réseau le plus proche ?
+    - La puissance injectée est-elle limitée ?
+    - Quelles sont les exigences matérielles pour raccorder votre installation au réseau ?
+    - Quelles sont les exigences matérielles pour le comptage de l'énergie ?
+  description_long: |-
+    Lors de la conception d'une installation photovoltaïque, il est important d'identifier le point de raccordement le plus proche pour savoir comment le système s'intégrera à l'infrastructure existante. Vérifiez si la puissance injectée est limitée, car certains gestionnaires de réseau restreignent la quantité d'électricité pouvant être réinjectée. Examinez aussi les exigences matérielles de raccordement, notamment les onduleurs, interrupteurs, sectionneurs et autres équipements de connexion.
+  reviewed: false
+it:
+  title: Analisi - Rete elettrica
+  description: Verificate i requisiti per collegare il vostro impianto alla rete.
+  objective: |-
+    - Qual è il punto di connessione alla rete più vicino?
+    - La potenza immessa è limitata?
+    - Quali sono i requisiti tecnici per collegare l'impianto alla rete?
+    - Quali sono i requisiti tecnici per la misura dell'energia?
+  description_long: |-
+    Quando si pianifica un impianto fotovoltaico è importante individuare il punto di connessione alla rete più vicino, per capire come l'impianto si integrerà nell'infrastruttura esistente. Verificate se la potenza immessa è limitata, perché alcuni gestori pongono limiti alla quantità di energia che si può immettere in rete. Esaminate inoltre i requisiti tecnici per la connessione, compresi inverter, interruttori, sezionatori e altre apparecchiature di collegamento.
+  reviewed: false
+hr:
+  title: Analiza - Elektroenergetska mreža
+  description: Istražite preduvjete za priključenje fotonaponske elektrane na mrežu.
+  objective: |-
+    - Gdje je najbliža točka priključenja na mrežu?
+    - Je li snaga predaje u mrežu ograničena?
+    - Koji su tehnički zahtjevi za priključenje elektrane na mrežu?
+    - Koji su tehnički zahtjevi za mjerenje energije?
+  description_long: |-
+    Pri planiranju fotonaponske instalacije važno je utvrditi najbližu točku priključenja na mrežu kako biste znali kako će se sustav uklopiti u postojeću infrastrukturu. Provjerite je li snaga predaje ograničena, jer neki operatori ograničavaju količinu električne energije koja se smije predati u mrežu. Provjerite i tehničke zahtjeve za priključenje sustava na mrežu, uključujući izmjenjivače, sklopke, prekidače i drugu priključnu opremu.
+  reviewed: false
+bg:
+  title: Анализ - Електроенергийна мрежа
+  description: Проучете условията за присъединяване на фотоволтаичната централа към мрежата.
+  objective: |-
+    - Коя е най-близката точка на присъединяване към мрежата?
+    - Ограничена ли е мощността за подаване?
+    - Какви са техническите изисквания за присъединяване към мрежата?
+    - Какви са техническите изисквания за измерване на енергията?
+  description_long: |-
+    При планирането на фотоволтаична инсталация е важно да се определи най-близката точка на присъединяване, за да се разбере как системата ще се впише в съществуващата инфраструктура. Проверете дали мощността за подаване е ограничена, тъй като някои оператори ограничават количеството електроенергия, което може да се подава в мрежата. Прегледайте и техническите изисквания за присъединяване, включително инвертори, прекъсвачи, разединители и друго присъединително оборудване.
+  reviewed: false

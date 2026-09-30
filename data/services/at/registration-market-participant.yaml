@@ -1,0 +1,18 @@
+name: 'AT: Registration - Market Participant'
+step: registration-market
+summary: |-
+  ebUtilities.at provides the market partner directory which includes registered market partners. Operators of (future) energy communities need to register on the platform. They will receive a unique Market Partner ID after approximately 2 days.
+description: Register online
+web_link: https://www.ebutilities.at/registrierung
+stakeholder: ebUtilities
+input: Name of the energy community
+result: Market Partner ID
+de:
+  name: 'AT: Registrierung - Marktteilnehmer'
+  summary: |-
+    ebUtilities.at stellt das Marktpartnerverzeichnis mit den registrierten Marktpartnern bereit. Betreiber (künftiger) Energiegemeinschaften müssen sich auf der Plattform registrieren und erhalten nach etwa 2 Tagen eine eindeutige Marktpartner-ID.
+  description: Online registrieren
+  stakeholder: ebUtilities
+  input: Name der Energiegemeinschaft
+  result: Marktpartner-ID
+  reviewed: false

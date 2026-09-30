@@ -1,0 +1,25 @@
+name: HR-15-Preassessment - Financing
+step: preassessment-financing
+summary: |-
+  The feasibility of a PV installation is very much dependent on the possibility to finance the endeavor.
+description: |-
+  Make an initial assessment about financing possibilities. After having estimates for investment in PV, members of CEP shall understand costs for establishing and operating CEP.
+input: |-
+  Total number of members of CEP; Number of members by type; Analysis of electricity consumption profile
+result: |-
+  Proposal of a membership fee and/or other financing models: How much financing is available from community internal sources? How much from subsidies? How much from externally?
+remaining_hurdles: |-
+  Due to administrative burden such as at least one employee, membership fee can be high.
+hr:
+  name: HR-15-Prethodna procjena - Financiranje
+  summary: |-
+    Izvedivost fotonaponske instalacije uvelike ovisi o mogućnosti financiranja pothvata.
+  description: |-
+    Napravite početnu procjenu mogućnosti financiranja. Nakon procjene ulaganja u fotonapon članovi energetske zajednice trebaju razumjeti troškove osnivanja i rada zajednice.
+  input: |-
+    Ukupan broj članova energetske zajednice; broj članova po vrsti; analiza profila potrošnje električne energije
+  result: |-
+    Prijedlog članarine i/ili drugih modela financiranja: koliko se sredstava može osigurati iz unutarnjih izvora zajednice? Koliko iz potpora? Koliko iz vanjskih izvora?
+  remaining_hurdles: |-
+    Zbog administrativnog opterećenja, primjerice barem jednog zaposlenika, članarina može biti visoka.
+  reviewed: false

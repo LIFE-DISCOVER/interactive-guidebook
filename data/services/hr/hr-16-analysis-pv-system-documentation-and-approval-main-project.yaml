@@ -1,0 +1,24 @@
+name: HR-16-Analysis - PV System - Documentation and Approval - Main Project
+step: analysis-pv-system
+summary: |-
+  Generate a description or a graphic presentation or a conceptual design. Document shall include: a map of the electrical design, a map of the construction project, the structural analysis of the roof, architectural design.
+description: |-
+  The main project precisely defines the necessary interventions. As a rule, the project documentation also fulfils the function of detailed documentation, so all performance representations necessary for the implementation of works are required.
+stakeholder: NETeko d.o.o.
+input: Electrical design, structural analysis, architectural design
+result: |-
+  Main Project Approved; Project contains: components for PV plant (panels, inverter, battery); requirements for interconnections; requirements for location; technical documentation
+remaining_hurdles: |-
+  The input from professionals and experts can become a bottleneck. They are high in demand, resulting in long lead times.
+hr:
+  name: HR-16-Analiza - Fotonaponski sustav - Dokumentacija i odobrenje - Glavni projekt
+  summary: |-
+    Izradite tehnički opis, grafički prikaz ili idejno rješenje. Dokumentacija treba sadržavati: elektrotehnički projekt, građevinski projekt, statički proračun krova i arhitektonski projekt.
+  description: |-
+    Glavni projekt precizno određuje potrebne zahvate. U pravilu projektna dokumentacija ima i funkciju izvedbene dokumentacije, pa su potrebni svi prikazi nužni za izvođenje radova.
+  stakeholder: NETeko d.o.o.
+  input: Elektrotehnički projekt, statički proračun, arhitektonski projekt
+  result: |-
+    Odobren glavni projekt; projekt sadrži: komponente fotonaponske elektrane (paneli, izmjenjivač, baterija); zahtjeve za međusobna povezivanja; zahtjeve za lokaciju; tehničku dokumentaciju
+  remaining_hurdles: Doprinos stručnjaka može postati usko grlo. Vrlo su traženi, pa su rokovi dugi.
+  reviewed: false

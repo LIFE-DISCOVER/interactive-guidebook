@@ -1,0 +1,22 @@
+name: HR-24-Establish Legal Entity
+step: establish-legal-entity
+summary: |-
+  When setting up a Renewable Energy Community (REC) or Citizen Energy Community (CEC) in Croatia, you have to establish non-profit association.
+description: |-
+  Establishment of an association: A list of members - founders is prepared; Members are invited to the founding assembly; The assembly adopts the Statute; The assembly elects the president, vice president and members of other bodies.
+web_link: https://udruge.gov.hr/najcesca-pitanja/124
+input: |-
+  List of Founders (at least 3 members); Purpose and goals of association; Activities, rules
+result: REC or CEC Established
+remaining_hurdles: |-
+  Providing funds for additional costs associated with running a non-profit organization.
+hr:
+  name: HR-24-Osnivanje pravne osobe
+  summary: |-
+    Za osnivanje zajednice obnovljive energije (ZOE) ili zajednice građanske energije (ZGE) u Hrvatskoj morate osnovati neprofitnu udrugu.
+  description: |-
+    Osnivanje udruge: sastavlja se popis članova osnivača; članovi se pozivaju na osnivačku skupštinu; skupština donosi statut; skupština bira predsjednika, potpredsjednika i članove drugih tijela.
+  input: Popis osnivača (najmanje 3 člana); svrha i ciljevi udruge; djelatnosti, pravila
+  result: Osnovana ZOE ili ZGE
+  remaining_hurdles: Osiguravanje sredstava za dodatne troškove vođenja neprofitne organizacije.
+  reviewed: false

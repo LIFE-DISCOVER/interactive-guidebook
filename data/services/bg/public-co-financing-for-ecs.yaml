@@ -1,0 +1,23 @@
+name: 'BG 18: Public co-financing for ECs'
+step: financing-public-funding
+summary: |-
+  The public financing will guarantee the overall economic feasibility of the projects and thus support the involvement of private fund in the co-financing structure.
+description: |-
+  You will be assisted in applying for a targeted loan with below-market financing parameters, guaranteed by GEF for 50% of the EC project budget.
+stakeholder: ENERGY EFFICIENCY AND RENEWABLE SOURCES FUND
+input: EERSF requirements for collateral and guarantee
+result: Covering of 50% of financing and risk by EERSF
+remaining_hurdles: |-
+  Transformation of EERSF into the National Decarbonization Fund (normative changes are required)
+bg:
+  name: 'BG 18: Публично съфинансиране за ЕО'
+  summary: |-
+    Публичното финансиране ще гарантира общата икономическа изгодност на проектите и така ще подпомогне участието на частни средства в структурата на съфинансиране.
+  description: |-
+    Ще получите помощ при кандидатстване за целеви кредит с параметри под пазарните, гарантиран от GEF за 50 % от бюджета на проекта на ЕО.
+  stakeholder: Фонд „Енергийна ефективност и възобновяеми източници“ (ФЕЕВИ)
+  input: Изисквания на ФЕЕВИ за обезпечение и гаранция
+  result: Покриване на 50 % от финансирането и риска от ФЕЕВИ
+  remaining_hurdles: |-
+    Преобразуване на ФЕЕВИ в Национален фонд за декарбонизация (необходими са нормативни промени)
+  reviewed: false

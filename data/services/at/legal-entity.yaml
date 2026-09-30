@@ -1,0 +1,20 @@
+name: 'AT: Legal Entity'
+step: establish-legal-entity
+summary: |-
+  An energy community needs to become a legal entity. The cheapest option is to establish a society (Verein) at the local authority: District Commission (Bezirkshauptmannschaft) or Regional Police Directorate (Landespolizeidirektion)
+web_link: https://www.bh-grazumgebung.steiermark.at/cms/beitrag/12785137/67952464/
+stakeholder: Bezirks Hauptmannschaft
+input: |-
+  Charter (Statuten); Name, Date of birth, and place of birth of at least 2 founding members; Delivery Address
+result: Approval to commence association activities; Registration Number
+remaining_hurdles: Download and adjust charter template
+de:
+  name: 'AT: Rechtsform'
+  summary: |-
+    Eine Energiegemeinschaft muss eine eigene Rechtsperson werden. Am günstigsten ist die Gründung eines Vereins bei der Vereinsbehörde: Bezirkshauptmannschaft oder Landespolizeidirektion
+  stakeholder: Bezirkshauptmannschaft
+  input: |-
+    Statuten; Name, Geburtsdatum und Geburtsort von mindestens 2 Gründungsmitgliedern; Zustelladresse
+  result: Einladung zur Aufnahme der Vereinstätigkeit; ZVR-Zahl
+  remaining_hurdles: Statutenvorlage herunterladen und anpassen
+  reviewed: false

@@ -1,0 +1,18 @@
+name: 'AT: Analysis - Free capacity per substation'
+step: analysis-power-grid
+summary: |-
+  Understand if the substation still has free capacity. Available or booked capacities per substation (network level 4) are published quarterly.
+description: EbUtilities provides an online service with a map plus contacting details.
+web_link: https://www.ebutilities.at/verfuegbare-netzanschlusskapazitaeten
+stakeholder: ebUtilities
+input: Substation ID
+result: Knowledge about the Free Capacity
+de:
+  name: 'AT: Analyse - Freie Kapazität je Umspannwerk'
+  summary: |-
+    Klären Sie, ob das Umspannwerk noch freie Kapazität hat. Verfügbare bzw. gebuchte Kapazitäten je Umspannwerk (Netzebene 4) werden quartalsweise veröffentlicht.
+  description: ebUtilities bietet einen Onlinedienst mit Karte und Kontaktdaten.
+  stakeholder: ebUtilities
+  input: Kennung des Umspannwerks
+  result: Kenntnis der freien Kapazität
+  reviewed: false

@@ -1,0 +1,28 @@
+.setup-wrap { display: flex; justify-content: center; padding-top: 2rem; }
+.setup-card { width: 100%; max-width: 560px; }
+.setup-card h1 { margin-bottom: 0.5rem; }
+.setup-intro { color: #666; margin-bottom: 1.75rem; line-height: 1.55; }
+.setup-step {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 1.75rem 0 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #eee;
+}
+.setup-step:first-of-type { margin-top: 0; }
+.setup-card p { margin-bottom: 1rem; }
+.setup-card .helptext ul { margin: 0.25rem 0 0 1.1rem; }
+.form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; }
+.setup-code-hint {
+  background: var(--light);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+.setup-code-hint code { font-size: 0.82rem; word-break: break-all; }
+@media (max-width: 600px) { .form-row-2 { grid-template-columns: 1fr; } }

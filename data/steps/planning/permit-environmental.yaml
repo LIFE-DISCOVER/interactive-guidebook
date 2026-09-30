@@ -1,0 +1,66 @@
+title: Permit - Environmental
+sort_order: 110
+topic: PV Plant
+description: Apply for an environmental permit.
+objective: |-
+  - Is an environmental assessment required?
+  - What plant size requires an assessment?
+  - How much does it cost?
+  - How long does it take?
+description_long: |-
+  Determining whether an environmental assessment is required depends on the specifics of your project. Generally, an assessment is necessary if the plant size exceeds certain thresholds set by regulatory agencies. The cost of an environmental assessment can vary widely based on factors such as the project's scale, location, and complexity. Similarly, the time required to complete the assessment can range from several weeks to several months, depending on the depth of the study and the efficiency of the review process. Understanding these factors is essential for ensuring compliance with environmental regulations.
+de:
+  title: Genehmigung - Umwelt
+  description: Umweltgenehmigung beantragen.
+  objective: |-
+    - Ist eine Umweltprüfung erforderlich?
+    - Ab welcher Anlagengröße ist eine Prüfung nötig?
+    - Was kostet sie?
+    - Wie lange dauert sie?
+  description_long: |-
+    Ob eine Umweltprüfung erforderlich ist, hängt von den Besonderheiten Ihres Projekts ab. In der Regel ist sie nötig, wenn die Anlagengröße bestimmte behördlich festgelegte Schwellenwerte überschreitet. Die Kosten einer Umweltprüfung können je nach Umfang, Standort und Komplexität des Projekts stark schwanken. Ebenso kann die Prüfung je nach Untersuchungstiefe und Dauer des Verfahrens einige Wochen bis mehrere Monate dauern. Wer diese Faktoren kennt, kann die Umweltvorschriften zuverlässig einhalten.
+  reviewed: false
+fr:
+  title: Autorisation - Environnement
+  description: Demander une autorisation environnementale.
+  objective: |-
+    - Une évaluation environnementale est-elle nécessaire ?
+    - À partir de quelle taille d'installation est-elle requise ?
+    - Combien coûte-t-elle ?
+    - Combien de temps prend-elle ?
+  description_long: |-
+    La nécessité d'une évaluation environnementale dépend des caractéristiques de votre projet. En général, elle est requise lorsque la taille de l'installation dépasse certains seuils fixés par les autorités. Son coût peut varier fortement selon l'ampleur, la localisation et la complexité du projet. De même, sa durée peut aller de quelques semaines à plusieurs mois selon la profondeur de l'étude et la rapidité de l'instruction. Connaître ces éléments est indispensable pour respecter la réglementation environnementale.
+  reviewed: false
+it:
+  title: Autorizzazione - Ambiente
+  description: Richiedere un'autorizzazione ambientale.
+  objective: |-
+    - È necessaria una valutazione ambientale?
+    - Oltre quale taglia di impianto serve una valutazione?
+    - Quanto costa?
+    - Quanto tempo richiede?
+  description_long: |-
+    La necessità di una valutazione ambientale dipende dalle caratteristiche del progetto. In genere è necessaria se la taglia dell'impianto supera determinate soglie stabilite dalle autorità. Il costo di una valutazione ambientale può variare molto in base a dimensione, ubicazione e complessità del progetto. Anche i tempi possono andare da alcune settimane a diversi mesi, a seconda dell'approfondimento dello studio e della rapidità dell'istruttoria. Conoscere questi fattori è essenziale per rispettare la normativa ambientale.
+  reviewed: false
+hr:
+  title: Dozvola - Zaštita okoliša
+  description: Podnesite zahtjev za okolišnu dozvolu.
+  objective: |-
+    - Je li potrebna procjena utjecaja na okoliš?
+    - Za koju je veličinu elektrane potrebna procjena?
+    - Koliko košta?
+    - Koliko traje?
+  description_long: |-
+    Je li potrebna procjena utjecaja na okoliš ovisi o značajkama vašeg projekta. U pravilu je potrebna ako veličina elektrane prelazi određene pragove koje su propisala nadležna tijela. Troškovi procjene mogu se znatno razlikovati ovisno o opsegu, lokaciji i složenosti projekta. Isto tako, trajanje procjene može biti od nekoliko tjedana do nekoliko mjeseci, ovisno o dubini studije i brzini postupka. Poznavanje tih čimbenika ključno je za poštivanje propisa o zaštiti okoliša.
+  reviewed: false
+bg:
+  title: Разрешение - Околна среда
+  description: Подайте заявление за екологично разрешение.
+  objective: |-
+    - Необходима ли е екологична оценка?
+    - При какъв размер на централата се изисква оценка?
+    - Колко струва?
+    - Колко време отнема?
+  description_long: |-
+    Дали е необходима екологична оценка зависи от спецификата на проекта. По правило тя се изисква, ако размерът на централата надвишава определени прагове, установени от компетентните органи. Разходите за оценката могат да варират значително според мащаба, местоположението и сложността на проекта. По същия начин продължителността ѝ може да е от няколко седмици до няколко месеца в зависимост от задълбочеността на проучването и бързината на процедурата. Познаването на тези фактори е важно за спазването на екологичното законодателство.
+  reviewed: false

@@ -1,0 +1,1377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 22:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Draft translation - pending review by native speakers\n"
+"Language-Team: DISCOVER partners (hr)\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: accounts/admin.py:29
+msgid "Personal info"
+msgstr "Osobni podaci"
+
+#: accounts/admin.py:30
+msgid "Permissions"
+msgstr "Dozvole"
+
+#: accounts/admin.py:33
+msgid "Important dates"
+msgstr "Važni datumi"
+
+#: accounts/forms.py:15
+msgid "Setup code"
+msgstr "Kod za postavljanje"
+
+#: accounts/forms.py:16
+msgid ""
+"Shown in the server log. You can also print it with: python manage.py "
+"setup_code"
+msgstr ""
+"Prikazan je u zapisniku poslužitelja. Možete ga ispisati i naredbom: python "
+"manage.py setup_code"
+
+#: accounts/forms.py:19
+msgid "First name"
+msgstr "Ime"
+
+#: accounts/forms.py:20
+msgid "Last name"
+msgstr "Prezime"
+
+#: accounts/forms.py:21
+msgid "Administrator email"
+msgstr "E-pošta administratora"
+
+#: accounts/forms.py:21
+msgid "You will use this address to sign in."
+msgstr "Ovu adresu koristit ćete za prijavu."
+
+#: accounts/forms.py:25 catalog/templates/catalog/guidebook.html:35
+#: catalog/templates/catalog/service_list.html:27
+msgid "Country"
+msgstr "Država"
+
+#: accounts/forms.py:26 catalog/templates/catalog/guidebook.html:37
+#: catalog/templates/catalog/service_list.html:29
+msgid "All countries"
+msgstr "Sve države"
+
+#: accounts/forms.py:27
+msgid "Limits the service catalog to this country. Can be changed later."
+msgstr "Ograničava katalog usluga na ovu državu. Može se kasnije promijeniti."
+
+#: accounts/forms.py:30
+msgid "Password"
+msgstr "Lozinka"
+
+#: accounts/forms.py:36
+msgid "Confirm password"
+msgstr "Potvrda lozinke"
+
+#: accounts/forms.py:44
+msgid "This setup code is not correct."
+msgstr "Kod za postavljanje nije ispravan."
+
+#: accounts/forms.py:55
+msgid "The two passwords do not match."
+msgstr "Lozinke se ne podudaraju."
+
+#: accounts/models.py:49
+msgid "email address"
+msgstr "adresa e-pošte"
+
+#: accounts/models.py:55 catalog/models.py:39
+msgid "country"
+msgstr "država"
+
+#: accounts/models.py:58
+msgid "language"
+msgstr "jezik"
+
+#: accounts/models.py:62
+msgid ""
+"Interface language shown after signing in. Updated when the user switches "
+"language."
+msgstr "Jezik sučelja nakon prijave. Ažurira se kada korisnik promijeni jezik."
+
+#: accounts/models.py:71
+msgid "user"
+msgstr "korisnik"
+
+#: accounts/models.py:72
+msgid "users"
+msgstr "korisnici"
+
+#: accounts/templates/accounts/login.html:4
+#: accounts/templates/accounts/login.html:16
+#: accounts/templates/accounts/login.html:20 templates/home.html:27
+#: templates/home.html:211
+msgid "Sign In"
+msgstr "Prijava"
+
+#: accounts/templates/accounts/setup.html:4
+msgid "Welcome — first-time setup"
+msgstr "Dobro došli – početno postavljanje"
+
+#: accounts/templates/accounts/setup.html:13
+msgid "Welcome to the Interactive Guidebook"
+msgstr "Dobro došli u Interaktivni vodič"
+
+#: accounts/templates/accounts/setup.html:15
+msgid ""
+"This installation has no accounts yet. Create the administrator account to "
+"get started. The administrator signs in with their email address and can "
+"then create accounts for energy agency managers."
+msgstr ""
+"Ova instalacija još nema korisničkih računa. Za početak izradite "
+"administratorski račun. Administrator se prijavljuje svojom adresom e-pošte "
+"i zatim može izraditi račune za voditelje energetskih agencija."
+
+#: accounts/templates/accounts/setup.html:27
+msgid "Step 1 · Confirm you run this server"
+msgstr "Korak 1 · Potvrdite da upravljate ovim poslužiteljem"
+
+#: accounts/templates/accounts/setup.html:29
+msgid ""
+"The setup code is written to the application log when this page is opened. "
+"On the server, print it with:"
+msgstr ""
+"Kod za postavljanje upisuje se u zapisnik aplikacije kada se otvori ova "
+"stranica. Na poslužitelju ga ispišite naredbom:"
+
+#: accounts/templates/accounts/setup.html:34
+msgid "Step 2 · Administrator"
+msgstr "Korak 2 · Administrator"
+
+#: accounts/templates/accounts/setup.html:50
+msgid "Step 3 · Password"
+msgstr "Korak 3 · Lozinka"
+
+#: accounts/templates/accounts/setup.html:59
+msgid "Create administrator"
+msgstr "Izradi administratora"
+
+#: accounts/views.py:110
+#, python-format
+msgid ""
+"Welcome, %(name)s! Your administrator account is ready. Create accounts for "
+"your managers in the Admin area."
+msgstr ""
+"Dobro došli, %(name)s! Vaš administratorski račun je spreman. Račune za "
+"voditelje izradite u administracijskom dijelu."
+
+#: catalog/admin.py:27
+msgid "Content file"
+msgstr "Datoteka sadržaja"
+
+#: catalog/admin.py:35
+msgid "Edit on GitHub"
+msgstr "Uredi na GitHubu"
+
+#: catalog/models.py:7 templates/base.html:133 templates/home.html:90
+msgid "Planning"
+msgstr "Planiranje"
+
+#: catalog/models.py:8 templates/base.html:134 templates/home.html:113
+msgid "Realisation"
+msgstr "Realizacija"
+
+#: catalog/models.py:9 templates/base.html:135 templates/home.html:135
+msgid "Operation"
+msgstr "Upravljanje"
+
+#: catalog/models.py:40
+msgid "countries"
+msgstr "države"
+
+#: catalog/models.py:132 catalog/models.py:153
+msgid "translation"
+msgstr "prijevod"
+
+#: catalog/models.py:133 catalog/models.py:154
+msgid "translations"
+msgstr "prijevodi"
+
+#: catalog/templates/catalog/_text_language_switch.html:4
+msgid "Language of the service text"
+msgstr "Jezik teksta usluge"
+
+#: catalog/templates/catalog/_text_language_switch.html:11
+msgid ""
+"Draft translation – not yet reviewed. The English text is authoritative."
+msgstr "Nacrt prijevoda – još nije provjeren. Mjerodavan je engleski tekst."
+
+#: catalog/templates/catalog/guidebook.html:5
+#: catalog/templates/catalog/guidebook.html:15 templates/base.html:120
+msgid "Interactive Guidebook"
+msgstr "Interaktivni vodič"
+
+#: catalog/templates/catalog/guidebook.html:16
+msgid "Step-by-step guide for Community Energy Projects"
+msgstr "Vodič korak po korak za projekte energetskih zajednica"
+
+#: catalog/templates/catalog/guidebook.html:24
+msgid ""
+"Some texts on this page are draft translations that have not been reviewed "
+"yet."
+msgstr ""
+"Neki tekstovi na ovoj stranici nacrti su prijevoda koji još nisu provjereni."
+
+#: catalog/templates/catalog/guidebook.html:29
+#, python-format
+msgid "Showing services for <strong>%(country)s</strong>."
+msgstr "Usluge za: <strong>%(country)s</strong>."
+
+#: catalog/templates/catalog/guidebook.html:31
+msgid ""
+"<strong>Select your country</strong> to see only the services relevant to "
+"your pilot region."
+msgstr ""
+"<strong>Odaberite svoju državu</strong> kako biste vidjeli samo usluge važne "
+"za vašu pilot-regiju."
+
+#: catalog/templates/catalog/guidebook.html:42
+msgid "Show"
+msgstr "Prikaži"
+
+#: catalog/templates/catalog/guidebook.html:48
+#, python-format
+msgid "Make %(country)s my default"
+msgstr "Postavi %(country)s kao zadanu"
+
+#: catalog/templates/catalog/guidebook.html:59 templates/home.html:98
+#: templates/home.html:121 templates/home.html:143
+#, python-format
+msgid "%(counter)s step"
+msgid_plural "%(counter)s steps"
+msgstr[0] "%(counter)s korak"
+msgstr[1] "%(counter)s koraka"
+msgstr[2] "%(counter)s koraka"
+
+#: catalog/templates/catalog/guidebook.html:74
+#: catalog/templates/catalog/service_list.html:63
+#, python-format
+msgid "%(counter)s service"
+msgid_plural "%(counter)s services"
+msgstr[0] "%(counter)s usluga"
+msgstr[1] "%(counter)s usluge"
+msgstr[2] "%(counter)s usluga"
+
+#: catalog/templates/catalog/guidebook.html:86
+msgid "Details"
+msgstr "Detalji"
+
+#: catalog/templates/catalog/guidebook.html:88
+#: catalog/templates/catalog/service_detail.html:26
+#: initiators/templates/initiators/service_link.html:40
+msgid "Official link"
+msgstr "Službena poveznica"
+
+#: catalog/templates/catalog/guidebook.html:100
+msgid "No country-specific services for this step yet."
+msgstr "Za ovaj korak još nema usluga specifičnih za državu."
+
+#: catalog/templates/catalog/service_detail.html:12
+#: catalog/templates/catalog/service_list.html:4 templates/base.html:38
+#: templates/base.html:40
+msgid "Services"
+msgstr "Usluge"
+
+#: catalog/templates/catalog/service_detail.html:34
+msgid "Offered by"
+msgstr "Pruža"
+
+#: catalog/templates/catalog/service_detail.html:38
+msgid "What the initiator needs to provide"
+msgstr "Što inicijator treba dostaviti"
+
+#: catalog/templates/catalog/service_detail.html:42
+msgid "Result"
+msgstr "Rezultat"
+
+#: catalog/templates/catalog/service_detail.html:46
+msgid "Remaining hurdles"
+msgstr "Preostale prepreke"
+
+#: catalog/templates/catalog/service_detail.html:56 templates/base.html:131
+msgid "Lifecycle Phases"
+msgstr "Faze projekta"
+
+#: catalog/templates/catalog/service_detail.html:67
+msgid "No phases assigned."
+msgstr "Nema dodijeljenih faza."
+
+#: catalog/templates/catalog/service_detail.html:72
+msgid "Hurdles Addressed"
+msgstr "Prepreke koje se rješavaju"
+
+#: catalog/templates/catalog/service_detail.html:86
+msgid "No hurdles assigned."
+msgstr "Nema dodijeljenih prepreka."
+
+#: catalog/templates/catalog/service_list.html:12 templates/base.html:121
+#: templates/home.html:164 templates/home.html:201
+msgid "Service Catalog"
+msgstr "Katalog usluga"
+
+#: catalog/templates/catalog/service_list.html:18
+msgctxt "phase filter"
+msgid "All"
+msgstr "Sve"
+
+#: catalog/templates/catalog/service_list.html:34
+msgid "Search services…"
+msgstr "Pretraži usluge…"
+
+#: catalog/templates/catalog/service_list.html:35
+msgid "Search"
+msgstr "Pretraži"
+
+#: catalog/templates/catalog/service_list.html:37
+msgid "Clear"
+msgstr "Očisti"
+
+#: catalog/templates/catalog/service_list.html:45
+#, python-format
+msgid "%(counter)s service in %(country)s matching “%(query)s”"
+msgid_plural "%(counter)s services in %(country)s matching “%(query)s”"
+msgstr[0] "%(counter)s usluga (%(country)s) za „%(query)s“"
+msgstr[1] "%(counter)s usluge (%(country)s) za „%(query)s“"
+msgstr[2] "%(counter)s usluga (%(country)s) za „%(query)s“"
+
+#: catalog/templates/catalog/service_list.html:51
+#, python-format
+msgid "%(counter)s service in %(country)s"
+msgid_plural "%(counter)s services in %(country)s"
+msgstr[0] "%(counter)s usluga (%(country)s)"
+msgstr[1] "%(counter)s usluge (%(country)s)"
+msgstr[2] "%(counter)s usluga (%(country)s)"
+
+#: catalog/templates/catalog/service_list.html:57
+#, python-format
+msgid "%(counter)s service matching “%(query)s”"
+msgid_plural "%(counter)s services matching “%(query)s”"
+msgstr[0] "%(counter)s usluga za „%(query)s“"
+msgstr[1] "%(counter)s usluge za „%(query)s“"
+msgstr[2] "%(counter)s usluga za „%(query)s“"
+
+#: catalog/templates/catalog/service_list.html:88
+#, python-format
+msgid "No services found matching “%(query)s”."
+msgstr "Nema usluga za „%(query)s“."
+
+#: catalog/templates/catalog/service_list.html:90
+msgid "No services found."
+msgstr "Nema pronađenih usluga."
+
+#: catalog/templates/catalog/service_list.html:93
+msgid "Clear filters"
+msgstr "Očisti filtre"
+
+#: catalog/views.py:153
+#, python-format
+msgid "%(country)s is now your default country."
+msgstr "%(country)s je sada vaša zadana država."
+
+#: initiators/forms.py:44
+msgid "New Phase"
+msgstr "Nova faza"
+
+#: initiators/forms.py:49
+msgid "Notes (optional)"
+msgstr "Bilješke (neobavezno)"
+
+#: initiators/forms.py:50
+msgid "Reason for the phase change or any relevant context."
+msgstr "Razlog promjene faze ili druge važne informacije."
+
+#: initiators/forms.py:77
+msgid "This service has already been applied to this project."
+msgstr "Ova je usluga već primijenjena na ovaj projekt."
+
+#: initiators/forms.py:87
+msgid "Personal message for the initiator (optional)"
+msgstr "Osobna poruka inicijatoru (neobavezno)"
+
+#: initiators/forms.py:88
+msgid "Shown at the top of the page the initiator opens."
+msgstr "Prikazuje se na vrhu stranice koju inicijator otvara."
+
+#: initiators/forms.py:96 initiators/templates/initiators/service_link.html:46
+msgid "Your note"
+msgstr "Vaša bilješka"
+
+#: initiators/forms.py:99
+msgid "You can send this note once."
+msgstr "Ovu bilješku možete poslati samo jednom."
+
+#: initiators/models.py:14
+msgid "first name"
+msgstr "ime"
+
+#: initiators/models.py:15
+msgid "last name"
+msgstr "prezime"
+
+#: initiators/models.py:16
+msgid "email"
+msgstr "e-pošta"
+
+#: initiators/models.py:17
+msgid "phone"
+msgstr "telefon"
+
+#: initiators/models.py:18
+msgid "organization"
+msgstr "organizacija"
+
+#: initiators/models.py:19
+msgid "notes"
+msgstr "bilješke"
+
+#: initiators/models.py:24 initiators/models.py:49
+msgid "initiator"
+msgstr "inicijator"
+
+#: initiators/models.py:25
+msgid "initiators"
+msgstr "inicijatori"
+
+#: initiators/models.py:37
+msgid "Active"
+msgstr "Aktivan"
+
+#: initiators/models.py:38
+msgid "On Hold"
+msgstr "Na čekanju"
+
+#: initiators/models.py:39
+msgid "Completed"
+msgstr "Završen"
+
+#: initiators/models.py:40
+msgid "Cancelled"
+msgstr "Otkazan"
+
+#: initiators/models.py:43
+msgid "Renewable Energy Community"
+msgstr "Zajednica obnovljive energije"
+
+#: initiators/models.py:44
+msgid "Citizen Energy Community"
+msgstr "Zajednica energije građana"
+
+#: initiators/models.py:45
+msgid "Collective Self Consumption"
+msgstr "Kolektivna vlastita potrošnja"
+
+#: initiators/models.py:46
+msgid "Other"
+msgstr "Ostalo"
+
+#: initiators/models.py:51
+msgid "name"
+msgstr "naziv"
+
+#: initiators/models.py:52
+msgid "description"
+msgstr "opis"
+
+#: initiators/models.py:54
+msgid "current phase"
+msgstr "trenutna faza"
+
+#: initiators/models.py:56
+msgid "status"
+msgstr "status"
+
+#: initiators/models.py:57
+msgid "started on"
+msgstr "datum početka"
+
+#: initiators/models.py:60
+msgid "category"
+msgstr "kategorija"
+
+#: initiators/models.py:61
+msgid "Legal/organisational category of the community energy project."
+msgstr "Pravna ili organizacijska kategorija projekta energetske zajednice."
+
+#: initiators/models.py:65
+msgid "Total installed PV capacity in kWp."
+msgstr "Ukupna instalirana snaga fotonapona u kWp."
+
+#: initiators/models.py:66
+msgid "Power installed (kWp)"
+msgstr "Instalirana snaga (kWp)"
+
+#: initiators/models.py:70
+msgid "Annual energy generation in kWh."
+msgstr "Godišnja proizvodnja energije u kWh."
+
+#: initiators/models.py:71
+msgid "Energy generation (kWh/year)"
+msgstr "Proizvodnja energije (kWh/god.)"
+
+#: initiators/models.py:75
+msgid "Total investment in renewable energy in EUR."
+msgstr "Ukupno ulaganje u obnovljivu energiju u EUR."
+
+#: initiators/models.py:76
+msgid "Investment in renewable energy (EUR)"
+msgstr "Ulaganje u obnovljivu energiju (EUR)"
+
+#: initiators/models.py:78
+msgid "address"
+msgstr "adresa"
+
+#: initiators/models.py:78
+msgid "Project site address."
+msgstr "Adresa lokacije projekta."
+
+#: initiators/models.py:83
+msgid "project"
+msgstr "projekt"
+
+#: initiators/models.py:84
+msgid "projects"
+msgstr "projekti"
+
+#: initiators/models.py:105
+msgid "service"
+msgstr "usluga"
+
+#: initiators/models.py:111
+msgid "applied by"
+msgstr "primijenio"
+
+#: initiators/models.py:113
+msgid "applied on"
+msgstr "primijenjeno dana"
+
+#: initiators/models.py:114
+msgid "outcome notes"
+msgstr "bilješke o ishodu"
+
+#: initiators/models.py:135
+msgid "applied service"
+msgstr "primijenjena usluga"
+
+#: initiators/models.py:143
+msgid "created by"
+msgstr "izradio"
+
+#: initiators/models.py:145
+msgid "created at"
+msgstr "izrađeno"
+
+#: initiators/models.py:146
+msgid "personal message"
+msgstr "osobna poruka"
+
+#: initiators/models.py:147
+msgid "active"
+msgstr "aktivna"
+
+#: initiators/models.py:148
+msgid "note from initiator"
+msgstr "bilješka inicijatora"
+
+#: initiators/models.py:149
+msgid "submitted at"
+msgstr "poslano"
+
+#: initiators/models.py:153
+msgid "service link"
+msgstr "poveznica na uslugu"
+
+#: initiators/models.py:154
+msgid "service links"
+msgstr "poveznice na usluge"
+
+#: initiators/templates/initiators/initiator_detail.html:6
+#: initiators/templates/initiators/initiator_form.html:10
+#: initiators/templates/initiators/initiator_list.html:3
+#: initiators/templates/initiators/initiator_list.html:6 templates/base.html:44
+#: templates/base.html:46 templates/base.html:123 templates/home.html:202
+msgid "Initiators"
+msgstr "Inicijatori"
+
+#: initiators/templates/initiators/initiator_detail.html:9
+msgid "Edit"
+msgstr "Uredi"
+
+#: initiators/templates/initiators/initiator_detail.html:14
+msgid "Email"
+msgstr "E-pošta"
+
+#: initiators/templates/initiators/initiator_detail.html:15
+msgid "Phone"
+msgstr "Telefon"
+
+#: initiators/templates/initiators/initiator_detail.html:16
+msgid "Organization"
+msgstr "Organizacija"
+
+#: initiators/templates/initiators/initiator_detail.html:17
+msgid "Notes"
+msgstr "Bilješke"
+
+#: initiators/templates/initiators/initiator_detail.html:22
+#: initiators/templates/initiators/project_list.html:3 templates/base.html:49
+#: templates/base.html:51 templates/base.html:124 templates/home.html:203
+msgid "Projects"
+msgstr "Projekti"
+
+#: initiators/templates/initiators/initiator_detail.html:23
+#: initiators/templates/initiators/project_form.html:4
+#: initiators/templates/initiators/project_form.html:19
+msgid "New Project"
+msgstr "Novi projekt"
+
+#: initiators/templates/initiators/initiator_detail.html:40
+msgid "No projects yet."
+msgstr "Još nema projekata."
+
+#: initiators/templates/initiators/initiator_detail.html:40
+msgid "Create the first project"
+msgstr "Izradite prvi projekt"
+
+#: initiators/templates/initiators/initiator_form.html:3
+#: initiators/templates/initiators/initiator_form.html:13
+#: initiators/templates/initiators/project_form.html:4
+#: initiators/templates/initiators/project_form.html:19
+#, python-format
+msgid "Edit %(name)s"
+msgstr "Uredi: %(name)s"
+
+#: initiators/templates/initiators/initiator_form.html:3
+#: initiators/templates/initiators/initiator_form.html:13
+#: initiators/templates/initiators/initiator_list.html:8
+msgid "New Initiator"
+msgstr "Novi inicijator"
+
+#: initiators/templates/initiators/initiator_form.html:21
+#: initiators/templates/initiators/project_form.html:63
+msgid "Save"
+msgstr "Spremi"
+
+#: initiators/templates/initiators/initiator_form.html:23
+#: initiators/templates/initiators/initiator_form.html:25
+#: initiators/templates/initiators/project_form.html:65
+#: initiators/templates/initiators/project_form.html:67
+#: initiators/templates/initiators/project_phase_form.html:20
+#: initiators/templates/initiators/service_application_form.html:16
+msgid "Cancel"
+msgstr "Odustani"
+
+#: initiators/templates/initiators/initiator_list.html:27
+msgid "No initiators yet."
+msgstr "Još nema inicijatora."
+
+#: initiators/templates/initiators/initiator_list.html:27
+msgid "Add the first one."
+msgstr "Dodajte prvog."
+
+#: initiators/templates/initiators/project_detail.html:17
+msgid "Edit Project"
+msgstr "Uredi projekt"
+
+#: initiators/templates/initiators/project_detail.html:22
+msgid "Status"
+msgstr "Status"
+
+#: initiators/templates/initiators/project_detail.html:24
+msgid "Current Phase"
+msgstr "Trenutna faza"
+
+#: initiators/templates/initiators/project_detail.html:27
+msgid "Change"
+msgstr "Promijeni"
+
+#: initiators/templates/initiators/project_detail.html:29
+msgid "Started"
+msgstr "Početak"
+
+#: initiators/templates/initiators/project_detail.html:30
+msgid "Category"
+msgstr "Kategorija"
+
+#: initiators/templates/initiators/project_detail.html:31
+msgid "Description"
+msgstr "Opis"
+
+#: initiators/templates/initiators/project_detail.html:32
+msgid "Address"
+msgstr "Adresa"
+
+#: initiators/templates/initiators/project_detail.html:37
+msgid "Technical & Financial Data"
+msgstr "Tehnički i financijski podaci"
+
+#: initiators/templates/initiators/project_detail.html:40
+msgid "Power installed"
+msgstr "Instalirana snaga"
+
+#: initiators/templates/initiators/project_detail.html:43
+msgid "Energy generation"
+msgstr "Proizvodnja energije"
+
+#: initiators/templates/initiators/project_detail.html:43
+#, python-format
+msgid "%(value)s kWh/year"
+msgstr "%(value)s kWh/god."
+
+#: initiators/templates/initiators/project_detail.html:46
+msgid "Investment"
+msgstr "Ulaganje"
+
+#: initiators/templates/initiators/project_detail.html:46
+#, python-format
+msgid "€ %(amount)s"
+msgstr "%(amount)s €"
+
+#: initiators/templates/initiators/project_detail.html:55
+msgid "Phase History"
+msgstr "Povijest faza"
+
+#: initiators/templates/initiators/project_detail.html:70
+msgid "No phase changes recorded yet."
+msgstr "Još nema zabilježenih promjena faze."
+
+#: initiators/templates/initiators/project_detail.html:77
+msgid "Applied Services"
+msgstr "Primijenjene usluge"
+
+#: initiators/templates/initiators/project_detail.html:78
+#: initiators/templates/initiators/service_application_form.html:3
+#: initiators/templates/initiators/service_application_form.html:15
+msgid "Add Service"
+msgstr "Dodaj uslugu"
+
+#: initiators/templates/initiators/project_detail.html:89
+#, python-format
+msgid "Applied %(date)s"
+msgstr "Primijenjeno %(date)s"
+
+#: initiators/templates/initiators/project_detail.html:97
+msgid "Remove this service application?"
+msgstr "Ukloniti ovu uslugu s projekta?"
+
+#: initiators/templates/initiators/project_detail.html:99
+msgid "Remove"
+msgstr "Ukloni"
+
+#: initiators/templates/initiators/project_detail.html:109
+#, python-format
+msgid "Link for the initiator (created %(date)s, not yet used)"
+msgstr "Poveznica za inicijatora (izrađena %(date)s, još nije korištena)"
+
+#: initiators/templates/initiators/project_detail.html:112
+msgid "Link for the initiator"
+msgstr "Poveznica za inicijatora"
+
+#: initiators/templates/initiators/project_detail.html:115
+msgid "Copied"
+msgstr "Kopirano"
+
+#: initiators/templates/initiators/project_detail.html:115
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: initiators/templates/initiators/project_detail.html:116
+msgid "Send by email"
+msgstr "Pošalji e-poštom"
+
+#: initiators/templates/initiators/project_detail.html:120
+msgid "Your message:"
+msgstr "Vaša poruka:"
+
+#: initiators/templates/initiators/project_detail.html:126
+msgid "Revoke this link? The initiator will no longer be able to open it."
+msgstr "Opozvati ovu poveznicu? Inicijator je više neće moći otvoriti."
+
+#: initiators/templates/initiators/project_detail.html:128
+msgid "Revoke link"
+msgstr "Opozovi poveznicu"
+
+#: initiators/templates/initiators/project_detail.html:135
+msgid "Create a new link (replaces the current one)"
+msgstr "Izradi novu poveznicu (zamjenjuje trenutnu)"
+
+#: initiators/templates/initiators/project_detail.html:135
+msgid "Create link for initiator"
+msgstr "Izradi poveznicu za inicijatora"
+
+#: initiators/templates/initiators/project_detail.html:143
+msgid "Create link"
+msgstr "Izradi poveznicu"
+
+#: initiators/templates/initiators/project_detail.html:150
+#, python-format
+msgid "Note from initiator · %(date)s"
+msgstr "Bilješka inicijatora · %(date)s"
+
+#: initiators/templates/initiators/project_detail.html:155
+msgid "In reply to your message:"
+msgstr "Odgovor na vašu poruku:"
+
+#: initiators/templates/initiators/project_detail.html:167
+#, python-format
+msgid ""
+"No services applied yet. <a href=\"%(add_url)s\">Add the first service</a> "
+"or <a href=\"%(guidebook_url)s\">browse the guidebook</a>."
+msgstr ""
+"Još nema primijenjenih usluga. <a href=\"%(add_url)s\">Dodajte prvu uslugu</"
+"a> ili <a href=\"%(guidebook_url)s\">pregledajte vodič</a>."
+
+#: initiators/templates/initiators/project_form.html:26
+msgid "Project basics"
+msgstr "Osnovni podaci o projektu"
+
+#: initiators/templates/initiators/project_form.html:37
+msgid "Project details"
+msgstr "Detalji projekta"
+
+#: initiators/templates/initiators/project_form.html:37
+msgid "optional"
+msgstr "neobavezno"
+
+#: initiators/templates/initiators/project_list.html:6
+msgid "All Projects"
+msgstr "Svi projekti"
+
+#: initiators/templates/initiators/project_list.html:26
+msgid "No projects yet. Projects are created from an initiator's page —"
+msgstr "Još nema projekata. Projekti se izrađuju sa stranice inicijatora –"
+
+#: initiators/templates/initiators/project_list.html:27
+msgid "choose an initiator"
+msgstr "odaberite inicijatora"
+
+#: initiators/templates/initiators/project_phase_form.html:3
+#: initiators/templates/initiators/project_phase_form.html:7
+#: initiators/templates/initiators/project_phase_form.html:19
+msgid "Change Phase"
+msgstr "Promijeni fazu"
+
+#: initiators/templates/initiators/project_phase_form.html:12
+msgid "Current phase:"
+msgstr "Trenutna faza:"
+
+#: initiators/templates/initiators/service_application_form.html:7
+#, python-format
+msgid "Add Service to %(name)s"
+msgstr "Dodaj uslugu projektu %(name)s"
+
+#: initiators/templates/initiators/service_link.html:16
+#, python-format
+msgid "For your project “%(project)s”"
+msgstr "Za vaš projekt „%(project)s“"
+
+#: initiators/templates/initiators/service_link.html:25
+#, python-format
+msgid "Message from %(name)s"
+msgstr "Poruka od: %(name)s"
+
+#: initiators/templates/initiators/service_link.html:27
+msgid "Message from your energy agency"
+msgstr "Poruka vaše energetske agencije"
+
+#: initiators/templates/initiators/service_link.html:48
+#, python-format
+msgid "Sent on %(date)s. Thank you!"
+msgstr "Poslano %(date)s. Hvala!"
+
+#: initiators/templates/initiators/service_link.html:52
+msgid "Send a note to your energy agency"
+msgstr "Pošaljite bilješku svojoj energetskoj agenciji"
+
+#: initiators/templates/initiators/service_link.html:58
+msgid "Send note"
+msgstr "Pošalji bilješku"
+
+#: initiators/views.py:45
+#, python-format
+msgid "Initiator %(first_name)s %(last_name)s was created."
+msgstr "Inicijator %(first_name)s %(last_name)s je izrađen."
+
+#: initiators/views.py:70
+#, python-format
+msgid "Changes to %(first_name)s %(last_name)s were saved."
+msgstr "Promjene za %(first_name)s %(last_name)s su spremljene."
+
+#: initiators/views.py:95
+#, python-format
+msgid "Project \"%(name)s\" was created."
+msgstr "Projekt „%(name)s“ je izrađen."
+
+#: initiators/views.py:143
+#, python-format
+msgid "Information about \"%(service)s\" for your project \"%(project)s\""
+msgstr "Informacije o usluzi „%(service)s“ za vaš projekt „%(project)s“"
+
+#: initiators/views.py:147
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"please open the following link to read about the service \"%(service)s\" and "
+"to send us your note:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Best regards,\n"
+"%(manager)s"
+msgstr ""
+"Poštovani/a %(name)s,\n"
+"\n"
+"molimo otvorite sljedeću poveznicu kako biste pročitali informacije o usluzi "
+"„%(service)s“ i poslali nam svoju bilješku:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"S poštovanjem,\n"
+"%(manager)s"
+
+#: initiators/views.py:159
+#, python-format
+msgid "Changes to \"%(name)s\" were saved."
+msgstr "Promjene projekta „%(name)s“ su spremljene."
+
+#: initiators/views.py:188
+#, python-format
+msgid "The project is already in the %(phase)s phase."
+msgstr "Projekt je već u fazi: %(phase)s."
+
+#: initiators/views.py:199
+#, python-format
+msgid "Project moved to the %(phase)s phase."
+msgstr "Projekt je premješten u fazu: %(phase)s."
+
+#: initiators/views.py:211
+#, python-format
+msgid "Service \"%(service)s\" was added to the project."
+msgstr "Usluga „%(service)s“ dodana je projektu."
+
+#: initiators/views.py:243
+#, python-format
+msgid "Service \"%(service)s\" was removed from the project."
+msgstr "Usluga „%(service)s“ uklonjena je s projekta."
+
+#: initiators/views.py:275
+#, python-format
+msgid ""
+"Link for \"%(service)s\" created. Copy it or send it by email to the "
+"initiator."
+msgstr ""
+"Poveznica za „%(service)s“ je izrađena. Kopirajte je ili je pošaljite e-"
+"poštom inicijatoru."
+
+#: initiators/views.py:291
+msgid "The link was revoked and no longer works."
+msgstr "Poveznica je opozvana i više ne radi."
+
+#: initiators/views.py:349
+msgid "Thank you! Your note has been sent."
+msgstr "Hvala! Vaša bilješka je poslana."
+
+#: templates/404.html:4 templates/404.html:13
+msgid "Page not found"
+msgstr "Stranica nije pronađena"
+
+#: templates/404.html:14
+msgid ""
+"The page you were looking for doesn't exist. It may have been moved or "
+"deleted, or the link may be mistyped."
+msgstr ""
+"Tražena stranica ne postoji. Možda je premještena ili izbrisana, ili je "
+"poveznica pogrešna."
+
+#: templates/404.html:16
+msgid "Go to the Guidebook"
+msgstr "Idi na vodič"
+
+#: templates/404.html:17
+msgid "Browse services"
+msgstr "Pregledaj usluge"
+
+#: templates/500.html:10
+msgid "Server error"
+msgstr "Pogreška poslužitelja"
+
+#: templates/500.html:10 templates/base.html:7
+msgid "DISCOVER Interactive Guidebook"
+msgstr "DISCOVER Interaktivni vodič"
+
+#: templates/500.html:17
+msgid "Something went wrong"
+msgstr "Nešto je pošlo po zlu"
+
+#: templates/500.html:18
+msgid ""
+"An unexpected error occurred on our side. Please try again in a moment. If "
+"the problem persists, contact your administrator."
+msgstr ""
+"Došlo je do neočekivane pogreške na našoj strani. Pokušajte ponovno za "
+"trenutak. Ako se problem nastavi, obratite se administratoru."
+
+#: templates/500.html:19
+msgid "Back to the start page"
+msgstr "Natrag na početnu stranicu"
+
+#: templates/base.html:7 templates/base.html:33 templates/base.html:35
+#: templates/base.html:117
+msgid "Guidebook"
+msgstr "Vodič"
+
+#: templates/base.html:25
+msgid "Interactive"
+msgstr "Interaktivni"
+
+#: templates/base.html:26
+msgctxt "brand"
+msgid "Guidebook"
+msgstr "Vodič"
+
+#: templates/base.html:60
+msgid "Logout"
+msgstr "Odjava"
+
+#: templates/base.html:63
+msgid "Login"
+msgstr "Prijava"
+
+#: templates/base.html:68 templates/base.html:70 templates/base.html:149
+msgid "Language"
+msgstr "Jezik"
+
+#: templates/base.html:83
+msgid "Menu"
+msgstr "Izbornik"
+
+#: templates/base.html:104
+msgid "DISCOVER project website"
+msgstr "Mrežna stranica projekta DISCOVER"
+
+#: templates/base.html:108
+msgid ""
+"An EU Horizon project supporting the development of Community Energy "
+"Projects across Europe — from first idea to long-term operation."
+msgstr ""
+"Projekt programa EU Horizon koji podupire razvoj projekata energetskih "
+"zajednica diljem Europe – od prve ideje do dugoročnog upravljanja."
+
+#: templates/base.html:119 templates/home.html:4
+msgid "Home"
+msgstr "Početna"
+
+#: templates/base.html:141
+msgid "DISCOVER Project"
+msgstr "Projekt DISCOVER"
+
+#: templates/base.html:159
+msgid "EU Horizon Project"
+msgstr "Projekt programa EU Horizon"
+
+#: templates/home.html:14
+msgid "EU DISCOVER Project"
+msgstr "EU projekt DISCOVER"
+
+#: templates/home.html:15
+msgid "The Interactive <span>Guidebook</span><br>for Community Energy"
+msgstr "Interaktivni <span>vodič</span><br>za energetske zajednice"
+
+#: templates/home.html:17
+msgid ""
+"A practical tool for energy agency managers supporting initiators of "
+"Community Energy Projects (CEPs) through every stage, from first idea to "
+"long-term operation."
+msgstr ""
+"Praktičan alat za voditelje energetskih agencija koji podupiru inicijatore "
+"projekata energetskih zajednica (CEP) u svakoj fazi, od prve ideje do "
+"dugoročnog upravljanja."
+
+#: templates/home.html:23
+msgid "Browse Service Catalog"
+msgstr "Pregledaj katalog usluga"
+
+#: templates/home.html:25
+msgid "Manage Initiators"
+msgstr "Upravljaj inicijatorima"
+
+#: templates/home.html:34
+msgid "What is the DISCOVER Guidebook?"
+msgstr "Što je vodič DISCOVER?"
+
+#: templates/home.html:35
+msgid "Supporting the energy transition through community action"
+msgstr "Podrška energetskoj tranziciji kroz djelovanje zajednice"
+
+#: templates/home.html:40
+msgid ""
+"The <strong>DISCOVER project</strong> (funded under EU Horizon) helps local "
+"energy agencies across Europe support citizens who want to start or join a "
+"Community Energy Project (CEP). These projects — from solar cooperatives to "
+"renewable energy communities — play a key role in the clean energy "
+"transition."
+msgstr ""
+"<strong>Projekt DISCOVER</strong> (financiran iz programa EU Horizon) pomaže "
+"lokalnim energetskim agencijama diljem Europe da podupru građane koji žele "
+"pokrenuti projekt energetske zajednice (CEP) ili mu se pridružiti. Ti "
+"projekti – od solarnih zadruga do zajednica obnovljive energije – imaju "
+"ključnu ulogu u prijelazu na čistu energiju."
+
+#: templates/home.html:48
+msgid ""
+"Initiating a CEP is complex. Founders face technical, legal, financial, and "
+"social challenges that require expertise across many disciplines. Energy "
+"agency managers (the <em>intermediaries</em>) are uniquely positioned to "
+"guide initiators through this journey, but they need structured tools to do "
+"so effectively."
+msgstr ""
+"Pokretanje CEP-a je složeno. Osnivači se suočavaju s tehničkim, pravnim, "
+"financijskim i društvenim izazovima koji zahtijevaju stručnost iz mnogih "
+"područja. Voditelji energetskih agencija (<em>posrednici</em>) u "
+"jedinstvenom su položaju da vode inicijatore na tom putu, ali za to trebaju "
+"strukturirane alate."
+
+#: templates/home.html:56
+msgid ""
+"This interactive guidebook translates the DISCOVER methodology into a "
+"practical day-to-day tool: a searchable service catalog, project tracking, "
+"and phase-based guidance — all in one place."
+msgstr ""
+"Ovaj interaktivni vodič pretvara metodologiju DISCOVER u praktičan alat za "
+"svakodnevni rad: pretraživi katalog usluga, praćenje projekata i smjernice "
+"po fazama – sve na jednom mjestu."
+
+#: templates/home.html:66
+msgid "Lifecycle phases:<br>Planning, Realisation, Operation"
+msgstr "Faze projekta:<br>Planiranje, Realizacija, Upravljanje"
+
+#: templates/home.html:70
+msgid "Structured steps covering the full CEP journey"
+msgstr "Strukturirani koraci koji pokrivaju cijeli put CEP-a"
+
+#: templates/home.html:74
+msgid "Disciplines: Technical, Legal, Financial, Social"
+msgstr "Područja: tehničko, pravno, financijsko, društveno"
+
+#: templates/home.html:82
+msgid "Three Phases of a Community Energy Project"
+msgstr "Tri faze projekta energetske zajednice"
+
+#: templates/home.html:83
+msgid "Each phase brings its own challenges — and its own services"
+msgstr "Svaka faza donosi vlastite izazove – i vlastite usluge"
+
+#: templates/home.html:92
+msgid ""
+"From first idea to ready-to-build. Initiators assess feasibility, form the "
+"legal entity, secure financing, and obtain permits. This is the most "
+"demanding phase — 14 structured steps guide initiators from concept to "
+"approved project."
+msgstr ""
+"Od prve ideje do projekta spremnog za izgradnju. Inicijatori procjenjuju "
+"izvedivost, osnivaju pravni subjekt, osiguravaju financiranje i ishode "
+"dozvole. Ovo je najzahtjevnija faza – 14 strukturiranih koraka vodi od "
+"koncepta do odobrenog projekta."
+
+#: templates/home.html:100
+msgid "Idea generation & community mapping"
+msgstr "Razvoj ideje i mapiranje zajednice"
+
+#: templates/home.html:101
+msgid "Site assessment & technical pre-feasibility"
+msgstr "Procjena lokacije i tehnička predizvedivost"
+
+#: templates/home.html:102
+msgid "Legal structure selection & registration"
+msgstr "Odabir i registracija pravnog oblika"
+
+#: templates/home.html:103
+msgid "Business plan & financial modelling"
+msgstr "Poslovni plan i financijski model"
+
+#: templates/home.html:104
+msgid "Grid connection & permit applications"
+msgstr "Priključak na mrežu i zahtjevi za dozvole"
+
+#: templates/home.html:105
+msgid "Member recruitment & share offering"
+msgstr "Privlačenje članova i ponuda udjela"
+
+#: templates/home.html:106
+msgid "Final investment decision"
+msgstr "Konačna odluka o ulaganju"
+
+#: templates/home.html:115
+msgid ""
+"From approved project to operational installation. Procurement, "
+"construction, grid connection, and commissioning. The focus shifts from "
+"planning documents to physical delivery — 8 steps take the project through "
+"to handover."
+msgstr ""
+"Od odobrenog projekta do postrojenja u radu. Nabava, izgradnja, priključak "
+"na mrežu i puštanje u pogon. Težište se s planske dokumentacije prebacuje na "
+"fizičku izvedbu – 8 koraka vodi projekt do primopredaje."
+
+#: templates/home.html:123
+msgid "Procurement & contractor selection"
+msgstr "Nabava i odabir izvođača"
+
+#: templates/home.html:124
+msgid "Construction management & supervision"
+msgstr "Upravljanje gradnjom i nadzor"
+
+#: templates/home.html:125
+msgid "Grid connection execution"
+msgstr "Izvedba priključka na mrežu"
+
+#: templates/home.html:126
+msgid "Technical commissioning & testing"
+msgstr "Tehničko puštanje u pogon i ispitivanje"
+
+#: templates/home.html:127
+msgid "Metering & monitoring setup"
+msgstr "Postavljanje mjerenja i nadzora"
+
+#: templates/home.html:128
+msgid "Handover & documentation"
+msgstr "Primopredaja i dokumentacija"
+
+#: templates/home.html:137
+msgid ""
+"Long-term management of the running CEP. Technical maintenance, financial "
+"reporting, member engagement, and regulatory compliance. Five ongoing tasks "
+"keep the community energy project healthy and growing."
+msgstr ""
+"Dugoročno upravljanje CEP-om u radu. Tehničko održavanje, financijsko "
+"izvještavanje, uključivanje članova i usklađenost s propisima. Pet stalnih "
+"zadataka održava projekt energetske zajednice zdravim i u rastu."
+
+#: templates/home.html:145
+msgid "Asset operation & maintenance"
+msgstr "Rad i održavanje postrojenja"
+
+#: templates/home.html:146
+msgid "Financial management & member distributions"
+msgstr "Financijsko upravljanje i raspodjela članovima"
+
+#: templates/home.html:147
+msgid "Regulatory reporting & compliance"
+msgstr "Regulatorno izvještavanje i usklađenost"
+
+#: templates/home.html:148
+msgid "Community engagement & governance"
+msgstr "Uključivanje zajednice i upravljanje"
+
+#: templates/home.html:149
+msgid "Growth planning & reinvestment"
+msgstr "Planiranje rasta i ponovno ulaganje"
+
+#: templates/home.html:158
+msgid "How This Tool Helps"
+msgstr "Kako ovaj alat pomaže"
+
+#: templates/home.html:159
+msgid "Designed for energy agency managers supporting initiators"
+msgstr "Namijenjen voditeljima energetskih agencija koji podupiru inicijatore"
+
+#: templates/home.html:166
+msgid ""
+"Browse and search all support services available to CEP initiators, filtered "
+"by lifecycle phase or discipline. Know exactly what help is available at "
+"each step."
+msgstr ""
+"Pregledajte i pretražujte sve usluge podrške dostupne inicijatorima CEP-a, "
+"filtrirane po fazi ili području. Točno znajte koja je pomoć dostupna u "
+"svakom koraku."
+
+#: templates/home.html:174
+msgid "Initiator Profiles"
+msgstr "Profili inicijatora"
+
+#: templates/home.html:176
+msgid ""
+"Maintain records for each initiator — contact details, project history, and "
+"the services they have received — so nothing falls through the cracks."
+msgstr ""
+"Vodite evidenciju za svakog inicijatora – kontakt podatke, povijest projekta "
+"i primljene usluge – kako ništa ne bi promaknulo."
+
+#: templates/home.html:184
+msgid "Project Tracking"
+msgstr "Praćenje projekata"
+
+#: templates/home.html:186
+msgid ""
+"Track every project through its phase journey. Record phase transitions, "
+"note decisions, and log which services have been applied and with what "
+"outcomes."
+msgstr ""
+"Pratite svaki projekt kroz njegove faze. Bilježite promjene faza i odluke te "
+"evidentirajte koje su usluge primijenjene i s kojim ishodom."
+
+#: templates/home.html:198
+msgid "Ready to get started?"
+msgstr "Spremni za početak?"
+
+#: templates/home.html:199
+msgid ""
+"Browse the service catalog to explore available support, or open an "
+"initiator record to review their project."
+msgstr ""
+"Pregledajte katalog usluga kako biste pronašli dostupnu podršku ili otvorite "
+"zapis inicijatora kako biste pregledali njegov projekt."
+
+#: templates/home.html:208
+msgid "Sign in to manage initiators and projects"
+msgstr "Prijavite se za upravljanje inicijatorima i projektima"
+
+#: templates/home.html:209
+msgid ""
+"The guidebook and the service catalog are open to everyone. Sign in to "
+"access initiator records and project tracking."
+msgstr ""
+"Vodič i katalog usluga otvoreni su svima. Prijavite se za pristup zapisima "
+"inicijatora i praćenju projekata."
+
+#: templates/home.html:212
+msgid "Open Guidebook"
+msgstr "Otvori vodič"
+
+#: templates/home.html:213
+msgid "Browse Catalog"
+msgstr "Pregledaj katalog"
+
+#: templates/includes/pagination.html:3
+msgid "Pagination"
+msgstr "Numeracija stranica"
+
+#: templates/includes/pagination.html:5 templates/includes/pagination.html:7
+msgid "Previous"
+msgstr "Prethodna"
+
+#: templates/includes/pagination.html:9
+#, python-format
+msgid "Page %(number)s of %(total)s"
+msgstr "Stranica %(number)s od %(total)s"
+
+#: templates/includes/pagination.html:11 templates/includes/pagination.html:13
+msgid "Next"
+msgstr "Sljedeća"

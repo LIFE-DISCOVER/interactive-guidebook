@@ -1,0 +1,60 @@
+title: Analysis - Consumption
+sort_order: 160
+topic: PV Plant
+description: Understand your electricity demand
+objective: |-
+  - What is your daily/monthly/annual consumption?
+  - What is the consumption profile and expected peaks?
+  - How will consumption change over the next years?
+description_long: |-
+  Understanding your energy needs is crucial for optimizing a PV installation. Start by assessing your daily, monthly, and annual consumption to determine the system size required to meet your energy demands. Analyze your consumption profile, including expected peaks, to understand when your energy use is highest and ensure the PV system can accommodate these fluctuations.
+de:
+  title: Analyse - Verbrauch
+  description: Verstehen Sie Ihren Strombedarf
+  objective: |-
+    - Wie hoch ist Ihr täglicher, monatlicher und jährlicher Verbrauch?
+    - Wie sehen das Verbrauchsprofil und die erwarteten Spitzen aus?
+    - Wie wird sich der Verbrauch in den nächsten Jahren entwickeln?
+  description_long: |-
+    Wer seinen Energiebedarf kennt, kann eine PV-Anlage optimal auslegen. Ermitteln Sie zuerst Ihren täglichen, monatlichen und jährlichen Verbrauch, um die nötige Anlagengröße zu bestimmen. Analysieren Sie Ihr Verbrauchsprofil einschließlich der erwarteten Spitzen, um zu verstehen, wann Ihr Verbrauch am höchsten ist, und stellen Sie sicher, dass die PV-Anlage diese Schwankungen abdecken kann.
+  reviewed: false
+fr:
+  title: Analyse - Consommation
+  description: Comprendre vos besoins en électricité
+  objective: |-
+    - Quelle est votre consommation quotidienne, mensuelle et annuelle ?
+    - Quel est le profil de consommation et quels sont les pics attendus ?
+    - Comment la consommation évoluera-t-elle dans les prochaines années ?
+  description_long: |-
+    Connaître vos besoins énergétiques est essentiel pour optimiser une installation photovoltaïque. Évaluez d'abord votre consommation quotidienne, mensuelle et annuelle pour déterminer la taille d'installation nécessaire. Analysez votre profil de consommation, y compris les pics attendus, pour savoir quand votre consommation est la plus forte et vous assurer que l'installation pourra absorber ces variations.
+  reviewed: false
+it:
+  title: Analisi - Consumi
+  description: Capire il proprio fabbisogno di energia elettrica
+  objective: |-
+    - Qual è il vostro consumo giornaliero, mensile e annuo?
+    - Qual è il profilo di consumo e quali sono i picchi attesi?
+    - Come cambieranno i consumi nei prossimi anni?
+  description_long: |-
+    Conoscere il proprio fabbisogno energetico è fondamentale per ottimizzare un impianto fotovoltaico. Iniziate valutando i consumi giornalieri, mensili e annuali per determinare la taglia dell'impianto necessaria. Analizzate il profilo di consumo, compresi i picchi attesi, per capire quando consumate di più e assicurarvi che l'impianto possa gestire queste variazioni.
+  reviewed: false
+hr:
+  title: Analiza - Potrošnja
+  description: Upoznajte svoje potrebe za električnom energijom
+  objective: |-
+    - Kolika je vaša dnevna, mjesečna i godišnja potrošnja?
+    - Kakav je profil potrošnje i koji su očekivani vrhovi?
+    - Kako će se potrošnja mijenjati sljedećih godina?
+  description_long: |-
+    Razumijevanje vlastitih energetskih potreba ključno je za optimizaciju fotonaponske instalacije. Najprije procijenite dnevnu, mjesečnu i godišnju potrošnju kako biste odredili potrebnu veličinu sustava. Analizirajte profil potrošnje, uključujući očekivane vrhove, kako biste znali kada trošite najviše i bili sigurni da sustav može pratiti te promjene.
+  reviewed: false
+bg:
+  title: Анализ - Потребление
+  description: Разберете нуждите си от електроенергия
+  objective: |-
+    - Какво е дневното, месечното и годишното ви потребление?
+    - Какъв е профилът на потребление и какви са очакваните пикове?
+    - Как ще се промени потреблението през следващите години?
+  description_long: |-
+    Познаването на енергийните ви нужди е от решаващо значение за оптимизирането на фотоволтаичната инсталация. Първо оценете дневното, месечното и годишното си потребление, за да определите нужния размер на системата. Анализирайте профила на потребление, включително очакваните пикове, за да разберете кога потреблението ви е най-високо и да сте сигурни, че системата може да поеме тези колебания.
+  reviewed: false

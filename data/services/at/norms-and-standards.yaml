@@ -1,0 +1,9 @@
+name: 'AT: Norms and Standards'
+step: commissioning-plant
+summary: Ensure that the system complies with the norms and standards
+input: A list of norms applicable to PV installations
+de:
+  name: 'AT: Normen und Standards'
+  summary: Stellen Sie sicher, dass die Anlage den Normen und Standards entspricht
+  input: Eine Liste der für PV-Anlagen geltenden Normen
+  reviewed: false

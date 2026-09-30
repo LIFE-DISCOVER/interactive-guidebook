@@ -1,0 +1,17 @@
+name: 'AT: Financing - Crowd Financing'
+step: financing-private-capital
+summary: Apply for a crowd financing scheme with GeReGi.
+description: Provide a referral to financing institution
+stakeholder: GeReGie - Gemeinschaftliche Regionale Energie eGen
+input: Available roof area
+result: PV installation financing secured. Shares available for purchase.
+remaining_hurdles: Find crowd
+de:
+  name: 'AT: Finanzierung - Crowdfinanzierung'
+  summary: Bewerben Sie sich bei GeReGie für ein Crowdfinanzierungsmodell.
+  description: Vermittlung an ein Finanzierungsinstitut
+  stakeholder: GeReGie - Gemeinschaftliche Regionale Energie eGen
+  input: Verfügbare Dachfläche
+  result: Finanzierung der PV-Anlage gesichert. Anteile können gekauft werden.
+  remaining_hurdles: Unterstützerinnen und Unterstützer finden
+  reviewed: false

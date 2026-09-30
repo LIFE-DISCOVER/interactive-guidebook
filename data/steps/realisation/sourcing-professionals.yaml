@@ -1,0 +1,71 @@
+title: Sourcing - Professionals
+sort_order: 245
+topic: PV Plant
+description: |-
+  Find and hire Service Providers and Technicians for the installation of your PV plant
+objective: |-
+  - Communicate project characteristics
+  - Find professionals
+  - Compare prices
+  - Negotiate contractual agreements
+description_long: |-
+  To effectively realize your project, start by clearly communicating its characteristics to potential professionals. This involves providing detailed information about the project scope, requirements, and goals. Next, seek out and evaluate qualified professionals who have the expertise needed for your project.
+de:
+  title: Beschaffung - Fachleute
+  description: |-
+    Dienstleister und Fachkräfte für die Errichtung Ihrer PV-Anlage finden und beauftragen
+  objective: |-
+    - Eckdaten des Projekts kommunizieren
+    - Fachleute finden
+    - Preise vergleichen
+    - Verträge aushandeln
+  description_long: |-
+    Um Ihr Projekt wirksam umzusetzen, beschreiben Sie möglichen Fachleuten zuerst klar seine Eckdaten. Dazu gehören genaue Angaben zu Umfang, Anforderungen und Zielen des Projekts. Suchen und bewerten Sie anschließend qualifizierte Fachleute mit der nötigen Erfahrung für Ihr Projekt.
+  reviewed: false
+fr:
+  title: Achats - Professionnels
+  description: |-
+    Trouver et engager des prestataires et des techniciens pour l'installation de votre centrale photovoltaïque
+  objective: |-
+    - Présenter les caractéristiques du projet
+    - Trouver des professionnels
+    - Comparer les prix
+    - Négocier les contrats
+  description_long: |-
+    Pour mener à bien votre projet, commencez par présenter clairement ses caractéristiques aux professionnels potentiels, avec des informations détaillées sur son périmètre, ses exigences et ses objectifs. Recherchez et évaluez ensuite des professionnels qualifiés disposant de l'expertise nécessaire.
+  reviewed: false
+it:
+  title: Approvvigionamento - Professionisti
+  description: |-
+    Trovare e incaricare fornitori di servizi e tecnici per l'installazione dell'impianto fotovoltaico
+  objective: |-
+    - Comunicare le caratteristiche del progetto
+    - Trovare professionisti
+    - Confrontare i prezzi
+    - Negoziare i contratti
+  description_long: |-
+    Per realizzare efficacemente il progetto, iniziate comunicando chiaramente le sue caratteristiche ai potenziali professionisti, con informazioni dettagliate su portata, requisiti e obiettivi. Cercate e valutate poi professionisti qualificati con le competenze necessarie per il vostro progetto.
+  reviewed: false
+hr:
+  title: Nabava - Stručnjaci
+  description: |-
+    Pronađite i angažirajte pružatelje usluga i tehničare za ugradnju fotonaponske elektrane
+  objective: |-
+    - Predstaviti značajke projekta
+    - Pronaći stručnjake
+    - Usporediti cijene
+    - Pregovarati o ugovorima
+  description_long: |-
+    Za uspješnu realizaciju projekta najprije jasno predstavite njegove značajke potencijalnim stručnjacima, uz detaljne informacije o opsegu, zahtjevima i ciljevima. Zatim potražite i procijenite kvalificirane stručnjake s potrebnim iskustvom za vaš projekt.
+  reviewed: false
+bg:
+  title: Доставки - Специалисти
+  description: Намерете и наемете изпълнители и техници за монтажа на фотоволтаичната централа
+  objective: |-
+    - Представяне на характеристиките на проекта
+    - Намиране на специалисти
+    - Сравняване на цените
+    - Договаряне на условията
+  description_long: |-
+    За успешното изпълнение на проекта първо ясно представете характеристиките му на потенциалните специалисти, с подробна информация за обхвата, изискванията и целите. След това потърсете и оценете квалифицирани специалисти с необходимия опит за проекта.
+  reviewed: false

@@ -1,0 +1,165 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="{{ current_language }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{% translate "Guidebook" %}{% endblock %} — {% translate "DISCOVER Interactive Guidebook" %}</title>
+  {% for lang in language_links %}
+  <link rel="alternate" hreflang="{{ lang.code }}" href="{{ lang.alternate_url }}">
+  {% endfor %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  {% block extra_css %}{% endblock %}
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+  <header>
+    <nav id="site-nav">
+      <a class="nav-brand" href="{% url 'home' %}">
+        <img src="{% static 'img/discover-logo-color.png' %}" alt="DISCOVER">
+        <span class="nav-brand-divider"></span>
+        <span class="nav-brand-label">
+          <span>{% translate "Interactive" %}</span>
+          {% translate "Guidebook" context "brand" %}
+        </span>
+      </a>
+
+      <div class="nav-links" id="nav-menu">
+        {% with ns=request.resolver_match.namespace url_name=request.resolver_match.url_name %}
+        {% if ns == 'catalog' and url_name == 'guidebook' %}
+          <a href="{% url 'catalog:guidebook' %}" class="active" aria-current="page">{% translate "Guidebook" %}</a>
+        {% else %}
+          <a href="{% url 'catalog:guidebook' %}">{% translate "Guidebook" %}</a>
+        {% endif %}
+        {% if ns == 'catalog' and url_name != 'guidebook' %}
+          <a href="{% url 'catalog:service_list' %}" class="active" aria-current="page">{% translate "Services" %}</a>
+        {% else %}
+          <a href="{% url 'catalog:service_list' %}">{% translate "Services" %}</a>
+        {% endif %}
+        {% if user.is_authenticated %}
+        {% if ns == 'initiators' %}
+          <a href="{% url 'initiators:initiator_list' %}" class="active" aria-current="page">{% translate "Initiators" %}</a>
+        {% else %}
+          <a href="{% url 'initiators:initiator_list' %}">{% translate "Initiators" %}</a>
+        {% endif %}
+        {% if ns == 'projects' %}
+          <a href="{% url 'projects:project_list' %}" class="active" aria-current="page">{% translate "Projects" %}</a>
+        {% else %}
+          <a href="{% url 'projects:project_list' %}">{% translate "Projects" %}</a>
+        {% endif %}
+        {% endif %}
+        {% endwith %}
+        <span class="nav-sep"></span>
+        {% if user.is_authenticated %}
+          <span class="nav-user">{{ user.get_full_name|default:user.email }}</span>
+          <form method="post" action="{% url 'accounts:logout' %}" class="nav-logout-form">
+            {% csrf_token %}
+            <button class="nav-logout" type="submit">{% translate "Logout" %}</button>
+          </form>
+        {% else %}
+          <a class="nav-login" href="{% url 'accounts:login' %}">{% translate "Login" %}</a>
+        {% endif %}
+      </div>
+
+      <details class="lang-switch">
+        <summary title="{% translate "Language" %}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+          <span class="visually-hidden">{% translate "Language" %}:</span>
+          {{ current_language|upper }}
+        </summary>
+        <ul>
+          {% for lang in language_links %}
+          <li><a href="{{ lang.switch_url }}" lang="{{ lang.code }}" hreflang="{{ lang.code }}"{% if lang.is_current %} class="current" aria-current="true"{% endif %}>{{ lang.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+
+      <button class="nav-toggle" type="button" aria-controls="nav-menu" aria-expanded="false">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        <span class="visually-hidden">{% translate "Menu" %}</span>
+      </button>
+    </nav>
+  </header>
+
+  {% if messages %}
+  <div class="messages">
+    {% for message in messages %}
+      <div class="message {{ message.tags }}">{{ message }}</div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <!-- Col 1: Logo + tagline -->
+      <div class="footer-col footer-col-logo">
+        <a href="https://projectdiscover.eu/" target="_blank" rel="noopener" aria-label="{% translate "DISCOVER project website" %}">
+          <img src="{% static 'img/discover-logo-color.png' %}" alt="DISCOVER">
+        </a>
+        <p>
+          {% blocktranslate trimmed %}
+          An EU Horizon project supporting the development of Community Energy Projects
+          across Europe — from first idea to long-term operation.
+          {% endblocktranslate %}
+        </p>
+      </div>
+
+      <!-- Col 2: Guidebook nav -->
+      <div class="footer-col">
+        <h4>{% translate "Guidebook" %}</h4>
+        <ul>
+          <li><a href="{% url 'home' %}">{% translate "Home" %}</a></li>
+          <li><a href="{% url 'catalog:guidebook' %}">{% translate "Interactive Guidebook" %}</a></li>
+          <li><a href="{% url 'catalog:service_list' %}">{% translate "Service Catalog" %}</a></li>
+          {% if user.is_authenticated %}
+          <li><a href="{% url 'initiators:initiator_list' %}">{% translate "Initiators" %}</a></li>
+          <li><a href="{% url 'projects:project_list' %}">{% translate "Projects" %}</a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <!-- Col 3: Phases -->
+      <div class="footer-col">
+        <h4>{% translate "Lifecycle Phases" %}</h4>
+        <ul>
+          <li><a href="{% url 'catalog:service_list' %}?phase=planning">{% translate "Planning" %}</a></li>
+          <li><a href="{% url 'catalog:service_list' %}?phase=realisation">{% translate "Realisation" %}</a></li>
+          <li><a href="{% url 'catalog:service_list' %}?phase=operation">{% translate "Operation" %}</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Project links -->
+      <div class="footer-col">
+        <h4>{% translate "DISCOVER Project" %}</h4>
+        <p>
+          <a href="https://projectdiscover.eu/" target="_blank" rel="noopener">projectdiscover.eu</a>
+        </p>
+      </div>
+
+      <!-- Col 5: Languages -->
+      <div class="footer-col footer-languages">
+        <h4>{% translate "Language" %}</h4>
+        <ul>
+          {% for lang in language_links %}
+          <li><a href="{{ lang.switch_url }}" lang="{{ lang.code }}" hreflang="{{ lang.code }}"{% if lang.is_current %} aria-current="true"{% endif %}>{{ lang.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2024 DISCOVER &mdash; {% translate "EU Horizon Project" %}</p>
+      <a href="https://projectdiscover.eu/" target="_blank" rel="noopener">projectdiscover.eu</a>
+    </div>
+  </footer>
+  <script src="{% static 'js/site.js' %}"></script>
+</body>
+</html>

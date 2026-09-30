@@ -1,0 +1,9 @@
+# Reviewers are requested automatically for changes in these paths.
+# Add each country's reviewers (GitHub user names) next to its folder once they have accounts,
+# e.g. /data/services/at/   @hherglotz-pixel @austrian-partner
+*                    @hherglotz-pixel
+/data/services/at/   @hherglotz-pixel
+/data/services/bg/   @hherglotz-pixel
+/data/services/fr/   @hherglotz-pixel
+/data/services/hr/   @hherglotz-pixel
+/data/services/it/   @hherglotz-pixel

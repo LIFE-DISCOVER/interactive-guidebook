@@ -1,0 +1,60 @@
+title: Analysis - Structural
+sort_order: 120
+topic: PV Plant
+description: Investigate the structural prerequisites for your PV installation.
+objective: |-
+  - Is the roof sturdy enough for a PV installation?
+  - Is a concrete basis required for the PV panels or auxiliary components?
+  - How is the roof accessible?
+description_long: |-
+  Before installing a PV system, it is crucial to assess the quality, structure, and condition of your roof to ensure it can support the installation. Evaluating the roof structural integrity will determine if it can handle the weight and load of the PV panels. Assess whether any repairs, reinforcements, or even a complete rebuild are needed in the short or long term. Additionally, understanding how to access the roof is important to identify any potential constraints for installation and maintenance.
+de:
+  title: Analyse - Statik
+  description: Klären Sie die baulichen Voraussetzungen für Ihre PV-Anlage.
+  objective: |-
+    - Ist das Dach tragfähig genug für eine PV-Anlage?
+    - Braucht es ein Betonfundament für die Module oder Nebenkomponenten?
+    - Wie ist das Dach zugänglich?
+  description_long: |-
+    Vor der Montage einer PV-Anlage ist es entscheidend, Qualität, Aufbau und Zustand Ihres Daches zu prüfen, damit es die Anlage tragen kann. Die Prüfung der Standsicherheit zeigt, ob das Dach Gewicht und Last der Module aufnehmen kann. Klären Sie, ob kurz- oder langfristig Reparaturen, Verstärkungen oder sogar eine vollständige Erneuerung nötig sind. Wichtig ist außerdem, wie das Dach zugänglich ist, um Einschränkungen für Montage und Wartung zu erkennen.
+  reviewed: false
+fr:
+  title: Analyse - Structure
+  description: Étudiez les conditions structurelles de votre installation photovoltaïque.
+  objective: |-
+    - La toiture est-elle assez solide pour une installation photovoltaïque ?
+    - Faut-il un socle en béton pour les panneaux ou les équipements annexes ?
+    - Comment accède-t-on à la toiture ?
+  description_long: |-
+    Avant d'installer un système photovoltaïque, il est essentiel d'évaluer la qualité, la structure et l'état de votre toiture pour vous assurer qu'elle peut supporter l'installation. L'évaluation de la solidité de la toiture indique si elle peut supporter le poids et la charge des panneaux. Déterminez si des réparations, des renforcements, voire une réfection complète, sont nécessaires à court ou à long terme. Il est également important de savoir comment accéder à la toiture pour repérer les contraintes d'installation et de maintenance.
+  reviewed: false
+it:
+  title: Analisi - Strutturale
+  description: Verificate i requisiti strutturali per il vostro impianto fotovoltaico.
+  objective: |-
+    - Il tetto è abbastanza robusto per un impianto fotovoltaico?
+    - Serve una base in calcestruzzo per i moduli o per i componenti ausiliari?
+    - Come si accede al tetto?
+  description_long: |-
+    Prima di installare un impianto fotovoltaico è fondamentale valutare qualità, struttura e stato del tetto per assicurarsi che possa sostenere l'impianto. La verifica della stabilità della copertura indica se può sopportare il peso e il carico dei moduli. Valutate se nel breve o lungo periodo servono riparazioni, rinforzi o persino un rifacimento completo. È importante anche sapere come si accede al tetto, per individuare eventuali vincoli per installazione e manutenzione.
+  reviewed: false
+hr:
+  title: Analiza - Statika
+  description: Istražite konstrukcijske preduvjete za svoju fotonaponsku instalaciju.
+  objective: |-
+    - Je li krov dovoljno čvrst za fotonaponsku instalaciju?
+    - Je li za panele ili pomoćne komponente potreban betonski temelj?
+    - Kako se pristupa krovu?
+  description_long: |-
+    Prije ugradnje fotonaponskog sustava ključno je procijeniti kvalitetu, konstrukciju i stanje krova kako biste bili sigurni da može nositi instalaciju. Procjena stabilnosti krova pokazat će može li podnijeti težinu i opterećenje panela. Procijenite jesu li kratkoročno ili dugoročno potrebni popravci, ojačanja ili čak potpuna obnova. Važno je i znati kako se pristupa krovu kako biste uočili moguća ograničenja za ugradnju i održavanje.
+  reviewed: false
+bg:
+  title: Анализ - Конструкция
+  description: Проучете конструктивните условия за вашата фотоволтаична инсталация.
+  objective: |-
+    - Достатъчно здрав ли е покривът за фотоволтаична инсталация?
+    - Нужна ли е бетонна основа за панелите или спомагателните компоненти?
+    - Как се осигурява достъп до покрива?
+  description_long: |-
+    Преди монтажа на фотоволтаична система е от решаващо значение да се оценят качеството, конструкцията и състоянието на покрива, за да сте сигурни, че може да понесе инсталацията. Оценката на носимоспособността показва дали покривът може да поеме теглото и натоварването от панелите. Преценете дали в краткосрочен или дългосрочен план са нужни ремонти, укрепване или дори пълна подмяна. Важно е и да знаете как се осигурява достъп до покрива, за да откриете възможни ограничения за монтажа и поддръжката.
+  reviewed: false

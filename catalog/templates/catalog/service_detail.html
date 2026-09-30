@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}{{ service.text.name }}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/service-detail.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="breadcrumb"><a href="{% url 'catalog:service_list' %}">← {% translate "Services" %}</a></div>
+  <h1 lang="{{ service.text.language }}">{{ service.text.name }}</h1>
+</div>
+
+<div class="service-body">
+  <div>
+    {% include "catalog/_text_language_switch.html" with text=service.text %}
+    <p class="service-summary" lang="{{ service.text.language }}">{{ service.text.summary }}</p>
+    {% if service.text.description %}
+    <div class="service-description" lang="{{ service.text.language }}">{{ service.text.description|linebreaks }}</div>
+    {% endif %}
+
+    {% if service.official_link %}
+    <p class="service-official-link">
+      <a class="btn btn-outline" href="{{ service.official_link }}" target="_blank" rel="noopener noreferrer">↗ {% translate "Official link" %}</a>
+    </p>
+    {% endif %}
+
+    {% with text=service.text %}
+    {% if text.stakeholder or text.service_input or text.result or text.remaining_hurdles %}
+    <dl class="service-facts">
+      {% if text.stakeholder %}
+      <dt>{% translate "Offered by" %}</dt>
+      <dd lang="{{ text.language }}">{{ text.stakeholder }}</dd>
+      {% endif %}
+      {% if text.service_input %}
+      <dt>{% translate "What the initiator needs to provide" %}</dt>
+      <dd lang="{{ text.language }}">{{ text.service_input|linebreaks }}</dd>
+      {% endif %}
+      {% if text.result %}
+      <dt>{% translate "Result" %}</dt>
+      <dd lang="{{ text.language }}">{{ text.result|linebreaks }}</dd>
+      {% endif %}
+      {% if text.remaining_hurdles %}
+      <dt>{% translate "Remaining hurdles" %}</dt>
+      <dd lang="{{ text.language }}">{{ text.remaining_hurdles|linebreaks }}</dd>
+      {% endif %}
+    </dl>
+    {% endif %}
+    {% endwith %}
+  </div>
+
+  <aside>
+    <div class="sidebar-panel sidebar-panel-spaced">
+      <h3>{% translate "Lifecycle Phases" %}</h3>
+      {% if service_phases %}
+      <div class="sidebar-tags">
+        {% for sp in service_phases %}
+        <div class="tag-row">
+          <span class="badge badge-{{ sp.phase.slug }}">{{ sp.phase.label }}</span>
+          {% if sp.notes %}<span class="tag-notes">{{ sp.notes }}</span>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="sidebar-empty">{% translate "No phases assigned." %}</p>
+      {% endif %}
+    </div>
+
+    <div class="sidebar-panel">
+      <h3>{% translate "Hurdles Addressed" %}</h3>
+      {% if service_hurdles %}
+      <div class="sidebar-tags">
+        {% for sh in service_hurdles %}
+        <div class="tag-row">
+          <div>
+            <div class="tag-name">{{ sh.hurdle.name }}</div>
+            <div><span class="badge badge-{{ sh.hurdle.phase.slug }}">{{ sh.hurdle.phase.label }}</span></div>
+            {% if sh.notes %}<div class="tag-notes tag-notes-block">{{ sh.notes }}</div>{% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="sidebar-empty">{% translate "No hurdles assigned." %}</p>
+      {% endif %}
+    </div>
+  </aside>
+</div>
+{% endblock %}

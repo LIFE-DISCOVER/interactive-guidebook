@@ -1,0 +1,20 @@
+name: HR-05-1-Permit - Spatial Planning Legislation
+step: permit-spatial-planning
+summary: |-
+  When planning a PV installation, it is important to consider any limitations regarding the appearance of the building. Some areas have aesthetic guidelines or building codes that restrict changes to a building's exterior.
+description: |-
+  1.Find out if the area where the PV plant will be built is a protected area or if the building itself is a cultural property. 2.If so, help the initiators find a licensed architect.
+web_link: https://geoportal.kulturnadobra.hr/geoportal.html#/
+input: Exact location of future project; List of authorized architects
+result: |-
+  Information on the possibility of building a PV plant in relation to regulations on the protection of cultural heritage
+hr:
+  name: HR-05-1-Dozvola - Propisi o prostornom uređenju
+  summary: |-
+    Pri planiranju fotonaponske instalacije važno je uzeti u obzir ograničenja u pogledu izgleda zgrade. Za neka područja postoje estetske smjernice ili građevinski propisi koji ograničavaju promjene vanjskog izgleda zgrade.
+  description: |-
+    1. Utvrdite je li područje na kojem će se graditi elektrana zaštićeno ili je sama zgrada kulturno dobro. 2. Ako jest, pomozite inicijatorima pronaći ovlaštenog arhitekta.
+  input: Točna lokacija budućeg projekta; popis ovlaštenih arhitekata
+  result: |-
+    Informacija o mogućnosti izgradnje fotonaponske elektrane s obzirom na propise o zaštiti kulturne baštine
+  reviewed: false

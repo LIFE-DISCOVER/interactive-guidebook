@@ -1,0 +1,24 @@
+name: 'BG 04: Environmental feasibility check'
+step: permit-environmental
+summary: |-
+  Check with normative base and local environmental institution (RIEW) whether the implementation of roof-top and stand-alone PV installation up to a certain plant size require an environmental impact assessment. The environmental assessment is necessary if your plant size exceeds 30 MW or if PV plant is freestanding object.
+description: |-
+  Study the normative prerequisites for environmental permits based on your specific technical project concepts.
+stakeholder: Municipality of Dryanovo
+input: Environmental normative base; Basic technical project concept of EC
+result: Clear understanding of environmental permitting procedure for the EC projects
+remaining_hurdles: |-
+  The environmental regulations in Bulgaria are very dynamic and thus a change in the required permitting process cannot be ruled out
+bg:
+  name: 'BG 04: Проверка на екологичната допустимост'
+  summary: |-
+    Проверете в нормативната уредба и в местната екологична институция (РИОСВ) дали изграждането на покривна или самостоятелна фотоволтаична инсталация до определена мощност изисква оценка на въздействието върху околната среда. Оценката е необходима, ако мощността надвишава 30 MW или ако централата е самостоятелно стоящ обект.
+  description: |-
+    Проучете нормативните предпоставки за екологичните разрешения въз основа на конкретните концепции на техническите ви проекти.
+  stakeholder: Община Дряново
+  input: |-
+    Нормативна уредба в областта на околната среда; основна техническа концепция на проекта на ЕО
+  result: Ясна представа за процедурата по екологично разрешаване на проектите на ЕО
+  remaining_hurdles: |-
+    Екологичното законодателство в България се променя често, затова не може да се изключи промяна в изискваната разрешителна процедура
+  reviewed: false

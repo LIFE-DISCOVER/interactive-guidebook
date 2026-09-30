@@ -1,0 +1,21 @@
+name: 'BG 08-2: Analysis - Power distribution cabinets'
+step: analysis-wiring
+summary: |-
+  Assessment whether the existing power cabinets that service the building are sufficient to handle the current of the PV plant. Determine the ownership of power cabinets.
+description: |-
+  Determine the possible capacity of the PV installation with regard to the capacity of the existing power cabinets connecting to the grid.
+stakeholder: Electricity System Operator Bulgaria (ESO)
+input: |-
+  Application by the investor. Wiring schemes and drawings of existing building. Block diagram and single pole diagram of existing distribution cabinets.
+result: Block diagram and single pole diagrams of all required distribution cabinets.
+bg:
+  name: 'BG 08-2: Анализ - Електроразпределителни табла'
+  summary: |-
+    Оценка дали съществуващите електрически табла, обслужващи сградата, могат да поемат тока от фотоволтаичната централа. Установете собствеността на таблата.
+  description: |-
+    Определете възможната мощност на фотоволтаичната инсталация спрямо капацитета на съществуващите табла за присъединяване към мрежата.
+  stakeholder: Електроенергиен системен оператор (ЕСО)
+  input: |-
+    Заявление от инвеститора. Електрически схеми и чертежи на съществуващата сграда. Блокова и еднолинейна схема на съществуващите разпределителни табла.
+  result: Блокова и еднолинейни схеми на всички необходими разпределителни табла.
+  reviewed: false

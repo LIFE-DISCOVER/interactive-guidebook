@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}{{ project.name }}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/project-detail.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="breadcrumb">
+    <a href="{% url 'initiators:initiator_detail' project.initiator.pk %}">← {{ project.initiator.full_name }}</a>
+  </div>
+  <h1>{{ project.name }}</h1>
+  <div class="page-actions">
+    <a href="{% url 'projects:project_update' project.pk %}" class="btn btn-outline">{% translate "Edit Project" %}</a>
+  </div>
+</div>
+
+<dl class="detail-dl">
+  <dt>{% translate "Status" %}</dt>
+  <dd><span class="badge badge-{{ project.status }}">{{ project.get_status_display }}</span></dd>
+  <dt>{% translate "Current Phase" %}</dt>
+  <dd>
+    <span class="badge badge-{{ project.current_phase.slug }}">{{ project.current_phase.label }}</span>
+    <a href="{% url 'projects:project_phase_change' project.pk %}" class="inline-action">{% translate "Change" %}</a>
+  </dd>
+  {% if project.started_on %}<dt>{% translate "Started" %}</dt><dd>{{ project.started_on }}</dd>{% endif %}
+  {% if project.category %}<dt>{% translate "Category" %}</dt><dd>{{ project.get_category_display }}</dd>{% endif %}
+  {% if project.description %}<dt>{% translate "Description" %}</dt><dd>{{ project.description|linebreaks }}</dd>{% endif %}
+  {% if project.address %}<dt>{% translate "Address" %}</dt><dd>{{ project.address|linebreaks }}</dd>{% endif %}
+</dl>
+
+{% if project.power_installed or project.energy_generation or project.investment %}
+<div class="section-panel">
+  <div class="section-panel-header"><h2>{% translate "Technical & Financial Data" %}</h2></div>
+  <dl class="detail-dl">
+    {% if project.power_installed %}
+    <dt>{% translate "Power installed" %}</dt><dd>{{ project.power_installed|floatformat:"-2g" }} kWp</dd>
+    {% endif %}
+    {% if project.energy_generation %}
+    <dt>{% translate "Energy generation" %}</dt><dd>{% blocktranslate with value=project.energy_generation|floatformat:"-2g" %}{{ value }} kWh/year{% endblocktranslate %}</dd>
+    {% endif %}
+    {% if project.investment %}
+    <dt>{% translate "Investment" %}</dt><dd>{% blocktranslate with amount=project.investment|floatformat:"2g" %}€ {{ amount }}{% endblocktranslate %}</dd>
+    {% endif %}
+  </dl>
+</div>
+{% endif %}
+
+<!-- PHASE HISTORY -->
+<div class="section-panel">
+  <div class="section-panel-header">
+    <h2>{% translate "Phase History" %}</h2>
+  </div>
+  {% if phase_entries %}
+  <div class="phase-history-list">
+    {% for entry in phase_entries %}
+    <div class="phase-entry">
+      <span class="badge badge-{{ entry.phase.slug }}">{{ entry.phase.label }}</span>
+      <div class="phase-entry-body">
+        {% if entry.notes %}<div class="phase-entry-notes">{{ entry.notes }}</div>{% endif %}
+      </div>
+      <span class="phase-entry-date">{{ entry.entered_on|date:"SHORT_DATETIME_FORMAT" }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">{% translate "No phase changes recorded yet." %}</div>
+  {% endif %}
+</div>
+
+<!-- APPLIED SERVICES -->
+<div class="section-panel">
+  <div class="section-panel-header">
+    <h2>{% translate "Applied Services" %}</h2>
+    <a href="{% url 'projects:service_application_create' project.pk %}" class="btn btn-primary">+ {% translate "Add Service" %}</a>
+  </div>
+
+  {% if service_applications %}
+  <div>
+    {% for sa in service_applications %}
+    <div class="sa-item" id="service-{{ sa.pk }}">
+      <div class="sa-row">
+      <div>
+        <a href="{% url 'catalog:service_detail' sa.service.slug %}" lang="{{ sa.service.text.language }}">{{ sa.service.text.name }}</a>
+        <div class="sa-meta">
+          {% blocktranslate with date=sa.applied_on %}Applied {{ date }}{% endblocktranslate %}
+          {% if sa.applied_by %}&middot; {{ sa.applied_by.get_full_name|default:sa.applied_by.email }}{% endif %}
+        </div>
+        {% if sa.outcome_notes %}<div class="sa-notes">{{ sa.outcome_notes }}</div>{% endif %}
+      </div>
+      <div class="sa-remove">
+        <form method="post"
+              action="{% url 'projects:service_application_delete' project.pk sa.pk %}"
+              data-confirm="{% translate "Remove this service application?" %}">
+          {% csrf_token %}
+          <button class="btn btn-danger btn-small" type="submit">{% translate "Remove" %}</button>
+        </form>
+      </div>
+      </div>
+
+      <!-- Link for the initiator -->
+      <div class="sa-link">
+        {% if sa.active_link %}
+          {% with link=sa.active_link %}
+          <div class="sa-link-title">
+            {% blocktranslate with date=link.created_at|date:"SHORT_DATE_FORMAT" %}Link for the initiator (created {{ date }}, not yet used){% endblocktranslate %}
+          </div>
+          <div class="sa-link-share">
+            <label class="visually-hidden" for="link-url-{{ sa.pk }}">{% translate "Link for the initiator" %}</label>
+            <input type="text" id="link-url-{{ sa.pk }}" class="sa-link-url" value="{{ link.share_url }}" readonly>
+            <button type="button" class="btn btn-primary btn-small"
+                    data-copy="link-url-{{ sa.pk }}" data-copied-label="{% translate "Copied" %}">{% translate "Copy" %}</button>
+            <a class="btn btn-outline btn-small" href="{{ link.mailto }}">{% translate "Send by email" %}</a>
+          </div>
+          {% if link.message %}
+          <div class="sa-link-message">
+            <span class="sa-link-label">{% translate "Your message:" %}</span>
+            {{ link.message|linebreaksbr }}
+          </div>
+          {% endif %}
+          <div class="sa-link-actions">
+            <form method="post" action="{% url 'projects:service_link_revoke' project.pk sa.pk link.pk %}"
+                  data-confirm="{% translate "Revoke this link? The initiator will no longer be able to open it." %}">
+              {% csrf_token %}
+              <button class="btn btn-outline btn-small" type="submit">{% translate "Revoke link" %}</button>
+            </form>
+          </div>
+          {% endwith %}
+        {% endif %}
+
+        <details class="sa-link-create">
+          <summary>{% if sa.active_link %}{% translate "Create a new link (replaces the current one)" %}{% else %}{% translate "Create link for initiator" %}{% endif %}</summary>
+          <form method="post" action="{% url 'projects:service_link_create' project.pk sa.pk %}">
+            {% csrf_token %}
+            <p>
+              {{ sa.link_form.message.label_tag }}
+              {{ sa.link_form.message }}
+              <span class="field-help">{{ sa.link_form.message.help_text }}</span>
+            </p>
+            <button class="btn btn-primary btn-small" type="submit">{% translate "Create link" %}</button>
+          </form>
+        </details>
+
+        {% for link in sa.submitted_links %}
+        <div class="sa-initiator-note">
+          <div class="sa-link-label">
+            {% blocktranslate with date=link.submitted_at|date:"SHORT_DATETIME_FORMAT" %}Note from initiator · {{ date }}{% endblocktranslate %}
+          </div>
+          {{ link.note|linebreaks }}
+          {% if link.message %}
+          <div class="sa-initiator-note-context">
+            {% translate "In reply to your message:" %} {{ link.message|truncatechars:160 }}
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    {% url 'projects:service_application_create' project.pk as add_url %}{% url 'catalog:guidebook' as guidebook_url %}
+    {% blocktranslate trimmed %}
+    No services applied yet. <a href="{{ add_url }}">Add the first service</a>
+    or <a href="{{ guidebook_url }}">browse the guidebook</a>.
+    {% endblocktranslate %}
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

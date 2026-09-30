@@ -1,0 +1,21 @@
+name: 'AT: Analysis - Tax'
+step: analysis-economics
+summary: |-
+  Anyone who operates a photovoltaic system must consider Austrian tax law. The revenue from electricity sales and/or the use of self-generated electricity for private purposes creates an income tax obligation. Additionally, the question of VAT liability must be clarified.
+description: |-
+  Calculate the estimated annual tax on revenue generated from selling electricity.
+web_link: |-
+  https://pvaustria.at/wp-content/uploads/Steuerratgeber-fuer-den-Betrieb-von-PV-Anlagen-Auflage-7.pdf
+input: Plant size; Information about the operator (vat exemption)
+result: Estimate for the Annual tax
+remaining_hurdles: Tax guidance can only be provided by tax experts.
+de:
+  name: 'AT: Analyse - Steuern'
+  summary: |-
+    Wer eine Photovoltaikanlage betreibt, muss das österreichische Steuerrecht beachten. Erlöse aus dem Stromverkauf und/oder die private Nutzung des selbst erzeugten Stroms begründen eine Einkommensteuerpflicht. Außerdem ist die Umsatzsteuerpflicht zu klären.
+  description: |-
+    Berechnen Sie die voraussichtliche jährliche Steuer auf die Erlöse aus dem Stromverkauf.
+  input: Anlagengröße; Angaben zum Betreiber (Umsatzsteuerbefreiung)
+  result: Schätzung der jährlichen Steuer
+  remaining_hurdles: Steuerberatung dürfen nur Steuerberaterinnen und Steuerberater leisten.
+  reviewed: false

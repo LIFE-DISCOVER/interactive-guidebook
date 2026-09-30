@@ -1,0 +1,54 @@
+title: Community Roles
+sort_order: 210
+topic: Social
+description: Define the core team and their responsibilities.
+objective: |-
+  - How to share workload and responsibilities
+  - Promote positive community dynamics
+description_long: |-
+  While key members were assigned during the development phase, these roles need to be reviewed in the realization phase and considered for additional roles. Begin by identifying key roles within the core team, such as project spokesperson and coordinator, and outline their responsibilities using a RASI matrix.
+de:
+  title: Rollen in der Gemeinschaft
+  description: Legen Sie das Kernteam und seine Verantwortlichkeiten fest.
+  objective: |-
+    - Arbeit und Verantwortung aufteilen
+    - Eine positive Dynamik in der Gemeinschaft fördern
+  description_long: |-
+    Die Schlüsselrollen wurden zwar in der Entwicklungsphase vergeben, müssen aber in der Umsetzungsphase überprüft und um weitere Rollen ergänzt werden. Bestimmen Sie zuerst die Schlüsselrollen im Kernteam, etwa Projektsprecherin oder -sprecher und Koordination, und beschreiben Sie deren Verantwortlichkeiten mit einer RASI-Matrix.
+  reviewed: false
+fr:
+  title: Rôles dans la communauté
+  description: Définissez l'équipe principale et ses responsabilités.
+  objective: |-
+    - Répartir la charge de travail et les responsabilités
+    - Favoriser une dynamique positive dans la communauté
+  description_long: |-
+    Les membres clés ont été désignés pendant la phase de développement, mais ces rôles doivent être revus pendant la phase de réalisation et complétés par d'autres. Identifiez d'abord les rôles clés de l'équipe principale, comme le porte-parole et le coordinateur du projet, et décrivez leurs responsabilités à l'aide d'une matrice RASI.
+  reviewed: false
+it:
+  title: Ruoli nella comunità
+  description: Definire il gruppo di lavoro principale e le sue responsabilità.
+  objective: |-
+    - Come ripartire carico di lavoro e responsabilità
+    - Favorire dinamiche positive nella comunità
+  description_long: |-
+    I membri chiave sono stati individuati nella fase di sviluppo, ma nella fase di realizzazione questi ruoli vanno rivisti e integrati con ruoli aggiuntivi. Individuate innanzitutto i ruoli chiave del gruppo di lavoro principale, come portavoce e coordinatore del progetto, e descrivetene le responsabilità con una matrice RASI.
+  reviewed: false
+hr:
+  title: Uloge u zajednici
+  description: Definirajte osnovni tim i njegove odgovornosti.
+  objective: |-
+    - Kako podijeliti posao i odgovornosti
+    - Poticanje pozitivne dinamike u zajednici
+  description_long: |-
+    Iako su ključni članovi određeni u fazi razvoja, te uloge treba preispitati u fazi realizacije i razmotriti dodatne uloge. Najprije utvrdite ključne uloge u osnovnom timu, poput glasnogovornika i koordinatora projekta, i opišite njihove odgovornosti RASI matricom.
+  reviewed: false
+bg:
+  title: Роли в общността
+  description: Определете основния екип и неговите отговорности.
+  objective: |-
+    - Как да се разпределят работата и отговорностите
+    - Насърчаване на положителна динамика в общността
+  description_long: |-
+    Макар ключовите членове да са определени във фазата на разработване, във фазата на изпълнение ролите трябва да се преразгледат и да се обмислят допълнителни роли. Първо определете ключовите роли в основния екип, като говорител и координатор на проекта, и опишете отговорностите им с матрица RASI.
+  reviewed: false

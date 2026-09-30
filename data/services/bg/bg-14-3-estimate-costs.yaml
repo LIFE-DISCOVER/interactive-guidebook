@@ -1,0 +1,19 @@
+name: 'BG 14-3: Estimate - Costs'
+step: analysis-economics
+summary: |-
+  Estimate the costs related to the building of the PV installation, electricity battery storages, direct power lines between installations of participants in the CEPs/ECs.
+description: |-
+  Build purchase/cost lists for the equipment, needed to construct the E.C. energy installations.
+input: |-
+  Data about size and configuration, technical descriptions and characteristics with technical drawings.
+result: Labor and material costs in the form of bill of quantities and values
+bg:
+  name: 'BG 14-3: Оценка - Разходи'
+  summary: |-
+    Оценете разходите за изграждане на фотоволтаичната инсталация, батерийните съоръжения за съхранение и директните електропроводи между инсталациите на участниците в ОЕП/ЕО.
+  description: |-
+    Съставете списъци за покупки/разходи за оборудването, необходимо за изграждане на енергийните инсталации на ЕО.
+  input: |-
+    Данни за размера и конфигурацията, технически описания и характеристики с технически чертежи.
+  result: Разходи за труд и материали под формата на количествено-стойностна сметка
+  reviewed: false

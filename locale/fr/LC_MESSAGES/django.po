@@ -1,0 +1,1387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 22:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Draft translation - pending review by native speakers\n"
+"Language-Team: DISCOVER partners (fr)\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: accounts/admin.py:29
+msgid "Personal info"
+msgstr "Informations personnelles"
+
+#: accounts/admin.py:30
+msgid "Permissions"
+msgstr "Autorisations"
+
+#: accounts/admin.py:33
+msgid "Important dates"
+msgstr "Dates importantes"
+
+#: accounts/forms.py:15
+msgid "Setup code"
+msgstr "Code de configuration"
+
+#: accounts/forms.py:16
+msgid ""
+"Shown in the server log. You can also print it with: python manage.py "
+"setup_code"
+msgstr ""
+"Affiché dans le journal du serveur. Vous pouvez aussi l’obtenir avec : "
+"python manage.py setup_code"
+
+#: accounts/forms.py:19
+msgid "First name"
+msgstr "Prénom"
+
+#: accounts/forms.py:20
+msgid "Last name"
+msgstr "Nom"
+
+#: accounts/forms.py:21
+msgid "Administrator email"
+msgstr "E-mail de l’administrateur"
+
+#: accounts/forms.py:21
+msgid "You will use this address to sign in."
+msgstr "Vous utiliserez cette adresse pour vous connecter."
+
+#: accounts/forms.py:25 catalog/templates/catalog/guidebook.html:35
+#: catalog/templates/catalog/service_list.html:27
+msgid "Country"
+msgstr "Pays"
+
+#: accounts/forms.py:26 catalog/templates/catalog/guidebook.html:37
+#: catalog/templates/catalog/service_list.html:29
+msgid "All countries"
+msgstr "Tous les pays"
+
+#: accounts/forms.py:27
+msgid "Limits the service catalog to this country. Can be changed later."
+msgstr "Limite le catalogue de services à ce pays. Modifiable ultérieurement."
+
+#: accounts/forms.py:30
+msgid "Password"
+msgstr "Mot de passe"
+
+#: accounts/forms.py:36
+msgid "Confirm password"
+msgstr "Confirmer le mot de passe"
+
+#: accounts/forms.py:44
+msgid "This setup code is not correct."
+msgstr "Ce code de configuration est incorrect."
+
+#: accounts/forms.py:55
+msgid "The two passwords do not match."
+msgstr "Les deux mots de passe ne correspondent pas."
+
+#: accounts/models.py:49
+msgid "email address"
+msgstr "adresse e-mail"
+
+#: accounts/models.py:55 catalog/models.py:39
+msgid "country"
+msgstr "pays"
+
+#: accounts/models.py:58
+msgid "language"
+msgstr "langue"
+
+#: accounts/models.py:62
+msgid ""
+"Interface language shown after signing in. Updated when the user switches "
+"language."
+msgstr ""
+"Langue de l’interface après la connexion. Mise à jour lorsque l’utilisateur "
+"change de langue."
+
+#: accounts/models.py:71
+msgid "user"
+msgstr "utilisateur"
+
+#: accounts/models.py:72
+msgid "users"
+msgstr "utilisateurs"
+
+#: accounts/templates/accounts/login.html:4
+#: accounts/templates/accounts/login.html:16
+#: accounts/templates/accounts/login.html:20 templates/home.html:27
+#: templates/home.html:211
+msgid "Sign In"
+msgstr "Se connecter"
+
+#: accounts/templates/accounts/setup.html:4
+msgid "Welcome — first-time setup"
+msgstr "Bienvenue – première configuration"
+
+#: accounts/templates/accounts/setup.html:13
+msgid "Welcome to the Interactive Guidebook"
+msgstr "Bienvenue dans le Guide interactif"
+
+#: accounts/templates/accounts/setup.html:15
+msgid ""
+"This installation has no accounts yet. Create the administrator account to "
+"get started. The administrator signs in with their email address and can "
+"then create accounts for energy agency managers."
+msgstr ""
+"Cette installation ne contient encore aucun compte. Créez le compte "
+"administrateur pour commencer. L’administrateur se connecte avec son adresse "
+"e-mail et peut ensuite créer des comptes pour les responsables des agences "
+"de l’énergie."
+
+#: accounts/templates/accounts/setup.html:27
+msgid "Step 1 · Confirm you run this server"
+msgstr "Étape 1 · Confirmez que vous gérez ce serveur"
+
+#: accounts/templates/accounts/setup.html:29
+msgid ""
+"The setup code is written to the application log when this page is opened. "
+"On the server, print it with:"
+msgstr ""
+"Le code de configuration est inscrit dans le journal de l’application à "
+"l’ouverture de cette page. Sur le serveur, affichez-le avec :"
+
+#: accounts/templates/accounts/setup.html:34
+msgid "Step 2 · Administrator"
+msgstr "Étape 2 · Administrateur"
+
+#: accounts/templates/accounts/setup.html:50
+msgid "Step 3 · Password"
+msgstr "Étape 3 · Mot de passe"
+
+#: accounts/templates/accounts/setup.html:59
+msgid "Create administrator"
+msgstr "Créer l’administrateur"
+
+#: accounts/views.py:110
+#, python-format
+msgid ""
+"Welcome, %(name)s! Your administrator account is ready. Create accounts for "
+"your managers in the Admin area."
+msgstr ""
+"Bienvenue, %(name)s ! Votre compte administrateur est prêt. Créez les "
+"comptes de vos responsables dans l’espace d’administration."
+
+#: catalog/admin.py:27
+msgid "Content file"
+msgstr "Fichier de contenu"
+
+#: catalog/admin.py:35
+msgid "Edit on GitHub"
+msgstr "Modifier sur GitHub"
+
+#: catalog/models.py:7 templates/base.html:133 templates/home.html:90
+msgid "Planning"
+msgstr "Planification"
+
+#: catalog/models.py:8 templates/base.html:134 templates/home.html:113
+msgid "Realisation"
+msgstr "Réalisation"
+
+#: catalog/models.py:9 templates/base.html:135 templates/home.html:135
+msgid "Operation"
+msgstr "Exploitation"
+
+#: catalog/models.py:40
+msgid "countries"
+msgstr "pays"
+
+#: catalog/models.py:132 catalog/models.py:153
+msgid "translation"
+msgstr "traduction"
+
+#: catalog/models.py:133 catalog/models.py:154
+msgid "translations"
+msgstr "traductions"
+
+#: catalog/templates/catalog/_text_language_switch.html:4
+msgid "Language of the service text"
+msgstr "Langue du texte du service"
+
+#: catalog/templates/catalog/_text_language_switch.html:11
+msgid ""
+"Draft translation – not yet reviewed. The English text is authoritative."
+msgstr "Projet de traduction – pas encore relu. Le texte anglais fait foi."
+
+#: catalog/templates/catalog/guidebook.html:5
+#: catalog/templates/catalog/guidebook.html:15 templates/base.html:120
+msgid "Interactive Guidebook"
+msgstr "Guide interactif"
+
+#: catalog/templates/catalog/guidebook.html:16
+msgid "Step-by-step guide for Community Energy Projects"
+msgstr "Guide pas à pas pour les projets énergétiques citoyens"
+
+#: catalog/templates/catalog/guidebook.html:24
+msgid ""
+"Some texts on this page are draft translations that have not been reviewed "
+"yet."
+msgstr ""
+"Certains textes de cette page sont des projets de traduction qui n’ont pas "
+"encore été relus."
+
+#: catalog/templates/catalog/guidebook.html:29
+#, python-format
+msgid "Showing services for <strong>%(country)s</strong>."
+msgstr "Services pour <strong>%(country)s</strong>."
+
+#: catalog/templates/catalog/guidebook.html:31
+msgid ""
+"<strong>Select your country</strong> to see only the services relevant to "
+"your pilot region."
+msgstr ""
+"<strong>Choisissez votre pays</strong> pour n’afficher que les services "
+"pertinents pour votre région pilote."
+
+#: catalog/templates/catalog/guidebook.html:42
+msgid "Show"
+msgstr "Afficher"
+
+#: catalog/templates/catalog/guidebook.html:48
+#, python-format
+msgid "Make %(country)s my default"
+msgstr "Définir %(country)s par défaut"
+
+#: catalog/templates/catalog/guidebook.html:59 templates/home.html:98
+#: templates/home.html:121 templates/home.html:143
+#, python-format
+msgid "%(counter)s step"
+msgid_plural "%(counter)s steps"
+msgstr[0] "%(counter)s étape"
+msgstr[1] "%(counter)s étapes"
+
+#: catalog/templates/catalog/guidebook.html:74
+#: catalog/templates/catalog/service_list.html:63
+#, python-format
+msgid "%(counter)s service"
+msgid_plural "%(counter)s services"
+msgstr[0] "%(counter)s service"
+msgstr[1] "%(counter)s services"
+
+#: catalog/templates/catalog/guidebook.html:86
+msgid "Details"
+msgstr "Détails"
+
+#: catalog/templates/catalog/guidebook.html:88
+#: catalog/templates/catalog/service_detail.html:26
+#: initiators/templates/initiators/service_link.html:40
+msgid "Official link"
+msgstr "Lien officiel"
+
+#: catalog/templates/catalog/guidebook.html:100
+msgid "No country-specific services for this step yet."
+msgstr "Pas encore de services spécifiques au pays pour cette étape."
+
+#: catalog/templates/catalog/service_detail.html:12
+#: catalog/templates/catalog/service_list.html:4 templates/base.html:38
+#: templates/base.html:40
+msgid "Services"
+msgstr "Services"
+
+#: catalog/templates/catalog/service_detail.html:34
+msgid "Offered by"
+msgstr "Proposé par"
+
+#: catalog/templates/catalog/service_detail.html:38
+msgid "What the initiator needs to provide"
+msgstr "Ce que le porteur de projet doit fournir"
+
+#: catalog/templates/catalog/service_detail.html:42
+msgid "Result"
+msgstr "Résultat"
+
+#: catalog/templates/catalog/service_detail.html:46
+msgid "Remaining hurdles"
+msgstr "Obstacles restants"
+
+#: catalog/templates/catalog/service_detail.html:56 templates/base.html:131
+msgid "Lifecycle Phases"
+msgstr "Phases du projet"
+
+#: catalog/templates/catalog/service_detail.html:67
+msgid "No phases assigned."
+msgstr "Aucune phase attribuée."
+
+#: catalog/templates/catalog/service_detail.html:72
+msgid "Hurdles Addressed"
+msgstr "Obstacles traités"
+
+#: catalog/templates/catalog/service_detail.html:86
+msgid "No hurdles assigned."
+msgstr "Aucun obstacle attribué."
+
+#: catalog/templates/catalog/service_list.html:12 templates/base.html:121
+#: templates/home.html:164 templates/home.html:201
+msgid "Service Catalog"
+msgstr "Catalogue de services"
+
+#: catalog/templates/catalog/service_list.html:18
+msgctxt "phase filter"
+msgid "All"
+msgstr "Toutes"
+
+#: catalog/templates/catalog/service_list.html:34
+msgid "Search services…"
+msgstr "Rechercher des services…"
+
+#: catalog/templates/catalog/service_list.html:35
+msgid "Search"
+msgstr "Rechercher"
+
+#: catalog/templates/catalog/service_list.html:37
+msgid "Clear"
+msgstr "Effacer"
+
+#: catalog/templates/catalog/service_list.html:45
+#, python-format
+msgid "%(counter)s service in %(country)s matching “%(query)s”"
+msgid_plural "%(counter)s services in %(country)s matching “%(query)s”"
+msgstr[0] "%(counter)s service (%(country)s) pour « %(query)s »"
+msgstr[1] "%(counter)s services (%(country)s) pour « %(query)s »"
+
+#: catalog/templates/catalog/service_list.html:51
+#, python-format
+msgid "%(counter)s service in %(country)s"
+msgid_plural "%(counter)s services in %(country)s"
+msgstr[0] "%(counter)s service (%(country)s)"
+msgstr[1] "%(counter)s services (%(country)s)"
+
+#: catalog/templates/catalog/service_list.html:57
+#, python-format
+msgid "%(counter)s service matching “%(query)s”"
+msgid_plural "%(counter)s services matching “%(query)s”"
+msgstr[0] "%(counter)s service pour « %(query)s »"
+msgstr[1] "%(counter)s services pour « %(query)s »"
+
+#: catalog/templates/catalog/service_list.html:88
+#, python-format
+msgid "No services found matching “%(query)s”."
+msgstr "Aucun service trouvé pour « %(query)s »."
+
+#: catalog/templates/catalog/service_list.html:90
+msgid "No services found."
+msgstr "Aucun service trouvé."
+
+#: catalog/templates/catalog/service_list.html:93
+msgid "Clear filters"
+msgstr "Effacer les filtres"
+
+#: catalog/views.py:153
+#, python-format
+msgid "%(country)s is now your default country."
+msgstr "%(country)s est désormais votre pays par défaut."
+
+#: initiators/forms.py:44
+msgid "New Phase"
+msgstr "Nouvelle phase"
+
+#: initiators/forms.py:49
+msgid "Notes (optional)"
+msgstr "Notes (facultatif)"
+
+#: initiators/forms.py:50
+msgid "Reason for the phase change or any relevant context."
+msgstr "Motif du changement de phase ou toute information utile."
+
+#: initiators/forms.py:77
+msgid "This service has already been applied to this project."
+msgstr "Ce service a déjà été appliqué à ce projet."
+
+#: initiators/forms.py:87
+msgid "Personal message for the initiator (optional)"
+msgstr "Message personnel pour le porteur de projet (facultatif)"
+
+#: initiators/forms.py:88
+msgid "Shown at the top of the page the initiator opens."
+msgstr "Affiché en haut de la page que le porteur de projet ouvre."
+
+#: initiators/forms.py:96 initiators/templates/initiators/service_link.html:46
+msgid "Your note"
+msgstr "Votre note"
+
+#: initiators/forms.py:99
+msgid "You can send this note once."
+msgstr "Vous ne pouvez envoyer cette note qu’une seule fois."
+
+#: initiators/models.py:14
+msgid "first name"
+msgstr "prénom"
+
+#: initiators/models.py:15
+msgid "last name"
+msgstr "nom"
+
+#: initiators/models.py:16
+msgid "email"
+msgstr "e-mail"
+
+#: initiators/models.py:17
+msgid "phone"
+msgstr "téléphone"
+
+#: initiators/models.py:18
+msgid "organization"
+msgstr "organisation"
+
+#: initiators/models.py:19
+msgid "notes"
+msgstr "notes"
+
+#: initiators/models.py:24 initiators/models.py:49
+msgid "initiator"
+msgstr "porteur de projet"
+
+#: initiators/models.py:25
+msgid "initiators"
+msgstr "porteurs de projet"
+
+#: initiators/models.py:37
+msgid "Active"
+msgstr "Actif"
+
+#: initiators/models.py:38
+msgid "On Hold"
+msgstr "En pause"
+
+#: initiators/models.py:39
+msgid "Completed"
+msgstr "Terminé"
+
+#: initiators/models.py:40
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: initiators/models.py:43
+msgid "Renewable Energy Community"
+msgstr "Communauté d’énergie renouvelable"
+
+#: initiators/models.py:44
+msgid "Citizen Energy Community"
+msgstr "Communauté énergétique citoyenne"
+
+#: initiators/models.py:45
+msgid "Collective Self Consumption"
+msgstr "Autoconsommation collective"
+
+#: initiators/models.py:46
+msgid "Other"
+msgstr "Autre"
+
+#: initiators/models.py:51
+msgid "name"
+msgstr "nom"
+
+#: initiators/models.py:52
+msgid "description"
+msgstr "description"
+
+#: initiators/models.py:54
+msgid "current phase"
+msgstr "phase actuelle"
+
+#: initiators/models.py:56
+msgid "status"
+msgstr "statut"
+
+#: initiators/models.py:57
+msgid "started on"
+msgstr "date de début"
+
+#: initiators/models.py:60
+msgid "category"
+msgstr "catégorie"
+
+#: initiators/models.py:61
+msgid "Legal/organisational category of the community energy project."
+msgstr ""
+"Catégorie juridique ou organisationnelle du projet énergétique citoyen."
+
+#: initiators/models.py:65
+msgid "Total installed PV capacity in kWp."
+msgstr "Puissance photovoltaïque installée totale en kWc."
+
+#: initiators/models.py:66
+msgid "Power installed (kWp)"
+msgstr "Puissance installée (kWc)"
+
+#: initiators/models.py:70
+msgid "Annual energy generation in kWh."
+msgstr "Production d’énergie annuelle en kWh."
+
+#: initiators/models.py:71
+msgid "Energy generation (kWh/year)"
+msgstr "Production d’énergie (kWh/an)"
+
+#: initiators/models.py:75
+msgid "Total investment in renewable energy in EUR."
+msgstr "Investissement total dans les énergies renouvelables en EUR."
+
+#: initiators/models.py:76
+msgid "Investment in renewable energy (EUR)"
+msgstr "Investissement dans les énergies renouvelables (EUR)"
+
+#: initiators/models.py:78
+msgid "address"
+msgstr "adresse"
+
+#: initiators/models.py:78
+msgid "Project site address."
+msgstr "Adresse du site du projet."
+
+#: initiators/models.py:83
+msgid "project"
+msgstr "projet"
+
+#: initiators/models.py:84
+msgid "projects"
+msgstr "projets"
+
+#: initiators/models.py:105
+msgid "service"
+msgstr "service"
+
+#: initiators/models.py:111
+msgid "applied by"
+msgstr "appliqué par"
+
+#: initiators/models.py:113
+msgid "applied on"
+msgstr "appliqué le"
+
+#: initiators/models.py:114
+msgid "outcome notes"
+msgstr "notes sur le résultat"
+
+#: initiators/models.py:135
+msgid "applied service"
+msgstr "service appliqué"
+
+#: initiators/models.py:143
+msgid "created by"
+msgstr "créé par"
+
+#: initiators/models.py:145
+msgid "created at"
+msgstr "créé le"
+
+#: initiators/models.py:146
+msgid "personal message"
+msgstr "message personnel"
+
+#: initiators/models.py:147
+msgid "active"
+msgstr "actif"
+
+#: initiators/models.py:148
+msgid "note from initiator"
+msgstr "note du porteur de projet"
+
+#: initiators/models.py:149
+msgid "submitted at"
+msgstr "envoyé le"
+
+#: initiators/models.py:153
+msgid "service link"
+msgstr "lien de service"
+
+#: initiators/models.py:154
+msgid "service links"
+msgstr "liens de service"
+
+#: initiators/templates/initiators/initiator_detail.html:6
+#: initiators/templates/initiators/initiator_form.html:10
+#: initiators/templates/initiators/initiator_list.html:3
+#: initiators/templates/initiators/initiator_list.html:6 templates/base.html:44
+#: templates/base.html:46 templates/base.html:123 templates/home.html:202
+msgid "Initiators"
+msgstr "Porteurs de projet"
+
+#: initiators/templates/initiators/initiator_detail.html:9
+msgid "Edit"
+msgstr "Modifier"
+
+#: initiators/templates/initiators/initiator_detail.html:14
+msgid "Email"
+msgstr "E-mail"
+
+#: initiators/templates/initiators/initiator_detail.html:15
+msgid "Phone"
+msgstr "Téléphone"
+
+#: initiators/templates/initiators/initiator_detail.html:16
+msgid "Organization"
+msgstr "Organisation"
+
+#: initiators/templates/initiators/initiator_detail.html:17
+msgid "Notes"
+msgstr "Notes"
+
+#: initiators/templates/initiators/initiator_detail.html:22
+#: initiators/templates/initiators/project_list.html:3 templates/base.html:49
+#: templates/base.html:51 templates/base.html:124 templates/home.html:203
+msgid "Projects"
+msgstr "Projets"
+
+#: initiators/templates/initiators/initiator_detail.html:23
+#: initiators/templates/initiators/project_form.html:4
+#: initiators/templates/initiators/project_form.html:19
+msgid "New Project"
+msgstr "Nouveau projet"
+
+#: initiators/templates/initiators/initiator_detail.html:40
+msgid "No projects yet."
+msgstr "Aucun projet pour le moment."
+
+#: initiators/templates/initiators/initiator_detail.html:40
+msgid "Create the first project"
+msgstr "Créer le premier projet"
+
+#: initiators/templates/initiators/initiator_form.html:3
+#: initiators/templates/initiators/initiator_form.html:13
+#: initiators/templates/initiators/project_form.html:4
+#: initiators/templates/initiators/project_form.html:19
+#, python-format
+msgid "Edit %(name)s"
+msgstr "Modifier %(name)s"
+
+#: initiators/templates/initiators/initiator_form.html:3
+#: initiators/templates/initiators/initiator_form.html:13
+#: initiators/templates/initiators/initiator_list.html:8
+msgid "New Initiator"
+msgstr "Nouveau porteur de projet"
+
+#: initiators/templates/initiators/initiator_form.html:21
+#: initiators/templates/initiators/project_form.html:63
+msgid "Save"
+msgstr "Enregistrer"
+
+#: initiators/templates/initiators/initiator_form.html:23
+#: initiators/templates/initiators/initiator_form.html:25
+#: initiators/templates/initiators/project_form.html:65
+#: initiators/templates/initiators/project_form.html:67
+#: initiators/templates/initiators/project_phase_form.html:20
+#: initiators/templates/initiators/service_application_form.html:16
+msgid "Cancel"
+msgstr "Annuler"
+
+#: initiators/templates/initiators/initiator_list.html:27
+msgid "No initiators yet."
+msgstr "Aucun porteur de projet pour le moment."
+
+#: initiators/templates/initiators/initiator_list.html:27
+msgid "Add the first one."
+msgstr "Ajouter le premier."
+
+#: initiators/templates/initiators/project_detail.html:17
+msgid "Edit Project"
+msgstr "Modifier le projet"
+
+#: initiators/templates/initiators/project_detail.html:22
+msgid "Status"
+msgstr "Statut"
+
+#: initiators/templates/initiators/project_detail.html:24
+msgid "Current Phase"
+msgstr "Phase actuelle"
+
+#: initiators/templates/initiators/project_detail.html:27
+msgid "Change"
+msgstr "Changer"
+
+#: initiators/templates/initiators/project_detail.html:29
+msgid "Started"
+msgstr "Début"
+
+#: initiators/templates/initiators/project_detail.html:30
+msgid "Category"
+msgstr "Catégorie"
+
+#: initiators/templates/initiators/project_detail.html:31
+msgid "Description"
+msgstr "Description"
+
+#: initiators/templates/initiators/project_detail.html:32
+msgid "Address"
+msgstr "Adresse"
+
+#: initiators/templates/initiators/project_detail.html:37
+msgid "Technical & Financial Data"
+msgstr "Données techniques et financières"
+
+#: initiators/templates/initiators/project_detail.html:40
+msgid "Power installed"
+msgstr "Puissance installée"
+
+#: initiators/templates/initiators/project_detail.html:43
+msgid "Energy generation"
+msgstr "Production d’énergie"
+
+#: initiators/templates/initiators/project_detail.html:43
+#, python-format
+msgid "%(value)s kWh/year"
+msgstr "%(value)s kWh/an"
+
+#: initiators/templates/initiators/project_detail.html:46
+msgid "Investment"
+msgstr "Investissement"
+
+#: initiators/templates/initiators/project_detail.html:46
+#, python-format
+msgid "€ %(amount)s"
+msgstr "%(amount)s €"
+
+#: initiators/templates/initiators/project_detail.html:55
+msgid "Phase History"
+msgstr "Historique des phases"
+
+#: initiators/templates/initiators/project_detail.html:70
+msgid "No phase changes recorded yet."
+msgstr "Aucun changement de phase enregistré."
+
+#: initiators/templates/initiators/project_detail.html:77
+msgid "Applied Services"
+msgstr "Services appliqués"
+
+#: initiators/templates/initiators/project_detail.html:78
+#: initiators/templates/initiators/service_application_form.html:3
+#: initiators/templates/initiators/service_application_form.html:15
+msgid "Add Service"
+msgstr "Ajouter un service"
+
+#: initiators/templates/initiators/project_detail.html:89
+#, python-format
+msgid "Applied %(date)s"
+msgstr "Appliqué le %(date)s"
+
+#: initiators/templates/initiators/project_detail.html:97
+msgid "Remove this service application?"
+msgstr "Retirer ce service du projet ?"
+
+#: initiators/templates/initiators/project_detail.html:99
+msgid "Remove"
+msgstr "Retirer"
+
+#: initiators/templates/initiators/project_detail.html:109
+#, python-format
+msgid "Link for the initiator (created %(date)s, not yet used)"
+msgstr "Lien pour le porteur de projet (créé le %(date)s, pas encore utilisé)"
+
+#: initiators/templates/initiators/project_detail.html:112
+msgid "Link for the initiator"
+msgstr "Lien pour le porteur de projet"
+
+#: initiators/templates/initiators/project_detail.html:115
+msgid "Copied"
+msgstr "Copié"
+
+#: initiators/templates/initiators/project_detail.html:115
+msgid "Copy"
+msgstr "Copier"
+
+#: initiators/templates/initiators/project_detail.html:116
+msgid "Send by email"
+msgstr "Envoyer par e-mail"
+
+#: initiators/templates/initiators/project_detail.html:120
+msgid "Your message:"
+msgstr "Votre message :"
+
+#: initiators/templates/initiators/project_detail.html:126
+msgid "Revoke this link? The initiator will no longer be able to open it."
+msgstr "Révoquer ce lien ? Le porteur de projet ne pourra plus l’ouvrir."
+
+#: initiators/templates/initiators/project_detail.html:128
+msgid "Revoke link"
+msgstr "Révoquer le lien"
+
+#: initiators/templates/initiators/project_detail.html:135
+msgid "Create a new link (replaces the current one)"
+msgstr "Créer un nouveau lien (remplace le lien actuel)"
+
+#: initiators/templates/initiators/project_detail.html:135
+msgid "Create link for initiator"
+msgstr "Créer un lien pour le porteur de projet"
+
+#: initiators/templates/initiators/project_detail.html:143
+msgid "Create link"
+msgstr "Créer le lien"
+
+#: initiators/templates/initiators/project_detail.html:150
+#, python-format
+msgid "Note from initiator · %(date)s"
+msgstr "Note du porteur de projet · %(date)s"
+
+#: initiators/templates/initiators/project_detail.html:155
+msgid "In reply to your message:"
+msgstr "En réponse à votre message :"
+
+#: initiators/templates/initiators/project_detail.html:167
+#, python-format
+msgid ""
+"No services applied yet. <a href=\"%(add_url)s\">Add the first service</a> "
+"or <a href=\"%(guidebook_url)s\">browse the guidebook</a>."
+msgstr ""
+"Aucun service appliqué pour le moment. <a href=\"%(add_url)s\">Ajoutez le "
+"premier service</a> ou <a href=\"%(guidebook_url)s\">parcourez le guide</a>."
+
+#: initiators/templates/initiators/project_form.html:26
+msgid "Project basics"
+msgstr "Informations de base"
+
+#: initiators/templates/initiators/project_form.html:37
+msgid "Project details"
+msgstr "Détails du projet"
+
+#: initiators/templates/initiators/project_form.html:37
+msgid "optional"
+msgstr "facultatif"
+
+#: initiators/templates/initiators/project_list.html:6
+msgid "All Projects"
+msgstr "Tous les projets"
+
+#: initiators/templates/initiators/project_list.html:26
+msgid "No projects yet. Projects are created from an initiator's page —"
+msgstr ""
+"Aucun projet pour le moment. Les projets se créent depuis la page d’un "
+"porteur de projet –"
+
+#: initiators/templates/initiators/project_list.html:27
+msgid "choose an initiator"
+msgstr "choisir un porteur de projet"
+
+#: initiators/templates/initiators/project_phase_form.html:3
+#: initiators/templates/initiators/project_phase_form.html:7
+#: initiators/templates/initiators/project_phase_form.html:19
+msgid "Change Phase"
+msgstr "Changer de phase"
+
+#: initiators/templates/initiators/project_phase_form.html:12
+msgid "Current phase:"
+msgstr "Phase actuelle :"
+
+#: initiators/templates/initiators/service_application_form.html:7
+#, python-format
+msgid "Add Service to %(name)s"
+msgstr "Ajouter un service à %(name)s"
+
+#: initiators/templates/initiators/service_link.html:16
+#, python-format
+msgid "For your project “%(project)s”"
+msgstr "Pour votre projet « %(project)s »"
+
+#: initiators/templates/initiators/service_link.html:25
+#, python-format
+msgid "Message from %(name)s"
+msgstr "Message de %(name)s"
+
+#: initiators/templates/initiators/service_link.html:27
+msgid "Message from your energy agency"
+msgstr "Message de votre agence de l’énergie"
+
+#: initiators/templates/initiators/service_link.html:48
+#, python-format
+msgid "Sent on %(date)s. Thank you!"
+msgstr "Envoyée le %(date)s. Merci !"
+
+#: initiators/templates/initiators/service_link.html:52
+msgid "Send a note to your energy agency"
+msgstr "Envoyer une note à votre agence de l’énergie"
+
+#: initiators/templates/initiators/service_link.html:58
+msgid "Send note"
+msgstr "Envoyer la note"
+
+#: initiators/views.py:45
+#, python-format
+msgid "Initiator %(first_name)s %(last_name)s was created."
+msgstr "Le porteur de projet %(first_name)s %(last_name)s a été créé."
+
+#: initiators/views.py:70
+#, python-format
+msgid "Changes to %(first_name)s %(last_name)s were saved."
+msgstr ""
+"Les modifications de %(first_name)s %(last_name)s ont été enregistrées."
+
+#: initiators/views.py:95
+#, python-format
+msgid "Project \"%(name)s\" was created."
+msgstr "Le projet « %(name)s » a été créé."
+
+#: initiators/views.py:143
+#, python-format
+msgid "Information about \"%(service)s\" for your project \"%(project)s\""
+msgstr "Informations sur « %(service)s » pour votre projet « %(project)s »"
+
+#: initiators/views.py:147
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"please open the following link to read about the service \"%(service)s\" and "
+"to send us your note:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Best regards,\n"
+"%(manager)s"
+msgstr ""
+"Bonjour %(name)s,\n"
+"\n"
+"veuillez ouvrir le lien suivant pour consulter les informations sur le "
+"service « %(service)s » et nous envoyer votre note :\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Cordialement,\n"
+"%(manager)s"
+
+#: initiators/views.py:159
+#, python-format
+msgid "Changes to \"%(name)s\" were saved."
+msgstr "Les modifications de « %(name)s » ont été enregistrées."
+
+#: initiators/views.py:188
+#, python-format
+msgid "The project is already in the %(phase)s phase."
+msgstr "Le projet est déjà en phase %(phase)s."
+
+#: initiators/views.py:199
+#, python-format
+msgid "Project moved to the %(phase)s phase."
+msgstr "Projet passé en phase %(phase)s."
+
+#: initiators/views.py:211
+#, python-format
+msgid "Service \"%(service)s\" was added to the project."
+msgstr "Le service « %(service)s » a été ajouté au projet."
+
+#: initiators/views.py:243
+#, python-format
+msgid "Service \"%(service)s\" was removed from the project."
+msgstr "Le service « %(service)s » a été retiré du projet."
+
+#: initiators/views.py:275
+#, python-format
+msgid ""
+"Link for \"%(service)s\" created. Copy it or send it by email to the "
+"initiator."
+msgstr ""
+"Lien pour « %(service)s » créé. Copiez-le ou envoyez-le par e-mail au "
+"porteur de projet."
+
+#: initiators/views.py:291
+msgid "The link was revoked and no longer works."
+msgstr "Le lien a été révoqué et ne fonctionne plus."
+
+#: initiators/views.py:349
+msgid "Thank you! Your note has been sent."
+msgstr "Merci ! Votre note a été envoyée."
+
+#: templates/404.html:4 templates/404.html:13
+msgid "Page not found"
+msgstr "Page introuvable"
+
+#: templates/404.html:14
+msgid ""
+"The page you were looking for doesn't exist. It may have been moved or "
+"deleted, or the link may be mistyped."
+msgstr ""
+"La page recherchée n’existe pas. Elle a peut-être été déplacée ou supprimée, "
+"ou le lien est erroné."
+
+#: templates/404.html:16
+msgid "Go to the Guidebook"
+msgstr "Aller au guide"
+
+#: templates/404.html:17
+msgid "Browse services"
+msgstr "Parcourir les services"
+
+#: templates/500.html:10
+msgid "Server error"
+msgstr "Erreur du serveur"
+
+#: templates/500.html:10 templates/base.html:7
+msgid "DISCOVER Interactive Guidebook"
+msgstr "DISCOVER Guide interactif"
+
+#: templates/500.html:17
+msgid "Something went wrong"
+msgstr "Une erreur s’est produite"
+
+#: templates/500.html:18
+msgid ""
+"An unexpected error occurred on our side. Please try again in a moment. If "
+"the problem persists, contact your administrator."
+msgstr ""
+"Une erreur inattendue s’est produite de notre côté. Veuillez réessayer dans "
+"un instant. Si le problème persiste, contactez votre administrateur."
+
+#: templates/500.html:19
+msgid "Back to the start page"
+msgstr "Retour à la page d’accueil"
+
+#: templates/base.html:7 templates/base.html:33 templates/base.html:35
+#: templates/base.html:117
+msgid "Guidebook"
+msgstr "Guide"
+
+#: templates/base.html:25
+msgid "Interactive"
+msgstr "Interactif"
+
+#: templates/base.html:26
+msgctxt "brand"
+msgid "Guidebook"
+msgstr "Guide"
+
+#: templates/base.html:60
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: templates/base.html:63
+msgid "Login"
+msgstr "Connexion"
+
+#: templates/base.html:68 templates/base.html:70 templates/base.html:149
+msgid "Language"
+msgstr "Langue"
+
+#: templates/base.html:83
+msgid "Menu"
+msgstr "Menu"
+
+#: templates/base.html:104
+msgid "DISCOVER project website"
+msgstr "Site web du projet DISCOVER"
+
+#: templates/base.html:108
+msgid ""
+"An EU Horizon project supporting the development of Community Energy "
+"Projects across Europe — from first idea to long-term operation."
+msgstr ""
+"Un projet européen Horizon qui soutient le développement de projets "
+"énergétiques citoyens dans toute l’Europe – de la première idée à "
+"l’exploitation à long terme."
+
+#: templates/base.html:119 templates/home.html:4
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/base.html:141
+msgid "DISCOVER Project"
+msgstr "Projet DISCOVER"
+
+#: templates/base.html:159
+msgid "EU Horizon Project"
+msgstr "Projet européen Horizon"
+
+#: templates/home.html:14
+msgid "EU DISCOVER Project"
+msgstr "Projet européen DISCOVER"
+
+#: templates/home.html:15
+msgid "The Interactive <span>Guidebook</span><br>for Community Energy"
+msgstr "Le <span>Guide</span> interactif<br>de l’énergie citoyenne"
+
+#: templates/home.html:17
+msgid ""
+"A practical tool for energy agency managers supporting initiators of "
+"Community Energy Projects (CEPs) through every stage, from first idea to "
+"long-term operation."
+msgstr ""
+"Un outil pratique pour les responsables des agences de l’énergie qui "
+"accompagnent les porteurs de projets énergétiques citoyens (CEP) à chaque "
+"étape, de la première idée à l’exploitation à long terme."
+
+#: templates/home.html:23
+msgid "Browse Service Catalog"
+msgstr "Parcourir le catalogue de services"
+
+#: templates/home.html:25
+msgid "Manage Initiators"
+msgstr "Gérer les porteurs de projet"
+
+#: templates/home.html:34
+msgid "What is the DISCOVER Guidebook?"
+msgstr "Qu’est-ce que le Guide DISCOVER ?"
+
+#: templates/home.html:35
+msgid "Supporting the energy transition through community action"
+msgstr "Soutenir la transition énergétique par l’action collective"
+
+#: templates/home.html:40
+msgid ""
+"The <strong>DISCOVER project</strong> (funded under EU Horizon) helps local "
+"energy agencies across Europe support citizens who want to start or join a "
+"Community Energy Project (CEP). These projects — from solar cooperatives to "
+"renewable energy communities — play a key role in the clean energy "
+"transition."
+msgstr ""
+"Le <strong>projet DISCOVER</strong> (financé par le programme européen "
+"Horizon) aide les agences locales de l’énergie à travers l’Europe à soutenir "
+"les citoyens qui souhaitent lancer ou rejoindre un projet énergétique "
+"citoyen (CEP). Ces projets – des coopératives solaires aux communautés "
+"d’énergie renouvelable – jouent un rôle clé dans la transition vers une "
+"énergie propre."
+
+#: templates/home.html:48
+msgid ""
+"Initiating a CEP is complex. Founders face technical, legal, financial, and "
+"social challenges that require expertise across many disciplines. Energy "
+"agency managers (the <em>intermediaries</em>) are uniquely positioned to "
+"guide initiators through this journey, but they need structured tools to do "
+"so effectively."
+msgstr ""
+"Lancer un CEP est complexe. Les fondateurs font face à des défis techniques, "
+"juridiques, financiers et sociaux qui exigent des compétences dans de "
+"nombreuses disciplines. Les responsables des agences de l’énergie (les "
+"<em>intermédiaires</em>) sont particulièrement bien placés pour accompagner "
+"les porteurs de projet dans ce parcours, mais ils ont besoin d’outils "
+"structurés pour le faire efficacement."
+
+#: templates/home.html:56
+msgid ""
+"This interactive guidebook translates the DISCOVER methodology into a "
+"practical day-to-day tool: a searchable service catalog, project tracking, "
+"and phase-based guidance — all in one place."
+msgstr ""
+"Ce guide interactif transforme la méthodologie DISCOVER en un outil pratique "
+"au quotidien : un catalogue de services consultable, le suivi des projets et "
+"un accompagnement par phase – le tout au même endroit."
+
+#: templates/home.html:66
+msgid "Lifecycle phases:<br>Planning, Realisation, Operation"
+msgstr "Phases du projet :<br>Planification, Réalisation, Exploitation"
+
+#: templates/home.html:70
+msgid "Structured steps covering the full CEP journey"
+msgstr "Étapes structurées couvrant tout le parcours d’un CEP"
+
+#: templates/home.html:74
+msgid "Disciplines: Technical, Legal, Financial, Social"
+msgstr "Disciplines : technique, juridique, financière, sociale"
+
+#: templates/home.html:82
+msgid "Three Phases of a Community Energy Project"
+msgstr "Les trois phases d’un projet énergétique citoyen"
+
+#: templates/home.html:83
+msgid "Each phase brings its own challenges — and its own services"
+msgstr "Chaque phase a ses propres défis – et ses propres services"
+
+#: templates/home.html:92
+msgid ""
+"From first idea to ready-to-build. Initiators assess feasibility, form the "
+"legal entity, secure financing, and obtain permits. This is the most "
+"demanding phase — 14 structured steps guide initiators from concept to "
+"approved project."
+msgstr ""
+"De la première idée au projet prêt à construire. Les porteurs de projet "
+"évaluent la faisabilité, créent l’entité juridique, sécurisent le "
+"financement et obtiennent les autorisations. C’est la phase la plus "
+"exigeante – 14 étapes structurées mènent du concept au projet autorisé."
+
+#: templates/home.html:100
+msgid "Idea generation & community mapping"
+msgstr "Émergence de l’idée et cartographie de la communauté"
+
+#: templates/home.html:101
+msgid "Site assessment & technical pre-feasibility"
+msgstr "Évaluation du site et pré-faisabilité technique"
+
+#: templates/home.html:102
+msgid "Legal structure selection & registration"
+msgstr "Choix et enregistrement de la structure juridique"
+
+#: templates/home.html:103
+msgid "Business plan & financial modelling"
+msgstr "Plan d’affaires et modélisation financière"
+
+#: templates/home.html:104
+msgid "Grid connection & permit applications"
+msgstr "Raccordement au réseau et demandes d’autorisation"
+
+#: templates/home.html:105
+msgid "Member recruitment & share offering"
+msgstr "Recrutement des membres et offre de parts"
+
+#: templates/home.html:106
+msgid "Final investment decision"
+msgstr "Décision finale d’investissement"
+
+#: templates/home.html:115
+msgid ""
+"From approved project to operational installation. Procurement, "
+"construction, grid connection, and commissioning. The focus shifts from "
+"planning documents to physical delivery — 8 steps take the project through "
+"to handover."
+msgstr ""
+"Du projet autorisé à l’installation opérationnelle. Achats, construction, "
+"raccordement au réseau et mise en service. L’accent passe des documents de "
+"planification à la réalisation concrète – 8 étapes mènent le projet jusqu’à "
+"la réception."
+
+#: templates/home.html:123
+msgid "Procurement & contractor selection"
+msgstr "Achats et sélection des prestataires"
+
+#: templates/home.html:124
+msgid "Construction management & supervision"
+msgstr "Gestion et suivi des travaux"
+
+#: templates/home.html:125
+msgid "Grid connection execution"
+msgstr "Réalisation du raccordement au réseau"
+
+#: templates/home.html:126
+msgid "Technical commissioning & testing"
+msgstr "Mise en service technique et essais"
+
+#: templates/home.html:127
+msgid "Metering & monitoring setup"
+msgstr "Mise en place du comptage et du suivi"
+
+#: templates/home.html:128
+msgid "Handover & documentation"
+msgstr "Réception et documentation"
+
+#: templates/home.html:137
+msgid ""
+"Long-term management of the running CEP. Technical maintenance, financial "
+"reporting, member engagement, and regulatory compliance. Five ongoing tasks "
+"keep the community energy project healthy and growing."
+msgstr ""
+"Gestion à long terme du CEP en fonctionnement. Maintenance technique, "
+"reporting financier, implication des membres et conformité réglementaire. "
+"Cinq tâches continues assurent la bonne santé et le développement du projet "
+"énergétique citoyen."
+
+#: templates/home.html:145
+msgid "Asset operation & maintenance"
+msgstr "Exploitation et maintenance des installations"
+
+#: templates/home.html:146
+msgid "Financial management & member distributions"
+msgstr "Gestion financière et distributions aux membres"
+
+#: templates/home.html:147
+msgid "Regulatory reporting & compliance"
+msgstr "Reporting réglementaire et conformité"
+
+#: templates/home.html:148
+msgid "Community engagement & governance"
+msgstr "Implication de la communauté et gouvernance"
+
+#: templates/home.html:149
+msgid "Growth planning & reinvestment"
+msgstr "Planification de la croissance et réinvestissement"
+
+#: templates/home.html:158
+msgid "How This Tool Helps"
+msgstr "Comment cet outil vous aide"
+
+#: templates/home.html:159
+msgid "Designed for energy agency managers supporting initiators"
+msgstr ""
+"Conçu pour les responsables des agences de l’énergie qui accompagnent les "
+"porteurs de projet"
+
+#: templates/home.html:166
+msgid ""
+"Browse and search all support services available to CEP initiators, filtered "
+"by lifecycle phase or discipline. Know exactly what help is available at "
+"each step."
+msgstr ""
+"Parcourez et recherchez tous les services de soutien disponibles pour les "
+"porteurs de CEP, filtrés par phase ou par discipline. Sachez exactement "
+"quelle aide est disponible à chaque étape."
+
+#: templates/home.html:174
+msgid "Initiator Profiles"
+msgstr "Fiches des porteurs de projet"
+
+#: templates/home.html:176
+msgid ""
+"Maintain records for each initiator — contact details, project history, and "
+"the services they have received — so nothing falls through the cracks."
+msgstr ""
+"Tenez à jour une fiche pour chaque porteur de projet – coordonnées, "
+"historique du projet et services reçus – pour que rien ne se perde."
+
+#: templates/home.html:184
+msgid "Project Tracking"
+msgstr "Suivi des projets"
+
+#: templates/home.html:186
+msgid ""
+"Track every project through its phase journey. Record phase transitions, "
+"note decisions, and log which services have been applied and with what "
+"outcomes."
+msgstr ""
+"Suivez chaque projet à travers ses phases. Enregistrez les changements de "
+"phase, notez les décisions et consignez les services appliqués et leurs "
+"résultats."
+
+#: templates/home.html:198
+msgid "Ready to get started?"
+msgstr "Prêt à commencer ?"
+
+#: templates/home.html:199
+msgid ""
+"Browse the service catalog to explore available support, or open an "
+"initiator record to review their project."
+msgstr ""
+"Parcourez le catalogue de services pour découvrir l’aide disponible, ou "
+"ouvrez la fiche d’un porteur de projet pour examiner son projet."
+
+#: templates/home.html:208
+msgid "Sign in to manage initiators and projects"
+msgstr "Connectez-vous pour gérer les porteurs de projet et les projets"
+
+#: templates/home.html:209
+msgid ""
+"The guidebook and the service catalog are open to everyone. Sign in to "
+"access initiator records and project tracking."
+msgstr ""
+"Le guide et le catalogue de services sont ouverts à tous. Connectez-vous "
+"pour accéder aux fiches des porteurs de projet et au suivi des projets."
+
+#: templates/home.html:212
+msgid "Open Guidebook"
+msgstr "Ouvrir le guide"
+
+#: templates/home.html:213
+msgid "Browse Catalog"
+msgstr "Parcourir le catalogue"
+
+#: templates/includes/pagination.html:3
+msgid "Pagination"
+msgstr "Pagination"
+
+#: templates/includes/pagination.html:5 templates/includes/pagination.html:7
+msgid "Previous"
+msgstr "Précédent"
+
+#: templates/includes/pagination.html:9
+#, python-format
+msgid "Page %(number)s of %(total)s"
+msgstr "Page %(number)s sur %(total)s"
+
+#: templates/includes/pagination.html:11 templates/includes/pagination.html:13
+msgid "Next"
+msgstr "Suivant"

@@ -1,0 +1,15 @@
+- code: AT
+  name: Austria
+  language: de
+- code: BG
+  name: Bulgaria
+  language: bg
+- code: FR
+  name: France
+  language: fr
+- code: HR
+  name: Croatia
+  language: hr
+- code: IT
+  name: Italy
+  language: it

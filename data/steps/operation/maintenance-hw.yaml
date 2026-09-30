@@ -1,0 +1,61 @@
+title: Maintenance - HW
+sort_order: 320
+topic: PV Plant
+description: Perform regular maintenance and repairs to the PV plant.
+objective: |-
+  - What is required?
+  - Who can do it?
+  - How much does it cost?
+description_long: |-
+  Regular maintenance and repairs are crucial for ensuring the efficiency and longevity of your PV plant. This includes inspecting and cleaning panels, checking electrical connections, and monitoring system performance. Costs vary based on the system's size and complexity.
+de:
+  title: Wartung - Hardware
+  description: Regelmäßige Wartung und Reparaturen der PV-Anlage durchführen.
+  objective: |-
+    - Was ist erforderlich?
+    - Wer kann es durchführen?
+    - Was kostet es?
+  description_long: |-
+    Regelmäßige Wartung und Reparaturen sind entscheidend für den effizienten und langlebigen Betrieb Ihrer PV-Anlage. Dazu gehören die Kontrolle und Reinigung der Module, die Prüfung der elektrischen Verbindungen und die Überwachung der Anlagenleistung. Die Kosten hängen von Größe und Komplexität der Anlage ab.
+  reviewed: false
+fr:
+  title: Maintenance - Matériel
+  description: |-
+    Assurer la maintenance régulière et les réparations de la centrale photovoltaïque.
+  objective: |-
+    - Que faut-il faire ?
+    - Qui peut le faire ?
+    - Combien cela coûte-t-il ?
+  description_long: |-
+    Une maintenance et des réparations régulières sont essentielles pour garantir l'efficacité et la longévité de votre centrale photovoltaïque. Cela comprend l'inspection et le nettoyage des panneaux, le contrôle des connexions électriques et le suivi des performances. Les coûts varient selon la taille et la complexité de l'installation.
+  reviewed: false
+it:
+  title: Manutenzione - Hardware
+  description: Eseguire la manutenzione regolare e le riparazioni dell'impianto fotovoltaico.
+  objective: |-
+    - Che cosa serve?
+    - Chi può farlo?
+    - Quanto costa?
+  description_long: |-
+    Manutenzione e riparazioni regolari sono fondamentali per l'efficienza e la durata dell'impianto fotovoltaico. Comprendono l'ispezione e la pulizia dei moduli, il controllo dei collegamenti elettrici e il monitoraggio delle prestazioni. I costi variano in base alla taglia e alla complessità dell'impianto.
+  reviewed: false
+hr:
+  title: Održavanje - Oprema
+  description: Redovito održavanje i popravci fotonaponske elektrane.
+  objective: |-
+    - Što je potrebno?
+    - Tko to može obaviti?
+    - Koliko to košta?
+  description_long: |-
+    Redovito održavanje i popravci ključni su za učinkovitost i dugovječnost vaše fotonaponske elektrane. To uključuje pregled i čišćenje panela, provjeru električnih spojeva i praćenje rada sustava. Troškovi ovise o veličini i složenosti sustava.
+  reviewed: false
+bg:
+  title: Поддръжка - Оборудване
+  description: Редовна поддръжка и ремонт на фотоволтаичната централа.
+  objective: |-
+    - Какво е необходимо?
+    - Кой може да го извърши?
+    - Колко струва?
+  description_long: |-
+    Редовната поддръжка и ремонтите са от решаващо значение за ефективността и дълготрайността на фотоволтаичната централа. Те включват проверка и почистване на панелите, проверка на електрическите връзки и наблюдение на работата на системата. Разходите зависят от размера и сложността на системата.
+  reviewed: false

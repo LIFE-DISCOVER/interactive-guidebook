@@ -1,0 +1,24 @@
+name: |-
+  BG 05: Preliminary building permit for PV plants and direct power lines in urban environments
+step: permit-building-regulations
+summary: |-
+  Obtain authorization by local authorities in order to construct PV plant and direct power lines.
+description: |-
+  Submit the legally required set of technical drawings and provide the investment concept and circumstances while applying for permit for integrated PV plant in buildings.
+web_link: https://nag.sofia.bg/RegisterBuildingPermitsPortal/Index
+stakeholder: Sofia municipality
+input: Description of PV plant features and construction documentation of the building
+result: Submission of all applications for PV installations and direct power lines.
+bg:
+  name: |-
+    BG 05: Предварително разрешение за строеж на фотоволтаични централи и директни електропроводи в градска среда
+  summary: |-
+    Получете разрешение от местните власти за изграждане на фотоволтаичната централа и директните електропроводи.
+  description: |-
+    Представете изискуемия по закон комплект технически чертежи и опишете инвестиционната концепция и обстоятелствата при подаване на заявлението за разрешение за интегрирана в сграда фотоволтаична централа.
+  stakeholder: Столична община
+  input: |-
+    Описание на характеристиките на фотоволтаичната централа и строителна документация на сградата
+  result: |-
+    Подадени всички заявления за фотоволтаичните инсталации и директните електропроводи.
+  reviewed: false

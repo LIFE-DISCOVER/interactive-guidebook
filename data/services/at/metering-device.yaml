@@ -1,0 +1,17 @@
+name: 'AT: Metering Device'
+step: commissioning-plant
+summary: |-
+  Request installation of a meter. The installation of a meter must take place within 3 working days (standard load profile) or 8 working days (load profile meter) after the completion of the registration.
+description: Guidance
+input: Address
+result: Smart Meter Installed
+remaining_hurdles: In the past there have been delays due to a shortage of devices.
+de:
+  name: 'AT: Messgerät'
+  summary: |-
+    Beantragen Sie die Installation eines Zählers. Der Zähler muss innerhalb von 3 Arbeitstagen (Standardlastprofil) bzw. 8 Arbeitstagen (Lastprofilzähler) nach Abschluss der Anmeldung eingebaut werden.
+  description: Anleitung
+  input: Adresse
+  result: Smart Meter installiert
+  remaining_hurdles: In der Vergangenheit kam es wegen Gerätemangels zu Verzögerungen.
+  reviewed: false

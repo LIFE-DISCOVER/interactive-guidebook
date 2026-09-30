@@ -1,0 +1,66 @@
+title: Permit - Spatial Planning
+sort_order: 115
+topic: PV Plant
+description: Apply for permit.
+objective: |-
+  - Are there limitations regarding the appearance of the building?
+  - Are there restrictions imposed by the zoning plan?
+  - What are the impacts on the townscape, landscape, or neighborhood?
+  - Are there regulations regarding the protection of historic buildings?
+description_long: |-
+  When planning a PV installation, it is important to consider any limitations regarding the appearance of the building. Some areas have aesthetic guidelines or building codes that restrict changes to a building's exterior, which could affect the installation of PV panels. Additionally, review the zoning plan for any restrictions that may impact your project. Your building may be subject to heritage protection regulations, which could impose specific design constraints and require consultation with the relevant authorities.
+de:
+  title: Genehmigung - Raumordnung
+  description: Genehmigung beantragen.
+  objective: |-
+    - Gibt es Einschränkungen für das Erscheinungsbild des Gebäudes?
+    - Gibt es Einschränkungen durch den Flächenwidmungs- bzw. Bebauungsplan?
+    - Welche Auswirkungen gibt es auf Ortsbild, Landschaft oder Nachbarschaft?
+    - Gibt es Vorschriften zum Denkmalschutz?
+  description_long: |-
+    Bei der Planung einer PV-Anlage sind Einschränkungen für das Erscheinungsbild des Gebäudes zu beachten. Manche Gebiete haben Gestaltungsrichtlinien oder Bauvorschriften, die Änderungen an der Außenansicht beschränken und die Montage von PV-Modulen betreffen können. Prüfen Sie außerdem den Flächenwidmungs- bzw. Bebauungsplan auf Einschränkungen für Ihr Projekt. Ihr Gebäude kann dem Denkmalschutz unterliegen, was besondere gestalterische Auflagen und die Abstimmung mit den zuständigen Behörden erfordern kann.
+  reviewed: false
+fr:
+  title: Autorisation - Urbanisme
+  description: Demander l'autorisation.
+  objective: |-
+    - Existe-t-il des restrictions concernant l'aspect du bâtiment ?
+    - Le plan local d'urbanisme impose-t-il des restrictions ?
+    - Quels sont les effets sur le paysage urbain, le paysage ou le voisinage ?
+    - Existe-t-il des règles de protection des monuments historiques ?
+  description_long: |-
+    Lors de la conception d'une installation photovoltaïque, il faut tenir compte des restrictions concernant l'aspect du bâtiment. Certaines zones ont des prescriptions esthétiques ou des règles de construction qui limitent les modifications extérieures et peuvent concerner la pose de panneaux. Vérifiez aussi les restrictions du plan local d'urbanisme qui pourraient toucher votre projet. Votre bâtiment peut être soumis à des règles de protection du patrimoine, qui peuvent imposer des contraintes de conception et une consultation des autorités compétentes.
+  reviewed: false
+it:
+  title: Autorizzazione - Pianificazione territoriale
+  description: Richiedere l'autorizzazione.
+  objective: |-
+    - Ci sono limitazioni riguardo all'aspetto dell'edificio?
+    - Il piano urbanistico impone restrizioni?
+    - Quali sono gli effetti sull'immagine urbana, sul paesaggio o sul vicinato?
+    - Esistono norme di tutela degli edifici storici?
+  description_long: |-
+    Nel pianificare un impianto fotovoltaico è importante considerare le limitazioni relative all'aspetto dell'edificio. Alcune zone hanno prescrizioni estetiche o norme edilizie che limitano le modifiche all'esterno degli edifici e possono incidere sull'installazione dei moduli. Verificate inoltre le restrizioni del piano urbanistico che potrebbero riguardare il progetto. L'edificio potrebbe essere soggetto a vincoli di tutela dei beni culturali, che possono imporre prescrizioni progettuali specifiche e richiedere il confronto con le autorità competenti.
+  reviewed: false
+hr:
+  title: Dozvola - Prostorno uređenje
+  description: Podnesite zahtjev za dozvolu.
+  objective: |-
+    - Postoje li ograničenja u pogledu izgleda zgrade?
+    - Postoje li ograničenja prostornog plana?
+    - Kakav je utjecaj na izgled naselja, krajobraz ili susjedstvo?
+    - Postoje li propisi o zaštiti povijesnih zgrada?
+  description_long: |-
+    Pri planiranju fotonaponske instalacije važno je uzeti u obzir ograničenja u pogledu izgleda zgrade. Za neka područja postoje estetske smjernice ili građevinski propisi koji ograničavaju promjene vanjskog izgleda i mogu utjecati na ugradnju panela. Provjerite i ograničenja prostornog plana koja bi mogla utjecati na projekt. Vaša zgrada može biti zaštićeno kulturno dobro, što može značiti posebne uvjete oblikovanja i savjetovanje s nadležnim tijelima.
+  reviewed: false
+bg:
+  title: Разрешение - Устройство на територията
+  description: Подайте заявление за разрешение.
+  objective: |-
+    - Има ли ограничения по отношение на външния вид на сградата?
+    - Има ли ограничения, наложени от подробния устройствен план?
+    - Какво е въздействието върху градската среда, ландшафта или съседството?
+    - Има ли правила за опазване на културно-историческото наследство?
+  description_long: |-
+    При планирането на фотоволтаична инсталация е важно да се вземат предвид ограниченията по отношение на външния вид на сградата. В някои райони има естетически изисквания или строителни правила, които ограничават промените по фасадата и могат да засегнат монтажа на панели. Проверете и ограниченията в подробния устройствен план, които могат да засегнат проекта. Сградата ви може да е обект на културно-историческото наследство, което може да наложи специфични изисквания към проекта и съгласуване с компетентните органи.
+  reviewed: false

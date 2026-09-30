@@ -1,0 +1,19 @@
+name: HR-18-Community Roles
+step: community-roles
+summary: |-
+  While key members were assigned during the development phase, these roles need to be reviewed in the realization phase and considered for additional roles.
+description: |-
+  Help the core team to redefine their responsibilities and responsibilities for other roles in community in accordance with growing number of tasks.
+input: Information from Core team members; Business and project management rules
+result: How to share workload and responsibilities; Promote positive community dynamics
+remaining_hurdles: Insufficient capabilities of the team members.
+hr:
+  name: HR-18-Uloge u zajednici
+  summary: |-
+    Iako su ključni članovi određeni u fazi razvoja, te uloge treba preispitati u fazi realizacije i razmotriti dodatne uloge.
+  description: |-
+    Pomozite osnovnom timu da ponovno definira svoje odgovornosti i odgovornosti za druge uloge u zajednici u skladu s rastućim brojem zadataka.
+  input: Informacije članova osnovnog tima; pravila poslovnog i projektnog upravljanja
+  result: Kako podijeliti posao i odgovornosti; poticanje pozitivne dinamike u zajednici
+  remaining_hurdles: Nedovoljne sposobnosti članova tima.
+  reviewed: false

@@ -1,0 +1,23 @@
+name: 'BG 02: Community assessment'
+step: community-assessment
+summary: |-
+  Evaluate the purpose of the E.C. and its size to measure its potential impact. Identify the members of the community to understand its composition. Potential future members have to be considered as well.
+description: |-
+  Decide on the size of the CEP in order to develop your business model; Understand the motivation and resources of your members in order to reach your objectives. Define short, mid-term and long term goals following the three phases of the EC operation.
+stakeholder: Chamber of Energy communities in Bulgaria
+input: |-
+  REC community identified, including size and members, needs and motivation, resources and objectives for kW energy shared.
+result: |-
+  REC business concept elaborated. Internal and external management procedures outlined.
+bg:
+  name: 'BG 02: Оценка на общността'
+  summary: |-
+    Оценете целта на ЕО и нейния размер, за да измерите потенциалното ѝ въздействие. Идентифицирайте членовете на общността, за да разберете състава ѝ. Трябва да се вземат предвид и бъдещите потенциални членове.
+  description: |-
+    Определете размера на ОЕП, за да разработите бизнес модела си; разберете мотивацията и ресурсите на членовете си, за да постигнете целите си. Определете краткосрочни, средносрочни и дългосрочни цели според трите фази на работа на ЕО.
+  stakeholder: Камара на енергийните общности в България
+  input: |-
+    Идентифицирана ВЕО, включително размер и членове, нужди и мотивация, ресурси и цели за споделените kW енергия.
+  result: |-
+    Разработена бизнес концепция на ВЕО. Очертани вътрешни и външни процедури за управление.
+  reviewed: false

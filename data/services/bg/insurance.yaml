@@ -1,0 +1,24 @@
+name: 'BG 15: Insurance'
+step: insurance
+summary: |-
+  The planning of the PV system requires to understand all risks and costs associated with insurance. It is crucial to be adequately covered for potential issues such as equipment damage, theft, or liability.
+description: |-
+  Contact specialized solar insurance provider (Renewable Energy Insurance Broker) and discuss/come out with a designated insurance product for PV systems/entire technical solutions for ECs in Bulgaria.
+web_link: https://reib-us.com/en/
+input: |-
+  PV plant basic parameters, other technological equipment, estimated electricity production (yield)
+result: |-
+  Create standardized insurance product for PV plants/technological solutions in ECs
+remaining_hurdles: Development stage of renewable energy insurance market in Bulgaria
+bg:
+  name: 'BG 15: Застраховане'
+  summary: |-
+    Планирането на фотоволтаичната система изисква да се разберат всички рискове и разходи, свързани със застраховането. От решаващо значение е да има адекватно покритие за възможни проблеми като повреда на оборудването, кражба или отговорност.
+  description: |-
+    Свържете се със специализиран застрахователен брокер за възобновяема енергия и обсъдете/разработете специален застрахователен продукт за фотоволтаични системи/цялостни технически решения за ЕО в България.
+  input: |-
+    Основни параметри на фотоволтаичната централа, друго технологично оборудване, очаквано производство на електроенергия
+  result: |-
+    Създаване на стандартизиран застрахователен продукт за фотоволтаични централи/технологични решения в ЕО
+  remaining_hurdles: Пазарът на застраховки за възобновяема енергия в България е в процес на развитие
+  reviewed: false

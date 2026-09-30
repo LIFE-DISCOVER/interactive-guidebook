@@ -1,0 +1,25 @@
+name: HR-23-Commissioning - Plant
+step: commissioning-plant
+summary: |-
+  Once the plant is installed, it is crucial to verify that it has been installed correctly. Assess whether the plant operates safely.
+description: |-
+  Find professional supervision for the construction of the PV plant. Costs are estimated at 1.5% of the total investment. Get the permission to start operation.
+stakeholder: HEP Elektra d.o.o.
+input: |-
+  Obtaining a certificate from HEP ODS for the developed main design and other certificates
+result: |-
+  PV plant operating permit; The plant is correctly installed, operates safely and meets all legal requirements.
+remaining_hurdles: |-
+  Insufficient capabilities of HEP Elektra; the speed of finalization depends on the individual Elektra.
+hr:
+  name: HR-23-Puštanje u pogon - Elektrana
+  summary: |-
+    Nakon ugradnje elektrane ključno je provjeriti je li pravilno ugrađena. Procijenite radi li elektrana sigurno.
+  description: |-
+    Osigurajte stručni nadzor nad izgradnjom fotonaponske elektrane. Troškovi se procjenjuju na 1,5 % ukupnog ulaganja. Ishodite dopuštenje za početak rada.
+  stakeholder: HEP Elektra d.o.o.
+  input: Ishođenje potvrde HEP ODS-a na izrađeni glavni projekt i drugih potvrda
+  result: |-
+    Dozvola za rad fotonaponske elektrane; elektrana je pravilno ugrađena, radi sigurno i ispunjava sve zakonske zahtjeve.
+  remaining_hurdles: Nedostatni kapaciteti HEP Elektre; brzina dovršetka ovisi o pojedinoj Elektri.
+  reviewed: false

@@ -1,0 +1,25 @@
+name: HR-08-2-Analysis - Meters and Distribution Cabinets
+step: analysis-wiring
+summary: |-
+  Many households in Croatia have old electricity meters. New meters can be read remotely. In many houses meters and distribution cabinets are located inside the apartment.
+description: |-
+  In order to have PV plant and to be member of CEP, HEP ODS has to provide new meters and distribution cabinets.
+stakeholder: HEP ODS
+input: |-
+  Electrical diagrams of existing connection of distribution cabinet; Wiring Schemes of existing building
+result: New cabinets on the exterior of the house
+remaining_hurdles: |-
+  Lack of capacity to install required Smart meters (ODS task), this task is expensive!
+hr:
+  name: HR-08-2-Analiza - Brojila i razdjelni ormari
+  summary: |-
+    Mnoga kućanstva u Hrvatskoj imaju stara brojila električne energije. Nova brojila mogu se očitavati na daljinu. U mnogim kućama brojila i razdjelni ormari nalaze se unutar stana.
+  description: |-
+    Da biste imali fotonaponsku elektranu i bili član energetske zajednice, HEP ODS mora osigurati nova brojila i razdjelne ormare.
+  stakeholder: HEP ODS
+  input: |-
+    Električne sheme postojećeg priključka razdjelnog ormara; sheme instalacija postojeće zgrade
+  result: Novi ormari na vanjskoj strani kuće
+  remaining_hurdles: |-
+    Nedostatni kapaciteti za ugradnju potrebnih pametnih brojila (zadaća ODS-a), a to je skupo!
+  reviewed: false

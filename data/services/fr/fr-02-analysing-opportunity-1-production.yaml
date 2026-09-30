@@ -1,0 +1,21 @@
+name: FR-02-Analysing opportunity 1-Production
+step: analysis-yield
+summary: |-
+  Estimating the production available on your building roof is probably the first step. It depends on many factors such as the surface of the roof available for PV panels, the energy it receives from the sun, its inclination and orientation.
+description: |-
+  The analysis of opportunity is a comprehensive analysis provided by the OSS. The first brick of analysis is an estimation of production potential. It relies on geoportail.gouv.fr and integrates the use of the licensed software Autocalsol.
+web_link: https://autocalsol.ines-solaire.org/
+input: Registration on Coach Copro platform; Satellite view of buildings' roof
+result: |-
+  Estimate of production indicators: surface covered with PV panels and number of panels, quantity of electricity generated annually.
+fr:
+  name: FR-02-Analyse d'opportunité 1-Production
+  summary: |-
+    Estimer la production possible sur le toit de votre bâtiment est sans doute la première étape. Elle dépend de nombreux facteurs, comme la surface de toiture disponible pour les panneaux, l'ensoleillement reçu, l'inclinaison et l'orientation.
+  description: |-
+    L'analyse d'opportunité est une analyse complète proposée par le guichet unique. Sa première brique est une estimation du potentiel de production. Elle s'appuie sur geoportail.gouv.fr et utilise le logiciel sous licence Autocalsol.
+  input: |-
+    Inscription sur la plateforme CoachCopro ; vue satellite de la toiture des bâtiments
+  result: |-
+    Estimation des indicateurs de production : surface couverte de panneaux et nombre de panneaux, quantité d'électricité produite par an.
+  reviewed: false

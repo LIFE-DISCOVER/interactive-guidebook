@@ -1,0 +1,24 @@
+name: FR-10-Simulating connection to the grid
+step: analysis-power-grid
+summary: |-
+  Connecting to the grid is a key step. It is important to simulate and anticipate before you actually demand connection. You have to pay attention to assessing the need for renovation of your building electric wiring and meters.
+description: The OSS helps you understand what is at stake at this key step.
+web_link: https://mon-compte-particulier.enedis.fr/raccorder
+stakeholder: ENEDIS
+input: |-
+  Power capacity of the existing meter of your building; Electric wiring schemes; Choice of injection and power of installation
+result: |-
+  Better understanding; Cost and complexity of connecting to the public grid; Anticipating the standard procedure.
+remaining_hurdles: Results of the simulation may not be easy to interpret.
+fr:
+  name: FR-10-Simuler le raccordement au réseau
+  summary: |-
+    Le raccordement au réseau est une étape clé. Il est important de le simuler et de l'anticiper avant de le demander effectivement. Veillez à évaluer le besoin de rénovation de la colonne électrique et des compteurs de votre bâtiment.
+  description: Le guichet unique vous aide à comprendre les enjeux de cette étape clé.
+  stakeholder: ENEDIS
+  input: |-
+    Puissance du compteur existant de votre bâtiment ; schémas électriques ; choix du mode d'injection et de la puissance de l'installation
+  result: |-
+    Meilleure compréhension ; coût et complexité du raccordement au réseau public ; anticipation de la procédure standard.
+  remaining_hurdles: Les résultats de la simulation ne sont pas toujours faciles à interpréter.
+  reviewed: false

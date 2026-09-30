@@ -1,0 +1,5 @@
+.error-page { text-align: center; padding: 3rem 1rem; max-width: 560px; margin: 0 auto; }
+.error-code { font-size: 4rem; font-weight: 700; color: var(--blue); line-height: 1; margin-bottom: 0.5rem; }
+.error-page h1 { margin-bottom: 0.75rem; }
+.error-page p { color: #666; margin-bottom: 1.75rem; }
+.error-page .form-actions { justify-content: center; }

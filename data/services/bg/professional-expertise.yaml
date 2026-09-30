@@ -1,0 +1,20 @@
+name: 'BG 20: Professional expertise'
+step: sourcing-professionals
+summary: |-
+  This step consists in finding engineers and technicians for the installation of the PV plant. It involves the evaluation of qualified and recommended professionals.
+description: |-
+  Communicate the characteristics of the CEP/EC project to potential professionals and companies. Provide detailed information about the project's scope, requirements, and goals.
+input: |-
+  Scope of EC, consumption, production and energy trading options; type of equipment chosen.
+result: |-
+  External service providers/experts identified, approached and hired through framework contractual agreements.
+bg:
+  name: 'BG 20: Професионална експертиза'
+  summary: |-
+    Тази стъпка се състои в намирането на инженери и техници за монтажа на фотоволтаичната централа. Тя включва оценка на квалифицирани и препоръчани специалисти.
+  description: |-
+    Представете характеристиките на проекта на ОЕП/ЕО на потенциални специалисти и фирми. Дайте подробна информация за обхвата, изискванията и целите на проекта.
+  input: |-
+    Обхват на ЕО, потребление, производство и възможности за търговия с енергия; избран вид оборудване.
+  result: Намерени, потърсени и наети чрез рамкови договори външни изпълнители/експерти.
+  reviewed: false

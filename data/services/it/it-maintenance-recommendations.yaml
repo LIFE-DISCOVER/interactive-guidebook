@@ -1,0 +1,24 @@
+name: IT-Maintenance Recommendations
+step: maintenance-hw
+summary: |-
+  Ensure the proper operation and optimal performance of the REC photovoltaic systems through regular and extraordinary maintenance activities. Average maintenance costs are estimated at 0.5%-1% of the initial investment per year.
+description: |-
+  The service supports: definition of maintenance plans (routine and corrective); performance monitoring of PV systems; cleaning of photovoltaic modules; inspection of electrical components; fault management.
+input: |-
+  Plant technical data; Manufacturer manuals; Production and performance history; Maintenance contracts (if any)
+result: |-
+  Defined maintenance plan; Reduced failures and inefficiencies; Maximized energy production; Continuity in incentive eligibility
+remaining_hurdles: Lack of continuous monitoring in some RECs; Underestimation of maintenance costs
+it:
+  name: IT-Raccomandazioni per la manutenzione
+  summary: |-
+    Garantire il corretto funzionamento e le prestazioni ottimali degli impianti fotovoltaici della CER con attività di manutenzione ordinaria e straordinaria. I costi medi di manutenzione sono stimati tra lo 0,5 % e l'1 % dell'investimento iniziale all'anno.
+  description: |-
+    Il servizio supporta: la definizione dei piani di manutenzione (ordinaria e correttiva); il monitoraggio delle prestazioni degli impianti; la pulizia dei moduli fotovoltaici; l'ispezione dei componenti elettrici; la gestione dei guasti.
+  input: |-
+    Dati tecnici dell'impianto; manuali del costruttore; storico di produzione e prestazioni; contratti di manutenzione (se presenti)
+  result: |-
+    Piano di manutenzione definito; meno guasti e inefficienze; produzione di energia massimizzata; continuità nel diritto agli incentivi
+  remaining_hurdles: |-
+    Mancanza di monitoraggio continuo in alcune CER; sottostima dei costi di manutenzione
+  reviewed: false

@@ -1,0 +1,60 @@
+title: Membership - Administration
+sort_order: 330
+topic: REC
+description: On/Off boarding of REC members.
+objective: |-
+  - Report membership changes to the power grid operator
+  - Register new participants of REC
+  - Maintain and update member list
+description_long: |-
+  To manage your REC effectively, report any membership changes to the power grid operator to ensure accurate records. Register new participants in the REC and update the member list to reflect current information.
+de:
+  title: Mitglieder - Verwaltung
+  description: Eintritt und Austritt von Mitgliedern der Energiegemeinschaft.
+  objective: |-
+    - Änderungen der Mitgliedschaft dem Netzbetreiber melden
+    - Neue Mitglieder der Energiegemeinschaft registrieren
+    - Mitgliederliste führen und aktualisieren
+  description_long: |-
+    Um Ihre Energiegemeinschaft wirksam zu verwalten, melden Sie jede Änderung der Mitgliedschaft dem Netzbetreiber, damit die Daten stimmen. Registrieren Sie neue Mitglieder und halten Sie die Mitgliederliste auf dem aktuellen Stand.
+  reviewed: false
+fr:
+  title: Membres - Administration
+  description: Entrée et sortie des membres de la communauté d'énergie renouvelable.
+  objective: |-
+    - Signaler les changements de membres au gestionnaire de réseau
+    - Enregistrer les nouveaux participants à la communauté
+    - Tenir à jour la liste des membres
+  description_long: |-
+    Pour gérer efficacement votre communauté d'énergie renouvelable, signalez tout changement de membres au gestionnaire de réseau afin que les données restent exactes. Enregistrez les nouveaux participants et mettez à jour la liste des membres.
+  reviewed: false
+it:
+  title: Membri - Gestione
+  description: Ingresso e uscita dei membri della CER.
+  objective: |-
+    - Comunicare le variazioni dei membri al gestore di rete
+    - Registrare i nuovi partecipanti alla CER
+    - Tenere aggiornato l'elenco dei membri
+  description_long: |-
+    Per gestire efficacemente la vostra CER, comunicate ogni variazione dei membri al gestore di rete, in modo che i dati siano corretti. Registrate i nuovi partecipanti alla CER e aggiornate l'elenco dei membri.
+  reviewed: false
+hr:
+  title: Članstvo - Administracija
+  description: Pristupanje i istupanje članova zajednice obnovljive energije.
+  objective: |-
+    - Prijava promjena članstva operatoru mreže
+    - Registracija novih sudionika zajednice
+    - Vođenje i ažuriranje popisa članova
+  description_long: |-
+    Za učinkovito upravljanje zajednicom obnovljive energije prijavljujte sve promjene članstva operatoru mreže kako bi evidencija bila točna. Registrirajte nove sudionike i ažurirajte popis članova.
+  reviewed: false
+bg:
+  title: Членство - Администриране
+  description: Приемане и напускане на членове на ВЕО.
+  objective: |-
+    - Съобщаване на промените в членството на мрежовия оператор
+    - Регистриране на новите участници във ВЕО
+    - Поддържане и актуализиране на списъка на членовете
+  description_long: |-
+    За ефективното управление на вашата ВЕО съобщавайте всички промени в членството на мрежовия оператор, за да са точни данните. Регистрирайте новите участници във ВЕО и актуализирайте списъка на членовете.
+  reviewed: false

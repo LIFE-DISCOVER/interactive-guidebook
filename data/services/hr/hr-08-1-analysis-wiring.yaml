@@ -1,0 +1,23 @@
+name: HR-08-1-Analysis - Wiring
+step: analysis-wiring
+summary: |-
+  Before proceeding with a PV installation, it is essential to evaluate whether the power rating of the existing wiring in your building is sufficient to handle the current of your PV plant.
+description: |-
+  Investigate existing wiring within property. Understand how to connect a PV plant for direct (or self) consumption.
+stakeholder: Elkin Inženjering j.d.o.o.
+input: |-
+  Wiring Schemes of existing building from all owners; Data from all consumers/owners
+result: |-
+  Electrical installation project for PV plant; Sufficiency of the power rating of existing wires
+hr:
+  name: HR-08-1-Analiza - Električne instalacije
+  summary: |-
+    Prije fotonaponske instalacije nužno je procijeniti je li nazivna snaga postojećih instalacija u zgradi dovoljna za struju vaše fotonaponske elektrane.
+  description: |-
+    Istražite postojeće instalacije u objektu. Razumijte kako priključiti fotonaponsku elektranu za izravnu (ili vlastitu) potrošnju.
+  stakeholder: Elkin Inženjering j.d.o.o.
+  input: |-
+    Sheme instalacija postojeće zgrade od svih vlasnika; podaci svih potrošača/vlasnika
+  result: |-
+    Projekt električnih instalacija za fotonaponsku elektranu; dostatnost nazivne snage postojećih vodova
+  reviewed: false

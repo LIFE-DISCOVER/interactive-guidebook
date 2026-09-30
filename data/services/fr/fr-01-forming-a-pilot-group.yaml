@@ -1,0 +1,23 @@
+name: FR-01-Forming a pilot group
+step: community-building
+summary: |-
+  Launching a photovoltaic community energy project is complex and requires good information at the very start. It is better to form a small team of motivated people. The website photovoltaique.info is the reference source of information.
+description: |-
+  The OSS helps you navigate the existing resources to get enough information on photovoltaics and energy communities, public aids, etc.
+web_link: https://www.photovoltaique.info/fr/
+input: A demand for information or advice on PV of energy community by any person.
+result: |-
+  Information on PV and energy community; Advice on how to state your vision and objectives.
+remaining_hurdles: Information about the specifics of condominiums and urban centre settings.
+fr:
+  name: FR-01-Constituer un groupe pilote
+  summary: |-
+    Lancer un projet d'énergie communautaire photovoltaïque est complexe et demande une bonne information dès le départ. Mieux vaut former une petite équipe de personnes motivées. Le site photovoltaique.info est la source d'information de référence.
+  description: |-
+    Le guichet unique vous aide à vous orienter parmi les ressources existantes pour vous informer suffisamment sur le photovoltaïque, les communautés d'énergie, les aides publiques, etc.
+  input: |-
+    Une demande d'information ou de conseil sur le photovoltaïque ou les communautés d'énergie, de la part de toute personne.
+  result: |-
+    Information sur le photovoltaïque et les communautés d'énergie ; conseils pour formuler votre vision et vos objectifs.
+  remaining_hurdles: Information sur les spécificités des copropriétés et des centres urbains.
+  reviewed: false

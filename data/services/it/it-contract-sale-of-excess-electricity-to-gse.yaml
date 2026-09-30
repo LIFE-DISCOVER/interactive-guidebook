@@ -1,0 +1,25 @@
+name: IT-Contract - sale of excess electricity to GSE
+step: uptake-agreement
+summary: |-
+  The Ritiro Dedicato consists of the transfer to GSE of the electricity fed into the grid from photovoltaic systems. The GSE pays the producer a specific price for each kWh injected into the grid.
+description: Support to fill in the request to sale the excess electricity to GSE.
+web_link: https://www.gse.it/servizi-per-te/fotovoltaico/ritiro-dedicato
+stakeholder: GSE
+input: |-
+  For PV < 200 kW, fill in the Modello Unico, which allows for a simplified process for the construction, connection, and operation of new photovoltaic systems.
+result: Agreement with GSE
+remaining_hurdles: |-
+  The valuation of energy through Ritiro Dedicato can represent an active component of income and must be assessed for accounting purposes.
+it:
+  name: IT-Contratto - Vendita al GSE dell'energia elettrica in eccesso
+  summary: |-
+    Il Ritiro Dedicato consiste nella cessione al GSE dell'energia elettrica immessa in rete dagli impianti fotovoltaici. Il GSE riconosce al produttore un prezzo per ogni kWh immesso in rete.
+  description: |-
+    Supporto alla compilazione della richiesta di vendita al GSE dell'energia in eccesso.
+  stakeholder: GSE
+  input: |-
+    Per impianti fotovoltaici fino a 200 kW, compilare il Modello Unico, che consente una procedura semplificata per la realizzazione, la connessione e l'esercizio di nuovi impianti fotovoltaici.
+  result: Convenzione con il GSE
+  remaining_hurdles: |-
+    La valorizzazione dell'energia tramite Ritiro Dedicato può costituire una componente attiva di reddito e va valutata ai fini contabili.
+  reviewed: false

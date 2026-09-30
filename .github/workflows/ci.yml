@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q gettext
+          pip install -r requirements.txt
+
+      - name: Django checks
+        run: |
+          python manage.py check
+          python manage.py makemigrations --check --dry-run
+
+      - name: Content check (what this change would do to the live content)
+        run: |
+          python manage.py migrate --noinput
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            # Load the target branch's content first, so the dry run shows only this change.
+            git worktree add -q ../base "${{ github.event.pull_request.base.sha }}"
+            python manage.py sync_content --path ../base/data > /dev/null || true
+          fi
+          python manage.py sync_content --dry-run | tee content-changes.txt
+          {
+            echo '### Content changes'
+            echo '```'
+            cat content-changes.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Tests
+        run: |
+          python manage.py compilemessages
+          python manage.py test
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build image
+        run: docker build -t guidebook:ci .

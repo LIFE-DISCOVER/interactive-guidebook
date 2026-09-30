@@ -1,0 +1,21 @@
+name: HR-30-Accounting
+step: accounting
+summary: |-
+  Effective accounting and bookkeeping involve preparing financial statements to provide a clear overview of the project financial health.
+description: |-
+  Find professional service. Bookkeeping and reporting towards: Members of community; Tax authorities
+input: All legal documents; Up-to-date delivery of financial documents
+result: |-
+  Prepared financial statements; Ensured compliance with legal and regulatory requirements; Balancing accounts
+remaining_hurdles: Lack of professional capacities of CEC and REC members
+hr:
+  name: HR-30-Računovodstvo
+  summary: |-
+    Učinkovito računovodstvo i knjigovodstvo uključuju izradu financijskih izvještaja koji daju jasan pregled financijskog stanja projekta.
+  description: |-
+    Pronađite stručnu uslugu. Knjigovodstvo i izvještavanje prema: članovima zajednice; poreznim tijelima
+  input: Svi pravni dokumenti; pravodobna dostava financijske dokumentacije
+  result: |-
+    Izrađeni financijski izvještaji; osigurana usklađenost sa zakonskim i regulatornim zahtjevima; usklađivanje računa
+  remaining_hurdles: Nedostatak stručnih kapaciteta članova ZGE i ZOE
+  reviewed: false

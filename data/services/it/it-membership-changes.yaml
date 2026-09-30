@@ -1,0 +1,21 @@
+name: IT-Membership changes
+step: membership-administration
+summary: |-
+  In order to manage the REC effectively, report any membership changes to the GSE to ensure accurate records. Register new participants in the REC and update the member list.
+description: |-
+  Assist the REC to report membership changes to GSE. Register new participants of REC and update the list.
+stakeholder: GSE
+input: |-
+  Enter on customer area at GSE website through SPID. Add new members and their role.
+result: Updated records of the REC members.
+it:
+  name: IT-Variazioni dei membri
+  summary: |-
+    Per gestire efficacemente la CER, comunicare al GSE ogni variazione dei membri per mantenere i dati aggiornati. Registrare i nuovi partecipanti alla CER e aggiornare l'elenco dei membri.
+  description: |-
+    Assistere la CER nel comunicare al GSE le variazioni dei membri. Registrare i nuovi partecipanti alla CER e aggiornare l'elenco.
+  stakeholder: GSE
+  input: |-
+    Accedere all'Area Clienti sul sito del GSE tramite SPID. Aggiungere i nuovi membri e il loro ruolo.
+  result: Dati dei membri della CER aggiornati.
+  reviewed: false

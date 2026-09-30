@@ -1,0 +1,18 @@
+name: 'AT: Analysis - Solar Radiation and Electricity yield'
+step: analysis-yield
+summary: |-
+  1) Determine the Annual Solar Radiation for your address (in kWh/m2/a). 2) Multiply with your plant size (in m2) and efficiency (kWelectric / kWradiation)
+description: Guidance finding Radiation and calculating yield
+web_link: https://www.wien.gv.at/umweltgut/public/
+input: PV plant size (kWp); Address
+result: kWh per year
+remaining_hurdles: Finding the System Efficiency
+de:
+  name: 'AT: Analyse - Sonneneinstrahlung und Stromertrag'
+  summary: |-
+    1) Ermitteln Sie die jährliche Sonneneinstrahlung an Ihrer Adresse (in kWh/m²/a). 2) Multiplizieren Sie sie mit der Anlagenfläche (in m²) und dem Wirkungsgrad (kW elektrisch / kW Einstrahlung).
+  description: Anleitung zum Ermitteln der Einstrahlung und zur Ertragsberechnung
+  input: Größe der PV-Anlage (kWp); Adresse
+  result: kWh pro Jahr
+  remaining_hurdles: Ermitteln des Systemwirkungsgrads
+  reviewed: false

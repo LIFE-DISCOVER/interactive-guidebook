@@ -1,0 +1,18 @@
+name: HR-21-Sourcing - Equipment
+step: sourcing-equipment
+summary: |-
+  To ensure a successful procurement process, start by clearly specifying your requirements.
+description: |-
+  Certified PV plant installers often offer a package of services that includes a range of services from obtaining all permits and necessary documentation, to purchasing and installing equipment (Turnkey system).
+stakeholder: Solvis d.o.o.
+input: List of requirements specification; Contracting process
+result: Comprehensive decision and contract with PV equipment supplier.
+hr:
+  name: HR-21-Nabava - Oprema
+  summary: Za uspješnu nabavu započnite jasnim definiranjem svojih zahtjeva.
+  description: |-
+    Ovlašteni instalateri fotonaponskih elektrana često nude paket usluga, od pribavljanja svih dozvola i potrebne dokumentacije do nabave i ugradnje opreme (sustav po načelu „ključ u ruke”).
+  stakeholder: Solvis d.o.o.
+  input: Specifikacija zahtjeva; postupak ugovaranja
+  result: Konačna odluka i ugovor s dobavljačem fotonaponske opreme.
+  reviewed: false

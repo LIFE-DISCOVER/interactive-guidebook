@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Projects" %}{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>{% translate "All Projects" %}</h1>
+</div>
+
+{% if projects %}
+<div class="card-list">
+  {% for project in projects %}
+  <div class="card">
+    <h2><a href="{% url 'projects:project_detail' project.pk %}">{{ project.name }}</a></h2>
+    <div class="card-meta">
+      <a href="{% url 'initiators:initiator_detail' project.initiator.pk %}">{{ project.initiator.full_name }}</a>
+      <span>&middot;</span>
+      <span class="badge badge-{{ project.current_phase.slug }}">{{ project.current_phase.label }}</span>
+      <span class="badge badge-{{ project.status }}">{{ project.get_status_display }}</span>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% include "includes/pagination.html" %}
+{% else %}
+<div class="empty-state">
+  {% translate "No projects yet. Projects are created from an initiator's page —" %}
+  <a href="{% url 'initiators:initiator_list' %}">{% translate "choose an initiator" %}</a>.
+</div>
+{% endif %}
+{% endblock %}

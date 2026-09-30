@@ -1,0 +1,24 @@
+name: 'BG 10: Analysis - Consumption Profile'
+step: analysis-consumption
+summary: |-
+  Find the consumption profile of the daily/monthly/annual routine of the EC buildings for the last three years.
+description: |-
+  Find the annual consumption in kWh per day/hour and the consumption profile of every one of the CEP/EC participants based on input data from the last 3 years.
+web_link: https://electrohold.bg/bg/
+input: |-
+  The CEP/EC participants' annual electricity demand as stated on the monthly utility bills for the past 3 years.
+result: Profile of electricity demand per day of the year and per hour of the day.
+remaining_hurdles: Lack of sufficient data in order to build consistent consumption profile.
+bg:
+  name: 'BG 10: Анализ - Профил на потреблението'
+  summary: |-
+    Определете профила на потреблението за дневния/месечния/годишния режим на сградите на ЕО за последните три години.
+  description: |-
+    Определете годишното потребление в kWh на ден/час и профила на потреблението на всеки от участниците в ОЕП/ЕО въз основа на данни за последните 3 години.
+  input: |-
+    Годишното потребление на електроенергия на участниците в ОЕП/ЕО според месечните сметки за последните 3 години.
+  result: |-
+    Профил на потреблението на електроенергия за всеки ден от годината и всеки час от деня.
+  remaining_hurdles: |-
+    Липса на достатъчно данни за изграждане на последователен профил на потреблението.
+  reviewed: false

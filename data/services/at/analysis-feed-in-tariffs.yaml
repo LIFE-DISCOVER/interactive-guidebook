@@ -1,0 +1,17 @@
+name: 'AT: Analysis - Feed-in tariffs'
+step: uptake-agreement
+summary: Compare various prices for excess solar electricity, summarized on pvaustria.at
+description: Guidance on selecting a company
+web_link: https://pvaustria.at/strom-verkaufen/
+stakeholder: Bundesverband Photovoltaic Austria
+input: None
+result: Feed in tariff - ct/kWh
+de:
+  name: 'AT: Analyse - Einspeisetarife'
+  summary: |-
+    Vergleichen Sie verschiedene Preise für überschüssigen Solarstrom, zusammengefasst auf pvaustria.at
+  description: Unterstützung bei der Auswahl eines Unternehmens
+  stakeholder: Bundesverband Photovoltaic Austria
+  input: Keine
+  result: Einspeisetarif - ct/kWh
+  reviewed: false

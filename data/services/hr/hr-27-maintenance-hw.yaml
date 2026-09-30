@@ -1,0 +1,25 @@
+name: HR-27-Maintenance - HW
+step: maintenance-hw
+summary: |-
+  Regular maintenance and repairs are crucial for ensuring the efficiency and longevity of your PV plant. The cost of maintenance is about 0.3% of the investment per year.
+description: |-
+  Advice on how to properly maintain and repair the PV plant. The cost of maintenance is about 0.3% of investment per year.
+input: |-
+  Understanding of the maintenance needs: What is required? Who can do it? Maintenance cost is about 0.3% of investment per year
+result: |-
+  Covering own consumption from the energy produced by the photovoltaic system; Maintenance of the photovoltaic system.
+remaining_hurdles: |-
+  Inadequate maintenance of the photovoltaic system, inability to monitor the operation (efficiency) of the power plant
+hr:
+  name: HR-27-Održavanje - Oprema
+  summary: |-
+    Redovito održavanje i popravci ključni su za učinkovitost i dugovječnost vaše fotonaponske elektrane. Troškovi održavanja iznose oko 0,3 % ulaganja godišnje.
+  description: |-
+    Savjeti o pravilnom održavanju i popravku fotonaponske elektrane. Troškovi održavanja iznose oko 0,3 % ulaganja godišnje.
+  input: |-
+    Razumijevanje potreba održavanja: što je potrebno? Tko to može obaviti? Troškovi održavanja iznose oko 0,3 % ulaganja godišnje
+  result: |-
+    Pokrivanje vlastite potrošnje energijom proizvedenom u fotonaponskom sustavu; održavanje fotonaponskog sustava.
+  remaining_hurdles: |-
+    Neodgovarajuće održavanje fotonaponskog sustava, nemogućnost praćenja rada (učinkovitosti) elektrane
+  reviewed: false

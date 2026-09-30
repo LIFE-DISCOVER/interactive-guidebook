@@ -1,0 +1,23 @@
+name: |-
+  BG 19: Construction - Installing PV System, direct connection lines, battery storage devices
+step: sourcing-equipment
+summary: |-
+  Specify requirements for the PV installation/battery storage solutions detailing the technical and functional needs of the desired equipment, including any performance criteria or standards.
+description: |-
+  Collect information from the market suppliers of PV equipment, battery storage equipment, cabling and smart metering devices. Get price offers and make a comparative analysis.
+web_link: https://www.solartim.eu
+input: |-
+  Approved technical drawings and specifications, business plan and financial plan.
+result: |-
+  A list of suppliers, price lists for equipment based on specific technical specifications; comparative analysis.
+bg:
+  name: |-
+    BG 19: Изграждане - Монтаж на фотоволтаична система, директни електропроводи, батерийни съоръжения
+  summary: |-
+    Определете изискванията към решенията за фотоволтаична инсталация/батерийно съхранение, като опишете техническите и функционалните нужди от желаното оборудване, включително критериите за ефективност и стандартите.
+  description: |-
+    Съберете информация от доставчиците на фотоволтаично оборудване, батерийни системи, кабели и интелигентни измервателни уреди. Получете ценови оферти и направете сравнителен анализ.
+  input: Одобрени технически чертежи и спецификации, бизнес план и финансов план.
+  result: |-
+    Списък на доставчиците, ценови листи за оборудването според конкретните технически спецификации; сравнителен анализ.
+  reviewed: false

@@ -1,0 +1,26 @@
+name: FR-02-Getting consumption data
+step: analysis-consumption
+summary: |-
+  In order to analyse precisely the potential for self-consumption, it is useful to get first the actual consumption data of the buildings within the community. Enedis provides a free service called dataconsoelec.
+description: |-
+  The OSS offers you to act as an authorized third-party to collect your data through dataconsoelec service.
+web_link: https://datahub-enedis.fr/fournisseurs-de-services/dataconsoelec/
+stakeholder: ENEDIS
+input: |-
+  Signed mandate; Number of the electricity delivery points for collective equipments
+result: Excel sheets with consumption data over a long period of time (at least 1 year)
+remaining_hurdles: Enedis Excel sheet might not be usable in Autocalsol software
+fr:
+  name: FR-02-Obtenir les données de consommation
+  summary: |-
+    Pour analyser précisément le potentiel d'autoconsommation, il est utile d'obtenir d'abord les données de consommation réelles des bâtiments de la communauté. Enedis propose un service gratuit appelé dataconsoelec.
+  description: |-
+    Le guichet unique vous propose d'agir en tant que tiers autorisé pour collecter vos données via le service dataconsoelec.
+  stakeholder: ENEDIS
+  input: |-
+    Mandat signé ; numéros des points de livraison d'électricité des équipements collectifs
+  result: |-
+    Tableaux Excel des données de consommation sur une longue période (au moins 1 an)
+  remaining_hurdles: |-
+    Le fichier Excel d'Enedis n'est pas forcément utilisable dans le logiciel Autocalsol
+  reviewed: false

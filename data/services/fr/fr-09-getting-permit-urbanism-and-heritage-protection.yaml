@@ -1,0 +1,23 @@
+name: FR-09-Getting permit - Urbanism and heritage protection
+step: permit-spatial-planning
+summary: |-
+  A permit is needed from the local authority, Paris City administration, according to urbanism and heritage protection rules. Your PV plant will be located on rooftops in most cases and may cause changes in the aspect of your building.
+description: |-
+  The OSS helps you decipher what are the applicable urbanism and heritage protection rules, restrictions and incitations, and their implication in terms of volume, architecture and landscape.
+web_link: https://www.paris.fr/autorisations-d-urbanisme
+stakeholder: Paris City
+input: Address of the buildings; Any document describing the project.
+result: Authorized volume; List of restrictions and incitations.
+remaining_hurdles: Final authorization depends on the administration interpretation of the rule.
+fr:
+  name: FR-09-Obtenir l'autorisation - Urbanisme et protection du patrimoine
+  summary: |-
+    Une autorisation de l'autorité locale, la Ville de Paris, est nécessaire au titre des règles d'urbanisme et de protection du patrimoine. Votre centrale sera le plus souvent installée en toiture et peut modifier l'aspect de votre bâtiment.
+  description: |-
+    Le guichet unique vous aide à décrypter les règles d'urbanisme et de protection du patrimoine applicables, les contraintes et les incitations, ainsi que leurs conséquences en termes de volume, d'architecture et de paysage.
+  stakeholder: Ville de Paris
+  input: Adresse des bâtiments ; tout document décrivant le projet.
+  result: Volume autorisé ; liste des contraintes et des incitations.
+  remaining_hurdles: |-
+    L'autorisation finale dépend de l'interprétation de la règle par l'administration.
+  reviewed: false

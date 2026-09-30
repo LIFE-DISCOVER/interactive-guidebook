@@ -1,0 +1,40 @@
+name: Deploy
+
+# Runs after CI has passed on main, and deploys exactly the commit CI tested.
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ vars.SITE_URL }}
+    steps:
+      - name: Deploy over SSH
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          COMMIT: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          # The key only runs the server's deploy script (forced command); the argument is the commit.
+          ssh -i ~/.ssh/deploy_key -o BatchMode=yes "root@$DEPLOY_HOST" "$COMMIT"
+
+      - name: Check the site responds
+        run: curl -fsS -o /dev/null --retry 5 --retry-delay 5 "${{ vars.SITE_URL }}/en/"

@@ -1,0 +1,24 @@
+name: HR-04-2-Apply for Permit - Environmental
+step: permit-environmental
+summary: |-
+  Determining whether an environmental assessment is required depends on the specifics of your project. An assessment is necessary if the plant size exceeds 10 MW and if PV plant is freestanding object.
+description: |-
+  Authorized person/company should: prepare an environmental impact assessment and apply for environmental permit.
+input: |-
+  Exact location of future project; Find out which is PV plant size and if it is freestanding object
+result: |-
+  A contractor has prepared Environmental Impact Assessment and submitted application for the Environmental Permit
+remaining_hurdles: |-
+  This service is provided by external specialized companies and expensive. Process is time consuming.
+hr:
+  name: HR-04-2-Zahtjev za dozvolu - Zaštita okoliša
+  summary: |-
+    Je li potrebna procjena utjecaja na okoliš ovisi o značajkama vašeg projekta. Procjena je potrebna ako snaga elektrane prelazi 10 MW i ako je fotonaponska elektrana samostojeći objekt.
+  description: |-
+    Ovlaštena osoba ili tvrtka treba izraditi studiju utjecaja na okoliš i podnijeti zahtjev za okolišnu dozvolu.
+  input: |-
+    Točna lokacija budućeg projekta; utvrditi snagu elektrane i je li samostojeći objekt
+  result: |-
+    Izvođač je izradio studiju utjecaja na okoliš i podnio zahtjev za okolišnu dozvolu
+  remaining_hurdles: Uslugu pružaju vanjske specijalizirane tvrtke i skupa je. Postupak dugo traje.
+  reviewed: false

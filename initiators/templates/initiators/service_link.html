@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load i18n static %}
+{% block title %}{{ service.text.name }}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/pages/service-link.css' %}">
+{% endblock %}
+
+{% block extra_head %}
+<meta name="robots" content="noindex, nofollow">
+{% endblock %}
+
+{% block content %}
+<div class="link-page">
+  <p class="link-eyebrow">
+    {% blocktranslate with project=project.name %}For your project “{{ project }}”{% endblocktranslate %}
+  </p>
+  <h1 lang="{{ service.text.language }}">{{ service.text.name }}</h1>
+
+  {% if link.message %}
+  <section class="link-message">
+    <div class="link-message-from">
+      {% with sender=link.created_by.get_full_name %}
+      {% if sender %}
+        {% blocktranslate with name=sender %}Message from {{ name }}{% endblocktranslate %}
+      {% else %}
+        {% translate "Message from your energy agency" %}
+      {% endif %}
+      {% endwith %}
+    </div>
+    {{ link.message|linebreaks }}
+  </section>
+  {% endif %}
+
+  <section class="link-service">
+    {% include "catalog/_text_language_switch.html" with text=service.text %}
+    {% if service.text.summary %}<p class="link-summary" lang="{{ service.text.language }}">{{ service.text.summary }}</p>{% endif %}
+    {% if service.text.description %}<div class="link-description" lang="{{ service.text.language }}">{{ service.text.description|linebreaks }}</div>{% endif %}
+    {% if official_link %}
+    <p><a class="btn btn-outline" href="{{ official_link }}" target="_blank" rel="noopener noreferrer">↗ {% translate "Official link" %}</a></p>
+    {% endif %}
+  </section>
+
+  <section class="link-note">
+    {% if link.is_used %}
+      <h2>{% translate "Your note" %}</h2>
+      <p class="link-note-sent">
+        {% blocktranslate with date=link.submitted_at|date:"SHORT_DATETIME_FORMAT" %}Sent on {{ date }}. Thank you!{% endblocktranslate %}
+      </p>
+      <div class="link-note-text">{{ link.note|linebreaks }}</div>
+    {% else %}
+      <h2>{% translate "Send a note to your energy agency" %}</h2>
+      <div class="form-card">
+        <form method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">{% translate "Send note" %}</button>
+          </div>
+        </form>
+      </div>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

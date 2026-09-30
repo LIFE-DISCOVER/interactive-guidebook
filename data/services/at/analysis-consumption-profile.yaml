@@ -1,0 +1,16 @@
+name: 'AT: Analysis Consumption Profile'
+step: analysis-consumption
+summary: |-
+  Electricity consumption can be estimated based on old electricity bills. Alternatively, smart meters can be read via the service portal of the grid operator. These time series provide insight into the dynamics of electricity consumption.
+description: Interpretation of time series.
+web_link: https://portal.e-netze.at/
+input: Consumption data curves downloaded from the service portal
+result: Average consumption and peak consumption
+de:
+  name: 'AT: Analyse Verbrauchsprofil'
+  summary: |-
+    Der Stromverbrauch lässt sich anhand alter Stromrechnungen abschätzen. Alternativ können Smart Meter über das Serviceportal des Netzbetreibers ausgelesen werden. Diese Zeitreihen geben Einblick in die Dynamik des Stromverbrauchs.
+  description: Interpretation der Zeitreihen.
+  input: Aus dem Serviceportal heruntergeladene Verbrauchskurven
+  result: Durchschnittsverbrauch und Spitzenverbrauch
+  reviewed: false

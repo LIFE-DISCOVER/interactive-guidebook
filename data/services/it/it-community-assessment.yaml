@@ -1,0 +1,19 @@
+name: IT-Community Assessment
+step: community-assessment
+summary: |-
+  To start your own REC, it is important to begin with a project idea, identifying a first group of promoters, the operational perimeter of the REC, the renewable sources to be used, and the general consumption/production profile.
+description: It provides the list of members that can be part of a REC.
+stakeholder: GSE
+input: |-
+  Select if the potential member belongs to the following categories: Natural persons; Small and medium-sized enterprises; Associations; Territorial entities; Research and training institutions; Third-sector organizations.
+result: List of potential members
+it:
+  name: IT-Valutazione della comunità
+  summary: |-
+    Per avviare una propria CER è importante partire da un'idea di progetto, individuando un primo gruppo di promotori, il perimetro operativo della CER, le fonti rinnovabili da utilizzare e il profilo generale di consumo/produzione.
+  description: Fornisce l'elenco dei soggetti che possono far parte di una CER.
+  stakeholder: GSE
+  input: |-
+    Indicare se il potenziale membro appartiene alle seguenti categorie: persone fisiche; piccole e medie imprese; associazioni; enti territoriali; enti di ricerca e formazione; enti del Terzo settore.
+  result: Elenco dei potenziali membri
+  reviewed: false

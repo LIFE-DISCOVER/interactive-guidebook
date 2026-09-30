@@ -1,0 +1,19 @@
+name: 'BG 21-2: Construction - SMART GRID automatic management system'
+step: commissioning-plant
+summary: |-
+  Identifying an AI enabled SMART GRID system for fully automated control of all energy installations within the CEP/EC.
+description: |-
+  Approach suppliers of SMART GRID solutions, suitable for the specific tasks and composition of the CEP/EC installations.
+input: Technical documentation about the energy installations of the CEP/EC
+result: |-
+  Contract with a SMART GRID provider for the installation and tuning of an AI enabled system.
+bg:
+  name: 'BG 21-2: Изграждане - Система за автоматично управление SMART GRID'
+  summary: |-
+    Избор на SMART GRID система с изкуствен интелект за напълно автоматизирано управление на всички енергийни инсталации в рамките на ОЕП/ЕО.
+  description: |-
+    Потърсете доставчици на SMART GRID решения, подходящи за конкретните задачи и състава на инсталациите на ОЕП/ЕО.
+  input: Техническа документация за енергийните инсталации на ОЕП/ЕО
+  result: |-
+    Договор с доставчик на SMART GRID за инсталиране и настройка на система с изкуствен интелект.
+  reviewed: false

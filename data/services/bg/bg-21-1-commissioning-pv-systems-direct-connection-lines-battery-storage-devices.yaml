@@ -1,0 +1,21 @@
+name: |-
+  BG 21-1: Commissioning - PV systems, direct connection lines, battery storage devices
+step: commissioning-plant
+summary: |-
+  Conduct a thorough inspection to ensure that all components of the PV plant are properly installed and it operates safely. Confirm that all safety protocols are in place. Accept the take-over certificate from the engineer.
+description: |-
+  After equipping the existing connection and building direct connection lines, electricity battery storage devices and SMART GRID automatic control system, the CEP/EC energy installations are put into permanent operation
+input: Approved construction documentation, construction contract, financing.
+result: |-
+  Grid connection, direct connection lines, electricity storage devices and SMART GRID automatic control system within the CEP/EC completed and operational.
+bg:
+  name: |-
+    BG 21-1: Въвеждане в експлоатация - Фотоволтаични системи, директни електропроводи, батерийни съоръжения
+  summary: |-
+    Извършете щателна проверка, за да се уверите, че всички компоненти на фотоволтаичната централа са монтирани правилно и тя работи безопасно. Потвърдете, че са въведени всички мерки за безопасност. Приемете протокола за предаване от инженера.
+  description: |-
+    След оборудването на съществуващото присъединяване и изграждането на директните електропроводи, батерийните съоръжения за съхранение и системата за автоматично управление SMART GRID енергийните инсталации на ОЕП/ЕО се въвеждат в постоянна експлоатация
+  input: Одобрена строителна документация, договор за строителство, финансиране.
+  result: |-
+    Присъединяването към мрежата, директните електропроводи, съоръженията за съхранение и системата за автоматично управление SMART GRID в рамките на ОЕП/ЕО са завършени и работят.
+  reviewed: false

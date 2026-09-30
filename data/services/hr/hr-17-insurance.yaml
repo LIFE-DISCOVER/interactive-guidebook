@@ -1,0 +1,17 @@
+name: HR-17-Insurance
+step: insurance
+summary: |-
+  When planning your PV system, it is important to understand the risks and costs associated with insurance. The insurance policy is 0.5% of the total amount of the investment per year.
+description: Find an insurance provider and sign a policy for your PV system.
+input: PV plant data
+result: |-
+  Understand the risks and costs of insurance; Compare offers; Understand bundling options
+hr:
+  name: HR-17-Osiguranje
+  summary: |-
+    Pri planiranju fotonaponskog sustava važno je razumjeti rizike i troškove osiguranja. Polica osiguranja iznosi 0,5 % ukupnog iznosa ulaganja godišnje.
+  description: Pronađite osiguravatelja i sklopite policu za svoj fotonaponski sustav.
+  input: Podaci o fotonaponskoj elektrani
+  result: |-
+    Razumjeti rizike i troškove osiguranja; usporediti ponude; razumjeti mogućnosti paketnog osiguranja
+  reviewed: false
