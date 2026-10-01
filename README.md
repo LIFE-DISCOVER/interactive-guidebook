@@ -83,6 +83,7 @@ All settings come from environment variables (see [.env.example](.env.example)).
 | `DJANGO_SERVE_STATIC` | off | `1` lets the app serve its own static files (Docker) |
 | `DJANGO_SUPERUSER_EMAIL` / `_PASSWORD` | empty | Create the administrator on first start instead of the setup page |
 | `CONTENT_REPO_URL` | empty | Base URL for "Edit on GitHub" links in the admin |
+| `SOURCE_CODE_URL` | this repository | Source code link in the footer; set empty to hide it |
 | `DOMAIN` | — | Docker Compose: the public host name Caddy gets a certificate for |
 
 ## Deployment with Docker

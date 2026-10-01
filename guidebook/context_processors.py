@@ -21,3 +21,8 @@ def languages(request):
             'alternate_url': request.build_absolute_uri(translate_path(path, code)),
         })
     return {'language_links': links, 'current_language': current}
+
+
+def site_links(request):
+    """Links shown on every page."""
+    return {'source_code_url': settings.SOURCE_CODE_URL}

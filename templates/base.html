@@ -139,9 +139,12 @@
       <!-- Col 4: Project links -->
       <div class="footer-col">
         <h4>{% translate "DISCOVER Project" %}</h4>
-        <p>
-          <a href="https://projectdiscover.eu/" target="_blank" rel="noopener">projectdiscover.eu</a>
-        </p>
+        <ul>
+          <li><a href="https://projectdiscover.eu/" target="_blank" rel="noopener">projectdiscover.eu</a></li>
+          {% if source_code_url %}
+          <li><a href="{{ source_code_url }}" target="_blank" rel="noopener">{% translate "Source code on GitHub" %}</a></li>
+          {% endif %}
+        </ul>
       </div>
 
       <!-- Col 5: Languages -->

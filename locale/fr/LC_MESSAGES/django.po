@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 22:51+0000\n"
+"POT-Creation-Date: 2026-10-01 21:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Draft translation - pending review by native speakers\n"
 "Language-Team: DISCOVER partners (fr)\n"
@@ -138,8 +138,8 @@ msgid ""
 "then create accounts for energy agency managers."
 msgstr ""
 "Cette installation ne contient encore aucun compte. Créez le compte "
-"administrateur pour commencer. L’administrateur se connecte avec son adresse "
-"e-mail et peut ensuite créer des comptes pour les responsables des agences "
+"administrateur pour commencer. L’administrateur se connecte avec son adresse"
+" e-mail et peut ensuite créer des comptes pour les responsables des agences "
 "de l’énergie."
 
 #: accounts/templates/accounts/setup.html:27
@@ -604,8 +604,9 @@ msgstr "liens de service"
 #: initiators/templates/initiators/initiator_detail.html:6
 #: initiators/templates/initiators/initiator_form.html:10
 #: initiators/templates/initiators/initiator_list.html:3
-#: initiators/templates/initiators/initiator_list.html:6 templates/base.html:44
-#: templates/base.html:46 templates/base.html:123 templates/home.html:202
+#: initiators/templates/initiators/initiator_list.html:6
+#: templates/base.html:44 templates/base.html:46 templates/base.html:123
+#: templates/home.html:202
 msgid "Initiators"
 msgstr "Porteurs de projet"
 
@@ -931,8 +932,7 @@ msgstr "Informations sur « %(service)s » pour votre projet « %(project)s »"
 msgid ""
 "Hello %(name)s,\n"
 "\n"
-"please open the following link to read about the service \"%(service)s\" and "
-"to send us your note:\n"
+"please open the following link to read about the service \"%(service)s\" and to send us your note:\n"
 "\n"
 "%(url)s\n"
 "\n"
@@ -941,8 +941,7 @@ msgid ""
 msgstr ""
 "Bonjour %(name)s,\n"
 "\n"
-"veuillez ouvrir le lien suivant pour consulter les informations sur le "
-"service « %(service)s » et nous envoyer votre note :\n"
+"veuillez ouvrir le lien suivant pour consulter les informations sur le service « %(service)s » et nous envoyer votre note :\n"
 "\n"
 "%(url)s\n"
 "\n"
@@ -1000,8 +999,8 @@ msgid ""
 "The page you were looking for doesn't exist. It may have been moved or "
 "deleted, or the link may be mistyped."
 msgstr ""
-"La page recherchée n’existe pas. Elle a peut-être été déplacée ou supprimée, "
-"ou le lien est erroné."
+"La page recherchée n’existe pas. Elle a peut-être été déplacée ou supprimée,"
+" ou le lien est erroné."
 
 #: templates/404.html:16
 msgid "Go to the Guidebook"
@@ -1057,7 +1056,7 @@ msgstr "Se déconnecter"
 msgid "Login"
 msgstr "Connexion"
 
-#: templates/base.html:68 templates/base.html:70 templates/base.html:149
+#: templates/base.html:68 templates/base.html:70 templates/base.html:152
 msgid "Language"
 msgstr "Langue"
 
@@ -1086,7 +1085,11 @@ msgstr "Accueil"
 msgid "DISCOVER Project"
 msgstr "Projet DISCOVER"
 
-#: templates/base.html:159
+#: templates/base.html:145
+msgid "Source code on GitHub"
+msgstr "Code source sur GitHub"
+
+#: templates/base.html:162
 msgid "EU Horizon Project"
 msgstr "Projet européen Horizon"
 
@@ -1133,8 +1136,8 @@ msgid ""
 "transition."
 msgstr ""
 "Le <strong>projet DISCOVER</strong> (financé par le programme européen "
-"Horizon) aide les agences locales de l’énergie à travers l’Europe à soutenir "
-"les citoyens qui souhaitent lancer ou rejoindre un projet énergétique "
+"Horizon) aide les agences locales de l’énergie à travers l’Europe à soutenir"
+" les citoyens qui souhaitent lancer ou rejoindre un projet énergétique "
 "citoyen (CEP). Ces projets – des coopératives solaires aux communautés "
 "d’énergie renouvelable – jouent un rôle clé dans la transition vers une "
 "énergie propre."
@@ -1147,8 +1150,8 @@ msgid ""
 "guide initiators through this journey, but they need structured tools to do "
 "so effectively."
 msgstr ""
-"Lancer un CEP est complexe. Les fondateurs font face à des défis techniques, "
-"juridiques, financiers et sociaux qui exigent des compétences dans de "
+"Lancer un CEP est complexe. Les fondateurs font face à des défis techniques,"
+" juridiques, financiers et sociaux qui exigent des compétences dans de "
 "nombreuses disciplines. Les responsables des agences de l’énergie (les "
 "<em>intermédiaires</em>) sont particulièrement bien placés pour accompagner "
 "les porteurs de projet dans ce parcours, mais ils ont besoin d’outils "
@@ -1160,9 +1163,9 @@ msgid ""
 "practical day-to-day tool: a searchable service catalog, project tracking, "
 "and phase-based guidance — all in one place."
 msgstr ""
-"Ce guide interactif transforme la méthodologie DISCOVER en un outil pratique "
-"au quotidien : un catalogue de services consultable, le suivi des projets et "
-"un accompagnement par phase – le tout au même endroit."
+"Ce guide interactif transforme la méthodologie DISCOVER en un outil pratique"
+" au quotidien : un catalogue de services consultable, le suivi des projets "
+"et un accompagnement par phase – le tout au même endroit."
 
 #: templates/home.html:66
 msgid "Lifecycle phases:<br>Planning, Realisation, Operation"
@@ -1303,8 +1306,8 @@ msgstr ""
 
 #: templates/home.html:166
 msgid ""
-"Browse and search all support services available to CEP initiators, filtered "
-"by lifecycle phase or discipline. Know exactly what help is available at "
+"Browse and search all support services available to CEP initiators, filtered"
+" by lifecycle phase or discipline. Know exactly what help is available at "
 "each step."
 msgstr ""
 "Parcourez et recherchez tous les services de soutien disponibles pour les "

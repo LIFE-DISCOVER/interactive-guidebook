@@ -76,6 +76,9 @@ ROOT_URLCONF = 'guidebook.urls'
 # https://github.com/<org>/<repo>/edit/main/data/  (empty: show the file path only)
 CONTENT_REPO_URL = os.environ.get('CONTENT_REPO_URL', '')
 
+# Public source code repository, linked in the footer (empty: no link).
+SOURCE_CODE_URL = os.environ.get('SOURCE_CODE_URL', 'https://github.com/LIFE-DISCOVER/interactive-guidebook')
+
 # Keeps tests independent of the language activated by earlier requests.
 TEST_RUNNER = 'guidebook.test_runner.GuidebookTestRunner'
 
@@ -90,6 +93,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'guidebook.context_processors.languages',
+                'guidebook.context_processors.site_links',
             ],
         },
     },

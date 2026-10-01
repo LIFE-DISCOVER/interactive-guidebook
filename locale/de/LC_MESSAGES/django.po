@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 22:51+0000\n"
+"POT-Creation-Date: 2026-10-01 21:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Draft translation - pending review by native speakers\n"
 "Language-Team: DISCOVER partners (de)\n"
@@ -39,8 +39,8 @@ msgid ""
 "Shown in the server log. You can also print it with: python manage.py "
 "setup_code"
 msgstr ""
-"Steht im Server-Protokoll. Sie können ihn auch so ausgeben: python manage.py "
-"setup_code"
+"Steht im Server-Protokoll. Sie können ihn auch so ausgeben: python manage.py"
+" setup_code"
 
 #: accounts/forms.py:19
 msgid "First name"
@@ -606,8 +606,9 @@ msgstr "Service-Links"
 #: initiators/templates/initiators/initiator_detail.html:6
 #: initiators/templates/initiators/initiator_form.html:10
 #: initiators/templates/initiators/initiator_list.html:3
-#: initiators/templates/initiators/initiator_list.html:6 templates/base.html:44
-#: templates/base.html:46 templates/base.html:123 templates/home.html:202
+#: initiators/templates/initiators/initiator_list.html:6
+#: templates/base.html:44 templates/base.html:46 templates/base.html:123
+#: templates/home.html:202
 msgid "Initiators"
 msgstr "Initiatoren"
 
@@ -803,7 +804,8 @@ msgstr "Ihre Nachricht:"
 
 #: initiators/templates/initiators/project_detail.html:126
 msgid "Revoke this link? The initiator will no longer be able to open it."
-msgstr "Diesen Link widerrufen? Der Initiator kann ihn dann nicht mehr öffnen."
+msgstr ""
+"Diesen Link widerrufen? Der Initiator kann ihn dann nicht mehr öffnen."
 
 #: initiators/templates/initiators/project_detail.html:128
 msgid "Revoke link"
@@ -858,8 +860,8 @@ msgstr "Alle Projekte"
 #: initiators/templates/initiators/project_list.html:26
 msgid "No projects yet. Projects are created from an initiator's page —"
 msgstr ""
-"Noch keine Projekte. Projekte werden auf der Seite eines Initiators angelegt "
-"–"
+"Noch keine Projekte. Projekte werden auf der Seite eines Initiators angelegt"
+" –"
 
 #: initiators/templates/initiators/project_list.html:27
 msgid "choose an initiator"
@@ -932,8 +934,7 @@ msgstr "Informationen zu „%(service)s“ für Ihr Projekt „%(project)s“"
 msgid ""
 "Hello %(name)s,\n"
 "\n"
-"please open the following link to read about the service \"%(service)s\" and "
-"to send us your note:\n"
+"please open the following link to read about the service \"%(service)s\" and to send us your note:\n"
 "\n"
 "%(url)s\n"
 "\n"
@@ -942,8 +943,7 @@ msgid ""
 msgstr ""
 "Guten Tag %(name)s,\n"
 "\n"
-"bitte öffnen Sie den folgenden Link, um Informationen zum Service "
-"„%(service)s“ zu lesen und uns Ihre Notiz zu senden:\n"
+"bitte öffnen Sie den folgenden Link, um Informationen zum Service „%(service)s“ zu lesen und uns Ihre Notiz zu senden:\n"
 "\n"
 "%(url)s\n"
 "\n"
@@ -981,8 +981,8 @@ msgid ""
 "Link for \"%(service)s\" created. Copy it or send it by email to the "
 "initiator."
 msgstr ""
-"Link für „%(service)s“ erstellt. Kopieren Sie ihn oder senden Sie ihn per E-"
-"Mail an den Initiator."
+"Link für „%(service)s“ erstellt. Kopieren Sie ihn oder senden Sie ihn per "
+"E-Mail an den Initiator."
 
 #: initiators/views.py:291
 msgid "The link was revoked and no longer works."
@@ -1001,8 +1001,8 @@ msgid ""
 "The page you were looking for doesn't exist. It may have been moved or "
 "deleted, or the link may be mistyped."
 msgstr ""
-"Die gesuchte Seite existiert nicht. Sie wurde möglicherweise verschoben oder "
-"gelöscht, oder der Link ist fehlerhaft."
+"Die gesuchte Seite existiert nicht. Sie wurde möglicherweise verschoben oder"
+" gelöscht, oder der Link ist fehlerhaft."
 
 #: templates/404.html:16
 msgid "Go to the Guidebook"
@@ -1059,7 +1059,7 @@ msgstr "Abmelden"
 msgid "Login"
 msgstr "Anmelden"
 
-#: templates/base.html:68 templates/base.html:70 templates/base.html:149
+#: templates/base.html:68 templates/base.html:70 templates/base.html:152
 msgid "Language"
 msgstr "Sprache"
 
@@ -1088,7 +1088,11 @@ msgstr "Startseite"
 msgid "DISCOVER Project"
 msgstr "DISCOVER-Projekt"
 
-#: templates/base.html:159
+#: templates/base.html:145
+msgid "Source code on GitHub"
+msgstr "Quellcode auf GitHub"
+
+#: templates/base.html:162
 msgid "EU Horizon Project"
 msgstr "EU-Horizon-Projekt"
 
@@ -1235,8 +1239,8 @@ msgid ""
 msgstr ""
 "Vom genehmigten Projekt zur betriebsbereiten Anlage. Beschaffung, Bau, "
 "Netzanschluss und Inbetriebnahme. Der Schwerpunkt verlagert sich von "
-"Planungsunterlagen zur praktischen Umsetzung – 8 Schritte führen das Projekt "
-"bis zur Übergabe."
+"Planungsunterlagen zur praktischen Umsetzung – 8 Schritte führen das Projekt"
+" bis zur Übergabe."
 
 #: templates/home.html:123
 msgid "Procurement & contractor selection"
@@ -1304,8 +1308,8 @@ msgstr ""
 
 #: templates/home.html:166
 msgid ""
-"Browse and search all support services available to CEP initiators, filtered "
-"by lifecycle phase or discipline. Know exactly what help is available at "
+"Browse and search all support services available to CEP initiators, filtered"
+" by lifecycle phase or discipline. Know exactly what help is available at "
 "each step."
 msgstr ""
 "Durchsuchen Sie alle Unterstützungsangebote für CEP-Initiatoren, gefiltert "
@@ -1334,8 +1338,8 @@ msgid ""
 "note decisions, and log which services have been applied and with what "
 "outcomes."
 msgstr ""
-"Verfolgen Sie jedes Projekt durch seine Phasen. Halten Sie Phasenwechsel und "
-"Entscheidungen fest und dokumentieren Sie, welche Services mit welchem "
+"Verfolgen Sie jedes Projekt durch seine Phasen. Halten Sie Phasenwechsel und"
+" Entscheidungen fest und dokumentieren Sie, welche Services mit welchem "
 "Ergebnis eingesetzt wurden."
 
 #: templates/home.html:198
@@ -1359,8 +1363,8 @@ msgid ""
 "The guidebook and the service catalog are open to everyone. Sign in to "
 "access initiator records and project tracking."
 msgstr ""
-"Der Leitfaden und der Servicekatalog stehen allen offen. Melden Sie sich an, "
-"um auf Initiatoren und die Projektverfolgung zuzugreifen."
+"Der Leitfaden und der Servicekatalog stehen allen offen. Melden Sie sich an,"
+" um auf Initiatoren und die Projektverfolgung zuzugreifen."
 
 #: templates/home.html:212
 msgid "Open Guidebook"

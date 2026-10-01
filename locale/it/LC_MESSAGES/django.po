@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 22:51+0000\n"
+"POT-Creation-Date: 2026-10-01 21:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Draft translation - pending review by native speakers\n"
 "Language-Team: DISCOVER partners (it)\n"
@@ -139,8 +139,8 @@ msgid ""
 "then create accounts for energy agency managers."
 msgstr ""
 "Questa installazione non ha ancora alcun account. Per iniziare, crei "
-"l’account amministratore. L’amministratore accede con il proprio indirizzo e-"
-"mail e può poi creare gli account per i responsabili delle agenzie per "
+"l’account amministratore. L’amministratore accede con il proprio indirizzo "
+"e-mail e può poi creare gli account per i responsabili delle agenzie per "
 "l’energia."
 
 #: accounts/templates/accounts/setup.html:27
@@ -606,8 +606,9 @@ msgstr "link ai servizi"
 #: initiators/templates/initiators/initiator_detail.html:6
 #: initiators/templates/initiators/initiator_form.html:10
 #: initiators/templates/initiators/initiator_list.html:3
-#: initiators/templates/initiators/initiator_list.html:6 templates/base.html:44
-#: templates/base.html:46 templates/base.html:123 templates/home.html:202
+#: initiators/templates/initiators/initiator_list.html:6
+#: templates/base.html:44 templates/base.html:46 templates/base.html:123
+#: templates/home.html:202
 msgid "Initiators"
 msgstr "Promotori"
 
@@ -930,8 +931,7 @@ msgstr "Informazioni su “%(service)s” per il suo progetto “%(project)s”"
 msgid ""
 "Hello %(name)s,\n"
 "\n"
-"please open the following link to read about the service \"%(service)s\" and "
-"to send us your note:\n"
+"please open the following link to read about the service \"%(service)s\" and to send us your note:\n"
 "\n"
 "%(url)s\n"
 "\n"
@@ -940,8 +940,7 @@ msgid ""
 msgstr ""
 "Gentile %(name)s,\n"
 "\n"
-"la preghiamo di aprire il seguente link per leggere le informazioni sul "
-"servizio “%(service)s” e inviarci la sua nota:\n"
+"la preghiamo di aprire il seguente link per leggere le informazioni sul servizio “%(service)s” e inviarci la sua nota:\n"
 "\n"
 "%(url)s\n"
 "\n"
@@ -1055,7 +1054,7 @@ msgstr "Esci"
 msgid "Login"
 msgstr "Accedi"
 
-#: templates/base.html:68 templates/base.html:70 templates/base.html:149
+#: templates/base.html:68 templates/base.html:70 templates/base.html:152
 msgid "Language"
 msgstr "Lingua"
 
@@ -1073,7 +1072,8 @@ msgid ""
 "Projects across Europe — from first idea to long-term operation."
 msgstr ""
 "Un progetto europeo Horizon che sostiene lo sviluppo di progetti di energia "
-"di comunità in tutta Europa – dalla prima idea alla gestione a lungo termine."
+"di comunità in tutta Europa – dalla prima idea alla gestione a lungo "
+"termine."
 
 #: templates/base.html:119 templates/home.html:4
 msgid "Home"
@@ -1083,7 +1083,11 @@ msgstr "Home"
 msgid "DISCOVER Project"
 msgstr "Progetto DISCOVER"
 
-#: templates/base.html:159
+#: templates/base.html:145
+msgid "Source code on GitHub"
+msgstr "Codice sorgente su GitHub"
+
+#: templates/base.html:162
 msgid "EU Horizon Project"
 msgstr "Progetto europeo Horizon"
 
@@ -1130,8 +1134,8 @@ msgid ""
 "transition."
 msgstr ""
 "Il <strong>progetto DISCOVER</strong> (finanziato dal programma europeo "
-"Horizon) aiuta le agenzie locali per l’energia in tutta Europa a sostenere i "
-"cittadini che vogliono avviare o aderire a un progetto di energia di "
+"Horizon) aiuta le agenzie locali per l’energia in tutta Europa a sostenere i"
+" cittadini che vogliono avviare o aderire a un progetto di energia di "
 "comunità (CEP). Questi progetti – dalle cooperative solari alle comunità "
 "energetiche rinnovabili – svolgono un ruolo chiave nella transizione verso "
 "l’energia pulita."
@@ -1189,8 +1193,8 @@ msgid ""
 "demanding phase — 14 structured steps guide initiators from concept to "
 "approved project."
 msgstr ""
-"Dalla prima idea al progetto pronto per la costruzione. I promotori valutano "
-"la fattibilità, costituiscono il soggetto giuridico, assicurano il "
+"Dalla prima idea al progetto pronto per la costruzione. I promotori valutano"
+" la fattibilità, costituiscono il soggetto giuridico, assicurano il "
 "finanziamento e ottengono le autorizzazioni. È la fase più impegnativa – 14 "
 "passi strutturati guidano dal concetto al progetto autorizzato."
 
@@ -1265,8 +1269,8 @@ msgid ""
 "keep the community energy project healthy and growing."
 msgstr ""
 "Gestione a lungo termine del CEP in funzione. Manutenzione tecnica, "
-"rendicontazione finanziaria, coinvolgimento dei soci e conformità normativa. "
-"Cinque attività continuative mantengono il progetto di energia di comunità "
+"rendicontazione finanziaria, coinvolgimento dei soci e conformità normativa."
+" Cinque attività continuative mantengono il progetto di energia di comunità "
 "sano e in crescita."
 
 #: templates/home.html:145
@@ -1301,8 +1305,8 @@ msgstr ""
 
 #: templates/home.html:166
 msgid ""
-"Browse and search all support services available to CEP initiators, filtered "
-"by lifecycle phase or discipline. Know exactly what help is available at "
+"Browse and search all support services available to CEP initiators, filtered"
+" by lifecycle phase or discipline. Know exactly what help is available at "
 "each step."
 msgstr ""
 "Sfogli e cerchi tutti i servizi di supporto disponibili per i promotori di "

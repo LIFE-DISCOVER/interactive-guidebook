@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 22:51+0000\n"
+"POT-Creation-Date: 2026-10-01 21:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Draft translation - pending review by native speakers\n"
 "Language-Team: DISCOVER partners (bg)\n"
@@ -605,8 +605,9 @@ msgstr "връзки към услуги"
 #: initiators/templates/initiators/initiator_detail.html:6
 #: initiators/templates/initiators/initiator_form.html:10
 #: initiators/templates/initiators/initiator_list.html:3
-#: initiators/templates/initiators/initiator_list.html:6 templates/base.html:44
-#: templates/base.html:46 templates/base.html:123 templates/home.html:202
+#: initiators/templates/initiators/initiator_list.html:6
+#: templates/base.html:44 templates/base.html:46 templates/base.html:123
+#: templates/home.html:202
 msgid "Initiators"
 msgstr "Инициатори"
 
@@ -931,8 +932,7 @@ msgstr "Информация за „%(service)s“ за вашия проект
 msgid ""
 "Hello %(name)s,\n"
 "\n"
-"please open the following link to read about the service \"%(service)s\" and "
-"to send us your note:\n"
+"please open the following link to read about the service \"%(service)s\" and to send us your note:\n"
 "\n"
 "%(url)s\n"
 "\n"
@@ -941,8 +941,7 @@ msgid ""
 msgstr ""
 "Здравейте, %(name)s,\n"
 "\n"
-"моля, отворете следната връзка, за да прочетете информацията за услугата "
-"„%(service)s“ и да ни изпратите вашата бележка:\n"
+"моля, отворете следната връзка, за да прочетете информацията за услугата „%(service)s“ и да ни изпратите вашата бележка:\n"
 "\n"
 "%(url)s\n"
 "\n"
@@ -1028,8 +1027,8 @@ msgid ""
 "An unexpected error occurred on our side. Please try again in a moment. If "
 "the problem persists, contact your administrator."
 msgstr ""
-"Възникна неочаквана грешка от наша страна. Моля, опитайте отново след малко. "
-"Ако проблемът продължи, свържете се с вашия администратор."
+"Възникна неочаквана грешка от наша страна. Моля, опитайте отново след малко."
+" Ако проблемът продължи, свържете се с вашия администратор."
 
 #: templates/500.html:19
 msgid "Back to the start page"
@@ -1057,7 +1056,7 @@ msgstr "Изход"
 msgid "Login"
 msgstr "Вход"
 
-#: templates/base.html:68 templates/base.html:70 templates/base.html:149
+#: templates/base.html:68 templates/base.html:70 templates/base.html:152
 msgid "Language"
 msgstr "Език"
 
@@ -1074,8 +1073,8 @@ msgid ""
 "An EU Horizon project supporting the development of Community Energy "
 "Projects across Europe — from first idea to long-term operation."
 msgstr ""
-"Проект по програма „Хоризонт“ на ЕС, който подкрепя развитието на проекти за "
-"енергийни общности в цяла Европа – от първата идея до дългосрочната "
+"Проект по програма „Хоризонт“ на ЕС, който подкрепя развитието на проекти за"
+" енергийни общности в цяла Европа – от първата идея до дългосрочната "
 "експлоатация."
 
 #: templates/base.html:119 templates/home.html:4
@@ -1086,7 +1085,11 @@ msgstr "Начало"
 msgid "DISCOVER Project"
 msgstr "Проект DISCOVER"
 
-#: templates/base.html:159
+#: templates/base.html:145
+msgid "Source code on GitHub"
+msgstr "Изходен код в GitHub"
+
+#: templates/base.html:162
 msgid "EU Horizon Project"
 msgstr "Проект по програма „Хоризонт“ на ЕС"
 
@@ -1132,9 +1135,9 @@ msgid ""
 "renewable energy communities — play a key role in the clean energy "
 "transition."
 msgstr ""
-"<strong>Проектът DISCOVER</strong> (финансиран по програма „Хоризонт“ на ЕС) "
-"помага на местните енергийни агенции в цяла Европа да подкрепят гражданите, "
-"които искат да започнат проект за енергийна общност (CEP) или да се "
+"<strong>Проектът DISCOVER</strong> (финансиран по програма „Хоризонт“ на ЕС)"
+" помага на местните енергийни агенции в цяла Европа да подкрепят гражданите,"
+" които искат да започнат проект за енергийна общност (CEP) или да се "
 "присъединят към такъв. Тези проекти – от соларни кооперации до общности за "
 "възобновяема енергия – играят ключова роля в прехода към чиста енергия."
 
@@ -1148,8 +1151,8 @@ msgid ""
 msgstr ""
 "Стартирането на CEP е сложно. Основателите се сблъскват с технически, "
 "правни, финансови и социални предизвикателства, които изискват експертиза в "
-"много области. Мениджърите от енергийните агенции (<em>посредниците</em>) са "
-"в уникална позиция да водят инициаторите по този път, но се нуждаят от "
+"много области. Мениджърите от енергийните агенции (<em>посредниците</em>) са"
+" в уникална позиция да водят инициаторите по този път, но се нуждаят от "
 "структурирани инструменти, за да го правят ефективно."
 
 #: templates/home.html:56
@@ -1300,13 +1303,13 @@ msgstr ""
 
 #: templates/home.html:166
 msgid ""
-"Browse and search all support services available to CEP initiators, filtered "
-"by lifecycle phase or discipline. Know exactly what help is available at "
+"Browse and search all support services available to CEP initiators, filtered"
+" by lifecycle phase or discipline. Know exactly what help is available at "
 "each step."
 msgstr ""
 "Разглеждайте и търсете всички услуги за подкрепа, достъпни за инициаторите "
-"на CEP, филтрирани по фаза или област. Знайте точно каква помощ е налична на "
-"всяка стъпка."
+"на CEP, филтрирани по фаза или област. Знайте точно каква помощ е налична на"
+" всяка стъпка."
 
 #: templates/home.html:174
 msgid "Initiator Profiles"

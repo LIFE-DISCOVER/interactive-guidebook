@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from django.test import RequestFactory, TestCase
+from django.test import RequestFactory, TestCase, override_settings
 from django.views.defaults import server_error
 
 
@@ -114,3 +114,21 @@ class SetupLanguageTests(TestCase):
     def test_switcher_works_during_setup(self):
         response = self.client.get('/language/hr/', {'next': '/en/accounts/setup/'})
         self.assertRedirects(response, '/hr/accounts/setup/', fetch_redirect_response=False)
+
+
+class FooterSourceLinkTests(TestCase):
+    def setUp(self):
+        get_user_model().objects.create_user('manager@example.com', password='pw')  # past first-run setup
+
+    def test_footer_links_to_source_code(self):
+        response = self.client.get('/de/')
+        self.assertContains(
+            response,
+            '<a href="https://github.com/LIFE-DISCOVER/interactive-guidebook" target="_blank" rel="noopener">'
+            'Quellcode auf GitHub</a>',
+            html=True,
+        )
+
+    @override_settings(SOURCE_CODE_URL='')
+    def test_link_hidden_when_not_configured(self):
+        self.assertNotContains(self.client.get('/en/'), 'Source code on GitHub')
