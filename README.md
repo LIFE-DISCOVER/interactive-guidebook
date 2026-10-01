@@ -2,7 +2,10 @@
 
 A web application for energy agency managers who support initiators of **Community Energy
 Projects (CEPs)** — from the first idea through planning and realisation to long-term operation.
-It was developed in the EU Horizon project [DISCOVER](https://projectdiscover.eu/).
+It was developed in the EU LIFE project [DISCOVER](https://projectdiscover.eu/)
+(LIFE22-CET-DISCOVER).
+
+**Live demo: <https://guidebook.pixelenergy.at>**
 
 - **Interactive guidebook** — general steps for each project phase, with country-specific
   support services (Austria, Bulgaria, Croatia, France, Italy). Public, no login needed.
@@ -12,11 +15,28 @@ It was developed in the EU Horizon project [DISCOVER](https://projectdiscover.eu
 - **Applied services** — record which services were applied to a project and with what outcome.
 - **Links for initiators** — a single-use link per applied service, with an optional personal
   message, lets an initiator read about the service and send a note back without an account.
-- **Six languages** — English, German, French, Italian, Croatian and Bulgarian interface;
-  services in English and their country's language, guidebook steps in all six.
+- **Six languages** — English, German, French, Italian, Croatian and Bulgarian interface.
+  Services are written in English and in their country's language, guidebook steps in all six
+  languages; visitors can switch between English and the local text. Translations are marked
+  as drafts until a native speaker has reviewed them.
 
 **Suggesting changes to services or guidebook steps?** See [CONTRIBUTING.md](CONTRIBUTING.md) —
 you can do it in the browser, no programming needed.
+
+## Screenshots
+
+**Interactive guidebook** — general steps per phase with the services of the selected country:
+
+![Interactive guidebook with an opened step and its Austrian services](docs/images/guidebook.png)
+
+**Service page** — official link, what the initiator needs to provide, the result, and a switch
+between English and the local language:
+
+![Service page of an Austrian service with the English/German switch](docs/images/service.png)
+
+**Service catalog** — filter by phase and country, or search:
+
+![Service catalog filtered to Italian services in the planning phase](docs/images/catalog.png)
 
 ## How it works
 
@@ -106,9 +126,59 @@ Interface texts are in `locale/<language>/LC_MESSAGES/django.po`. After changing
 Python strings, run `python manage.py makemessages -l de -l fr -l it -l hr -l bg` and update the
 translations; the Docker build compiles them. Corrections from native speakers are very welcome.
 
+## Using the guidebook
+
+Everyone is welcome to use the Interactive Guidebook — run it for your own region or energy
+agency, adapt the services and steps to your country, translate it, or build on the code. It is
+free software under the [European Union Public Licence v. 1.2](LICENSE) (EUPL-1.2).
+
+If you use it, we would be happy if you name the original project, for example:
+
+> Based on the DISCOVER Interactive Guidebook (LIFE22-CET-DISCOVER),
+> <https://github.com/LIFE-DISCOVER/interactive-guidebook>
+
+This is a request, not an additional licence condition; the terms of the EUPL apply.
+
+## Disclaimer
+
+The software and its content are provided **"as is"**, without warranty of any kind, express or
+implied. The authors and the partners of the DISCOVER project accept **no responsibility or
+liability for any damage** arising from the use of the software or its content.
+
+The guidebook steps and services are general information compiled with care. They are not legal,
+technical, tax or financial advice and may be incomplete or out of date; always check with the
+responsible authorities and qualified professionals. The binding terms are set out in the
+disclaimer of warranty and the disclaimer of liability of the [EUPL](LICENSE) (sections 7 and 8).
+
 ## License
 
-[European Union Public Licence v. 1.2](LICENSE) (EUPL-1.2).
+[European Union Public Licence v. 1.2](LICENSE) (EUPL-1.2). The DISCOVER name and logo belong to
+the DISCOVER consortium.
 
-The DISCOVER project has received funding from the European Union's Horizon programme. The
-DISCOVER name and logo belong to the DISCOVER consortium.
+## Project partners and funding
+
+The Interactive Guidebook was developed in the project **DISCOVER — Developing Integrated
+Services for COmmunity energy to accelerate Valid Energy Transition** (LIFE22-CET-DISCOVER,
+grant agreement 101120622, December 2023 – November 2026), which runs local hubs for Community
+Energy Projects in five European regions.
+
+| Partner | Country |
+|---|---|
+| AISFOR SRL (coordinator) | Italy |
+| AG.EN.A. SRL | Italy |
+| Agence Parisienne du Climat | France |
+| Udruga Bez Granica | Croatia |
+| Institut za predpriemachestvo, ustoychivo razvitie i inovatsii | Bulgaria |
+| Pixel Energy Solutions GmbH | Austria |
+
+More about the project: [projectdiscover.eu](https://projectdiscover.eu/) ·
+[EU LIFE project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-CET-DISCOVER-101120622/developing-integrated-services-for-community-energy-to-accelerate-valid-energy-transition)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/eu-cofunded-dark.png">
+  <img src="docs/images/eu-cofunded.png" alt="Co-funded by the European Union" height="60">
+</picture>
+
+Co-funded by the European Union. Views and opinions expressed are however those of the
+author(s) only and do not necessarily reflect those of the European Union or CINEA. Neither the
+European Union nor the granting authority can be held responsible for them.

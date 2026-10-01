@@ -106,7 +106,7 @@
         </a>
         <p>
           {% blocktranslate trimmed %}
-          An EU Horizon project supporting the development of Community Energy Projects
+          An EU LIFE project supporting the development of Community Energy Projects
           across Europe — from first idea to long-term operation.
           {% endblocktranslate %}
         </p>
@@ -159,7 +159,13 @@
     </div>
 
     <div class="footer-bottom">
-      <p>Copyright &copy; 2024 DISCOVER &mdash; {% translate "EU Horizon Project" %}</p>
+      <div class="footer-funding">
+        {% get_current_language as LANGUAGE_CODE %}
+        {% with "img/eu/co-funded-"|add:LANGUAGE_CODE|add:".png" as emblem %}
+        <img class="eu-emblem" src="{% static emblem %}" alt="{% translate "Co-funded by the European Union" %}">
+        {% endwith %}
+        <p>&copy; {% translate "DISCOVER consortium" %} &middot; LIFE22-CET-DISCOVER (101120622)</p>
+      </div>
       <a href="https://projectdiscover.eu/" target="_blank" rel="noopener">projectdiscover.eu</a>
     </div>
   </footer>

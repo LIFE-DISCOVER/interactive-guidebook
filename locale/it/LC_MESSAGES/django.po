@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 21:08+0000\n"
+"POT-Creation-Date: 2026-10-01 21:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Draft translation - pending review by native speakers\n"
 "Language-Team: DISCOVER partners (it)\n"
@@ -1068,12 +1068,11 @@ msgstr "Sito web del progetto DISCOVER"
 
 #: templates/base.html:108
 msgid ""
-"An EU Horizon project supporting the development of Community Energy "
-"Projects across Europe — from first idea to long-term operation."
+"An EU LIFE project supporting the development of Community Energy Projects "
+"across Europe — from first idea to long-term operation."
 msgstr ""
-"Un progetto europeo Horizon che sostiene lo sviluppo di progetti di energia "
-"di comunità in tutta Europa – dalla prima idea alla gestione a lungo "
-"termine."
+"Un progetto europeo LIFE che sostiene lo sviluppo di progetti di energia di "
+"comunità in tutta Europa – dalla prima idea alla gestione a lungo termine."
 
 #: templates/base.html:119 templates/home.html:4
 msgid "Home"
@@ -1087,9 +1086,13 @@ msgstr "Progetto DISCOVER"
 msgid "Source code on GitHub"
 msgstr "Codice sorgente su GitHub"
 
-#: templates/base.html:162
-msgid "EU Horizon Project"
-msgstr "Progetto europeo Horizon"
+#: templates/base.html:165
+msgid "Co-funded by the European Union"
+msgstr "Cofinanziato dall'Unione europea"
+
+#: templates/base.html:167
+msgid "DISCOVER consortium"
+msgstr "Consorzio DISCOVER"
 
 #: templates/home.html:14
 msgid "EU DISCOVER Project"
@@ -1127,14 +1130,14 @@ msgstr "Sostenere la transizione energetica attraverso l’azione collettiva"
 
 #: templates/home.html:40
 msgid ""
-"The <strong>DISCOVER project</strong> (funded under EU Horizon) helps local "
-"energy agencies across Europe support citizens who want to start or join a "
-"Community Energy Project (CEP). These projects — from solar cooperatives to "
-"renewable energy communities — play a key role in the clean energy "
-"transition."
+"The <strong>DISCOVER project</strong> (co-funded by the EU LIFE Programme) "
+"helps local energy agencies across Europe support citizens who want to start"
+" or join a Community Energy Project (CEP). These projects — from solar "
+"cooperatives to renewable energy communities — play a key role in the clean "
+"energy transition."
 msgstr ""
-"Il <strong>progetto DISCOVER</strong> (finanziato dal programma europeo "
-"Horizon) aiuta le agenzie locali per l’energia in tutta Europa a sostenere i"
+"Il <strong>progetto DISCOVER</strong> (cofinanziato dal programma LIFE "
+"dell'UE) aiuta le agenzie locali per l’energia in tutta Europa a sostenere i"
 " cittadini che vogliono avviare o aderire a un progetto di energia di "
 "comunità (CEP). Questi progetti – dalle cooperative solari alle comunità "
 "energetiche rinnovabili – svolgono un ruolo chiave nella transizione verso "

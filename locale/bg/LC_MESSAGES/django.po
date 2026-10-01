@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 21:08+0000\n"
+"POT-Creation-Date: 2026-10-01 21:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Draft translation - pending review by native speakers\n"
 "Language-Team: DISCOVER partners (bg)\n"
@@ -1070,11 +1070,11 @@ msgstr "Уебсайт на проекта DISCOVER"
 
 #: templates/base.html:108
 msgid ""
-"An EU Horizon project supporting the development of Community Energy "
-"Projects across Europe — from first idea to long-term operation."
+"An EU LIFE project supporting the development of Community Energy Projects "
+"across Europe — from first idea to long-term operation."
 msgstr ""
-"Проект по програма „Хоризонт“ на ЕС, който подкрепя развитието на проекти за"
-" енергийни общности в цяла Европа – от първата идея до дългосрочната "
+"Проект по програма LIFE на ЕС, който подкрепя развитието на проекти за "
+"енергийни общности в цяла Европа – от първата идея до дългосрочната "
 "експлоатация."
 
 #: templates/base.html:119 templates/home.html:4
@@ -1089,9 +1089,13 @@ msgstr "Проект DISCOVER"
 msgid "Source code on GitHub"
 msgstr "Изходен код в GitHub"
 
-#: templates/base.html:162
-msgid "EU Horizon Project"
-msgstr "Проект по програма „Хоризонт“ на ЕС"
+#: templates/base.html:165
+msgid "Co-funded by the European Union"
+msgstr "Съфинансирано от Европейския съюз"
+
+#: templates/base.html:167
+msgid "DISCOVER consortium"
+msgstr "Консорциум DISCOVER"
 
 #: templates/home.html:14
 msgid "EU DISCOVER Project"
@@ -1129,15 +1133,15 @@ msgstr "Подкрепа за енергийния преход чрез дей�
 
 #: templates/home.html:40
 msgid ""
-"The <strong>DISCOVER project</strong> (funded under EU Horizon) helps local "
-"energy agencies across Europe support citizens who want to start or join a "
-"Community Energy Project (CEP). These projects — from solar cooperatives to "
-"renewable energy communities — play a key role in the clean energy "
-"transition."
+"The <strong>DISCOVER project</strong> (co-funded by the EU LIFE Programme) "
+"helps local energy agencies across Europe support citizens who want to start"
+" or join a Community Energy Project (CEP). These projects — from solar "
+"cooperatives to renewable energy communities — play a key role in the clean "
+"energy transition."
 msgstr ""
-"<strong>Проектът DISCOVER</strong> (финансиран по програма „Хоризонт“ на ЕС)"
-" помага на местните енергийни агенции в цяла Европа да подкрепят гражданите,"
-" които искат да започнат проект за енергийна общност (CEP) или да се "
+"<strong>Проектът DISCOVER</strong> (съфинансиран по програма LIFE на ЕС) "
+"помага на местните енергийни агенции в цяла Европа да подкрепят гражданите, "
+"които искат да започнат проект за енергийна общност (CEP) или да се "
 "присъединят към такъв. Тези проекти – от соларни кооперации до общности за "
 "възобновяема енергия – играят ключова роля в прехода към чиста енергия."
 

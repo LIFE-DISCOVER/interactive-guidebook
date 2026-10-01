@@ -341,6 +341,20 @@ footer {
   color: rgba(255,255,255,0.35);
 }
 
+/* EU funding emblem: shown unchanged, as the EU visibility rules require. */
+.footer-funding {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.footer-funding .eu-emblem {
+  height: 48px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
 .footer-bottom a {
   color: rgba(255,255,255,0.45);
   text-decoration: none;
