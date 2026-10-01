@@ -164,12 +164,12 @@ Energy Projects in five European regions.
 
 | Partner | Country |
 |---|---|
-| AISFOR SRL (coordinator) | Italy |
-| AG.EN.A. SRL | Italy |
-| Agence Parisienne du Climat | France |
-| Udruga Bez Granica | Croatia |
-| Institut za predpriemachestvo, ustoychivo razvitie i inovatsii | Bulgaria |
-| Pixel Energy Solutions GmbH | Austria |
+| [AISFOR SRL](https://www.aisfor.it/) (coordinator) | Italy |
+| [AG.EN.A. – Agenzia per l'Energia e l'Ambiente della Provincia di Teramo](https://www.agenateramo.it/) | Italy |
+| [Agence Parisienne du Climat](https://www.apc-paris.com/) | France |
+| [Udruga bez granica](https://bezgranica.hr/) | Croatia |
+| [Institute for Entrepreneurship, Sustainable Development and Innovation (IESDI)](https://institute-esdi.org/) | Bulgaria |
+| [Pixel Energy Solutions GmbH](https://www.pixelenergy.at/) | Austria |
 
 More about the project: [projectdiscover.eu](https://projectdiscover.eu/) ·
 [EU LIFE project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-CET-DISCOVER-101120622/developing-integrated-services-for-community-energy-to-accelerate-valid-energy-transition)
